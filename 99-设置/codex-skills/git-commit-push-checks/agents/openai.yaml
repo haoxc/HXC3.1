@@ -1,6 +1,6 @@
 interface:
   display_name: "Git C&P Checks"
-  short_description: "提交和推送前检查大文件、归档附件并验证 Obsidian 链接"
-  default_prompt: "Use $git-commit-push-checks for a safe c&p workflow: archive large Obsidian attachments, audit >15MB files, commit, and push."
+  short_description: "提交/推送前检查大文件、归档附件，并用安全 push 脚本处理传输失败"
+  default_prompt: "Use $git-commit-push-checks for a safe c&p workflow: archive large Obsidian attachments, audit >15MB files, commit, and push with safe_git_push.py."
 policy:
   allow_implicit_invocation: true

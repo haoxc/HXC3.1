@@ -52,16 +52,16 @@ python3 99-设置/codex-skills/git-commit-push-checks/scripts/git_large_file_aud
 
 If this reports files larger than 15MB, stop and ask for user confirmation before pushing.
 
-6. Push only after checks pass:
+6. Push only after checks pass. Prefer the bundled safe push script over raw `git push`:
 
 ```bash
-git push
+python3 99-设置/codex-skills/git-commit-push-checks/scripts/safe_git_push.py
 ```
 
 If upstream is missing:
 
 ```bash
-git push -u origin <branch>
+python3 99-设置/codex-skills/git-commit-push-checks/scripts/safe_git_push.py -- -u origin <branch>
 ```
 
 ## Confirmation Rule
@@ -101,3 +101,15 @@ Diagnose in this order:
 
 If GitHub returns a server-side error but `git ls-remote --heads origin` shows the pushed commit on the target branch, treat the push as likely successful and verify with `git status -sb`.
 
+For HTTPS transport failures such as `LibreSSL SSL_connect: SSL_ERROR_SYSCALL`, `HTTP/2 stream`, `curl 92`, `RPC failed`, or `early EOF`, use:
+
+```bash
+python3 99-设置/codex-skills/git-commit-push-checks/scripts/safe_git_push.py
+```
+
+The script will:
+
+1. run a normal `git push`;
+2. verify whether the remote branch already reached local `HEAD`;
+3. retry once with `git -c http.version=HTTP/1.1 push` for known transport failures;
+4. verify remote state again before reporting success or failure.
