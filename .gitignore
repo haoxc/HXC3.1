@@ -4,6 +4,8 @@
 .ColorFolder/
 .claude/
 .claudian/
+.libs/
+.libs.zip
 .obsidian/
 sync.ffs_db
 
