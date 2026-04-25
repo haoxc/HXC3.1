@@ -1,0 +1,61 @@
+views:
+  - type: table
+    name: 所有(all)
+    filters:
+      and:
+        - file.folder == "05-资源/res-资源源库"
+        - file.ext == "md"
+    order:
+      - file.name
+      - description
+      - tags
+      - source
+      - type
+      - area
+    sort:
+      - property: field
+        direction: ASC
+      - property: source
+        direction: DESC
+      - property: file.tags
+        direction: ASC
+      - property: file.name
+        direction: DESC
+      - property: 属性测试
+        direction: DESC
+    columnSize:
+      file.name: 215
+      note.description: 123
+      note.author: 89
+      note.source: 276
+      note.type: 93
+  - type: table
+    name: 资源(5star)
+    filters:
+      and:
+        - file.folder == "90-资源(res-svy)/res-资源源库"
+        - file.ext == "md"
+        - file.tags.containsAny("#5star")
+    order:
+      - file.name
+      - description
+      - tags
+      - source
+      - type
+    sort:
+      - property: field
+        direction: ASC
+      - property: source
+        direction: DESC
+      - property: file.tags
+        direction: ASC
+      - property: file.name
+        direction: DESC
+      - property: 属性测试
+        direction: DESC
+    columnSize:
+      file.name: 215
+      note.description: 123
+      note.author: 89
+      note.source: 276
+      note.type: 93

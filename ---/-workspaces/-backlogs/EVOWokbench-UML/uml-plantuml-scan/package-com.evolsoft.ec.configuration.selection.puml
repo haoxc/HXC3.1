@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.selection
+
+interface "IECCFGSelectionFactory" as C_com_evolsoft_ec_configuration_selection_IECCFGSelectionFactory
+interface "IECCFGSelectionPackage" as C_com_evolsoft_ec_configuration_selection_IECCFGSelectionPackage
+interface "IECPBDiagramProviderDescriptor" as C_com_evolsoft_ec_configuration_selection_IECPBDiagramProviderDescriptor
+interface "IECSelectionDescriptor" as C_com_evolsoft_ec_configuration_selection_IECSelectionDescriptor
+interface "IECSelectionRefDescriptor" as C_com_evolsoft_ec_configuration_selection_IECSelectionRefDescriptor
+interface "Literals" as C_com_evolsoft_ec_configuration_selection_Literals
+
+@enduml

@@ -1,0 +1,77 @@
+{
+	"nodes":[
+		{"id":"bbb6ced258e504a9","type":"group","x":60,"y":140,"width":1340,"height":859,"label":"层次化"},
+		{
+			"id":"1b1c59af5f302226",
+			"type":"text",
+			"text":"## 案例归纳\n\n-  时间线叙事",
+			"styleAttributes":{},
+			"x":-900,
+			"y":-380,
+			"width":400,
+			"height":360
+		},
+		{"id":"1c1274bd57b30e56","type":"file","file":"03-领域/60-艺术学科/02-艺术创新(S)/02-艺术-数字孪生设计/02-数字孪生-课题/课题-时间叙事/99-时间叙事案例/z附件/内容制作与分发全链路工作流架构图.png","x":80,"y":-453,"width":897,"height":506},
+		{
+			"id":"319f8a7d6b568223",
+			"type":"text",
+			"text":"#Timelines, #flowcharts, #statistical-graphs, #maps, #animation\n\n\n#结构/对称轴",
+			"styleAttributes":{},
+			"x":1240,
+			"y":-400,
+			"width":440,
+			"height":400
+		},
+		{"id":"4d2ec62f69c79aff","type":"file","file":"03-领域/60-艺术学科/02-艺术创新(S)/02-艺术-数字孪生设计/02-数字孪生-课题/课题-时间叙事/99-时间叙事案例/z附件/Pasted image 20251218094536.png","x":80,"y":160,"width":329,"height":400},
+		{
+			"id":"80a2e0fab1da04af",
+			"type":"text",
+			"text":"分层",
+			"styleAttributes":{},
+			"x":-320,
+			"y":360,
+			"width":260,
+			"height":60
+		},
+		{"id":"1ffa4735b2f6f32b","type":"file","file":"03-领域/60-艺术学科/02-艺术创新(S)/02-艺术-数字孪生设计/02-数字孪生-课题/课题-时间叙事/99-时间叙事案例/z附件/Pasted image 20251218094700.png","x":480,"y":160,"width":400,"height":234},
+		{"id":"98c2cfd605861e9c","type":"file","file":"03-领域/60-艺术学科/02-艺术创新(S)/02-艺术-数字孪生设计/02-数字孪生-课题/课题-时间叙事/99-时间叙事案例/z附件/Pasted image 20251218094716.png","x":80,"y":640,"width":400,"height":279},
+		{"id":"85bee3afdfe82b64","type":"file","file":"03-领域/60-艺术学科/02-艺术创新(S)/02-艺术-数字孪生设计/02-数字孪生-课题/课题-时间叙事/99-时间叙事案例/z附件/Pasted image 20251218094816.png","x":529,"y":630,"width":400,"height":300},
+		{"id":"8a2535455c61f8ca","type":"file","file":"03-领域/60-艺术学科/02-艺术创新(S)/02-艺术-数字孪生设计/02-数字孪生-课题/课题-时间叙事/99-时间叙事案例/z附件/Pasted image 20251218094823.png","x":977,"y":560,"width":400,"height":400}
+	],
+	"edges":[
+		{
+			"id":"e9c3223a90a0b364",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"1b1c59af5f302226",
+			"fromSide":"right",
+			"toNode":"1c1274bd57b30e56",
+			"toSide":"left",
+			"label":"时间叙事"
+		},
+		{
+			"id":"f0a92e1ff26f3bb3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1c1274bd57b30e56",
+			"fromSide":"right",
+			"toNode":"319f8a7d6b568223",
+			"toSide":"left",
+			"label":"keywords"
+		},
+		{
+			"id":"c831b4dc1c5ee140",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1b1c59af5f302226",
+			"fromSide":"right",
+			"toNode":"80a2e0fab1da04af",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

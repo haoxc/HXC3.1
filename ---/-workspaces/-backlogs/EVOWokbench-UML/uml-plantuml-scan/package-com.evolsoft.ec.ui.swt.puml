@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.ui.swt
+
+class "ColumnMetaData" as C_com_evolsoft_ec_ui_swt_ColumnMetaData
+class "ColumnMetaData (com.evolsoft.ec.ui.control)" as C_com_evolsoft_ec_ui_swt_ColumnMetaData__dup2
+class "ColumnStyle" as C_com_evolsoft_ec_ui_swt_ColumnStyle
+class "ColumnStyle (com.evolsoft.ec.ui.control)" as C_com_evolsoft_ec_ui_swt_ColumnStyle__dup2
+class "OwnerTreeViewer" as C_com_evolsoft_ec_ui_swt_OwnerTreeViewer
+class "OwnerTreeViewerEx" as C_com_evolsoft_ec_ui_swt_OwnerTreeViewerEx
+class "TreeViewToolTip" as C_com_evolsoft_ec_ui_swt_TreeViewToolTip
+
+C_com_evolsoft_ec_ui_swt_TreeViewToolTip --> C_com_evolsoft_ec_ui_swt_OwnerTreeViewer
+@enduml

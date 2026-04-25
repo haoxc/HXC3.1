@@ -1,0 +1,43 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pso
+
+class "Activator" as C_com_evolsoft_ec_pso_Activator
+interface "IPSOContext" as C_com_evolsoft_ec_pso_IPSOContext
+interface "IPSOInitializator" as C_com_evolsoft_ec_pso_IPSOInitializator
+interface "IPSOOptimizator" as C_com_evolsoft_ec_pso_IPSOOptimizator
+interface "IPSOOptimizatorDelegator" as C_com_evolsoft_ec_pso_IPSOOptimizatorDelegator
+interface "IPSOStrategy" as C_com_evolsoft_ec_pso_IPSOStrategy
+interface "IPSOStrategyBase" as C_com_evolsoft_ec_pso_IPSOStrategyBase
+interface "IParticle" as C_com_evolsoft_ec_pso_IParticle
+interface "IParticleDimension" as C_com_evolsoft_ec_pso_IParticleDimension
+interface "IParticleManager" as C_com_evolsoft_ec_pso_IParticleManager
+class "PSOContext" as C_com_evolsoft_ec_pso_PSOContext
+class "PSOECStrategy" as C_com_evolsoft_ec_pso_PSOECStrategy
+class "PSOOptimizator" as C_com_evolsoft_ec_pso_PSOOptimizator
+class "PSOOptimizatorBase" as C_com_evolsoft_ec_pso_PSOOptimizatorBase
+class "Particle" as C_com_evolsoft_ec_pso_Particle
+class "ParticleStatus" as C_com_evolsoft_ec_pso_ParticleStatus
+
+C_com_evolsoft_ec_pso_IPSOInitializator <|-- C_com_evolsoft_ec_pso_IPSOOptimizator
+C_com_evolsoft_ec_pso_IPSOStrategyBase <|-- C_com_evolsoft_ec_pso_IPSOStrategy
+C_com_evolsoft_ec_pso_PSOOptimizatorBase <|-- C_com_evolsoft_ec_pso_PSOOptimizator
+C_com_evolsoft_ec_pso_IPSOContext <|.. C_com_evolsoft_ec_pso_PSOContext
+C_com_evolsoft_ec_pso_IPSOStrategy <|.. C_com_evolsoft_ec_pso_PSOECStrategy
+C_com_evolsoft_ec_pso_IPSOOptimizator <|.. C_com_evolsoft_ec_pso_PSOOptimizator
+C_com_evolsoft_ec_pso_IPSOInitializator <|.. C_com_evolsoft_ec_pso_PSOOptimizatorBase
+C_com_evolsoft_ec_pso_IParticle <|.. C_com_evolsoft_ec_pso_Particle
+C_com_evolsoft_ec_pso_PSOContext --> C_com_evolsoft_ec_pso_IPSOOptimizator
+C_com_evolsoft_ec_pso_PSOContext --> C_com_evolsoft_ec_pso_IPSOOptimizatorDelegator
+C_com_evolsoft_ec_pso_PSOContext --> C_com_evolsoft_ec_pso_IPSOStrategy
+C_com_evolsoft_ec_pso_PSOContext --> C_com_evolsoft_ec_pso_IParticle
+C_com_evolsoft_ec_pso_PSOContext --> C_com_evolsoft_ec_pso_Particle
+C_com_evolsoft_ec_pso_PSOContext --> C_com_evolsoft_ec_pso_ParticleStatus
+C_com_evolsoft_ec_pso_PSOECStrategy --> C_com_evolsoft_ec_pso_PSOContext
+C_com_evolsoft_ec_pso_PSOOptimizator --> C_com_evolsoft_ec_pso_IPSOContext
+C_com_evolsoft_ec_pso_PSOOptimizator --> C_com_evolsoft_ec_pso_IParticle
+C_com_evolsoft_ec_pso_PSOOptimizator --> C_com_evolsoft_ec_pso_IParticleDimension
+C_com_evolsoft_ec_pso_Particle --> C_com_evolsoft_ec_pso_IPSOContext
+C_com_evolsoft_ec_pso_Particle --> C_com_evolsoft_ec_pso_ParticleStatus
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.selection.impl
+
+class "ECCFGSelectionFactory" as C_com_evolsoft_ec_configuration_selection_impl_ECCFGSelectionFactory
+class "ECCFGSelectionPackage" as C_com_evolsoft_ec_configuration_selection_impl_ECCFGSelectionPackage
+class "ECPBDiagramProviderDescriptor" as C_com_evolsoft_ec_configuration_selection_impl_ECPBDiagramProviderDescriptor
+class "ECSelectionDescriptor" as C_com_evolsoft_ec_configuration_selection_impl_ECSelectionDescriptor
+class "ECSelectionRefDescriptor" as C_com_evolsoft_ec_configuration_selection_impl_ECSelectionRefDescriptor
+
+@enduml

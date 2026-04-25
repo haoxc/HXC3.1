@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.notation.figure
+
+class "CompartmentFigure" as C_com_evolsoft_ec_toolbox_notation_figure_CompartmentFigure
+class "CompartmentFigureBorder" as C_com_evolsoft_ec_toolbox_notation_figure_CompartmentFigureBorder
+class "DragTracker" as C_com_evolsoft_ec_toolbox_notation_figure_DragTracker
+class "Frame" as C_com_evolsoft_ec_toolbox_notation_figure_Frame
+class "InternalFrameBorder" as C_com_evolsoft_ec_toolbox_notation_figure_InternalFrameBorder
+class "ScrollFramePanel" as C_com_evolsoft_ec_toolbox_notation_figure_ScrollFramePanel
+
+C_com_evolsoft_ec_toolbox_notation_figure_Frame <|-- C_com_evolsoft_ec_toolbox_notation_figure_ScrollFramePanel
+@enduml

@@ -1,0 +1,109 @@
+{
+	"nodes":[
+		{
+			"id":"c90403a67c77f55c",
+			"type":"text",
+			"text":"菁菁 (10天)",
+			"styleAttributes":{},
+			"x":-60,
+			"y":-630,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"cbb2ae213867ccea",
+			"type":"text",
+			"text":"hao 2 天",
+			"styleAttributes":{},
+			"x":-60,
+			"y":20,
+			"width":260,
+			"height":110
+		},
+		{
+			"id":"aa6449b9d8eeba25",
+			"type":"text",
+			"text":"## 计划\n-  xxxxs设计\n\t- \n\n\n## 方法论(工作步骤)\n- SOP (6天, 不确定因素特别高 STEPs)\n\t- 收集资料\n\t- 设计草图\n\t\t- 确认\n\t\t\t- \n\t\t- 内容\n\t\t\t- 交互模式\n\t\t\t- 交互逻辑\n\t\t\t- 图表标准\n\t- 设计确认\n",
+			"styleAttributes":{},
+			"x":70,
+			"y":130,
+			"width":490,
+			"height":540
+		},
+		{
+			"id":"4e8768cf49895a62",
+			"type":"text",
+			"text":"## 方法论(工作步骤)\n- SOP (6天, 不确定因素特别高 STEPs)\n\t- 收集资料\n\t- 设计草图\n\t\t- 确认\n\t\t\t- \n\t\t- 内容\n\t\t\t- 交互模式\n\t\t\t- 交互逻辑\n\t\t\t- 图表标准\n\t- 设计确认\n",
+			"styleAttributes":{},
+			"x":-740,
+			"y":-555,
+			"width":360,
+			"height":510
+		},
+		{
+			"id":"2f271552f00fd34e",
+			"type":"text",
+			"text":"xxxx设计 *6天* (SOP)\n- 大多数",
+			"styleAttributes":{},
+			"x":-740,
+			"y":130,
+			"width":360,
+			"height":550
+		},
+		{
+			"id":"b5bc55aee0875f53",
+			"type":"text",
+			"text":"## 计划\n-  xxxxs设计\n\t- \n\n\n## 方法论(工作步骤)\n- SOP (6天, 不确定因素特别高 STEPs)\n\t- 收集资料\n\t- 设计草图  (2)\n\t\t- 确认\n\t\t\t- \n\t\t- 内容\n\t\t\t- 交互模式\n\t\t\t- 交互逻辑\n\t\t\t- 图表标准\n\t- 设计确认\n",
+			"styleAttributes":{},
+			"x":70,
+			"y":-555,
+			"width":490,
+			"height":540
+		},
+		{
+			"id":"71de6ee9a3b04665",
+			"type":"text",
+			"text":"整体交互\n交互风格\n",
+			"styleAttributes":{},
+			"x":760,
+			"y":-160,
+			"width":280,
+			"height":80
+		},
+		{
+			"id":"b039f99b01e6fe91",
+			"type":"text",
+			"text":"## 内容\n- xxxx 页面设计\n\t- 思路汇报 (T0)\n\t- 线框设计草稿 (T2)\n\t\t- (页面布局 +页面元素 + 页面逻辑)\n\t- 线框设计草稿 (T2)\n\t- ",
+			"styleAttributes":{},
+			"x":760,
+			"y":-480,
+			"width":660,
+			"height":260
+		},
+		{
+			"id":"c61b5225b1ac5903",
+			"type":"text",
+			"text":"- 评估逻辑(风险)\n\t- 菁菁\n\t\t-  首检?\n\t- 郝\n\t\t- ",
+			"styleAttributes":{},
+			"x":760,
+			"y":-15,
+			"width":720,
+			"height":500
+		}
+	],
+	"edges":[
+		{
+			"id":"a317c5f96803bba5",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4e8768cf49895a62",
+			"fromSide":"right",
+			"toNode":"b5bc55aee0875f53",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

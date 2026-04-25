@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.sa.runtime.util
+
+class "SARTAdapterFactory" as C_com_evolsoft_ec_sa_runtime_util_SARTAdapterFactory
+class "SARTSwitch" as C_com_evolsoft_ec_sa_runtime_util_SARTSwitch
+
+@enduml

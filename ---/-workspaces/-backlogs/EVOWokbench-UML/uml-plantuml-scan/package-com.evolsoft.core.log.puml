@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.log
+
+class "AbstractLogger" as C_com_evolsoft_core_log_AbstractLogger
+class "ConsoleLogger" as C_com_evolsoft_core_log_ConsoleLogger
+interface "ILogger" as C_com_evolsoft_core_log_ILogger
+interface "ITraceListener" as C_com_evolsoft_core_log_ITraceListener
+class "LogEntry" as C_com_evolsoft_core_log_LogEntry
+enum "LogLevel" as C_com_evolsoft_core_log_LogLevel
+class "LoggerProxy" as C_com_evolsoft_core_log_LoggerProxy
+class "PlugInLogger" as C_com_evolsoft_core_log_PlugInLogger
+class "TraceConsole" as C_com_evolsoft_core_log_TraceConsole
+class "TraceItem" as C_com_evolsoft_core_log_TraceItem
+
+C_com_evolsoft_core_log_AbstractLogger <|-- C_com_evolsoft_core_log_ConsoleLogger
+C_com_evolsoft_core_log_AbstractLogger <|-- C_com_evolsoft_core_log_LoggerProxy
+C_com_evolsoft_core_log_AbstractLogger <|-- C_com_evolsoft_core_log_PlugInLogger
+C_com_evolsoft_core_log_AbstractLogger <|-- C_com_evolsoft_core_log_TraceConsole
+C_com_evolsoft_core_log_ILogger <|.. C_com_evolsoft_core_log_AbstractLogger
+C_com_evolsoft_core_log_AbstractLogger --> C_com_evolsoft_core_log_LogLevel
+C_com_evolsoft_core_log_LogEntry --> C_com_evolsoft_core_log_LogLevel
+C_com_evolsoft_core_log_TraceItem --> C_com_evolsoft_core_log_LogLevel
+@enduml

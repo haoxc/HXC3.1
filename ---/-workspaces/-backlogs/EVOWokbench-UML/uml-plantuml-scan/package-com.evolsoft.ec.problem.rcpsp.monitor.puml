@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.problem.rcpsp.monitor
+
+interface "IMTSchedule" as C_com_evolsoft_ec_problem_rcpsp_monitor_IMTSchedule
+class "MTSchedule" as C_com_evolsoft_ec_problem_rcpsp_monitor_MTSchedule
+class "MTScheduleContainer" as C_com_evolsoft_ec_problem_rcpsp_monitor_MTScheduleContainer
+class "RCPSPLabelRequestProvider" as C_com_evolsoft_ec_problem_rcpsp_monitor_RCPSPLabelRequestProvider
+class "ShowScheduleAction" as C_com_evolsoft_ec_problem_rcpsp_monitor_ShowScheduleAction
+
+C_com_evolsoft_ec_problem_rcpsp_monitor_IMTSchedule <|.. C_com_evolsoft_ec_problem_rcpsp_monitor_MTSchedule
+@enduml

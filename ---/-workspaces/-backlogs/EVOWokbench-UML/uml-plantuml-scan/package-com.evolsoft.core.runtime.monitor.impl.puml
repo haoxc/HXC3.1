@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.runtime.monitor.impl
+
+class "CRTMonitorFactory" as C_com_evolsoft_core_runtime_monitor_impl_CRTMonitorFactory
+class "CRTMonitorPackage" as C_com_evolsoft_core_runtime_monitor_impl_CRTMonitorPackage
+class "IterationMonitorItem" as C_com_evolsoft_core_runtime_monitor_impl_IterationMonitorItem
+class "MonitorPointProvider" as C_com_evolsoft_core_runtime_monitor_impl_MonitorPointProvider
+class "ObjectiveChangedEventArgs" as C_com_evolsoft_core_runtime_monitor_impl_ObjectiveChangedEventArgs
+class "SingleObectiveMonitor" as C_com_evolsoft_core_runtime_monitor_impl_SingleObectiveMonitor
+
+C_com_evolsoft_core_runtime_monitor_impl_SingleObectiveMonitor --> C_com_evolsoft_core_runtime_monitor_impl_IterationMonitorItem
+@enduml

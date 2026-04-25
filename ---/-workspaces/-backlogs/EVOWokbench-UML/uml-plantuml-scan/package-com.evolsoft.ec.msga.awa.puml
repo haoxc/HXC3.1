@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.msga.awa
+
+class "AWAArchiveFitnessActionService" as C_com_evolsoft_ec_msga_awa_AWAArchiveFitnessActionService
+class "IAWAArchiveFitnessService" as C_com_evolsoft_ec_msga_awa_IAWAArchiveFitnessService
+class "IAWGAFitnessService" as C_com_evolsoft_ec_msga_awa_IAWGAFitnessService
+
+C_com_evolsoft_ec_msga_awa_IAWGAFitnessService <|-- C_com_evolsoft_ec_msga_awa_IAWAArchiveFitnessService
+@enduml

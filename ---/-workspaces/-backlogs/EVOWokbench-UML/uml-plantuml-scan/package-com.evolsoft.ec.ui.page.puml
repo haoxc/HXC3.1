@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.ui.page
+
+class "BenchmarkSorter" as C_com_evolsoft_ec_ui_page_BenchmarkSorter
+class "DecisionItemFilterDialog" as C_com_evolsoft_ec_ui_page_DecisionItemFilterDialog
+class "DecisionValueDialog" as C_com_evolsoft_ec_ui_page_DecisionValueDialog
+class "ECActionSection" as C_com_evolsoft_ec_ui_page_ECActionSection
+class "ECApplicationPageBase" as C_com_evolsoft_ec_ui_page_ECApplicationPageBase
+class "GeneValueViewFilter" as C_com_evolsoft_ec_ui_page_GeneValueViewFilter
+interface "IECApplicationView" as C_com_evolsoft_ec_ui_page_IECApplicationView
+interface "IFreezable" as C_com_evolsoft_ec_ui_page_IFreezable
+class "MasterContentProvider" as C_com_evolsoft_ec_ui_page_MasterContentProvider
+class "MasterLabelProvider" as C_com_evolsoft_ec_ui_page_MasterLabelProvider
+class "MonitorBasePage" as C_com_evolsoft_ec_ui_page_MonitorBasePage
+class "MonitorItemViewPage" as C_com_evolsoft_ec_ui_page_MonitorItemViewPage
+class "PBDataDaigramPage" as C_com_evolsoft_ec_ui_page_PBDataDaigramPage
+class "SolutionDescriptorBlock" as C_com_evolsoft_ec_ui_page_SolutionDescriptorBlock
+class "SolutionDialog" as C_com_evolsoft_ec_ui_page_SolutionDialog
+class "SpeciesSelectionAction" as C_com_evolsoft_ec_ui_page_SpeciesSelectionAction
+
+C_com_evolsoft_ec_ui_page_IFreezable <|-- C_com_evolsoft_ec_ui_page_IECApplicationView
+C_com_evolsoft_ec_ui_page_IECApplicationView <|.. C_com_evolsoft_ec_ui_page_ECApplicationPageBase
+C_com_evolsoft_ec_ui_page_IFreezable <|.. C_com_evolsoft_ec_ui_page_MonitorItemViewPage
+C_com_evolsoft_ec_ui_page_IFreezable <|.. C_com_evolsoft_ec_ui_page_PBDataDaigramPage
+C_com_evolsoft_ec_ui_page_DecisionItemFilterDialog --> C_com_evolsoft_ec_ui_page_GeneValueViewFilter
+@enduml

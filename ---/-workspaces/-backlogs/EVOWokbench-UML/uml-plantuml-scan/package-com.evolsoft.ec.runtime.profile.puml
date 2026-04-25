@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.profile
+
+class "ECProfile" as C_com_evolsoft_ec_runtime_profile_ECProfile
+interface "IECProfile" as C_com_evolsoft_ec_runtime_profile_IECProfile
+interface "IProfileLogger" as C_com_evolsoft_ec_runtime_profile_IProfileLogger
+class "ProfileLogger" as C_com_evolsoft_ec_runtime_profile_ProfileLogger
+class "StackEntry" as C_com_evolsoft_ec_runtime_profile_StackEntry
+class "TraceEntry" as C_com_evolsoft_ec_runtime_profile_TraceEntry
+
+C_com_evolsoft_ec_runtime_profile_IECProfile <|.. C_com_evolsoft_ec_runtime_profile_ECProfile
+C_com_evolsoft_ec_runtime_profile_IProfileLogger <|.. C_com_evolsoft_ec_runtime_profile_ProfileLogger
+C_com_evolsoft_ec_runtime_profile_ECProfile --> C_com_evolsoft_ec_runtime_profile_IProfileLogger
+C_com_evolsoft_ec_runtime_profile_TraceEntry --> C_com_evolsoft_ec_runtime_profile_IProfileLogger
+@enduml

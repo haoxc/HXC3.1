@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.ui.preferences
+
+class "ECConfigurationPerspectiveFactory" as C_com_evolsoft_ec_ui_preferences_ECConfigurationPerspectiveFactory
+class "ECExperimentPerspective" as C_com_evolsoft_ec_ui_preferences_ECExperimentPerspective
+class "ExperimentDBPerferencePage" as C_com_evolsoft_ec_ui_preferences_ExperimentDBPerferencePage
+class "MonitorPreferencePage" as C_com_evolsoft_ec_ui_preferences_MonitorPreferencePage
+class "ProfilePerferencePage" as C_com_evolsoft_ec_ui_preferences_ProfilePerferencePage
+
+@enduml

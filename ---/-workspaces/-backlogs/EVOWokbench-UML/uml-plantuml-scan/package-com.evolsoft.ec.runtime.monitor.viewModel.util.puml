@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.monitor.viewModel.util
+
+class "ViewModelAdapterFactory" as C_com_evolsoft_ec_runtime_monitor_viewModel_util_ViewModelAdapterFactory
+class "ViewModelSwitch" as C_com_evolsoft_ec_runtime_monitor_viewModel_util_ViewModelSwitch
+
+@enduml

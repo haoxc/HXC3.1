@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.component.impl
+
+class "ECComponentAction" as C_com_evolsoft_ec_runtime_component_impl_ECComponentAction
+class "ECComponentActionManager" as C_com_evolsoft_ec_runtime_component_impl_ECComponentActionManager
+class "ECComponentMenuAction" as C_com_evolsoft_ec_runtime_component_impl_ECComponentMenuAction
+class "ECRTComponentFactory" as C_com_evolsoft_ec_runtime_component_impl_ECRTComponentFactory
+class "ECRTComponentPackage" as C_com_evolsoft_ec_runtime_component_impl_ECRTComponentPackage
+
+C_com_evolsoft_ec_runtime_component_impl_ECComponentAction <|-- C_com_evolsoft_ec_runtime_component_impl_ECComponentMenuAction
+@enduml

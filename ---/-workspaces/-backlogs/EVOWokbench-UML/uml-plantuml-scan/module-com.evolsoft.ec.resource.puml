@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Module: com.evolsoft.ec.resource
+
+class "ECResource" as C_com_evolsoft_ec_resource_ECResource
+interface "ECShareImages" as C_com_evolsoft_ec_resource_ECShareImages
+interface "PluginResourceProvider" as C_com_evolsoft_ec_resource_PluginResourceProvider
+class "ResourceManager" as C_com_evolsoft_ec_resource_ResourceManager
+class "SWTResourceManager" as C_com_evolsoft_ec_resource_SWTResourceManager
+
+C_com_evolsoft_ec_resource_SWTResourceManager <|-- C_com_evolsoft_ec_resource_ResourceManager
+C_com_evolsoft_ec_resource_ResourceManager --> C_com_evolsoft_ec_resource_PluginResourceProvider
+@enduml

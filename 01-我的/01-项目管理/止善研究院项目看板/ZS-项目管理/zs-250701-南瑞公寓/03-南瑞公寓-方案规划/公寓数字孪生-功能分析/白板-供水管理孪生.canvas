@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{
+			"id":"4907d95034507888",
+			"type":"text",
+			"text":"## 供水可视化\n### 供水管理\n- **对象**: 用水(总量, 供/耗) \n\t- 检测设备: 总表,  区域水表, 入户表\n\t- 管道设施: 二次供水设备, 水网\n- **维度** : 供水安全 能效管理 \n- **公式**: 进来的水 = 用掉的水 + 漏掉的水\n- **目标**\n\t- 降低产销差（漏损率）、确保供水安全、提升缴费回收率\n- **策略**\n\t- 分区计量(DMA分级)\n\t- 实时异常监测(数字孪生预警)\n- **指标**\n\t- 管网漏损率\n\t- 水费收缴率\n\t- 二次供水设施健康度",
+			"styleAttributes":{},
+			"x":-829,
+			"y":-230,
+			"width":440,
+			"height":460,
+			"color":"3"
+		},
+		{"id":"9291614fbb1dea98","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/02-Python课程教学/--Python教学白板/临时白板/Pasted image 20251227154233.png","x":-29,"y":-102,"width":400,"height":205},
+		{"id":"ebd263b8d4fa6b06","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/02-Python课程教学/--Python教学白板/临时白板/20251227154252_rec_.gif","x":431,"y":-98,"width":399,"height":201}
+	],
+	"edges":[
+		{
+			"id":"9a9ccffedd360948",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4907d95034507888",
+			"fromSide":"right",
+			"toNode":"9291614fbb1dea98",
+			"toSide":"left"
+		},
+		{
+			"id":"5b8bc3e5627c195e",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"9291614fbb1dea98",
+			"fromSide":"right",
+			"toNode":"ebd263b8d4fa6b06",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

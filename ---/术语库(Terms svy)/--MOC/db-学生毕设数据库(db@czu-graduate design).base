@@ -1,0 +1,33 @@
+views:
+  - type: table
+    name: 所有案例
+    filters:
+      and:
+        - file.tags.contains("#czu/毕设")
+        - '!file.folder.containsAny("zTemplate-Archives", "zTemplates")'
+    order:
+      - file.name
+      - tags
+      - description
+      - file.tags
+      - abbr
+      - aliases
+      - field
+    sort:
+      - property: tags
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+      - property: description
+        direction: ASC
+      - property: aliases
+        direction: ASC
+      - property: field
+        direction: DESC
+    columnSize:
+      file.name: 319
+      note.tags: 262
+      note.description: 246
+      file.tags: 386
+      note.abbr: 123
+      note.aliases: 147

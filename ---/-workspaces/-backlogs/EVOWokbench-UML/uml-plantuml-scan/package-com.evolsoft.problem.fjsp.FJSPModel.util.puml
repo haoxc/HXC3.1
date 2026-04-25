@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp.FJSPModel.util
+
+class "FJSPModelAdapterFactory" as C_com_evolsoft_problem_fjsp_FJSPModel_util_FJSPModelAdapterFactory
+class "FJSPModelSwitch" as C_com_evolsoft_problem_fjsp_FJSPModel_util_FJSPModelSwitch
+
+@enduml

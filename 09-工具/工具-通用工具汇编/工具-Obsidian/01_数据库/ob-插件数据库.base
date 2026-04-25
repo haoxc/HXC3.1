@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "98-工具汇编/工具-通用工具汇编/工具-Obsidian/OB-插件台账(Plugins)"
+    order:
+      - file.name
+      - description
+      - file.tags
+    sort:
+      - property: description
+        direction: DESC
+    columnSize:
+      note.description: 246

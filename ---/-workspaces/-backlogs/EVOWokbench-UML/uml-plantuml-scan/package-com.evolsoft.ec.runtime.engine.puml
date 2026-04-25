@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.engine
+
+class "AgeTermination" as C_com_evolsoft_ec_runtime_engine_AgeTermination
+class "ECClusterJob" as C_com_evolsoft_ec_runtime_engine_ECClusterJob
+class "ECEngine" as C_com_evolsoft_ec_runtime_engine_ECEngine
+class "ECJob" as C_com_evolsoft_ec_runtime_engine_ECJob
+class "EngineAdvisor" as C_com_evolsoft_ec_runtime_engine_EngineAdvisor
+class "EvolvingEvent" as C_com_evolsoft_ec_runtime_engine_EvolvingEvent
+enum "EvolvingStatus" as C_com_evolsoft_ec_runtime_engine_EvolvingStatus
+interface "IECEngine" as C_com_evolsoft_ec_runtime_engine_IECEngine
+interface "ITerminateRuleManagement" as C_com_evolsoft_ec_runtime_engine_ITerminateRuleManagement
+interface "ITerminationRule" as C_com_evolsoft_ec_runtime_engine_ITerminationRule
+class "TerminatedBase" as C_com_evolsoft_ec_runtime_engine_TerminatedBase
+class "TerminatedRuleManagement" as C_com_evolsoft_ec_runtime_engine_TerminatedRuleManagement
+
+C_com_evolsoft_ec_runtime_engine_TerminatedBase <|-- C_com_evolsoft_ec_runtime_engine_AgeTermination
+C_com_evolsoft_ec_runtime_engine_IECEngine <|.. C_com_evolsoft_ec_runtime_engine_ECEngine
+C_com_evolsoft_ec_runtime_engine_ITerminationRule <|.. C_com_evolsoft_ec_runtime_engine_TerminatedBase
+C_com_evolsoft_ec_runtime_engine_ITerminateRuleManagement <|.. C_com_evolsoft_ec_runtime_engine_TerminatedRuleManagement
+C_com_evolsoft_ec_runtime_engine_ECEngine --> C_com_evolsoft_ec_runtime_engine_EvolvingEvent
+C_com_evolsoft_ec_runtime_engine_ECJob --> C_com_evolsoft_ec_runtime_engine_IECEngine
+@enduml

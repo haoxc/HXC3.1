@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.problem.rcpsp.benchmark
+
+interface "IRCPSPDataSpec" as C_com_evolsoft_ec_problem_rcpsp_benchmark_IRCPSPDataSpec
+class "MRCPSPDataReader" as C_com_evolsoft_ec_problem_rcpsp_benchmark_MRCPSPDataReader
+class "RCPSPDataLoader" as C_com_evolsoft_ec_problem_rcpsp_benchmark_RCPSPDataLoader
+class "RCPSPDataReader" as C_com_evolsoft_ec_problem_rcpsp_benchmark_RCPSPDataReader
+
+@enduml

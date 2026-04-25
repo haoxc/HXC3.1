@@ -1,0 +1,126 @@
+views:
+  - type: table
+    name: 一般(Common)
+    filters:
+      and:
+        - type == "term"
+        - file.folder == "---/术语库(Terms svy)/01-一般术语知识库(Common DB)"
+    order:
+      - file.name
+      - domain
+      - description
+      - aliases
+      - Positioning
+      - tags
+    sort:
+      - property: file.ctime
+        direction: DESC
+      - property: category
+        direction: DESC
+      - property: 定位
+        direction: ASC
+      - property: aliases
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: file.name
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 223
+      note.category: 107
+      note.description: 158
+      note.aliases: 164
+      note.tags: 225
+    rowHeight: medium
+  - type: table
+    name: 全部(All)
+    filters:
+      and:
+        - type == "term"
+    order:
+      - file.name
+      - area
+      - category
+      - description
+      - tags
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: file.ctime
+        direction: DESC
+      - property: category
+        direction: ASC
+    columnSize:
+      file.name: 199
+      note.area: 135
+      note.category: 127
+      note.description: 283
+      note.tags: 225
+  - type: table
+    name: 哲学(Phi)
+    filters:
+      and:
+        - type == "term"
+        - file.folder == "03-领域/01-哲学体系/哲学-术语集"
+    order:
+      - file.name
+      - category
+      - description
+      - aliases
+      - Positioning
+      - tags
+    sort:
+      - property: 定位
+        direction: ASC
+      - property: file.ctime
+        direction: DESC
+      - property: aliases
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 98
+      note.description: 283
+      note.aliases: 164
+      note.tags: 225
+    rowHeight: medium
+  - type: table
+    name: 艺术(Arts)
+    filters:
+      and:
+        - type == "term"
+        - file.folder == "03-领域/60-艺术学科/00-艺术术语库"
+    order:
+      - file.name
+      - category
+      - description
+      - aliases
+      - Positioning
+      - tags
+    sort:
+      - property: 定位
+        direction: ASC
+      - property: file.ctime
+        direction: DESC
+      - property: aliases
+        direction: DESC
+      - property: category
+        direction: ASC
+      - property: tags
+        direction: ASC
+      - property: file.name
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 265
+      note.category: 98
+      note.description: 283
+      note.aliases: 164
+      note.tags: 225
+    rowHeight: medium

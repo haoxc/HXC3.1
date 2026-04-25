@@ -1,0 +1,21 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.decision.analysis
+
+class "Assignment" as C_com_evolsoft_problem_decision_analysis_Assignment
+class "Assignment (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_analysis_Assignment__dup2
+class "CPInsertableTimeWindow" as C_com_evolsoft_problem_decision_analysis_CPInsertableTimeWindow
+class "CPInsertableTimeWindow (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_analysis_CPInsertableTimeWindow__dup2
+class "CriticalPath" as C_com_evolsoft_problem_decision_analysis_CriticalPath
+class "CriticalPath (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_analysis_CriticalPath__dup2
+interface "IAssignment" as C_com_evolsoft_problem_decision_analysis_IAssignment
+interface "IAssignment (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_analysis_IAssignment__dup2
+class "OperationMovingTabuList" as C_com_evolsoft_problem_decision_analysis_OperationMovingTabuList
+class "OperationMovingTabuList (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_analysis_OperationMovingTabuList__dup2
+class "PointF" as C_com_evolsoft_problem_decision_analysis_PointF
+class "PointF (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_analysis_PointF__dup2
+class "RemovingItem" as C_com_evolsoft_problem_decision_analysis_RemovingItem
+class "RemovingItem (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_analysis_RemovingItem__dup2
+
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.simModel.util
+
+class "SimModelAdapterFactory" as C_com_evolsoft_ec_simModel_util_SimModelAdapterFactory
+class "SimModelSwitch" as C_com_evolsoft_ec_simModel_util_SimModelSwitch
+
+@enduml

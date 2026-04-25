@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"699ec0b8e6914a15","type":"group","x":-320,"y":-1060,"width":1840,"height":1090,"color":"5","label":"基础类型"},
+		{"id":"22c1ba3d78f08eae","type":"group","x":-320,"y":-1600,"width":996,"height":440,"color":"3","label":"变量认知"},
+		{"id":"a3d07a1142bc7f78","type":"group","x":-320,"y":-2140,"width":1250,"height":180,"color":"1","label":"学习方法或提示"},
+		{"id":"86572801794c10e3","type":"text","text":"![[py-变量(Variables)#讲授内容]]","x":-840,"y":-1150,"width":240,"height":200,"color":"3"},
+		{"id":"915a0ad7c125eb60","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/04-Python知识卡片/py-变量(Variables)/附件/Pasted image 20251023120955.png","x":280,"y":-1580,"width":376,"height":400},
+		{"id":"729f0b47e2e8f33c","type":"text","text":"### 变量认知\n- 变量是一个`容器`\n- 变量关联一个名称（`标识符`）\n- 变量关联一种`类型`）","x":-300,"y":-1410,"width":420,"height":146,"color":"5"},
+		{"id":"74fdf7be5e67ffff","type":"text","text":"### 思考维度\n- 变量目的\n- 变量使用\n- 变量分类","x":100,"y":-2135,"width":360,"height":150,"color":"1"},
+		{"id":"be775a84c78a92b6","type":"text","text":"### 理论框架\n- 概念（定义，形式）\n- 场景\n- 应用","x":-300,"y":-2140,"width":360,"height":155,"color":"1"},
+		{"id":"c6b3f3e0cc3a481b","type":"text","text":"### 知识点\n- 变量定义（文法,值表示）\n- 变量操作（使用）\n- 变量销毁\n- 变量应用","x":550,"y":-2140,"width":360,"height":160,"color":"1"},
+		{"id":"ea889f56dbf560be","type":"text","text":"运算组成表达式，表达式服务于语句，语句构成程序的执行逻辑","x":-320,"y":180,"width":600,"height":63,"color":"2"},
+		{"id":"646ae05e80ab291f","type":"text","text":"[[py-算术表达式]]","x":960,"y":-480,"width":250,"height":60},
+		{"id":"b08fb419f2c01b8d","type":"text","text":"![[py-布尔类型(bool)#布尔类型要点]]","x":300,"y":-270,"width":500,"height":280,"color":"5"},
+		{"id":"b929a76ed5b6a547","type":"text","text":"![[py-字符串类型(str)#字符串要点]]\n","x":310,"y":-1040,"width":480,"height":390,"color":"5"},
+		{"id":"d9cfae7b34762f7a","type":"text","text":"","x":487,"y":-183,"width":250,"height":60},
+		{"id":"25b829fecd6afb25","type":"text","text":"- **实践**\n\t- 格式化\n\t- 类型转换","x":950,"y":-892,"width":270,"height":95,"color":"4"},
+		{"id":"56cce3d5034c4d6a","type":"text","text":"![[py-数字类型(number)#数字类型要点]]\n","x":300,"y":-590,"width":500,"height":280,"color":"5"},
+		{"id":"53587a796383366f","type":"text","text":"[[py-关系表达式]]","x":960,"y":-155,"width":250,"height":50},
+		{"id":"cb7b708b2b60d49b","type":"text","text":"### 理解\n- Python如何创建一个**变量**\n- Python如何管理对象（id， type， value）\n> [[变量-创建过程.excalidraw]]\n","x":-300,"y":-1040,"width":560,"height":160,"color":"2"},
+		{"id":"208db75182b005b4","type":"text","text":"![[py-基础类型(primitive type)#基础类型]]","x":-300,"y":-530,"width":420,"height":160,"color":"5"}
+	],
+	"edges":[
+		{"id":"b5b9ac7559636153","fromNode":"86572801794c10e3","fromSide":"right","toNode":"729f0b47e2e8f33c","toSide":"left"},
+		{"id":"6bd097e75b45fb65","fromNode":"86572801794c10e3","fromSide":"right","toNode":"208db75182b005b4","toSide":"left"},
+		{"id":"306895226e15674e","fromNode":"be775a84c78a92b6","fromSide":"right","toNode":"74fdf7be5e67ffff","toSide":"left"},
+		{"id":"9a8d0444309729ca","fromNode":"74fdf7be5e67ffff","fromSide":"right","toNode":"c6b3f3e0cc3a481b","toSide":"left"},
+		{"id":"f8c7d6659ce579a8","fromNode":"729f0b47e2e8f33c","fromSide":"right","toNode":"915a0ad7c125eb60","toSide":"left"},
+		{"id":"0da85bfe6db78ce6","fromNode":"208db75182b005b4","fromSide":"right","toNode":"56cce3d5034c4d6a","toSide":"left"},
+		{"id":"57d59e3bb9f74b01","fromNode":"208db75182b005b4","fromSide":"right","toNode":"b929a76ed5b6a547","toSide":"left"},
+		{"id":"eba57226293cb15c","fromNode":"208db75182b005b4","fromSide":"right","toNode":"b08fb419f2c01b8d","toSide":"left"},
+		{"id":"6358152d2c1b79d7","fromNode":"b929a76ed5b6a547","fromSide":"right","toNode":"25b829fecd6afb25","toSide":"left"},
+		{"id":"c5aedeeb2b840b74","fromNode":"56cce3d5034c4d6a","fromSide":"right","toNode":"646ae05e80ab291f","toSide":"left"},
+		{"id":"f307ca0a0fc340b0","fromNode":"b08fb419f2c01b8d","fromSide":"right","toNode":"53587a796383366f","toSide":"left"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

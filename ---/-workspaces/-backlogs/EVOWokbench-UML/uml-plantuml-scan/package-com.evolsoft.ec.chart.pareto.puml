@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.chart.pareto
+
+interface "IParetoListener" as C_com_evolsoft_ec_chart_pareto_IParetoListener
+class "ParetoEntry" as C_com_evolsoft_ec_chart_pareto_ParetoEntry
+class "ParetoXYDataSet" as C_com_evolsoft_ec_chart_pareto_ParetoXYDataSet
+
+C_com_evolsoft_ec_chart_pareto_IParetoListener <|.. C_com_evolsoft_ec_chart_pareto_ParetoXYDataSet
+C_com_evolsoft_ec_chart_pareto_ParetoXYDataSet --> C_com_evolsoft_ec_chart_pareto_ParetoEntry
+@enduml

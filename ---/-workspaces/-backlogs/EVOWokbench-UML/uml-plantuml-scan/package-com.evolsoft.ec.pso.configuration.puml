@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pso.configuration
+
+interface "IPSOCFGFactory" as C_com_evolsoft_ec_pso_configuration_IPSOCFGFactory
+interface "IPSOCFGPackage" as C_com_evolsoft_ec_pso_configuration_IPSOCFGPackage
+interface "IPSOConfiguration" as C_com_evolsoft_ec_pso_configuration_IPSOConfiguration
+interface "Literals" as C_com_evolsoft_ec_pso_configuration_Literals
+
+@enduml

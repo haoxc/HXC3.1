@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pbil
+
+interface "IPBILAdapter" as C_com_evolsoft_ec_pbil_IPBILAdapter
+interface "IPBILECStrategy" as C_com_evolsoft_ec_pbil_IPBILECStrategy
+class "PBILECStrategy" as C_com_evolsoft_ec_pbil_PBILECStrategy
+class "PBILPlugin" as C_com_evolsoft_ec_pbil_PBILPlugin
+
+C_com_evolsoft_ec_pbil_IPBILECStrategy <|.. C_com_evolsoft_ec_pbil_PBILECStrategy
+@enduml

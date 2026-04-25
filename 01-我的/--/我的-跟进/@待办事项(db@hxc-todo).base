@@ -1,0 +1,57 @@
+views:
+  - type: table
+    name: 一般(Common)
+    filters:
+      and:
+        - status == "processing"
+    order:
+      - file.name
+      - category
+      - description
+      - aliases
+      - Positioning
+      - tags
+    sort:
+      - property: 定位
+        direction: ASC
+      - property: file.ctime
+        direction: DESC
+      - property: aliases
+        direction: DESC
+      - property: category
+        direction: ASC
+      - property: tags
+        direction: ASC
+      - property: file.name
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 98
+      note.description: 283
+      note.aliases: 164
+      note.tags: 225
+    rowHeight: medium
+  - type: table
+    name: 全部
+    filters:
+      and:
+        - type == "term"
+    order:
+      - file.name
+      - area
+      - category
+      - description
+      - tags
+    sort:
+      - property: create_date
+        direction: DESC
+      - property: category
+        direction: ASC
+    columnSize:
+      file.name: 199
+      note.area: 135
+      note.category: 127
+      note.description: 283
+      note.tags: 225

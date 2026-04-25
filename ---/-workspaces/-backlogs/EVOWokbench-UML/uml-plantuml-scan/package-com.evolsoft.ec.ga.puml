@@ -1,0 +1,21 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.ga
+
+class "ECGAOptimizator" as C_com_evolsoft_ec_ga_ECGAOptimizator
+class "GAEvolutionStrategy" as C_com_evolsoft_ec_ga_GAEvolutionStrategy
+interface "IGAOptimizator" as C_com_evolsoft_ec_ga_IGAOptimizator
+interface "IGAStrategy" as C_com_evolsoft_ec_ga_IGAStrategy
+interface "ISGAStrategy" as C_com_evolsoft_ec_ga_ISGAStrategy
+class "SGAOptimizator" as C_com_evolsoft_ec_ga_SGAOptimizator
+class "SGAStrategy" as C_com_evolsoft_ec_ga_SGAStrategy
+class "StatsiticInfo" as C_com_evolsoft_ec_ga_StatsiticInfo
+
+C_com_evolsoft_ec_ga_IGAStrategy <|-- C_com_evolsoft_ec_ga_ISGAStrategy
+C_com_evolsoft_ec_ga_ECGAOptimizator <|-- C_com_evolsoft_ec_ga_SGAOptimizator
+C_com_evolsoft_ec_ga_GAEvolutionStrategy <|-- C_com_evolsoft_ec_ga_SGAStrategy
+C_com_evolsoft_ec_ga_IGAOptimizator <|.. C_com_evolsoft_ec_ga_ECGAOptimizator
+C_com_evolsoft_ec_ga_IGAStrategy <|.. C_com_evolsoft_ec_ga_GAEvolutionStrategy
+C_com_evolsoft_ec_ga_ECGAOptimizator --> C_com_evolsoft_ec_ga_StatsiticInfo
+@enduml

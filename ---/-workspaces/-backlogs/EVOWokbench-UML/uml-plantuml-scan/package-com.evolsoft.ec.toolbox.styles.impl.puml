@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.styles.impl
+
+class "GTStyleImpl" as C_com_evolsoft_ec_toolbox_styles_impl_GTStyleImpl
+class "StyleManagerImpl" as C_com_evolsoft_ec_toolbox_styles_impl_StyleManagerImpl
+class "StylesFactoryImpl" as C_com_evolsoft_ec_toolbox_styles_impl_StylesFactoryImpl
+class "StylesPackageImpl" as C_com_evolsoft_ec_toolbox_styles_impl_StylesPackageImpl
+
+@enduml

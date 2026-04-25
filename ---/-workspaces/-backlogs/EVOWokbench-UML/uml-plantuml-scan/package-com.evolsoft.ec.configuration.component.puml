@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.component
+
+interface "IECCFGComponentFactory" as C_com_evolsoft_ec_configuration_component_IECCFGComponentFactory
+interface "IECCFGComponentPackage" as C_com_evolsoft_ec_configuration_component_IECCFGComponentPackage
+interface "IECComponentActionsDescriptor" as C_com_evolsoft_ec_configuration_component_IECComponentActionsDescriptor
+interface "IECComponentDescriptor" as C_com_evolsoft_ec_configuration_component_IECComponentDescriptor
+interface "IECComponentManager" as C_com_evolsoft_ec_configuration_component_IECComponentManager
+interface "Literals" as C_com_evolsoft_ec_configuration_component_Literals
+
+@enduml

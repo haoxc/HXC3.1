@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.cluster
+
+class "DulplicateMainSpeciesException" as C_com_evolsoft_ec_cluster_DulplicateMainSpeciesException
+class "ECClusterApplication" as C_com_evolsoft_ec_cluster_ECClusterApplication
+interface "ECClusterFeature" as C_com_evolsoft_ec_cluster_ECClusterFeature
+class "ECClusterWinBuilder" as C_com_evolsoft_ec_cluster_ECClusterWinBuilder
+class "ECFeature" as C_com_evolsoft_ec_cluster_ECFeature
+class "ECFeatureManager" as C_com_evolsoft_ec_cluster_ECFeatureManager
+class "ECNatureManager" as C_com_evolsoft_ec_cluster_ECNatureManager
+interface "IBatchRunner" as C_com_evolsoft_ec_cluster_IBatchRunner
+interface "IECCluster" as C_com_evolsoft_ec_cluster_IECCluster
+interface "IECFeature" as C_com_evolsoft_ec_cluster_IECFeature
+interface "IECFeatureManager" as C_com_evolsoft_ec_cluster_IECFeatureManager
+interface "IECNatureManager" as C_com_evolsoft_ec_cluster_IECNatureManager
+class "WaiterItem" as C_com_evolsoft_ec_cluster_WaiterItem
+
+C_com_evolsoft_ec_cluster_IECCluster <|.. C_com_evolsoft_ec_cluster_ECClusterApplication
+C_com_evolsoft_ec_cluster_IECFeature <|.. C_com_evolsoft_ec_cluster_ECFeature
+C_com_evolsoft_ec_cluster_IECFeatureManager <|.. C_com_evolsoft_ec_cluster_ECFeatureManager
+C_com_evolsoft_ec_cluster_IECNatureManager <|.. C_com_evolsoft_ec_cluster_ECNatureManager
+C_com_evolsoft_ec_cluster_ECFeature --> C_com_evolsoft_ec_cluster_WaiterItem
+@enduml

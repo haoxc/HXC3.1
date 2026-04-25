@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.monitor.util
+
+class "ECCFGMonitorAdapterFactory" as C_com_evolsoft_ec_configuration_monitor_util_ECCFGMonitorAdapterFactory
+class "ECCFGMonitorSwitch" as C_com_evolsoft_ec_configuration_monitor_util_ECCFGMonitorSwitch
+
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp.decoding
+
+class "FJSP2DefaultDecoder" as C_com_evolsoft_problem_fjsp_decoding_FJSP2DefaultDecoder
+class "FJSPDecoder" as C_com_evolsoft_problem_fjsp_decoding_FJSPDecoder
+class "ProductRouteVisitor" as C_com_evolsoft_problem_fjsp_decoding_ProductRouteVisitor
+class "ProductRouteVisitor (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_decoding_ProductRouteVisitor__dup2
+
+@enduml

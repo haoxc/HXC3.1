@@ -1,0 +1,21 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.diagram
+
+class "Activator" as C_com_evolsoft_ec_diagram_Activator
+class "ColorsLabelProvider" as C_com_evolsoft_ec_diagram_ColorsLabelProvider
+class "GraphContentProvider" as C_com_evolsoft_ec_diagram_GraphContentProvider
+class "GraphLabelProvider" as C_com_evolsoft_ec_diagram_GraphLabelProvider
+class "GraphViewerEx" as C_com_evolsoft_ec_diagram_GraphViewerEx
+interface "IGraphLabelProviderEx" as C_com_evolsoft_ec_diagram_IGraphLabelProviderEx
+interface "IGraphViewContainer" as C_com_evolsoft_ec_diagram_IGraphViewContainer
+interface "IProblemDiagramContentProvider" as C_com_evolsoft_ec_diagram_IProblemDiagramContentProvider
+class "PBDiagramContentProviderBase" as C_com_evolsoft_ec_diagram_PBDiagramContentProviderBase
+class "PBDiagramLabelProviderBase" as C_com_evolsoft_ec_diagram_PBDiagramLabelProviderBase
+
+C_com_evolsoft_ec_diagram_IGraphLabelProviderEx <|.. C_com_evolsoft_ec_diagram_GraphLabelProvider
+C_com_evolsoft_ec_diagram_IProblemDiagramContentProvider <|.. C_com_evolsoft_ec_diagram_PBDiagramContentProviderBase
+C_com_evolsoft_ec_diagram_GraphLabelProvider --> C_com_evolsoft_ec_diagram_IGraphViewContainer
+C_com_evolsoft_ec_diagram_GraphViewerEx --> C_com_evolsoft_ec_diagram_IGraphLabelProviderEx
+@enduml

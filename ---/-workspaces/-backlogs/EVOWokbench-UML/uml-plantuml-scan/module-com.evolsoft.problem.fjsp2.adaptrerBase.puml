@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Module: com.evolsoft.problem.fjsp2.adaptrerBase
+
+class "Activator (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_Activator__dup2
+class "FJSP2ScheduleAdapter (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_FJSP2ScheduleAdapter__dup2
+class "AlleleMutation (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_actions_AlleleMutation__dup2
+class "BroadAssignSearch (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_actions_BroadAssignSearch__dup2
+class "FJSP2CrossoverBase (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_actions_FJSP2CrossoverBase__dup2
+interface "FJSP2ECConsant (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_actions_FJSP2ECConsant__dup2
+class "FJSP2LocalSearch (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_actions_FJSP2LocalSearch__dup2
+class "FJSP2RDEmigration (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_actions_FJSP2RDEmigration__dup2
+class "MachineAssignment" as C_com_evolsoft_problem_fjsp2_adaptrerBase_actions_MachineAssignment
+class "MixedCrossover (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_actions_MixedCrossover__dup2
+class "OrderCrossover (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_actions_OrderCrossover__dup2
+class "move_of_CPAnalysisWindow2" as C_com_evolsoft_problem_fjsp2_adaptrerBase_move_of_CPAnalysisWindow2
+enum "ActionType (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_ActionType__dup2
+class "CPAnalysisAction (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPAnalysisAction__dup2
+class "CPAnalysisWindow (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPAnalysisWindow__dup2
+class "CPEvolutionAction (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPEvolutionAction__dup2
+class "CPEvolutionWindow (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPEvolutionWindow__dup2
+class "CPInspector (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPInspector__dup2
+
+@enduml

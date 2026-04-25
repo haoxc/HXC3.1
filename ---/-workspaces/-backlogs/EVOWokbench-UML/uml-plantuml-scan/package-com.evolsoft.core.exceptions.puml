@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.exceptions
+
+class "ECNotDefinedException" as C_com_evolsoft_core_exceptions_ECNotDefinedException
+class "IllegalConfigException" as C_com_evolsoft_core_exceptions_IllegalConfigException
+
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.policyTree.mills
+
+class "FullBiTreeTest" as C_com_evolsoft_ec_toolbox_policyTree_mills_FullBiTreeTest
+
+@enduml

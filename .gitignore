@@ -1,0 +1,12 @@
+.DS_Store
+
+# Local app/runtime state
+.ColorFolder/
+.claude/
+.claudian/
+.obsidian/
+sync.ffs_db
+
+# Large local attachments are organized here but should not be pushed to GitHub.
+98-附件/*
+!98-附件/98-附件.md

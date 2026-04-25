@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.crossover
+
+class "OneCutCopyCrossover" as C_com_evolsoft_ec_crossover_OneCutCopyCrossover
+class "OneCutCrossover" as C_com_evolsoft_ec_crossover_OneCutCrossover
+class "SyntopicTwoCutCrossover" as C_com_evolsoft_ec_crossover_SyntopicTwoCutCrossover
+class "TwoCutCrossover" as C_com_evolsoft_ec_crossover_TwoCutCrossover
+
+C_com_evolsoft_ec_crossover_OneCutCrossover <|-- C_com_evolsoft_ec_crossover_OneCutCopyCrossover
+@enduml

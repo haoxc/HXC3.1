@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"9c1481a5a920969a","type":"group","x":-320,"y":-720,"width":660,"height":134,"label":"环境安装"},
+		{"id":"0e1048f4436e267c","type":"text","text":"- tes\n- \n","x":59,"y":-700,"width":261,"height":94},
+		{"id":"2aef270fb19f18a9","type":"text","text":"[[py运行环境-Anaconda环境配置]]","x":-300,"y":-678,"width":280,"height":50}
+	],
+	"edges":[
+		{"id":"ab3722009ac0f05b","fromNode":"2aef270fb19f18a9","fromSide":"right","toNode":"0e1048f4436e267c","toSide":"left"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

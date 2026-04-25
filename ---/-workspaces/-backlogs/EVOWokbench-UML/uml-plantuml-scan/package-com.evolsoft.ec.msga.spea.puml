@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.msga.spea
+
+interface "ISPEA2Sorter" as C_com_evolsoft_ec_msga_spea_ISPEA2Sorter
+class "IndividualStatus" as C_com_evolsoft_ec_msga_spea_IndividualStatus
+class "SPEA2FitnessService" as C_com_evolsoft_ec_msga_spea_SPEA2FitnessService
+class "SPEA2Sorter" as C_com_evolsoft_ec_msga_spea_SPEA2Sorter
+class "SPEAFitnessValue" as C_com_evolsoft_ec_msga_spea_SPEAFitnessValue
+
+C_com_evolsoft_ec_msga_spea_ISPEA2Sorter <|.. C_com_evolsoft_ec_msga_spea_SPEA2Sorter
+C_com_evolsoft_ec_msga_spea_SPEA2Sorter --> C_com_evolsoft_ec_msga_spea_IndividualStatus
+@enduml

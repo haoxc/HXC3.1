@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"a1","type":"text","text":"### 虚实同步监控\n实时展示风机运行姿态与实时数据映射。","x":-350,"y":-330,"width":262,"height":210},
+		{"id":"a2","type":"text","text":"### 故障预警与诊断\n基于偏离值的异常检测与健康状态评估。","x":-23,"y":-330,"width":262,"height":210},
+		{"id":"a3","type":"text","text":"### 部件寿命预测\n载荷累积计算与剩余寿命(RUL)估计。","x":304,"y":-330,"width":262,"height":210},
+		{"id":"a4","type":"text","text":"### 场群优化控制\n协同偏航控制指令下发。","x":631,"y":-330,"width":209,"height":210},
+		{"id":"m1","type":"text","text":"### 几何模型\nG1-G4精度 / STP格式\n包含所有施工修改。","x":-350,"y":20,"width":270,"height":260},
+		{"id":"m2","type":"text","text":"### 机理模型\nFMU/S-Function\n气动、结构、控制算法。","x":-12,"y":20,"width":270,"height":260},
+		{"id":"m3","type":"text","text":"### 信息模型\nN1-N4深度\n资产属性、静态参数。","x":326,"y":20,"width":270,"height":260},
+		{"id":"m4","type":"text","text":"### 数据湖\n25年长周期存储\n快速索引与归档。","x":664,"y":20,"width":216,"height":260},
+		{"id":"d1","type":"text","text":"### EMS系统\n能管数据与控制下发","x":-350,"y":370,"width":235,"height":150},
+		{"id":"d2","type":"text","text":"### SCADA系统\n主控实时数据采集","x":-49,"y":370,"width":235,"height":150},
+		{"id":"d3","type":"text","text":"### CMS系统\n高频振动/声纹原始数据","x":252,"y":370,"width":235,"height":150},
+		{"id":"d4","type":"text","text":"### 协议网关\nOPC UA / Modbus / 104","x":552,"y":370,"width":288,"height":150},
+		{"id":"e1","type":"text","text":"风机整机及内部传感器","x":-300,"y":700,"width":285,"height":140},
+		{"id":"e2","type":"text","text":"塔筒、法兰及基础结构","x":56,"y":700,"width":285,"height":140},
+		{"id":"e3","type":"text","text":"海上升压站及附属设备","x":411,"y":700,"width":285,"height":140},
+		{
+			"id":"0701e388072584f3",
+			"type":"text",
+			"text":"[[海上风电-参考案例]]",
+			"styleAttributes":{},
+			"x":-420,
+			"y":-780,
+			"width":260,
+			"height":60
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

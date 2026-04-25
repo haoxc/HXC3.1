@@ -1,0 +1,39 @@
+---
+aliases:
+  - 辨析/BIM vs 3D建模
+tags:
+description:
+type:
+ref-url:
+---
+## 内容
+
+==**BIM（建筑信息模型）包含了 3D 建模，但远不止于 3D 建模**==。 
+
+> [!要点]
+> 如果把 3D 建模比作一张"三维照片"，那么 BIM 就是一张"带芯片的活地图"。
+
+### BIM 的独特价值
+
+- **协同工作**：不同专业（建筑、结构、机电）可以在同一个模型中协作，自动进行**碰撞检查**，避免施工时才发现管线冲突。
+- **多维管理**：BIM 被称为"nD"模型。除了 3D（空间），还包含 **4D（时间/进度）**、**5D（成本/造价）**、**6D（绿色节能）** 等维度。
+- **数字化交付**：施工结束时，BIM 模型作为"数字双胞胎"交给业主，方便后期的物业管理和设备维护
+### 核心区别：数据驱动 vs. 视觉呈现
+
+| 特性       | 3D 建模 (3D Modeling)           | BIM (Building Information Modeling)       |
+| -------- | ----------------------------- | ----------------------------------------- |
+| **主要目的** | **视觉展示**。强调物体的外观、形状和几何尺寸。     | **信息管理**。通过 3D 模型集成建筑全生命周期的数据。            |
+| **模型本质** | **几何体集合**。通常由点、线、面组成，不具备物理属性。 | **智慧对象**。每个构件都有属性（如材料强度、厂家、成本、维护周期）。      |
+| **关联性**  | 修改一个地方，其他视图（如平面图）可能需手动调整。     | **自动联动**。修改 3D 模型中的一扇窗，平面图、明细表、成本表都会自动更新。 |
+| **应用阶段** | 主要用于**设计和渲染**阶段。              | 涵盖**规划、设计、施工到运营维护**的全过程。                  |
+
+BIM 的独特价值
+
+- **协同工作**：不同专业（建筑、结构、机电）可以在同一个模型中协作，自动进行**碰撞检查**，避免施工时才发现管线冲突。
+- **多维管理**：BIM 被称为"nD"模型。除了 3D（空间），还包含 **4D（时间/进度）**、**5D（成本/造价）**、**6D（绿色节能）** 等维度。
+- **数字化交付**：施工结束时，BIM 模型作为"数字双胞胎"交给业主，方便后期的物业管理和设备维护。 ![Reddit](data:image/png;base64,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)Reddit +5
+
+常用软件对比
+
+- **3D 建模软件**：Blender、3ds Max、SketchUp、Rhino（主要用于造型和动画）。
+- **BIM 核心软件**：Autodesk [[Revit(Autodesk)]]、Bentley AECOsim、Graphisoft ArchiCAD、[[Tekla]] Structures。 

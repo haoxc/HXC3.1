@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"d1b178382c8a439f","type":"file","file":"03-领域/60-艺术学科/00-艺术术语库/风格(Style)/附件/img_风格_新中式.jpg","x":40,"y":-480,"width":224,"height":400},
+		{
+			"id":"f86d0d071a5dce8f",
+			"type":"text",
+			"text":"#风格/新中式",
+			"styleAttributes":{},
+			"x":-340,
+			"y":-310,
+			"width":260,
+			"height":60,
+			"color":"1"
+		}
+	],
+	"edges":[
+		{
+			"id":"be17c85b53091056",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"f86d0d071a5dce8f",
+			"fromSide":"right",
+			"toNode":"d1b178382c8a439f",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

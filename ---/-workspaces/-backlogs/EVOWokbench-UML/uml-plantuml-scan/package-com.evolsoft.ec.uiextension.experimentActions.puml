@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.uiextension.experimentActions
+
+class "AbstractExperimentDataAction" as C_com_evolsoft_ec_uiextension_experimentActions_AbstractExperimentDataAction
+class "ExportBestSolutionAction" as C_com_evolsoft_ec_uiextension_experimentActions_ExportBestSolutionAction
+class "SendMailAction" as C_com_evolsoft_ec_uiextension_experimentActions_SendMailAction
+
+C_com_evolsoft_ec_uiextension_experimentActions_AbstractExperimentDataAction <|-- C_com_evolsoft_ec_uiextension_experimentActions_ExportBestSolutionAction
+@enduml

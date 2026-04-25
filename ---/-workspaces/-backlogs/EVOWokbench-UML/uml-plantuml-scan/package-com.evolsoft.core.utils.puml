@@ -1,0 +1,52 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.utils
+
+class "ArrayUtils" as C_com_evolsoft_core_utils_ArrayUtils
+class "Assert" as C_com_evolsoft_core_utils_Assert
+class "AttributeItem" as C_com_evolsoft_core_utils_AttributeItem
+class "DumpUtils" as C_com_evolsoft_core_utils_DumpUtils
+class "ECUtils" as C_com_evolsoft_core_utils_ECUtils
+class "ECVerifier" as C_com_evolsoft_core_utils_ECVerifier
+class "FileUtils" as C_com_evolsoft_core_utils_FileUtils
+class "HashLinkedStack" as C_com_evolsoft_core_utils_HashLinkedStack
+interface "HashStack" as C_com_evolsoft_core_utils_HashStack
+class "Header" as C_com_evolsoft_core_utils_Header
+class "Header (com.evolsoft.core)" as C_com_evolsoft_core_utils_Header__dup2
+class "Header (com.evolsoft.core)" as C_com_evolsoft_core_utils_Header__dup3
+class "Header (com.evolsoft.core)" as C_com_evolsoft_core_utils_Header__dup4
+class "IdentifierQueue" as C_com_evolsoft_core_utils_IdentifierQueue
+class "IntegerArray" as C_com_evolsoft_core_utils_IntegerArray
+class "IntegerArrayEx" as C_com_evolsoft_core_utils_IntegerArrayEx
+class "LightSortedLinkedList" as C_com_evolsoft_core_utils_LightSortedLinkedList
+class "MathEx" as C_com_evolsoft_core_utils_MathEx
+class "MatrixD" as C_com_evolsoft_core_utils_MatrixD
+class "Node" as C_com_evolsoft_core_utils_Node
+class "Node (com.evolsoft.core)" as C_com_evolsoft_core_utils_Node__dup2
+class "Node (com.evolsoft.core)" as C_com_evolsoft_core_utils_Node__dup3
+class "Node (com.evolsoft.core)" as C_com_evolsoft_core_utils_Node__dup4
+class "SingleLink" as C_com_evolsoft_core_utils_SingleLink
+class "SingleLinkItem" as C_com_evolsoft_core_utils_SingleLinkItem
+class "SingleLinkItemHeader" as C_com_evolsoft_core_utils_SingleLinkItemHeader
+class "SortedLinkedList" as C_com_evolsoft_core_utils_SortedLinkedList
+class "SortedQueue" as C_com_evolsoft_core_utils_SortedQueue
+class "StatisticMeasureValue" as C_com_evolsoft_core_utils_StatisticMeasureValue
+class "StringBufferEx" as C_com_evolsoft_core_utils_StringBufferEx
+class "StringUtils" as C_com_evolsoft_core_utils_StringUtils
+class "Tail" as C_com_evolsoft_core_utils_Tail
+class "Tail (com.evolsoft.core)" as C_com_evolsoft_core_utils_Tail__dup2
+class "Tail (com.evolsoft.core)" as C_com_evolsoft_core_utils_Tail__dup3
+class "Tail (com.evolsoft.core)" as C_com_evolsoft_core_utils_Tail__dup4
+class "TokenLoadingExcpetion" as C_com_evolsoft_core_utils_TokenLoadingExcpetion
+class "TraceUtils" as C_com_evolsoft_core_utils_TraceUtils
+class "XMLBuffer" as C_com_evolsoft_core_utils_XMLBuffer
+class "XMLBuildException" as C_com_evolsoft_core_utils_XMLBuildException
+
+C_com_evolsoft_core_utils_SingleLinkItem <|-- C_com_evolsoft_core_utils_SingleLinkItemHeader
+C_com_evolsoft_core_utils_HashStack <|.. C_com_evolsoft_core_utils_HashLinkedStack
+C_com_evolsoft_core_utils_AttributeItem --> C_com_evolsoft_core_utils_StringBufferEx
+C_com_evolsoft_core_utils_SingleLink --> C_com_evolsoft_core_utils_SingleLinkItem
+C_com_evolsoft_core_utils_SingleLink --> C_com_evolsoft_core_utils_SingleLinkItemHeader
+C_com_evolsoft_core_utils_XMLBuffer --> C_com_evolsoft_core_utils_StringBufferEx
+@enduml

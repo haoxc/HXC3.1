@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.policyTree.util
+
+class "PolicyTreeAdapterFactory" as C_com_evolsoft_ec_toolbox_policyTree_util_PolicyTreeAdapterFactory
+class "PolicyTreeSwitch" as C_com_evolsoft_ec_toolbox_policyTree_util_PolicyTreeSwitch
+
+@enduml

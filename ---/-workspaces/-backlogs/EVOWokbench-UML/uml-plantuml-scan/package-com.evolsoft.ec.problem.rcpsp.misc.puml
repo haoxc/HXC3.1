@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.problem.rcpsp.misc
+
+class "BenchmarkItem" as C_com_evolsoft_ec_problem_rcpsp_misc_BenchmarkItem
+class "MRCPSPRawDataTranslater" as C_com_evolsoft_ec_problem_rcpsp_misc_MRCPSPRawDataTranslater
+class "ProbabilityUtils" as C_com_evolsoft_ec_problem_rcpsp_misc_ProbabilityUtils
+
+@enduml

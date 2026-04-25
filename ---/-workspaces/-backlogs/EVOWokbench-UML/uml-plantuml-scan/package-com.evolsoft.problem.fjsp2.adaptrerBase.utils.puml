@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp2.adaptrerBase.utils
+
+enum "ActionType" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_ActionType
+enum "ActionType (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_ActionType__dup2
+class "CPAnalysisAction" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPAnalysisAction
+class "CPAnalysisAction (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPAnalysisAction__dup2
+class "CPAnalysisWindow" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPAnalysisWindow
+class "CPAnalysisWindow (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPAnalysisWindow__dup2
+class "CPEvolutionAction" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPEvolutionAction
+class "CPEvolutionAction (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPEvolutionAction__dup2
+class "CPEvolutionWindow" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPEvolutionWindow
+class "CPEvolutionWindow (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPEvolutionWindow__dup2
+class "CPInspector" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPInspector
+class "CPInspector (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_utils_CPInspector__dup2
+
+@enduml

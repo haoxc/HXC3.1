@@ -1,0 +1,180 @@
+<svg width="100%" viewBox="0 0 680 580" xmlns="http://www.w3.org/2000/svg">
+
+<!--
+╔══════════════════════════════════════════════════════════╗
+║           CLAUDE SKILLS 架构图  —  维护说明              ║
+╠══════════════════════════════════════════════════════════╣
+║  改文字  →  搜索对应节点注释，修改 <text> 内容           ║
+║  改颜色  →  修改 <style> 区域内对应 class 的 fill/stroke ║
+║  改尺寸  →  修改对应 <rect> 的 width / height            ║
+║  移位置  →  修改对应 <rect> 和 <text> 的 x / y           ║
+║  所有主节点水平中心固定在 cx = 340                        ║
+╚══════════════════════════════════════════════════════════╝
+-->
+
+<!-- ════════════════ STYLE ════════════════
+     修改颜色只需改这里，不用动下方 LAYOUT
+-->
+<defs>
+  <style>
+    svg  { font-family: sans-serif; }
+    .t   { font-size: 14px; font-weight: 600; }   /* 节点标题 */
+    .s   { font-size: 12px; font-weight: 400; }   /* 节点正文 */
+    .arr { stroke: #ADADAD; stroke-width: 1.5; fill: none; }
+    .dsh { stroke: #CCCCCC; stroke-width: 1; stroke-dasharray: 4 3; fill: none; }
+    .lbl { font-size: 11px; fill: #BBBBBB; }      /* 连线标签 */
+
+    /* 节点 A — 灰色 */
+    #nodeA rect  { fill: #F1EFE8; stroke: #888780; }
+    #nodeA .t    { fill: #2C2C2A; }
+    #nodeA .s    { fill: #5F5E5A; }
+
+    /* 节点 B — 紫色 */
+    #nodeB rect  { fill: #EEEDFE; stroke: #534AB7; }
+    #nodeB .t    { fill: #3C3489; }
+    #nodeB .s    { fill: #534AB7; }
+
+    /* 节点 C — 青绿色 */
+    #nodeC rect  { fill: #E1F5EE; stroke: #0F6E56; }
+    #nodeC .t    { fill: #085041; }
+    #nodeC .s    { fill: #0F6E56; }
+
+    /* 节点 D — 琥珀色 */
+    #nodeD rect  { fill: #FAEEDA; stroke: #C07A1A; }
+    #nodeD .t    { fill: #633806; }
+    #nodeD .s    { fill: #854F0B; }
+
+    /* 类型区 — 浅灰底 */
+    #nodeTypes rect.bg  { fill: #F6F5F0; stroke: #CCCCCC; }
+
+    /* T1 public — 蓝色 */
+    #T1 rect  { fill: #E6F1FB; stroke: #185FA5; }
+    #T1 .s    { fill: #0C447C; }
+
+    /* T2 examples — 珊瑚色 */
+    #T2 rect  { fill: #FAECE7; stroke: #993C1D; }
+    #T2 .s    { fill: #712B13; }
+
+    /* T3 user — 绿色 */
+    #T3 rect  { fill: #EAF3DE; stroke: #3B6D11; }
+    #T3 .s    { fill: #27500A; }
+  </style>
+
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5"
+          markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+          stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+
+<!-- ════════════════ LAYOUT ════════════════
+     节点坐标、尺寸、文字内容均在此处
+     主节点：x=40  width=600  cx=340
+     子节点间距：子节点宽 = (600-32-2*gap) / 3，gap=10
+                 子x1=58  子x2=264  子x3=470  子width=184
+-->
+
+<!-- ── 节点 A：Claude 主系统  y=20  h=80 ── -->
+<g id="nodeA">
+  <rect x="40" y="20" width="600" height="80" rx="12" stroke-width="0.5"/>
+  <!-- 改文字：以下两行 -->
+  <text class="t" x="340" y="50"  text-anchor="middle">Claude 主系统</text>
+  <text class="s" x="340" y="70"  text-anchor="middle">available_skills 列表 — 始终在上下文中</text>
+  <text class="s" x="340" y="86"  text-anchor="middle">（name + description，约 100 词）</text>
+</g>
+
+<!-- 连线 A → B  y: 100 → 128 -->
+<line x1="340" y1="100" x2="340" y2="128" class="arr" marker-end="url(#arr)"/>
+<text class="lbl" x="350" y="118">触发</text>
+
+<!-- ── 节点 B：第 1 层  y=130  h=80 ── -->
+<g id="nodeB">
+  <rect x="40" y="130" width="600" height="80" rx="12" stroke-width="0.5"/>
+  <!-- 改文字：以下两行 -->
+  <text class="t" x="340" y="160" text-anchor="middle">第 1 层：Skill 元数据</text>
+  <text class="s" x="340" y="180" text-anchor="middle">YAML frontmatter</text>
+  <text class="s" x="340" y="196" text-anchor="middle">name + description 作为触发机制</text>
+</g>
+
+<!-- 连线 B → C  y: 210 → 238 -->
+<line x1="340" y1="210" x2="340" y2="238" class="arr" marker-end="url(#arr)"/>
+<text class="lbl" x="350" y="228">加载</text>
+
+<!-- ── 节点 C：第 2 层  y=240  h=100 ── -->
+<g id="nodeC">
+  <rect x="40" y="240" width="600" height="100" rx="12" stroke-width="0.5"/>
+  <!-- 改文字：以下三行 -->
+  <text class="t" x="340" y="270" text-anchor="middle">第 2 层：SKILL.md 主体</text>
+  <text class="s" x="340" y="292" text-anchor="middle">任务触发后载入上下文（建议 &lt; 500 行）</text>
+  <text class="s" x="340" y="308" text-anchor="middle">工作流程 / 输出格式 / 分支指引 / 示例</text>
+  <text class="s" x="340" y="328" text-anchor="middle"> </text>
+</g>
+
+<!-- 连线 C → D  y: 340 → 368 -->
+<line x1="340" y1="340" x2="340" y2="368" class="arr" marker-end="url(#arr)"/>
+<text class="lbl" x="350" y="358">按需读取</text>
+
+<!-- ── 节点 D：第 3 层容器  y=370  h=140 ── -->
+<g id="nodeD">
+  <rect x="40" y="370" width="600" height="140" rx="12" stroke-width="0.5"/>
+  <!-- 改容器标题 -->
+  <text class="t" x="340" y="398" text-anchor="middle">第 3 层：打包资源（按需加载，无上限）</text>
+
+  <!-- 子节点 D1：scripts  x=58  w=184 -->
+  <rect x="58"  y="410" width="184" height="82" rx="8" stroke-width="0.5"/>
+  <!-- 改 D1 文字 -->
+  <text class="s" x="150" y="432" text-anchor="middle">scripts/</text>
+  <text class="s" x="150" y="450" text-anchor="middle">可执行脚本</text>
+  <text class="s" x="150" y="468" text-anchor="middle">确定性 / 重复性任务</text>
+
+  <!-- 子节点 D2：references  x=264  w=184 -->
+  <rect x="248" y="410" width="184" height="82" rx="8" stroke-width="0.5"/>
+  <!-- 改 D2 文字 -->
+  <text class="s" x="340" y="432" text-anchor="middle">references/</text>
+  <text class="s" x="340" y="450" text-anchor="middle">参考文档</text>
+  <text class="s" x="340" y="468" text-anchor="middle">大型文档，按需读入</text>
+
+  <!-- 子节点 D3：assets  x=470  w=184 -->
+  <rect x="438" y="410" width="184" height="82" rx="8" stroke-width="0.5"/>
+  <!-- 改 D3 文字 -->
+  <text class="s" x="530" y="432" text-anchor="middle">assets/</text>
+  <text class="s" x="530" y="450" text-anchor="middle">模板资产</text>
+  <text class="s" x="530" y="468" text-anchor="middle">字体 / 图标 / 物料</text>
+</g>
+
+<!-- 左侧虚线标注"渐进式披露"范围  y: 130 → 510 -->
+<line x1="24" y1="130" x2="24" y2="510" class="dsh"/>
+<line x1="20" y1="130" x2="28" y2="130" class="dsh"/>
+<line x1="20" y1="510" x2="28" y2="510" class="dsh"/>
+<text class="lbl" x="18" y="320"
+      text-anchor="middle" transform="rotate(-90,18,320)">渐进式披露</text>
+
+<!-- ── Skill 类型分布  y=530  h=38 ── -->
+<g id="nodeTypes">
+  <rect class="bg" x="40" y="524" width="600" height="46" rx="12" stroke-width="0.5"/>
+  <!-- 改类型区标题 -->
+  <text class="t" x="340" y="543" text-anchor="middle" style="fill:#2C2C2A; font-size:12px">
+    Skill 类型分布
+  </text>
+
+  <!-- T1 public -->
+  <g id="T1">
+    <rect x="58"  y="549" width="184" height="14" rx="4" stroke-width="0.5"/>
+    <text class="s" x="150" y="560" text-anchor="middle" style="font-size:11px">public/ 通用能力技能</text>
+  </g>
+
+  <!-- T2 examples -->
+  <g id="T2">
+    <rect x="248" y="549" width="184" height="14" rx="4" stroke-width="0.5"/>
+    <text class="s" x="340" y="560" text-anchor="middle" style="font-size:11px">examples/ 场景范例技能</text>
+  </g>
+
+  <!-- T3 user -->
+  <g id="T3">
+    <rect x="438" y="549" width="184" height="14" rx="4" stroke-width="0.5"/>
+    <text class="s" x="530" y="560" text-anchor="middle" style="font-size:11px">user/ 用户自定义</text>
+  </g>
+</g>
+
+</svg>

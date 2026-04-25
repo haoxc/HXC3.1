@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"D","type":"group","x":-370,"y":120,"width":740,"height":160,"color":"3","label":"第 3 层：打包资源（按需加载，无上限）"},
+		{"id":"types","type":"group","x":-370,"y":360,"width":740,"height":160,"label":"Skill 类型分布"},
+		{"id":"T1","type":"text","text":"## public/\n通用能力技能\ndocx · pdf · xlsx · pptx · file-reading","x":-350,"y":390,"width":210,"height":100,"color":"5"},
+		{"id":"T2","type":"text","text":"## examples/\n场景范例技能\nskill-creator · canvas · algorithmic-art","x":-105,"y":390,"width":210,"height":100,"color":"4"},
+		{"id":"T3","type":"text","text":"## user/\n用户自定义技能\n按业务场景定制","x":140,"y":390,"width":210,"height":100,"color":"6"},
+		{"id":"A","type":"text","text":"## Claude 主系统\navailable_skills 列表 — 始终在上下文中\n**name + description，约 100 词**","x":-350,"y":-420,"width":700,"height":100},
+		{"id":"B","type":"text","text":"## 第 1 层：Skill 元数据\nYAML frontmatter — **name + description**（触发机制）","x":-350,"y":-240,"width":700,"height":90,"color":"6"},
+		{"id":"C","type":"text","text":"## 第 2 层：SKILL.md 主体\n任务触发后载入上下文（建议 < 500 行）\n工作流程 / 输出格式 / 分支指引 / 示例","x":-350,"y":-70,"width":700,"height":110,"color":"5"},
+		{"id":"D1","type":"text","text":"## scripts/\n可执行脚本\n确定性 / 重复性任务","x":-350,"y":150,"width":210,"height":100,"color":"3"},
+		{"id":"D2","type":"text","text":"## references/\n参考文档\n大型文档，按需读入","x":-105,"y":150,"width":210,"height":100,"color":"3"},
+		{"id":"D3","type":"text","text":"## assets/\n模板资产\n字体 / 图标 / 输出物料","x":140,"y":150,"width":210,"height":100,"color":"3"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"A","fromSide":"bottom","toNode":"B","toSide":"top","label":"触发"},
+		{"id":"e2","fromNode":"B","fromSide":"bottom","toNode":"C","toSide":"top","label":"加载"},
+		{"id":"e3","fromNode":"C","fromSide":"bottom","toNode":"D","toSide":"top","label":"按需读取"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

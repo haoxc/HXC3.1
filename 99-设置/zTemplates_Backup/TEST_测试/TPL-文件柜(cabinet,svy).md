@@ -1,0 +1,6 @@
+---
+type:
+domain:
+aliases:
+tags:
+---

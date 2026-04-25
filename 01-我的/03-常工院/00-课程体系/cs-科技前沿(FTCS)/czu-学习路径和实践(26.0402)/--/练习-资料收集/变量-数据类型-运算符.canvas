@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# 变量、数据类型、运算符\n\nPython编程基础核心概念","x":0,"y":0,"width":400,"height":100},
+		{"id":"variables","type":"text","text":"## 变量（Variables）\n\n存储数据的容器\n\n### 命名规则\n- 字母、数字、下划线\n- 不能数字开头\n- 不能使用关键字\n- 区分大小写\n- 建议snake_case\n\n### 变量赋值\n- 使用等号（=）\n- 动态类型语言\n- 类型由赋值决定","x":-600,"y":0,"width":300,"height":200},
+		{"id":"operators","type":"text","text":"## 运算符\n\n### 1. 算术运算符\n- +, -, *, /, //, %, **\n\n### 2. 比较运算符\n- ==, !=, >, <, >=, <=\n- 返回布尔值\n\n### 3. 逻辑运算符\n- and, or, not\n- 组合多个条件\n\n### 4. 赋值运算符\n- =, +=, -=, *=, /=, //=, %=, **=\n\n### 5. 身份运算符\n- is, is not\n- 检查是否为同一个对象\n\n### 6. 成员运算符\n- in, not in\n- 检查序列中是否包含值","x":600,"y":0,"width":350,"height":300},
+		{"id":"type-conversion","type":"text","text":"## 类型检查与转换\n\n### 类型检查\n- `type()`函数\n\n### 类型转换\n- `int()`：转换为整数\n- `float()`：转换为浮点数\n- `str()`：转换为字符串\n- `bool()`：转换为布尔值","x":-600,"y":300,"width":300,"height":150},
+		{"id":"best-practices","type":"text","text":"## 最佳实践\n\n1. 变量命名要有意义\n2. 一行只定义一个变量\n3. 避免使用魔法数字\n4. 及时注释类型（类型提示）","x":0,"y":300,"width":300,"height":150},
+		{"id":"common-errors","type":"text","text":"## 常见错误\n\n1. 使用未定义的变量\n2. 拼写错误\n3. 错误的数据类型操作\n4. 使用关键字作为变量名","x":600,"y":300,"width":300,"height":150},
+		{"id":"exercises","type":"text","text":"## 练习\n\n1. 创建变量存储姓名和年龄\n2. 计算两个数的和、差、积、商\n3. 判断一个数是否为偶数\n4. 摄氏度转华氏度","x":0,"y":500,"width":300,"height":100},
+		{"id":"datatypes","type":"text","text":"## 基本数据类型\n\n### 1. 整数（int）\n- 整数值，无大小限制\n- 可使用下划线提高可读性\n\n### 2. 浮点数（float）\n- 带小数点的数值\n- 科学计数法：1.23e4\n\n### 3. 字符串（str）\n- 文本数据\n- 单引号、双引号、三引号\n\n### 4. 布尔值（bool）\n- True 或 False\n\n### 5. 空值（None）\n- 表示空值或无值","x":25,"y":-400,"width":350,"height":250}
+	],
+	"edges":[
+		{"id":"edge-center-variables","fromNode":"center","fromSide":"left","toNode":"variables","toSide":"right"},
+		{"id":"edge-center-datatypes","fromNode":"center","fromSide":"top","toNode":"datatypes","toSide":"bottom"},
+		{"id":"edge-center-operators","fromNode":"center","fromSide":"right","toNode":"operators","toSide":"left"},
+		{"id":"edge-center-type-conversion","fromNode":"center","fromSide":"bottom","toNode":"type-conversion","toSide":"top"},
+		{"id":"edge-center-best-practices","fromNode":"center","fromSide":"bottom","toNode":"best-practices","toSide":"top"},
+		{"id":"edge-center-common-errors","fromNode":"center","fromSide":"bottom","toNode":"common-errors","toSide":"top"},
+		{"id":"edge-center-exercises","fromNode":"center","fromSide":"bottom","toNode":"exercises","toSide":"top"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

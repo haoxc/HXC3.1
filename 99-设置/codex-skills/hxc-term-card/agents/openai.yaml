@@ -1,0 +1,6 @@
+interface:
+  display_name: "HXC Term Card"
+  short_description: "创建术语库里的快速理解术语卡"
+  default_prompt: "Use $hxc-term-card to create an Obsidian term card and link it from the Vault term-library MOC."
+policy:
+  allow_implicit_invocation: true

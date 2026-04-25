@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"group_support","type":"group","content":"支撑层 - 关卡核心要素","x":200,"y":100,"width":350,"height":500,"color":"#e6f2ff"},
+		{"id":"group_application","type":"group","content":"应用层 - 实践落地","x":950,"y":100,"width":350,"height":400,"color":"#fff3e0"},
+		{"id":"group_relation","type":"group","content":"关联层 - 知识网络","x":500,"y":500,"width":450,"height":250,"color":"#e8f5e9"},
+		{"id":"support_1","type":"text","content":"### 关键组成要素\n1. 场景资源（地形/建筑）\n2. 玩法规则（胜负条件）\n3. 叙事元素（剧情指引）\n4. 技术配置（光照/碰撞）","x":250,"y":150,"width":250,"height":120,"color":"#e6f2ff","text":""},
+		{"id":"support_2","type":"text","content":"### 构建逻辑（UE）\n1. 新建Level文件\n2. 导入场景资源\n3. 配置玩法蓝图\n4. 调试性能","x":250,"y":300,"width":250,"height":100,"color":"#e6f2ff","text":""},
+		{"id":"support_3","type":"text","content":"### 适用范围\n- 单机游戏关卡\n- 联机副本场景\n- 虚拟体验空间","x":250,"y":430,"width":250,"height":80,"color":"#e6f2ff","text":""},
+		{"id":"support_4","type":"text","content":"### 核心特征\n- 独立性（可单独加载）\n- 整合性（聚合多资源）\n- 体验性（聚焦交互）","x":250,"y":550,"width":250,"height":80,"color":"#e6f2ff","text":""},
+		{"id":"app_1","type":"text","content":"### 典型案例（UE解谜关）\n- 场景：森林机关场景\n- 资源：树木/宝箱/机关\n- 玩法：触发机关→开宝箱通关","x":1000,"y":150,"width":250,"height":120,"color":"#fff3e0","text":""},
+		{"id":"app_3","type":"text","content":"### 应用场景\n- 游戏主线关卡\n- 虚拟训练场景\n- 沉浸式互动装置","x":1000,"y":450,"width":250,"height":80,"color":"#fff3e0","text":""},
+		{"id":"relation_1","type":"text","content":"### 前置依赖\n- Actor/Component概念\n- 蓝图基础语法\n- 资源导入规范","x":520,"y":530,"width":200,"height":80,"color":"#e8f5e9","text":""},
+		{"id":"relation_2","type":"text","content":"### 延伸拓展\n- 关卡流（Level Streaming）\n- 动态地形生成\n- 多人关卡同步","x":740,"y":530,"width":200,"height":80,"color":"#e8f5e9","text":""},
+		{"id":"relation_3","type":"text","content":"### 易混淆对比\n| 概念       | 核心区别                     |\n|------------|------------------------------|\n| 关卡（Level） | 完整体验单元（含玩法）| \n| 场景（Scene） | 仅可视化环境（无规则）|","x":520,"y":630,"width":420,"height":100,"color":"#e8f5e9","text":""},
+		{"id":"supplement","type":"text","content":"### 易错点\n1. 避免资源冗余拖慢加载\n2. 玩法逻辑独立封装复用\n3. 测试覆盖多设备性能","x":550,"y":800,"width":320,"height":100,"color":"#fff8e1","text":""},
+		{"id":"center","type":"text","content":"### **关卡（Level）**\n\n游戏开发中承载玩法规则、场景资源、剧情叙事、玩家交互的独立核心单元，是连接「玩家体验」与「开发资源」的关键载体（UE中对应Level文件，整合Actor、Component及逻辑蓝图）","textAlign":"center","x":580,"y":-540,"width":320,"height":180,"color":"#0f4c81","text":""}
+	],
+	"edges":[
+		{"id":"e1","thickness":2,"fromNode":"center","fromSide":"left","toNode":"support_1","toSide":"right","color":"#2e7d32","label":"包含"},
+		{"id":"e2","thickness":2,"fromNode":"center","fromSide":"left","toNode":"support_2","toSide":"right","color":"#2e7d32","label":"推导自"},
+		{"id":"e3","thickness":2,"fromNode":"center","fromSide":"left","toNode":"support_3","toSide":"top","color":"#2e7d32","label":"适配于"},
+		{"id":"e4","thickness":2,"fromNode":"center","fromSide":"bottom","toNode":"support_4","toSide":"top","color":"#2e7d32","label":"具有"},
+		{"id":"e5","thickness":2,"fromNode":"center","fromSide":"right","toNode":"app_1","toSide":"left","color":"#1565c0","label":"应用于"},
+		{"id":"e7","thickness":2,"fromNode":"center","fromSide":"right","toNode":"app_3","toSide":"top","color":"#1565c0","label":"落地于"},
+		{"id":"e8","thickness":2,"fromNode":"relation_1","fromSide":"top","toNode":"center","toSide":"bottom","color":"#1565c0","label":"支撑"},
+		{"id":"e9","thickness":2,"fromNode":"center","fromSide":"bottom","toNode":"relation_2","toSide":"top","color":"#7b1fa2","label":"延伸至"},
+		{"id":"e10","thickness":2,"fromNode":"center","fromSide":"bottom","toNode":"relation_3","toSide":"top","color":"#c62828","label":"区别于"},
+		{"id":"e11","thickness":2,"fromNode":"center","fromSide":"bottom","toNode":"supplement","toSide":"top","color":"#ff8f00","label":"注意"}
+	],
+	"settings":{
+		"grid":{"enabled":true,"size":20},
+		"pan":{"x":0,"y":0},
+		"zoom":1
+	},
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

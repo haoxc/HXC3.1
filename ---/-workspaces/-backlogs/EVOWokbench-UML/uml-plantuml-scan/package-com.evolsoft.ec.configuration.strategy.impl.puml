@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.strategy.impl
+
+class "DefaultStrategyLoader" as C_com_evolsoft_ec_configuration_strategy_impl_DefaultStrategyLoader
+class "ECCFGStrategyFactory" as C_com_evolsoft_ec_configuration_strategy_impl_ECCFGStrategyFactory
+class "ECCFGStrategyPackage" as C_com_evolsoft_ec_configuration_strategy_impl_ECCFGStrategyPackage
+class "ECStrategyConfiguration" as C_com_evolsoft_ec_configuration_strategy_impl_ECStrategyConfiguration
+class "ECStrategyDescriptor" as C_com_evolsoft_ec_configuration_strategy_impl_ECStrategyDescriptor
+class "ECStrategyRefDescriptor" as C_com_evolsoft_ec_configuration_strategy_impl_ECStrategyRefDescriptor
+
+@enduml

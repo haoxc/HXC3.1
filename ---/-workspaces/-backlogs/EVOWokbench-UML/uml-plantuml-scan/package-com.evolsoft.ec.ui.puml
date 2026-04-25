@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.ui
+
+class "ECPlatformUI" as C_com_evolsoft_ec_ui_ECPlatformUI
+class "ECUIImages" as C_com_evolsoft_ec_ui_ECUIImages
+class "ECUIPlugIn" as C_com_evolsoft_ec_ui_ECUIPlugIn
+class "FillWidthLayout" as C_com_evolsoft_ec_ui_FillWidthLayout
+
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.policyTree.view
+
+class "NodeFigure" as C_com_evolsoft_ec_toolbox_policyTree_view_NodeFigure
+class "PolicyTreeContentProvider" as C_com_evolsoft_ec_toolbox_policyTree_view_PolicyTreeContentProvider
+class "PolicyTreeLabelProvider" as C_com_evolsoft_ec_toolbox_policyTree_view_PolicyTreeLabelProvider
+class "PolicyTreeView" as C_com_evolsoft_ec_toolbox_policyTree_view_PolicyTreeView
+class "TreeLayoutActions" as C_com_evolsoft_ec_toolbox_policyTree_view_TreeLayoutActions
+
+C_com_evolsoft_ec_toolbox_policyTree_view_PolicyTreeView --> C_com_evolsoft_ec_toolbox_policyTree_view_PolicyTreeContentProvider
+C_com_evolsoft_ec_toolbox_policyTree_view_PolicyTreeView --> C_com_evolsoft_ec_toolbox_policyTree_view_PolicyTreeLabelProvider
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pbil.configuration.util
+
+class "PBILCFGAdapterFactory" as C_com_evolsoft_ec_pbil_configuration_util_PBILCFGAdapterFactory
+class "PBILCFGSwitch" as C_com_evolsoft_ec_pbil_configuration_util_PBILCFGSwitch
+
+@enduml

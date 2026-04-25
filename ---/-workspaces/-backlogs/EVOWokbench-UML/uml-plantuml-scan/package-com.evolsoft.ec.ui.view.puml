@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.ui.view
+
+class "ECSolutionExplorer" as C_com_evolsoft_ec_ui_view_ECSolutionExplorer
+interface "IFigureExporter" as C_com_evolsoft_ec_ui_view_IFigureExporter
+interface "PluginResourceProvider" as C_com_evolsoft_ec_ui_view_PluginResourceProvider
+class "ResourceManager" as C_com_evolsoft_ec_ui_view_ResourceManager
+class "ResultExporter" as C_com_evolsoft_ec_ui_view_ResultExporter
+class "RunnerSetting" as C_com_evolsoft_ec_ui_view_RunnerSetting
+class "SWTResourceManager" as C_com_evolsoft_ec_ui_view_SWTResourceManager
+class "SolutionConfigLabelProvider" as C_com_evolsoft_ec_ui_view_SolutionConfigLabelProvider
+class "TreeObject" as C_com_evolsoft_ec_ui_view_TreeObject
+class "TreeParent" as C_com_evolsoft_ec_ui_view_TreeParent
+class "ViewContentProvider" as C_com_evolsoft_ec_ui_view_ViewContentProvider
+
+C_com_evolsoft_ec_ui_view_SWTResourceManager <|-- C_com_evolsoft_ec_ui_view_ResourceManager
+C_com_evolsoft_ec_ui_view_TreeObject <|-- C_com_evolsoft_ec_ui_view_TreeParent
+C_com_evolsoft_ec_ui_view_ECSolutionExplorer --> C_com_evolsoft_ec_ui_view_RunnerSetting
+C_com_evolsoft_ec_ui_view_ECSolutionExplorer --> C_com_evolsoft_ec_ui_view_TreeParent
+C_com_evolsoft_ec_ui_view_ResourceManager --> C_com_evolsoft_ec_ui_view_PluginResourceProvider
+C_com_evolsoft_ec_ui_view_SolutionConfigLabelProvider --> C_com_evolsoft_ec_ui_view_RunnerSetting
+C_com_evolsoft_ec_ui_view_SolutionConfigLabelProvider --> C_com_evolsoft_ec_ui_view_TreeParent
+C_com_evolsoft_ec_ui_view_TreeObject --> C_com_evolsoft_ec_ui_view_RunnerSetting
+C_com_evolsoft_ec_ui_view_TreeObject --> C_com_evolsoft_ec_ui_view_TreeParent
+C_com_evolsoft_ec_ui_view_TreeParent --> C_com_evolsoft_ec_ui_view_RunnerSetting
+C_com_evolsoft_ec_ui_view_ViewContentProvider --> C_com_evolsoft_ec_ui_view_RunnerSetting
+C_com_evolsoft_ec_ui_view_ViewContentProvider --> C_com_evolsoft_ec_ui_view_TreeParent
+@enduml

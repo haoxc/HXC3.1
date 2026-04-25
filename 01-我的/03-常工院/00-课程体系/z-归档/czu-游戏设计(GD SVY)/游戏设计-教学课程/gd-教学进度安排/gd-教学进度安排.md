@@ -1,0 +1,136 @@
+---
+aliases:
+---
+
+## 进度安排, 目的,考评
+- `课程设置`
+	- `动机(Motivation)`
+		- 游戏是现实世界*平行映射*, 也是数字世界的主要呈现形式之一, 它以*趣味性*和*参与性*(UE/UX?)等为特点,也是现实世界(Real)与虚拟(Virtual)世界的链接最佳*途径(Approach)*.
+			- *延展*
+				- 新领域
+					- `ris:CheckboxMultipleBlank`
+						- 元宇宙(Metaverse)
+						- 数字孪生(Digital Twins)
+							- 虚拟现实(VR/AR/MR)
+		- Python是*目前世界最好*编程语言, 也是*未来人工智能*和应用(比如游戏场景)结合,探索时间过程中最佳工具之一,尤其是面向非工科专业.
+			- *延展*
+				- [Unreal](https://www.unrealengine.com/en-US/) #3D-Engine #3A
+					- Python, C++
+				- [Unity](https://unity.com/)  
+					- C#(CSharp)
+				- [[Cocos]] 
+	- `目标(Goal)`
+		- 掌握Python编程语言
+		- 熟悉Python游戏引擎
+			- 了解游戏引擎原理
+				- [unity](https://unity.cn/)
+					- c#, csharp, c++, 
+					- javascript 
+				- [Ureal](https://www.unrealengine.com/zh-CN/?lang=zh-CN)(3A)
+					- Unreal
+						- UE4
+					- UE5
+				- [Cocos](https://www.cocos.com/)
+			- 掌握游戏引擎编程
+				- python
+	- `考核(Evaluation)`
+		- 平时分数(50%)
+			- (课堂交互, 作业)
+		- 编程实践(50%)
+			- 禁止Copy(**`恪守`**)
+	- `关联学科(Relations)`
+		- 游戏脚本(Narrative Design) #storytelling 
+		- 交互设计(Interaction Design) #IxD 
+		- 视觉设计(Visual Design)
+		- ...
+- `授课形式`
+	- 知识串讲(20%)
+	- 基本实践(60%)
+	- 问题解答(20%)
+- `组织形式`
+	- *方法* :班级分组(5个人/组)
+- `课程进度`
+	- 第1周    
+		- 第1次
+			- [[A01-游戏引擎课程/Python编程准备/Python环境准备]]
+			- Python编程环境
+		- 第2次
+			- 变量和赋值(Variable, Assignment)
+			- 表达式(Expression)
+			- 运算(Operator)
+	- 第2周
+		- 第1次
+			- 字符串使用
+			- 列表使用
+			- 字典使用
+		- 第2次
+			- 语句(Statement)  
+				- 条件(Conditional)
+				- 循环(Loops)
+	- *第3周* ?
+		- 第1次
+			- 语句(*Statement*)  
+				- 循环(Loops)练习
+			- 函数(Function)
+		- 第2次
+			- 面向对象(OOP)
+				- 属性
+				- 函数
+				- 方法
+	- 第4周
+		- 第1次
+			- 游戏引擎概述
+		- 第2次
+			- 游戏基础知识
+	- 第5周
+		- 第1次 
+			- 游戏引擎Pyglet编程初步
+				- a.	安装 pyglet
+				- b.	Hello world
+				- c.	加载和显示图像或动画
+				- d.	播放音乐和视频		
+		- 第2次
+			- 游戏引擎Pyglet编程初步
+				- e.	键盘和鼠标控制
+				- f.	计划任务
+	- 第6周
+		- 第1次
+			- 游戏引擎Pyglet编程实践
+				- 基本概念
+				- 窗口管理
+				- Surface对象
+				- 图片加载
+		- 第2次
+			- 游戏引擎Pyglet编程实践
+				- 图形绘制
+				- 文字显示
+				- 再议屏幕显示
+				- Rect对象
+				- 事件处理
+	- 第7周
+		- 第1次
+			- 游戏引擎Pyglet编程实践
+				- 图形绘制
+				- 文字显示
+				- 再议屏幕显示
+				- Rect对象
+				- 事件处理		
+		- 第2次
+			- 游戏引擎Pyglet编程实践
+				- 精灵
+				- 碰撞检测
+				- 音效与音乐
+	- 第8周
+		- 第1次
+			- 实践飞机大战
+				- *整体规划*
+				- *脚本设计*
+				- *交互设计*(游戏窗口)
+				- 游戏逻辑(事件,碰撞,屏幕绘制)
+		- 第2次
+			- 实践飞机大战
+				- 子弹
+				- 敌方飞机
+				- 交互组件
+				- 音乐与音效
+				- 异常处理

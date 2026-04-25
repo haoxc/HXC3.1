@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration
+
+interface "ECNatureDescriptor" as C_com_evolsoft_ec_configuration_ECNatureDescriptor
+interface "ECNatureRefDescriptor" as C_com_evolsoft_ec_configuration_ECNatureRefDescriptor
+interface "IECConfigFactory" as C_com_evolsoft_ec_configuration_IECConfigFactory
+interface "IECConfigPackage" as C_com_evolsoft_ec_configuration_IECConfigPackage
+interface "IECNatureDescriptor" as C_com_evolsoft_ec_configuration_IECNatureDescriptor
+interface "IECNatureRefDescriptor" as C_com_evolsoft_ec_configuration_IECNatureRefDescriptor
+interface "Literals" as C_com_evolsoft_ec_configuration_Literals
+class "NatureDescriptorFactory" as C_com_evolsoft_ec_configuration_NatureDescriptorFactory
+
+@enduml

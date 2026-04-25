@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.impl
+
+class "ECConfigFactory" as C_com_evolsoft_ec_configuration_impl_ECConfigFactory
+class "ECConfigPackage" as C_com_evolsoft_ec_configuration_impl_ECConfigPackage
+class "ECNatureDescriptor" as C_com_evolsoft_ec_configuration_impl_ECNatureDescriptor
+class "ECNatureRefDescriptor" as C_com_evolsoft_ec_configuration_impl_ECNatureRefDescriptor
+
+@enduml

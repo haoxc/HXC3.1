@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.diagram.figure
+
+class "CompartmentFigure" as C_com_evolsoft_ec_diagram_figure_CompartmentFigure
+class "CompartmentFigureBorder" as C_com_evolsoft_ec_diagram_figure_CompartmentFigureBorder
+class "UMLClassFigure" as C_com_evolsoft_ec_diagram_figure_UMLClassFigure
+class "UMLClassFigureTest" as C_com_evolsoft_ec_diagram_figure_UMLClassFigureTest
+
+@enduml

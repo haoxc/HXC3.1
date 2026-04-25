@@ -1,0 +1,33 @@
+---
+aliases:
+  - python/类库(py-libs-svy)
+---
+
+### 类库
+- **人工智能**
+	- [[python类库-opencv-python]]
+- Web处理
+	- [[python类库-FastAPI]] 是 Python 高性能 Web 框架，核心优势：**极速开发、自动生成接口文档、强类型校验**，特别适合数媒生快速搭建「素材管理 API」「设计工具后端」等轻量服务。
+	- [[python类库-Uvicorn]] 是 Python 高性能**异步 ASGI 服务器**，专门用于运行 FastAPI、Starlette 等异步 Web 框架，是数媒生搭建素材管理 API、设计工具后端的核心工具。核心优势：轻量、异步高并发、热重载
+- 包管理器
+	- [[uv-包管理器]]
+- 可视化
+	- [[py-可视化(归纳)]]
+		- [[kaleido]]
+	- 数据面板
+		- [[Plotpy-dash]]
+- 数据科学和统计
+	- [[numpy-数据处理]]
+	- [[Pandas]]
+	- [[seanborn]]
+	- statsmodels
+- 图形与信号处理
+	- Scikit-image
+	- OpenCV
+	- SciPy
+- **深度学习与 AI：**
+	- PyTorch
+	- TensorFlow
+	- JAX (支持 GPU/TPU 加速)
+	- [[PyVista]]
+- 

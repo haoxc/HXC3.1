@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.runtime.monitor
+
+interface "ICRTMonitorFactory" as C_com_evolsoft_core_runtime_monitor_ICRTMonitorFactory
+interface "ICRTMonitorPackage" as C_com_evolsoft_core_runtime_monitor_ICRTMonitorPackage
+interface "IDumpable" as C_com_evolsoft_core_runtime_monitor_IDumpable
+interface "IDumpableEx" as C_com_evolsoft_core_runtime_monitor_IDumpableEx
+interface "IMonitorActivator" as C_com_evolsoft_core_runtime_monitor_IMonitorActivator
+interface "IMonitorPointProvider" as C_com_evolsoft_core_runtime_monitor_IMonitorPointProvider
+interface "IStatisticsActivator" as C_com_evolsoft_core_runtime_monitor_IStatisticsActivator
+interface "Literals" as C_com_evolsoft_core_runtime_monitor_Literals
+
+C_com_evolsoft_core_runtime_monitor_IMonitorActivator <|-- C_com_evolsoft_core_runtime_monitor_IStatisticsActivator
+@enduml

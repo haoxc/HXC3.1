@@ -1,0 +1,36 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.utils.csv
+
+class "CSVBlockData" as C_com_evolsoft_core_utils_csv_CSVBlockData
+class "CSVDataEvent" as C_com_evolsoft_core_utils_csv_CSVDataEvent
+class "CSVLineDataItem" as C_com_evolsoft_core_utils_csv_CSVLineDataItem
+class "CSVLoadingReader" as C_com_evolsoft_core_utils_csv_CSVLoadingReader
+class "CSVStreamBase" as C_com_evolsoft_core_utils_csv_CSVStreamBase
+class "CSVTracingReaderBase" as C_com_evolsoft_core_utils_csv_CSVTracingReaderBase
+class "CSVUtils" as C_com_evolsoft_core_utils_csv_CSVUtils
+class "CSVWriter" as C_com_evolsoft_core_utils_csv_CSVWriter
+interface "ICSVFileFormat" as C_com_evolsoft_core_utils_csv_ICSVFileFormat
+interface "ICSVReader" as C_com_evolsoft_core_utils_csv_ICSVReader
+interface "ICSVWriter" as C_com_evolsoft_core_utils_csv_ICSVWriter
+interface "ISwitchCase" as C_com_evolsoft_core_utils_csv_ISwitchCase
+class "InvalidCSVDataException" as C_com_evolsoft_core_utils_csv_InvalidCSVDataException
+interface "Parser" as C_com_evolsoft_core_utils_csv_Parser
+class "ProblemCSVReaderBase" as C_com_evolsoft_core_utils_csv_ProblemCSVReaderBase
+class "SwitchParsingException" as C_com_evolsoft_core_utils_csv_SwitchParsingException
+interface "Token" as C_com_evolsoft_core_utils_csv_Token
+class "TokenSwitch" as C_com_evolsoft_core_utils_csv_TokenSwitch
+class "UnicodeInputStream" as C_com_evolsoft_core_utils_csv_UnicodeInputStream
+
+C_com_evolsoft_core_utils_csv_CSVStreamBase <|-- C_com_evolsoft_core_utils_csv_CSVLoadingReader
+C_com_evolsoft_core_utils_csv_CSVStreamBase <|-- C_com_evolsoft_core_utils_csv_CSVTracingReaderBase
+C_com_evolsoft_core_utils_csv_CSVStreamBase <|-- C_com_evolsoft_core_utils_csv_CSVWriter
+C_com_evolsoft_core_utils_csv_CSVTracingReaderBase <|-- C_com_evolsoft_core_utils_csv_ProblemCSVReaderBase
+C_com_evolsoft_core_utils_csv_ICSVReader <|.. C_com_evolsoft_core_utils_csv_CSVLoadingReader
+C_com_evolsoft_core_utils_csv_ICSVReader <|.. C_com_evolsoft_core_utils_csv_CSVTracingReaderBase
+C_com_evolsoft_core_utils_csv_ICSVWriter <|.. C_com_evolsoft_core_utils_csv_CSVWriter
+C_com_evolsoft_core_utils_csv_CSVLoadingReader --> C_com_evolsoft_core_utils_csv_CSVBlockData
+C_com_evolsoft_core_utils_csv_CSVTracingReaderBase --> C_com_evolsoft_core_utils_csv_TokenSwitch
+C_com_evolsoft_core_utils_csv_TokenSwitch --> C_com_evolsoft_core_utils_csv_ISwitchCase
+@enduml

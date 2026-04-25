@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"96a93c7c10538273","type":"group","x":200,"y":-220,"width":440,"height":853,"color":"1","label":"xxxx"},
+		{
+			"id":"4d34cbdfef21b882",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":220,
+			"y":-200,
+			"width":260,
+			"height":60
+		},
+		{"id":"b0dd05af4a3167be","type":"file","file":"01-我的空间/01-项目管理/止善研究院项目看板/ZS-平台规划/--/P01-止善25冲刺/z附件/Pasted Image 20260106161432_377.png","x":220,"y":400,"width":400,"height":213},
+		{"id":"702d6ed36c67c054","type":"file","file":"01-我的空间/01-项目管理/止善研究院项目看板/ZS-平台规划/--/P01-止善25冲刺/z附件/Pasted Image 20260106161432_377.png","x":220,"y":0,"width":400,"height":213},
+		{"id":"73773c33d7961f70","type":"file","file":"01-我的空间/01-项目管理/止善研究院项目看板/ZS-平台规划/--/P01-止善25冲刺/z附件/Pasted Image 20260106161432_377.png","x":-760,"y":-276,"width":400,"height":213},
+		{"id":"6f9c98133906f3d6","type":"file","file":"---/TEST/xxxxx.md","x":1080,"y":-200,"width":340,"height":267}
+	],
+	"edges":[
+		{
+			"id":"acecac1d7a56ad68",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"73773c33d7961f70",
+			"fromSide":"right",
+			"toNode":"4d34cbdfef21b882",
+			"toSide":"left",
+			"label":"xccc"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

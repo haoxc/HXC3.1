@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.styles.util
+
+class "StylesAdapterFactory" as C_com_evolsoft_ec_toolbox_styles_util_StylesAdapterFactory
+class "StylesSwitch" as C_com_evolsoft_ec_toolbox_styles_util_StylesSwitch
+
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.util
+
+class "ECConfigAdapterFactory" as C_com_evolsoft_ec_configuration_util_ECConfigAdapterFactory
+class "ECConfigSwitch" as C_com_evolsoft_ec_configuration_util_ECConfigSwitch
+
+@enduml

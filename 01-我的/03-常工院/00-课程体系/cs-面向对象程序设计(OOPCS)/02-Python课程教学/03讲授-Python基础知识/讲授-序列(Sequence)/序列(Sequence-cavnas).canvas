@@ -1,0 +1,104 @@
+{
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"f0805e9a1214c9e1"
+	},
+	"nodes":[
+		{"id":"bf3fd03755ecd30c","type":"group","x":-1020,"y":-240,"width":5370,"height":1240,"color":"6","label":"元组要点"},
+		{"id":"7563a8f99a56e749","type":"group","x":160,"y":-2080,"width":820,"height":1540,"color":"3","label":"操作"},
+		{"id":"c228447de1d43627","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/04-Python知识卡片/py-序列(sequence)/py-序列(sequence).md","subpath":"#概述","x":-1010,"y":-1950,"width":870,"height":549,"color":"3"},
+		{
+			"id":"20b581a093775a6c",
+			"type":"text",
+			"text":"> [!ERROR] 易错点\n    > - 空集合定义用 `set()` ，**而非** `{}`\n    \n",
+			"styleAttributes":{},
+			"x":160,
+			"y":-520,
+			"width":810,
+			"height":200
+		},
+		{
+			"id":"99ea6f1dce147b37",
+			"type":"text",
+			"text":"### 删除\n- `pop ()`:  是列表、字典等对象的方法，删除指定元素后**会返回被删除的元素**。\n- `del（）`：用于删除对象（变量、列表元素、字典键值对等），**无返回值**。\n\n### 对比\n\n| 对比项  | `del`（语句）            | `pop`（方法）             |\n| ---- | -------------------- | --------------------- |\n| 返回值  | 无                    | 有（返回被删除的元素）           |\n| 使用方式 | 直接跟对象（如`del lst[0]`） | 调用对象方法（如`lst.pop(0)`） |\n| 灵活性  | 可删除变量、切片等            | 更专注于按索引 / 键删除元素       |\n| 报错处理 | 删除不存在的元素会直接报错        | 字典`pop`可设默认值避免报错      |",
+			"styleAttributes":{},
+			"x":190,
+			"y":-1740,
+			"width":780,
+			"height":820
+		},
+		{"id":"ab15d058eb5ceefb","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/02-Python课程教学/03讲授-Python基础知识/讲授-序列(Sequence)/操作符-成员关系(in).md","subpath":"#成员关系(in)","x":190,"y":-842,"width":780,"height":262},
+		{
+			"id":"43f516bdf971babc",
+			"type":"text",
+			"text":"### 增加\n- `append(x)`：在列表末尾添加**单个元素 x**（x 可以是任何类型，包括列表等可迭代对象，会被当作整体添加）。\n- `insert(index, x)`：在列表的**指定索引位置 index**插入单个元素 x，原位置及后续元素后移。\n- `extend(iterable)`：将**可迭代对象（如列表、元组）中的每个元素**逐个添加到列表末尾，相当于 “扩展” 列表。",
+			"styleAttributes":{},
+			"x":190,
+			"y":-2049,
+			"width":780,
+			"height":279
+		},
+		{
+			"id":"dac2ea4afd7e08a8",
+			"type":"text",
+			"text":"## 序列类型\n- [[py-元组(Tuple)|元组(Tuple)]]：一个变量保存**多项的值**，一种不可变的有序序列，用于存储一组不可修改的元素 ；\n- [[py-集合(Set)|集合(Set)]]：`{value1,..., valuen}` ：一种`无序`、`元素唯一`的容器，用于存储不重复元素并支持交集、并集等集合运算；\n- [[py-列表(List)|列表(List)]]： 一种可变的有序序列，可存储任意类型且允许重复的元素，支持动态增删改操作\n- [[py-字典(Dict)]]： 无序的 **键(key) : 值(value)** 的集合",
+			"styleAttributes":{},
+			"x":-1010,
+			"y":-1209,
+			"width":870,
+			"height":498,
+			"color":"3"
+		},
+		{"id":"f20583fd8806db5f","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/04-Python知识卡片/py-序列(sequence)/py-元组(Tuple)/py-元组(Tuple).md","subpath":"#定义","x":-1010,"y":-160,"width":1010,"height":1080,"color":"5"},
+		{"id":"f4ca73d3792956cc","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/04-Python知识卡片/py-序列(sequence)/py-元组(Tuple)/py-元组(Tuple).md","subpath":"#操作","x":80,"y":-160,"width":1000,"height":1080,"color":"5"},
+		{"id":"c0b2bb969eb9a7da","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/04-Python知识卡片/py-序列(sequence)/py-元组(Tuple)/实践-元组练习/实践-元组练习.md","subpath":"#练习 1：创建不同类型的元组","x":1160,"y":-160,"width":1000,"height":1080,"color":"5"},
+		{"id":"5a266e02142fc765","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/04-Python知识卡片/py-序列(sequence)/py-元组(Tuple)/实践-元组练习/实践-元组练习.md","subpath":"#练习 2：元组的访问与切片","x":2240,"y":-160,"width":1000,"height":1080,"color":"5"},
+		{"id":"bf0ebeaf87484894","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/04-Python知识卡片/py-序列(sequence)/py-元组(Tuple)/实践-元组练习/实践-元组练习.md","subpath":"#练习 3：元组的不可变性验证","x":3320,"y":-160,"width":1000,"height":1080,"color":"5"}
+	],
+	"edges":[
+		{
+			"id":"38caff48f169fb9f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"dac2ea4afd7e08a8",
+			"fromSide":"right",
+			"toNode":"43f516bdf971babc",
+			"toSide":"left",
+			"color":"6",
+			"label":"增加元素"
+		},
+		{
+			"id":"776119604cbcd8e9",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"dac2ea4afd7e08a8",
+			"fromSide":"right",
+			"toNode":"99ea6f1dce147b37",
+			"toSide":"left",
+			"color":"6",
+			"label":"删除"
+		},
+		{
+			"id":"a8812821a8fc183e",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"dac2ea4afd7e08a8",
+			"fromSide":"right",
+			"toNode":"20b581a093775a6c",
+			"toSide":"left",
+			"color":"1",
+			"label":"易错点"
+		},
+		{
+			"id":"ab92b27a2c546b4a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"dac2ea4afd7e08a8",
+			"fromSide":"right",
+			"toNode":"ab15d058eb5ceefb",
+			"toSide":"left"
+		}
+	]
+}

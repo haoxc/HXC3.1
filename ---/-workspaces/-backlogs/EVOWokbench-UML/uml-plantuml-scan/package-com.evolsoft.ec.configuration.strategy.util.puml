@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.strategy.util
+
+class "ECCFGStrategyAdapterFactory" as C_com_evolsoft_ec_configuration_strategy_util_ECCFGStrategyAdapterFactory
+class "ECCFGStrategySwitch" as C_com_evolsoft_ec_configuration_strategy_util_ECCFGStrategySwitch
+class "ECStrategyServiceFactory" as C_com_evolsoft_ec_configuration_strategy_util_ECStrategyServiceFactory
+
+@enduml

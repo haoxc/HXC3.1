@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.report
+
+class "AbstractReporterBase" as C_com_evolsoft_ec_runtime_report_AbstractReporterBase
+interface "IFitnessStatisticListener" as C_com_evolsoft_ec_runtime_report_IFitnessStatisticListener
+interface "IParetoReporter" as C_com_evolsoft_ec_runtime_report_IParetoReporter
+interface "IReport" as C_com_evolsoft_ec_runtime_report_IReport
+interface "ISingleObjectiveExportToken" as C_com_evolsoft_ec_runtime_report_ISingleObjectiveExportToken
+class "ParetoExportException" as C_com_evolsoft_ec_runtime_report_ParetoExportException
+
+C_com_evolsoft_ec_runtime_report_IReport <|-- C_com_evolsoft_ec_runtime_report_IParetoReporter
+C_com_evolsoft_ec_runtime_report_IReport <|.. C_com_evolsoft_ec_runtime_report_AbstractReporterBase
+@enduml

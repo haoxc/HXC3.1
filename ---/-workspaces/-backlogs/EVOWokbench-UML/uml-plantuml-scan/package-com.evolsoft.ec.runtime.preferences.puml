@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.preferences
+
+class "ExperimentExportItem" as C_com_evolsoft_ec_runtime_preferences_ExperimentExportItem
+class "ExperimentExportSetting" as C_com_evolsoft_ec_runtime_preferences_ExperimentExportSetting
+class "ExportException" as C_com_evolsoft_ec_runtime_preferences_ExportException
+class "PreferenceInitializer" as C_com_evolsoft_ec_runtime_preferences_PreferenceInitializer
+
+@enduml

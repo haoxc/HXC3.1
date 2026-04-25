@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.assmnt
+
+class "AssMntActivator" as C_com_evolsoft_assmnt_AssMntActivator
+
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Module: com.evolsoft.ec.ui.EditorEx
+
+class "EditorExPlugin" as C_com_evolsoft_ec_ui_editorex_EditorExPlugin
+class "GanttChartPage" as C_com_evolsoft_ec_ui_editorex_gattchart_GanttChartPage
+class "GattchartEditor" as C_com_evolsoft_ec_ui_editorex_gattchart_GattchartEditor
+interface "that" as C_com_evolsoft_ec_ui_editorex_gattchart_that
+
+C_com_evolsoft_ec_ui_editorex_gattchart_GattchartEditor --> C_com_evolsoft_ec_ui_editorex_gattchart_GanttChartPage
+C_com_evolsoft_ec_ui_editorex_gattchart_that --> C_com_evolsoft_ec_ui_editorex_gattchart_GanttChartPage
+@enduml

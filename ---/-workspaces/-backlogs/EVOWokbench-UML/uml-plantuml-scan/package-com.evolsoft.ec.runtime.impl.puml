@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.impl
+
+class "ECAppComponent" as C_com_evolsoft_ec_runtime_impl_ECAppComponent
+class "ECComponent" as C_com_evolsoft_ec_runtime_impl_ECComponent
+class "ECContextBase" as C_com_evolsoft_ec_runtime_impl_ECContextBase
+class "ECOperation" as C_com_evolsoft_ec_runtime_impl_ECOperation
+class "ECRuntimeFactory" as C_com_evolsoft_ec_runtime_impl_ECRuntimeFactory
+class "ECRuntimePackage" as C_com_evolsoft_ec_runtime_impl_ECRuntimePackage
+class "ECSyncAppComponent" as C_com_evolsoft_ec_runtime_impl_ECSyncAppComponent
+class "ECSyncIdentifiableObject" as C_com_evolsoft_ec_runtime_impl_ECSyncIdentifiableObject
+
+C_com_evolsoft_ec_runtime_impl_ECComponent <|-- C_com_evolsoft_ec_runtime_impl_ECOperation
+C_com_evolsoft_ec_runtime_impl_ECAppComponent <|-- C_com_evolsoft_ec_runtime_impl_ECSyncAppComponent
+C_com_evolsoft_ec_runtime_impl_ECContextBase <|-- C_com_evolsoft_ec_runtime_impl_ECSyncIdentifiableObject
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.component
+
+interface "IECComponentAction" as C_com_evolsoft_ec_runtime_component_IECComponentAction
+interface "IECComponentActionManager" as C_com_evolsoft_ec_runtime_component_IECComponentActionManager
+interface "IECRTComponentFactory" as C_com_evolsoft_ec_runtime_component_IECRTComponentFactory
+interface "IECRTComponentPackage" as C_com_evolsoft_ec_runtime_component_IECRTComponentPackage
+interface "Literals" as C_com_evolsoft_ec_runtime_component_Literals
+
+@enduml

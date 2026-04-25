@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pbil.configuration.impl
+
+class "PBILCFGFactory" as C_com_evolsoft_ec_pbil_configuration_impl_PBILCFGFactory
+class "PBILCFGPackage" as C_com_evolsoft_ec_pbil_configuration_impl_PBILCFGPackage
+class "PBILConfiguration" as C_com_evolsoft_ec_pbil_configuration_impl_PBILConfiguration
+class "PBILConfigurationLoader" as C_com_evolsoft_ec_pbil_configuration_impl_PBILConfigurationLoader
+
+@enduml

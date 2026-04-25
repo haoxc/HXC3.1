@@ -1,0 +1,12 @@
+{
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"8d87979934a07ccd"
+	},
+	"nodes":[
+		{"id":"c1d67cf223758ee8","type":"group","ratio":1.7777777777777777,"x":-1680,"y":-100,"width":1200,"height":675,"label":"New Slide"},
+		{"id":"2d3ba67ae7408743","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/02-Python课程教学/04讲授-Python面向对象/讲授-类库, 包,模块/Slide-包(Pakcage).canvas","portal":false,"x":-1840,"y":-200,"width":1520,"height":899}
+	],
+	"edges":[]
+}

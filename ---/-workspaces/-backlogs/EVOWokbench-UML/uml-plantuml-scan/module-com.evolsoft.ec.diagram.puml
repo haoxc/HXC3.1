@@ -1,0 +1,23 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Module: com.evolsoft.ec.diagram
+
+class "Activator" as C_com_evolsoft_ec_diagram_Activator
+class "GraphContentProvider" as C_com_evolsoft_ec_diagram_GraphContentProvider
+class "GraphLabelProvider" as C_com_evolsoft_ec_diagram_GraphLabelProvider
+class "GraphViewerEx" as C_com_evolsoft_ec_diagram_GraphViewerEx
+interface "IGraphLabelProviderEx" as C_com_evolsoft_ec_diagram_IGraphLabelProviderEx
+interface "IGraphViewContainer" as C_com_evolsoft_ec_diagram_IGraphViewContainer
+class "CompartmentFigure" as C_com_evolsoft_ec_diagram_figure_CompartmentFigure
+class "CompartmentFigureBorder" as C_com_evolsoft_ec_diagram_figure_CompartmentFigureBorder
+class "UMLClassFigure" as C_com_evolsoft_ec_diagram_figure_UMLClassFigure
+class "UMLClassFigureTest" as C_com_evolsoft_ec_diagram_figure_UMLClassFigureTest
+interface "PluginResourceProvider" as C_org_eclipse_wb_swt_PluginResourceProvider
+class "ResourceManager" as C_org_eclipse_wb_swt_ResourceManager
+class "SWTResourceManager" as C_org_eclipse_wb_swt_SWTResourceManager
+
+C_com_evolsoft_ec_diagram_IGraphLabelProviderEx <|.. C_com_evolsoft_ec_diagram_GraphLabelProvider
+C_com_evolsoft_ec_diagram_GraphLabelProvider --> C_com_evolsoft_ec_diagram_IGraphViewContainer
+C_com_evolsoft_ec_diagram_GraphViewerEx --> C_com_evolsoft_ec_diagram_IGraphLabelProviderEx
+@enduml

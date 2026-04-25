@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.problem.rcpsp.model.objectives
+
+class "Makespan" as C_com_evolsoft_ec_problem_rcpsp_model_objectives_Makespan
+class "WorkBalancing" as C_com_evolsoft_ec_problem_rcpsp_model_objectives_WorkBalancing
+
+@enduml

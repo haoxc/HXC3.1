@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: xstream_v1_3_1
+
+class "Activator" as C_xstream_v1_3_1_Activator
+
+@enduml

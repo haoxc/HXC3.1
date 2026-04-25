@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.component.util
+
+class "ECCFGComponentAdapterFactory" as C_com_evolsoft_ec_configuration_component_util_ECCFGComponentAdapterFactory
+class "ECCFGComponentSwitch" as C_com_evolsoft_ec_configuration_component_util_ECCFGComponentSwitch
+
+@enduml

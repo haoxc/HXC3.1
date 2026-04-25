@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{
+			"id":"4b9e3cdf7d8c4579",
+			"type":"text",
+			"text":"## 豆包集成",
+			"styleAttributes":{},
+			"x":-520,
+			"y":-160,
+			"width":180,
+			"height":80
+		},
+		{
+			"id":"b77bd94a91b4acb3",
+			"type":"text",
+			"text":"## ob集成豆包\n- [x] 申请[豆包大模型 API](https://console.volcengine.com/ark/region:ark+cn-beijing/experience?)-  [completion:: 2025-12-02]\n\t- [[豆包-apikey(hxc)]]\n- [x] 下载ob的插件**Adavance URI**\n- 配置\n\t- [ ] [[ob-配置豆包API]]",
+			"styleAttributes":{},
+			"x":-200,
+			"y":-240,
+			"width":300,
+			"height":280
+		}
+	],
+	"edges":[
+		{
+			"id":"63abf088d975588f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4b9e3cdf7d8c4579",
+			"fromSide":"right",
+			"toNode":"b77bd94a91b4acb3",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

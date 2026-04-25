@@ -1,0 +1,84 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.decision
+
+interface "CostControlProvider" as C_com_evolsoft_problem_decision_CostControlProvider
+interface "CostControlProvider (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_CostControlProvider__dup2
+enum "CostMode" as C_com_evolsoft_problem_decision_CostMode
+enum "CostMode (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_CostMode__dup2
+interface "DecisionAttributes" as C_com_evolsoft_problem_decision_DecisionAttributes
+interface "DecisionAttributes (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_DecisionAttributes__dup2
+interface "DecisionBase" as C_com_evolsoft_problem_decision_DecisionBase
+interface "DecisionBase (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_DecisionBase__dup2
+interface "DecisionContext" as C_com_evolsoft_problem_decision_DecisionContext
+interface "DecisionFactory" as C_com_evolsoft_problem_decision_DecisionFactory
+interface "DecisionFactory (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_DecisionFactory__dup2
+interface "DecisionManager" as C_com_evolsoft_problem_decision_DecisionManager
+interface "DecisionPackage" as C_com_evolsoft_problem_decision_DecisionPackage
+interface "DecisionPolicy" as C_com_evolsoft_problem_decision_DecisionPolicy
+interface "DecisionPolicy (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_DecisionPolicy__dup2
+interface "DisassembleAction" as C_com_evolsoft_problem_decision_DisassembleAction
+interface "DisassembleAction (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_DisassembleAction__dup2
+interface "IDecisionGeneValueFactory" as C_com_evolsoft_problem_decision_IDecisionGeneValueFactory
+interface "IDecisionGeneValueFactory (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_IDecisionGeneValueFactory__dup2
+interface "IFJSP2Solution" as C_com_evolsoft_problem_decision_IFJSP2Solution
+interface "IFJSP2Solution (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_IFJSP2Solution__dup2
+interface "IGeneValue" as C_com_evolsoft_problem_decision_IGeneValue
+interface "IOperationDecisionItem" as C_com_evolsoft_problem_decision_IOperationDecisionItem
+interface "IOperationDecisionItem (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_IOperationDecisionItem__dup2
+interface "JobStatus" as C_com_evolsoft_problem_decision_JobStatus
+interface "JobStatus (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_JobStatus__dup2
+interface "Literals" as C_com_evolsoft_problem_decision_Literals
+interface "MachineDecision" as C_com_evolsoft_problem_decision_MachineDecision
+interface "MachineDecisionPolicy" as C_com_evolsoft_problem_decision_MachineDecisionPolicy
+interface "MachineDecisionPolicy (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_MachineDecisionPolicy__dup2
+interface "MachineDecision (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_MachineDecision__dup2
+interface "MachineSeizer" as C_com_evolsoft_problem_decision_MachineSeizer
+interface "MachineSeizer (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_MachineSeizer__dup2
+interface "MachineStatus" as C_com_evolsoft_problem_decision_MachineStatus
+interface "MachineStatusManager" as C_com_evolsoft_problem_decision_MachineStatusManager
+interface "MachineStatusManager (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_MachineStatusManager__dup2
+interface "MachineStatus (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_MachineStatus__dup2
+interface "MachineStorage" as C_com_evolsoft_problem_decision_MachineStorage
+interface "MachineStorage (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_MachineStorage__dup2
+interface "OperationDecision" as C_com_evolsoft_problem_decision_OperationDecision
+interface "OperationDecisionFactory" as C_com_evolsoft_problem_decision_OperationDecisionFactory
+interface "OperationDecisionFactory (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_OperationDecisionFactory__dup2
+interface "OperationDecisionPolicy" as C_com_evolsoft_problem_decision_OperationDecisionPolicy
+interface "OperationDecisionPolicy (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_OperationDecisionPolicy__dup2
+interface "OperationDecision (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_OperationDecision__dup2
+interface "ProductDecision" as C_com_evolsoft_problem_decision_ProductDecision
+interface "ProductDecision (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ProductDecision__dup2
+interface "ResDecisionPolicy" as C_com_evolsoft_problem_decision_ResDecisionPolicy
+interface "ResDecisionPolicy (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ResDecisionPolicy__dup2
+class "ResourceBox" as C_com_evolsoft_problem_decision_ResourceBox
+class "ResourceBox (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ResourceBox__dup2
+interface "ResourceDecision" as C_com_evolsoft_problem_decision_ResourceDecision
+interface "ResourceDecisionList" as C_com_evolsoft_problem_decision_ResourceDecisionList
+interface "ResourceDecisionList (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ResourceDecisionList__dup2
+interface "ResourceDecisionSummary" as C_com_evolsoft_problem_decision_ResourceDecisionSummary
+interface "ResourceDecisionSummary (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ResourceDecisionSummary__dup2
+interface "ResourceDecision (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ResourceDecision__dup2
+interface "ResourceSeizer" as C_com_evolsoft_problem_decision_ResourceSeizer
+interface "ResourceSeizer (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ResourceSeizer__dup2
+interface "ResourceStatus" as C_com_evolsoft_problem_decision_ResourceStatus
+interface "ResourceStatusManager" as C_com_evolsoft_problem_decision_ResourceStatusManager
+interface "ResourceStatusManager (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ResourceStatusManager__dup2
+interface "ResourceStatus (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ResourceStatus__dup2
+interface "ResourceStorage" as C_com_evolsoft_problem_decision_ResourceStorage
+interface "ResourceStorageDecision" as C_com_evolsoft_problem_decision_ResourceStorageDecision
+interface "ResourceStorageDecision (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ResourceStorageDecision__dup2
+interface "ResourceStorage (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_ResourceStorage__dup2
+interface "StatusBase" as C_com_evolsoft_problem_decision_StatusBase
+interface "StatusBase (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_StatusBase__dup2
+enum "StatusFlag" as C_com_evolsoft_problem_decision_StatusFlag
+enum "StatusFlag (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_StatusFlag__dup2
+interface "Storage" as C_com_evolsoft_problem_decision_Storage
+interface "Storage (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_Storage__dup2
+class "initSequence" as C_com_evolsoft_problem_decision_initSequence
+class "initSequence (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_decision_initSequence__dup2
+
+C_com_evolsoft_problem_decision_initSequence --> C_com_evolsoft_problem_decision_DecisionContext
+C_com_evolsoft_problem_decision_initSequence__dup2 --> C_com_evolsoft_problem_decision_DecisionManager
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.problem.rcpsp.uncertainModel.objectives
+
+class "Makespan" as C_com_evolsoft_ec_problem_rcpsp_uncertainModel_objectives_Makespan
+class "PMIAbstractRobustReviewer" as C_com_evolsoft_ec_problem_rcpsp_uncertainModel_objectives_PMIAbstractRobustReviewer
+class "PMIExpectedMakespan" as C_com_evolsoft_ec_problem_rcpsp_uncertainModel_objectives_PMIExpectedMakespan
+class "PMIRobust" as C_com_evolsoft_ec_problem_rcpsp_uncertainModel_objectives_PMIRobust
+
+C_com_evolsoft_ec_problem_rcpsp_uncertainModel_objectives_PMIAbstractRobustReviewer <|-- C_com_evolsoft_ec_problem_rcpsp_uncertainModel_objectives_PMIExpectedMakespan
+@enduml

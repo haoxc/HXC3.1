@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.ui.editor.actions
+
+class "CheckAllAction" as C_com_evolsoft_ec_ui_editor_actions_CheckAllAction
+class "EnableAction" as C_com_evolsoft_ec_ui_editor_actions_EnableAction
+class "ShowParetoAction" as C_com_evolsoft_ec_ui_editor_actions_ShowParetoAction
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.utils
+
+class "ECAsserter" as C_com_evolsoft_ec_utils_ECAsserter
+class "ECConsole" as C_com_evolsoft_ec_utils_ECConsole
+class "ECConsoleWriter" as C_com_evolsoft_ec_utils_ECConsoleWriter
+class "ECUtilsEx" as C_com_evolsoft_ec_utils_ECUtilsEx
+class "InitorHelper" as C_com_evolsoft_ec_utils_InitorHelper
+class "Mutex" as C_com_evolsoft_ec_utils_Mutex
+class "PriorityBasedInitor" as C_com_evolsoft_ec_utils_PriorityBasedInitor
+class "RDUtils" as C_com_evolsoft_ec_utils_RDUtils
+class "RandomKeyInitor" as C_com_evolsoft_ec_utils_RandomKeyInitor
+class "Specices" as C_com_evolsoft_ec_utils_Specices
+interface "Sync" as C_com_evolsoft_ec_utils_Sync
+
+C_com_evolsoft_ec_utils_Sync <|.. C_com_evolsoft_ec_utils_Mutex
+@enduml

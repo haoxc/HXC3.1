@@ -1,0 +1,86 @@
+{
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	},
+	"nodes":[
+		{"id":"c3f9a42506cce5a4","type":"group","x":-780,"y":-260,"width":1360,"height":589,"label":"未命名组"},
+		{"id":"62b332b15e811fef","type":"group","x":-760,"y":360,"width":1360,"height":540,"color":"1","label":"未命名组"},
+		{"id":"a62d602182b8f52e","type":"file","file":"z附件/Pasted image 20260407171901.png","x":160,"y":-240,"width":400,"height":235},
+		{
+			"id":"3a5e8d3ee0ae62d5",
+			"type":"text",
+			"text":"大数据技术与应用",
+			"styleAttributes":{},
+			"x":-760,
+			"y":-77,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"f93ca213cf3d2199",
+			"type":"text",
+			"text":"## 大数据介绍\n- 什么是大数据    #hxc/czu/考试重点\n- 大数据特征\n- 大数据意义",
+			"styleAttributes":{},
+			"x":-420,
+			"y":-197,
+			"width":260,
+			"height":337,
+			"color":"6"
+		},
+		{"id":"4ea9843460461de7","type":"file","file":"z附件/Pasted image 20260407171949.png","x":160,"y":80,"width":400,"height":229},
+		{
+			"id":"0089e0ba3ee5abd7",
+			"type":"text",
+			"text":"### ABCD\n- ",
+			"styleAttributes":{},
+			"x":280,
+			"y":380,
+			"width":300,
+			"height":280
+		},
+		{
+			"id":"3a5f237cb2bd7132",
+			"type":"text",
+			"text":"## 应用\n- [[零售]]\n- 政治",
+			"styleAttributes":{},
+			"x":150,
+			"y":660,
+			"width":420,
+			"height":220
+		}
+	],
+	"edges":[
+		{
+			"id":"446f130c46dc4253",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"3a5e8d3ee0ae62d5",
+			"fromSide":"right",
+			"toNode":"f93ca213cf3d2199",
+			"toSide":"left"
+		},
+		{
+			"id":"91312ae12d498205",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"f93ca213cf3d2199",
+			"fromSide":"right",
+			"toNode":"a62d602182b8f52e",
+			"toSide":"left",
+			"label":"本质"
+		},
+		{
+			"id":"51869bff5ac3681e",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"f93ca213cf3d2199",
+			"fromSide":"right",
+			"toNode":"4ea9843460461de7",
+			"toSide":"left",
+			"label":"特征\n\n"
+		}
+	]
+}

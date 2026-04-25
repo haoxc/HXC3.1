@@ -1,0 +1,67 @@
+views:
+  - type: table
+    name: 哲学(Phi)
+    filters:
+      and:
+        - type == "term"
+        - file.folder == "03-领域/01-哲学体系/哲学术语汇编"
+    order:
+      - file.name
+      - category
+      - description
+      - tags
+      - aliases
+      - file.tags
+    sort:
+      - property: description
+        direction: DESC
+      - property: file.name
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: category
+        direction: ASC
+      - property: aliases
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 127
+      note.description: 283
+      note.tags: 95
+      note.aliases: 214
+    rowHeight: medium
+  - type: table
+    name: 哲学(Phi) -ALL
+    filters:
+      and:
+        - type == "term"
+        - file.folder.containsAny("03-领域/01-哲学体系/哲学术语汇编")
+    order:
+      - file.name
+      - category
+      - description
+      - tags
+      - aliases
+      - file.tags
+    sort:
+      - property: description
+        direction: DESC
+      - property: file.name
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: category
+        direction: ASC
+      - property: aliases
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 127
+      note.description: 283
+      note.tags: 95
+      note.aliases: 214
+    rowHeight: medium

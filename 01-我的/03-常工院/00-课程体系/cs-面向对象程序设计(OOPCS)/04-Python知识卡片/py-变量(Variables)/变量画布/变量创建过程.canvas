@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"216715ed92a0f394","type":"text","text":"变量","x":-320,"y":-500,"width":165,"height":50,"color":"4"},
+		{"id":"81335295d7e2fa86","type":"text","text":"变量值","x":-155,"y":-500,"width":165,"height":50,"color":"4"},
+		{"id":"bbe258f52582f09c","type":"text","text":"a = 120","x":-720,"y":-500,"width":140,"height":50,"color":"4"}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.policyTree
+
+interface "Literals" as C_com_evolsoft_ec_toolbox_policyTree_Literals
+interface "PTItem" as C_com_evolsoft_ec_toolbox_policyTree_PTItem
+interface "PTPolicyTree" as C_com_evolsoft_ec_toolbox_policyTree_PTPolicyTree
+interface "PTTreeEdge" as C_com_evolsoft_ec_toolbox_policyTree_PTTreeEdge
+interface "PTTreeNode" as C_com_evolsoft_ec_toolbox_policyTree_PTTreeNode
+interface "PolicyTreeFactory" as C_com_evolsoft_ec_toolbox_policyTree_PolicyTreeFactory
+interface "PolicyTreePackage" as C_com_evolsoft_ec_toolbox_policyTree_PolicyTreePackage
+class "PolicyTreePlugin" as C_com_evolsoft_ec_toolbox_policyTree_PolicyTreePlugin
+
+C_com_evolsoft_ec_toolbox_policyTree_PTItem <|-- C_com_evolsoft_ec_toolbox_policyTree_PTTreeEdge
+C_com_evolsoft_ec_toolbox_policyTree_PTItem <|-- C_com_evolsoft_ec_toolbox_policyTree_PTTreeNode
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.component.impl
+
+class "ECCFGComponentFactory" as C_com_evolsoft_ec_configuration_component_impl_ECCFGComponentFactory
+class "ECCFGComponentPackage" as C_com_evolsoft_ec_configuration_component_impl_ECCFGComponentPackage
+class "ECComponentActionsDescriptor" as C_com_evolsoft_ec_configuration_component_impl_ECComponentActionsDescriptor
+class "ECComponentDescriptor" as C_com_evolsoft_ec_configuration_component_impl_ECComponentDescriptor
+class "ECComponentManager" as C_com_evolsoft_ec_configuration_component_impl_ECComponentManager
+
+@enduml

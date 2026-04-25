@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"ffa45548b243459f","x":-600,"y":-980,"width":1320,"height":620,"color":"3","type":"group","label":"01-元组创建"},
+		{"id":"fb56c7be7c2df4eb","x":100,"y":-940,"width":540,"height":540,"color":"1","type":"group","label":"特殊情况的定义"},
+		{"id":"786a04714e16f706","x":120,"y":-920,"width":500,"height":140,"color":"6","type":"text","text":"#### 空元组\n```python\nempty_tuple =()\n```"},
+		{"id":"a9002e0cb3ef3cdf","type":"text","text":"#### 省略括号的元组\n元素间用逗号分隔时，即使不加括号，Python 也会视为元组\n```python\nsingle_tuple = (5,)  # 正确的单元素元组（必须加逗号）\nnot_tuple = (5)      # 错误：这会被视为整数 5，而非元组\n```","x":120,"y":-600,"width":500,"height":180,"color":"6"},
+		{"id":"083bf058419f29c1","type":"text","text":"#### 单一元素\n```python\nsingle_tuple = (5,)  # 正确的单元素元组（必须加逗号）\nnot_tuple = (5)      # 错误：这会被视为整数 5，而非元组\n```","x":120,"y":-760,"width":500,"height":140,"color":"6"},
+		{"id":"6461c3411a1a7cc0","type":"text","text":"#### 基本定义\n```python\n# 定义一个包含多个元素的元组\nt1 = (1, 2, 3, 4)  # 整数元素\nt2 = (\"apple\", \"banana\", \"cherry\")  # 字符串元素\nt3 = (10, \"hello\", True, 3.14)  # 混合类型元素\n```\n> [!WARNING]\n    > - 元素类型可以不一样（混合）\n    > - 定义后不能在修改","x":-520,"y":-840,"width":520,"height":340,"color":"6"}
+	],
+	"edges":[
+		{"id":"fd5fe0823453fbe1","fromNode":"6461c3411a1a7cc0","fromSide":"right","toNode":"fb56c7be7c2df4eb","toSide":"left"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp2.individualservice.optimal
+
+class "FJSPShowOptimalIndivdiualService" as C_com_evolsoft_problem_fjsp2_individualservice_optimal_FJSPShowOptimalIndivdiualService
+class "MK01DebugData" as C_com_evolsoft_problem_fjsp2_individualservice_optimal_MK01DebugData
+class "OptimalSolution" as C_com_evolsoft_problem_fjsp2_individualservice_optimal_OptimalSolution
+class "OptimalSolutionHao" as C_com_evolsoft_problem_fjsp2_individualservice_optimal_OptimalSolutionHao
+
+@enduml

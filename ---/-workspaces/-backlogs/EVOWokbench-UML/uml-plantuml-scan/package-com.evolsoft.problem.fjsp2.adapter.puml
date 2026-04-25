@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp2.adapter
+
+class "Activator" as C_com_evolsoft_problem_fjsp2_adapter_Activator
+class "BalancingObjective" as C_com_evolsoft_problem_fjsp2_adapter_BalancingObjective
+class "FJSP2CSVReader" as C_com_evolsoft_problem_fjsp2_adapter_FJSP2CSVReader
+class "FJSP2DataLoader" as C_com_evolsoft_problem_fjsp2_adapter_FJSP2DataLoader
+class "FJSP2DataProvider" as C_com_evolsoft_problem_fjsp2_adapter_FJSP2DataProvider
+class "FJSP2PlugIn" as C_com_evolsoft_problem_fjsp2_adapter_FJSP2PlugIn
+class "FJSPCSVReader" as C_com_evolsoft_problem_fjsp2_adapter_FJSPCSVReader
+class "FJSPChartView" as C_com_evolsoft_problem_fjsp2_adapter_FJSPChartView
+class "FJSPSolutionChartProvider" as C_com_evolsoft_problem_fjsp2_adapter_FJSPSolutionChartProvider
+class "FJSPSolutionXMLConverter" as C_com_evolsoft_problem_fjsp2_adapter_FJSPSolutionXMLConverter
+interface "IFJSP2DataProvider" as C_com_evolsoft_problem_fjsp2_adapter_IFJSP2DataProvider
+class "MakeSpanObjective" as C_com_evolsoft_problem_fjsp2_adapter_MakeSpanObjective
+
+C_com_evolsoft_problem_fjsp2_adapter_IFJSP2DataProvider <|.. C_com_evolsoft_problem_fjsp2_adapter_FJSP2DataProvider
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pbil.runtime
+
+class "ECPBILOptimizator" as C_com_evolsoft_ec_pbil_runtime_ECPBILOptimizator
+interface "IMarginalProbability" as C_com_evolsoft_ec_pbil_runtime_IMarginalProbability
+interface "IPBILOptimizator" as C_com_evolsoft_ec_pbil_runtime_IPBILOptimizator
+interface "IPBILOptimizatorDelegate" as C_com_evolsoft_ec_pbil_runtime_IPBILOptimizatorDelegate
+class "MarginalProbability" as C_com_evolsoft_ec_pbil_runtime_MarginalProbability
+class "PBILGeneItem" as C_com_evolsoft_ec_pbil_runtime_PBILGeneItem
+class "PBILIndividualService" as C_com_evolsoft_ec_pbil_runtime_PBILIndividualService
+
+C_com_evolsoft_ec_pbil_runtime_IPBILOptimizator <|.. C_com_evolsoft_ec_pbil_runtime_ECPBILOptimizator
+C_com_evolsoft_ec_pbil_runtime_IMarginalProbability <|.. C_com_evolsoft_ec_pbil_runtime_MarginalProbability
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pbil.chartView.figures
+
+interface "IPMFArcFigure" as C_com_evolsoft_ec_pbil_chartView_figures_IPMFArcFigure
+interface "IPMFMatrixFigure" as C_com_evolsoft_ec_pbil_chartView_figures_IPMFMatrixFigure
+class "PMFArcFigure" as C_com_evolsoft_ec_pbil_chartView_figures_PMFArcFigure
+class "PMFFigureUtils" as C_com_evolsoft_ec_pbil_chartView_figures_PMFFigureUtils
+class "PMFMatrixFigure" as C_com_evolsoft_ec_pbil_chartView_figures_PMFMatrixFigure
+interface "PMFProfile" as C_com_evolsoft_ec_pbil_chartView_figures_PMFProfile
+class "PMFTreeFigure" as C_com_evolsoft_ec_pbil_chartView_figures_PMFTreeFigure
+
+C_com_evolsoft_ec_pbil_chartView_figures_IPMFArcFigure <|.. C_com_evolsoft_ec_pbil_chartView_figures_PMFArcFigure
+C_com_evolsoft_ec_pbil_chartView_figures_IPMFMatrixFigure <|.. C_com_evolsoft_ec_pbil_chartView_figures_PMFMatrixFigure
+C_com_evolsoft_ec_pbil_chartView_figures_PMFMatrixFigure --> C_com_evolsoft_ec_pbil_chartView_figures_PMFArcFigure
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.msga.nsga
+
+class "IndividualStatus" as C_com_evolsoft_ec_msga_nsga_IndividualStatus
+class "MultipleOBJFitnessService" as C_com_evolsoft_ec_msga_nsga_MultipleOBJFitnessService
+class "NSGAFitnessValue" as C_com_evolsoft_ec_msga_nsga_NSGAFitnessValue
+class "NSGAIIFitnessService" as C_com_evolsoft_ec_msga_nsga_NSGAIIFitnessService
+class "NSGAIISorter" as C_com_evolsoft_ec_msga_nsga_NSGAIISorter
+class "RankingSegment" as C_com_evolsoft_ec_msga_nsga_RankingSegment
+
+C_com_evolsoft_ec_msga_nsga_IndividualStatus --> C_com_evolsoft_ec_msga_nsga_NSGAIISorter
+C_com_evolsoft_ec_msga_nsga_NSGAIIFitnessService --> C_com_evolsoft_ec_msga_nsga_NSGAIISorter
+C_com_evolsoft_ec_msga_nsga_NSGAIISorter --> C_com_evolsoft_ec_msga_nsga_IndividualStatus
+C_com_evolsoft_ec_msga_nsga_RankingSegment --> C_com_evolsoft_ec_msga_nsga_IndividualStatus
+C_com_evolsoft_ec_msga_nsga_RankingSegment --> C_com_evolsoft_ec_msga_nsga_NSGAIISorter
+@enduml

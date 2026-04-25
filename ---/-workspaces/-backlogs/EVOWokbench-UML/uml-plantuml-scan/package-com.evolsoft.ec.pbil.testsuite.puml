@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pbil.testsuite
+
+class "Activator" as C_com_evolsoft_ec_pbil_testsuite_Activator
+class "TestMarginalProbability" as C_com_evolsoft_ec_pbil_testsuite_TestMarginalProbability
+class "TestProbabilityMatrix" as C_com_evolsoft_ec_pbil_testsuite_TestProbabilityMatrix
+class "TestProbabilityVector" as C_com_evolsoft_ec_pbil_testsuite_TestProbabilityVector
+
+@enduml

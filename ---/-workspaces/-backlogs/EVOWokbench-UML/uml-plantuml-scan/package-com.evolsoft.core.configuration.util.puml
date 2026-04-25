@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.configuration.util
+
+class "CoreConfigAdapterFactory" as C_com_evolsoft_core_configuration_util_CoreConfigAdapterFactory
+class "CoreConfigSwitch" as C_com_evolsoft_core_configuration_util_CoreConfigSwitch
+
+@enduml

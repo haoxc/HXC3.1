@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.monitor.lisetener
+
+class "MonitorItemListener" as C_com_evolsoft_ec_runtime_monitor_lisetener_MonitorItemListener
+class "ObjectiveMonitorListener" as C_com_evolsoft_ec_runtime_monitor_lisetener_ObjectiveMonitorListener
+class "ParetoMonitorListener" as C_com_evolsoft_ec_runtime_monitor_lisetener_ParetoMonitorListener
+
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pso.action
+
+class "PSOArithmeticalCrossover" as C_com_evolsoft_ec_pso_action_PSOArithmeticalCrossover
+class "PSOPositionMutation" as C_com_evolsoft_ec_pso_action_PSOPositionMutation
+class "PSOSectionCrossoverBase" as C_com_evolsoft_ec_pso_action_PSOSectionCrossoverBase
+class "PSOSectionMutationBase" as C_com_evolsoft_ec_pso_action_PSOSectionMutationBase
+
+C_com_evolsoft_ec_pso_action_PSOSectionCrossoverBase <|-- C_com_evolsoft_ec_pso_action_PSOArithmeticalCrossover
+C_com_evolsoft_ec_pso_action_PSOSectionMutationBase <|-- C_com_evolsoft_ec_pso_action_PSOPositionMutation
+@enduml

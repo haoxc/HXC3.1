@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"variables","type":"text","text":"变量与数据类型","x":-200,"y":150,"width":150,"height":60,"color":"2"},
+		{"id":"operators","type":"text","text":"运算符","x":0,"y":150,"width":150,"height":60,"color":"2"},
+		{"id":"functions","type":"text","text":"函数","x":400,"y":150,"width":150,"height":60,"color":"2"},
+		{"id":"oop","type":"text","text":"面向对象编程 (OOP)","x":400,"y":300,"width":200,"height":80,"color":"3"},
+		{"id":"inheritance","type":"text","text":"继承与多态","x":500,"y":450,"width":150,"height":60},
+		{"id":"exceptions","type":"text","text":"异常处理","x":200,"y":300,"width":200,"height":80,"color":"3"},
+		{"id":"generators","type":"text","text":"生成器与装饰器","x":600,"y":300,"width":200,"height":80,"color":"3"},
+		{"id":"concurrency","type":"text","text":"并发编程 (多线程, 多进程)","x":-400,"y":600,"width":200,"height":80},
+		{"id":"database","type":"text","text":"数据库操作","x":400,"y":600,"width":200,"height":80}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.runtime.problem.tools
+
+enum "CheckValue" as C_com_evolsoft_core_runtime_problem_tools_CheckValue
+interface "IParetoSet" as C_com_evolsoft_core_runtime_problem_tools_IParetoSet
+class "ParetoReader" as C_com_evolsoft_core_runtime_problem_tools_ParetoReader
+class "ParetoSet" as C_com_evolsoft_core_runtime_problem_tools_ParetoSet
+class "ParetoSet_Old" as C_com_evolsoft_core_runtime_problem_tools_ParetoSet_Old
+
+C_com_evolsoft_core_runtime_problem_tools_IParetoSet <|.. C_com_evolsoft_core_runtime_problem_tools_ParetoSet
+@enduml

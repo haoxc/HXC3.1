@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.experiment
+
+interface "IObjectiveChangedListener" as C_com_evolsoft_core_experiment_IObjectiveChangedListener
+interface "IStatisticItem" as C_com_evolsoft_core_experiment_IStatisticItem
+class "StatisticInfoManager" as C_com_evolsoft_core_experiment_StatisticInfoManager
+class "StatisticItem" as C_com_evolsoft_core_experiment_StatisticItem
+
+C_com_evolsoft_core_experiment_IStatisticItem <|.. C_com_evolsoft_core_experiment_StatisticItem
+C_com_evolsoft_core_experiment_StatisticInfoManager --> C_com_evolsoft_core_experiment_IStatisticItem
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.fjsp.individualservicebase
+
+class "AbstractFJSPKnowledgeBaseIndividaulService" as C_com_evolsoft_fjsp_individualservicebase_AbstractFJSPKnowledgeBaseIndividaulService
+class "AbstractSimModelBuilder" as C_com_evolsoft_fjsp_individualservicebase_AbstractSimModelBuilder
+class "Activator" as C_com_evolsoft_fjsp_individualservicebase_Activator
+class "FJSPIndividualServiceBase" as C_com_evolsoft_fjsp_individualservicebase_FJSPIndividualServiceBase
+
+C_com_evolsoft_fjsp_individualservicebase_FJSPIndividualServiceBase <|-- C_com_evolsoft_fjsp_individualservicebase_AbstractFJSPKnowledgeBaseIndividaulService
+@enduml

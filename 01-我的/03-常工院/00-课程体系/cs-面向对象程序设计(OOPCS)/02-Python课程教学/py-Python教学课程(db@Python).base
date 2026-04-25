@@ -1,0 +1,35 @@
+views:
+  - type: table
+    name: 教育课程
+    filters:
+      and:
+        - type == "course"
+        - subject == "Python基础"
+    order:
+      - file.name
+      - orderNo
+      - category
+      - aliases
+      - description
+      - tags
+      - file.tags
+    sort:
+      - property: category
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: description
+        direction: ASC
+      - property: aliases
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.orderNo: 111
+      note.subject: 117
+      note.category: 202
+      note.aliases: 164
+      note.description: 283
+      note.tags: 225
+    rowHeight: medium

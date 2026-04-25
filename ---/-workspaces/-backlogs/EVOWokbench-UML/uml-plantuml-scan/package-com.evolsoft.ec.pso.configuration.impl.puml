@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pso.configuration.impl
+
+class "PSOCFGFactory" as C_com_evolsoft_ec_pso_configuration_impl_PSOCFGFactory
+class "PSOCFGPackage" as C_com_evolsoft_ec_pso_configuration_impl_PSOCFGPackage
+class "PSOConfiguration" as C_com_evolsoft_ec_pso_configuration_impl_PSOConfiguration
+
+@enduml

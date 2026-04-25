@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.ganttChart.util
+
+class "GanttChartAdapterFactory" as C_com_evolsoft_ec_toolbox_ganttChart_util_GanttChartAdapterFactory
+class "GanttChartSwitch" as C_com_evolsoft_ec_toolbox_ganttChart_util_GanttChartSwitch
+
+@enduml

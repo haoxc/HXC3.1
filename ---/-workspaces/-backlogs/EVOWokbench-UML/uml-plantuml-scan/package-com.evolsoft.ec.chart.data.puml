@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.chart.data
+
+interface "IMonitorItem" as C_com_evolsoft_ec_chart_data_IMonitorItem
+interface "IXYSeries" as C_com_evolsoft_ec_chart_data_IXYSeries
+class "MonitorItem" as C_com_evolsoft_ec_chart_data_MonitorItem
+class "MonitorItemManager" as C_com_evolsoft_ec_chart_data_MonitorItemManager
+class "XYSeries" as C_com_evolsoft_ec_chart_data_XYSeries
+
+C_com_evolsoft_ec_chart_data_IXYSeries <|.. C_com_evolsoft_ec_chart_data_XYSeries
+C_com_evolsoft_ec_chart_data_MonitorItem --> C_com_evolsoft_ec_chart_data_XYSeries
+@enduml

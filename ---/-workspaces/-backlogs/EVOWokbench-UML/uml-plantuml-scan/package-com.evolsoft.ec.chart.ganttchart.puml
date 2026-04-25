@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.chart.ganttchart
+
+class "GantChartLabelGenerator" as C_com_evolsoft_ec_chart_ganttchart_GantChartLabelGenerator
+interface "ITaskEx" as C_com_evolsoft_ec_chart_ganttchart_ITaskEx
+interface "ITaskSerisEx" as C_com_evolsoft_ec_chart_ganttchart_ITaskSerisEx
+class "MyGanttRenderer" as C_com_evolsoft_ec_chart_ganttchart_MyGanttRenderer
+class "ResearchRelativeDateFormat" as C_com_evolsoft_ec_chart_ganttchart_ResearchRelativeDateFormat
+class "TaskEx" as C_com_evolsoft_ec_chart_ganttchart_TaskEx
+class "TaskSerisEx" as C_com_evolsoft_ec_chart_ganttchart_TaskSerisEx
+
+C_com_evolsoft_ec_chart_ganttchart_ITaskEx <|.. C_com_evolsoft_ec_chart_ganttchart_TaskEx
+C_com_evolsoft_ec_chart_ganttchart_ITaskSerisEx <|.. C_com_evolsoft_ec_chart_ganttchart_TaskSerisEx
+C_com_evolsoft_ec_chart_ganttchart_TaskEx --> C_com_evolsoft_ec_chart_ganttchart_ITaskSerisEx
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: org.eclipse.wb.swt
+
+interface "PluginResourceProvider" as C_org_eclipse_wb_swt_PluginResourceProvider
+interface "PluginResourceProvider (com.evolsoft.ec.toolbox.GanttChart)" as C_org_eclipse_wb_swt_PluginResourceProvider__dup2
+interface "PluginResourceProvider (com.evolsoft.ec.toolbox.policyTree)" as C_org_eclipse_wb_swt_PluginResourceProvider__dup3
+interface "PluginResourceProvider (com.evolsoft.ec.ui)" as C_org_eclipse_wb_swt_PluginResourceProvider__dup4
+class "ResourceManager" as C_org_eclipse_wb_swt_ResourceManager
+class "ResourceManager (com.evolsoft.ec.toolbox.GanttChart)" as C_org_eclipse_wb_swt_ResourceManager__dup2
+class "ResourceManager (com.evolsoft.ec.toolbox.policyTree)" as C_org_eclipse_wb_swt_ResourceManager__dup3
+class "ResourceManager (com.evolsoft.ec.ui)" as C_org_eclipse_wb_swt_ResourceManager__dup4
+class "SWTResourceManager" as C_org_eclipse_wb_swt_SWTResourceManager
+class "SWTResourceManager (com.evolsoft.ec.toolbox.GanttChart)" as C_org_eclipse_wb_swt_SWTResourceManager__dup2
+class "SWTResourceManager (com.evolsoft.ec.toolbox.policyTree)" as C_org_eclipse_wb_swt_SWTResourceManager__dup3
+class "SWTResourceManager (com.evolsoft.ec.ui)" as C_org_eclipse_wb_swt_SWTResourceManager__dup4
+
+@enduml

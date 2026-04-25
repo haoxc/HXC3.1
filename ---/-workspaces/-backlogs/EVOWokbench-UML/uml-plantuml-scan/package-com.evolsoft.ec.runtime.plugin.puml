@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.plugin
+
+class "ECPluginPerference" as C_com_evolsoft_ec_runtime_plugin_ECPluginPerference
+class "ECRuntimePlugin" as C_com_evolsoft_ec_runtime_plugin_ECRuntimePlugin
+class "ECServiceInitorHandle" as C_com_evolsoft_ec_runtime_plugin_ECServiceInitorHandle
+class "PreferenceConstants" as C_com_evolsoft_ec_runtime_plugin_PreferenceConstants
+class "PreferenceInitializer" as C_com_evolsoft_ec_runtime_plugin_PreferenceInitializer
+
+@enduml

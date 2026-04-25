@@ -1,0 +1,37 @@
+{
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"21e2ee9a17e693ff"
+	},
+	"nodes":[
+		{
+			"id":"21e2ee9a17e693ff",
+			"type":"group",
+			"ratio":1.7777777777777777,
+			"styleAttributes":{"border":"invisible"},
+			"x":-1040,
+			"y":-1100,
+			"width":1420,
+			"height":799,
+			"label":"程序如何组织"
+		},
+		{"id":"b9b413ea4b9d9e09","type":"group","x":-1000,"y":-1040,"width":1300,"height":700,"label":"认知模块和包关系"},
+		{
+			"id":"f5524f55a4934968",
+			"type":"text",
+			"text":"### 模块（Moduel)\n\n- **模块**是组织代码的一种方式，它允许你将代码分割成多个*文件或组件*，从而实现代码的重用和维护\n- **包**是用来管理一组相关的模块的工具\n- \n- Python自带了大量的**内置模块**，这些模块提供了各种各样的功能，如操作系统的交互(`os`)、正则表达式(`re`)、日期时间处理(`datetime`)",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"x":-980,
+			"y":-1020,
+			"width":680,
+			"height":260
+		},
+		{"id":"cab6fa19cfc45dc6","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/01-Python学习路径/数媒系-学习路径规划/数媒系-大纲设计/附件/img_package.png","x":-959,"y":-720,"width":659,"height":360},
+		{"id":"7b60b4a9dbcb884c","type":"file","file":"01-我的空间/03-常工院/00-课程体系/cs-面向对象程序设计/01-Python学习路径/数媒系-学习路径规划/数媒系-大纲设计/附件/sample_package.png","x":-260,"y":-720,"width":540,"height":360}
+	],
+	"edges":[]
+}

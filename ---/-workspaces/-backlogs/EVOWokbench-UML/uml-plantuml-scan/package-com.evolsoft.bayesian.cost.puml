@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.bayesian.cost
+
+interface "ITransferFunction" as C_com_evolsoft_bayesian_cost_ITransferFunction
+interface "ITransferStrategy" as C_com_evolsoft_bayesian_cost_ITransferStrategy
+enum "ProbabilityMode" as C_com_evolsoft_bayesian_cost_ProbabilityMode
+class "TransferFunction" as C_com_evolsoft_bayesian_cost_TransferFunction
+class "TransferStrategy" as C_com_evolsoft_bayesian_cost_TransferStrategy
+
+C_com_evolsoft_bayesian_cost_ITransferFunction <|.. C_com_evolsoft_bayesian_cost_TransferFunction
+C_com_evolsoft_bayesian_cost_ITransferStrategy <|.. C_com_evolsoft_bayesian_cost_TransferStrategy
+C_com_evolsoft_bayesian_cost_TransferFunction --> C_com_evolsoft_bayesian_cost_ProbabilityMode
+C_com_evolsoft_bayesian_cost_TransferStrategy --> C_com_evolsoft_bayesian_cost_ITransferFunction
+@enduml

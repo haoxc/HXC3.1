@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core
+
+class "Activator" as C_com_evolsoft_core_Activator
+class "AssertException" as C_com_evolsoft_core_AssertException
+class "ECCorePlugin" as C_com_evolsoft_core_ECCorePlugin
+class "ECFatalErrorExeption" as C_com_evolsoft_core_ECFatalErrorExeption
+class "ECNotSupportException" as C_com_evolsoft_core_ECNotSupportException
+class "ECRuntimeException" as C_com_evolsoft_core_ECRuntimeException
+
+C_com_evolsoft_core_ECRuntimeException <|-- C_com_evolsoft_core_ECNotSupportException
+@enduml

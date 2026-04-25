@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.notation
+
+class "AbstractZestEntityContentProvider" as C_com_evolsoft_ec_toolbox_notation_AbstractZestEntityContentProvider
+class "AbstractZestFigureProvider" as C_com_evolsoft_ec_toolbox_notation_AbstractZestFigureProvider
+class "AbstractZestStyleFigureProvider" as C_com_evolsoft_ec_toolbox_notation_AbstractZestStyleFigureProvider
+class "NotationPlugin" as C_com_evolsoft_ec_toolbox_notation_NotationPlugin
+
+@enduml

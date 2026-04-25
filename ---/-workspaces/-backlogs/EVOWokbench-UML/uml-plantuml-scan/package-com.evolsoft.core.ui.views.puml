@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.ui.views
+
+class "ComponentView" as C_com_evolsoft_core_ui_views_ComponentView
+class "NameSorter" as C_com_evolsoft_core_ui_views_NameSorter
+class "NameSorter (com.evolsoft.core)" as C_com_evolsoft_core_ui_views_NameSorter__dup2
+class "ProblemDefView" as C_com_evolsoft_core_ui_views_ProblemDefView
+class "TreeObject" as C_com_evolsoft_core_ui_views_TreeObject
+class "TreeObject (com.evolsoft.core)" as C_com_evolsoft_core_ui_views_TreeObject__dup2
+class "TreeParent" as C_com_evolsoft_core_ui_views_TreeParent
+class "TreeParent (com.evolsoft.core)" as C_com_evolsoft_core_ui_views_TreeParent__dup2
+class "ViewContentProvider" as C_com_evolsoft_core_ui_views_ViewContentProvider
+class "ViewContentProvider (com.evolsoft.core)" as C_com_evolsoft_core_ui_views_ViewContentProvider__dup2
+class "ViewLabelProvider" as C_com_evolsoft_core_ui_views_ViewLabelProvider
+class "ViewLabelProvider (com.evolsoft.core)" as C_com_evolsoft_core_ui_views_ViewLabelProvider__dup2
+
+@enduml

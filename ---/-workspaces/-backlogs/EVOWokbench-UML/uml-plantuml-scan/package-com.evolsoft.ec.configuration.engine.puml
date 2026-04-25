@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.configuration.engine
+
+class "EngineDescriptor" as C_com_evolsoft_ec_configuration_engine_EngineDescriptor
+interface "IBatchDescriptorSpec" as C_com_evolsoft_ec_configuration_engine_IBatchDescriptorSpec
+interface "IEngineDescriptor" as C_com_evolsoft_ec_configuration_engine_IEngineDescriptor
+interface "IEngineDescriptorSpec" as C_com_evolsoft_ec_configuration_engine_IEngineDescriptorSpec
+
+C_com_evolsoft_ec_configuration_engine_IEngineDescriptor <|.. C_com_evolsoft_ec_configuration_engine_EngineDescriptor
+@enduml

@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	},
+	"nodes":[
+		{"id":"bd7b0632a4ad9562","type":"file","file":"--项目管理(pjx svy)/ZS-止善文件柜(ZS-SVY)/ZS-解决方案/ZS方案-水务方案/附件/Pasted image 20251027114542.png","x":-600,"y":-280,"width":400,"height":221},
+		{"id":"c303648c9248835f","type":"file","file":"--项目管理(pjx svy)/ZS-止善文件柜(ZS-SVY)/ZS-解决方案/ZS方案-水务方案/附件/Pasted image 20251027114527.png","x":-600,"y":-20,"width":520,"height":255},
+		{"id":"65c3208ae9e84e91","type":"file","file":"--项目管理(pjx svy)/ZS-止善文件柜(ZS-SVY)/ZS-解决方案/ZS方案-水务方案/附件/Pasted image 20251027114728.png","x":-600,"y":280,"width":533,"height":300},
+		{"id":"4b6712896e90ee54","type":"file","file":"--项目管理(pjx svy)/ZS-止善文件柜(ZS-SVY)/ZS-解决方案/ZS方案-水务方案/zs-水务-宣传资料/zs-水务视频台词方案.md","subpath":"#脚本设计","x":180,"y":-247,"width":840,"height":709}
+	],
+	"edges":[
+		{
+			"id":"1a15e39c29fc3c95",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c303648c9248835f",
+			"fromSide":"right",
+			"toNode":"4b6712896e90ee54",
+			"toSide":"left"
+		}
+	]
+}

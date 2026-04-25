@@ -1,0 +1,38 @@
+python3 << 'PYEOF'
+import json
+
+# Read the excalidraw JSON
+with open("/home/claude/progressive_disclosure.excalidraw", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+# Create Obsidian-compatible .excalidraw.md format
+json_str = json.dumps(data, ensure_ascii=False)
+
+md_content = f"""---
+excalidraw-plugin: parsed
+tags: [excalidraw]
+---
+
+# Drawing
+
+## Text Elements
+渐进式信息披露 — 5 层模型 ^title
+
+## Drawing
+```json
+{json_str}
+```
+
+%%
+# Drawing
+```compressed-json
+{json_str}
+```
+%%
+"""
+
+with open("/home/claude/Progressive_Disclosure.excalidraw.md", "w", encoding="utf-8") as f:
+    f.write(md_content)
+
+print("Obsidian .excalidraw.md created")
+PYEOF 

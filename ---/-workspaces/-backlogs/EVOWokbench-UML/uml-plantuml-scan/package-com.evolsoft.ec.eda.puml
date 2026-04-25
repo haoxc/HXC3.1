@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.eda
+
+class "EDAPlugin" as C_com_evolsoft_ec_eda_EDAPlugin
+
+@enduml

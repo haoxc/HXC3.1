@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{
+			"id":"a6a6bc8d6c23ac7b",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"shape":null
+			},
+			"x":-760,
+			"y":-550,
+			"width":260,
+			"height":60
+		},
+		{"id":"c99dd1bdea0a4127","type":"file","file":"03-领域/60-艺术学科/03-艺术知识(K)/设计-设计要素/设计要素-色彩(Color)/02-色彩-知识体系/00-色彩-术语/色相环(Hue Circle)/色相环(Hue Circle)-excdraw.md","x":-320,"y":-720,"width":400,"height":400},
+		{
+			"id":"56ec15fdb25bf6ed",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-820,
+			"y":40,
+			"width":260,
+			"height":60
+		}
+	],
+	"edges":[
+		{
+			"id":"50fe30fbcb515df5",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a6a6bc8d6c23ac7b",
+			"fromSide":"right",
+			"toNode":"c99dd1bdea0a4127",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

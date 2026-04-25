@@ -1,0 +1,74 @@
+{
+	"nodes":[
+		{"id":"a8ee3385fd08c731","type":"group","x":500,"y":-800,"width":620,"height":400,"label":"流程思路"},
+		{
+			"id":"11b17918fc0ed350",
+			"type":"text",
+			"text":"### 核心流程\n```\n[概念规划] → [美术落地] → [逻辑绑定] → [性能优化]\n```",
+			"styleAttributes":{},
+			"x":-280,
+			"y":-1050,
+			"width":580,
+			"height":100
+		},
+		{
+			"id":"348a15692a776fac",
+			"type":"text",
+			"text":"### 推导路径\n1. 白盒原型（Whitebox）验证`核心玩法  `\n2. 材质实例（Material Instance）+ 模型摆放（Static Mesh）  \n3. 蓝图可视化脚本（Blueprint Visual Scripting）  \n4. LOD设置（Level of Detail）+ Occlusion Culling",
+			"styleAttributes":{},
+			"x":-280,
+			"y":-910,
+			"width":580,
+			"height":220
+		},
+		{
+			"id":"49a7450b592c2c10",
+			"type":"text",
+			"text":"### 关键要素\n- 地形结构：模块化场景拼接（如Landscape工具）\n- 光照系统：动态光源（Directional Light）+ 静态烘焙（Lightmass设置）\n- 交互逻辑：触发器（Trigger Box）+ 蓝图事件（Blueprint Event）\n- 叙事元素：环境叙事（Environmental Storytelling）+ 关卡目标提示",
+			"styleAttributes":{},
+			"x":-280,
+			"y":-1520,
+			"width":580,
+			"height":180,
+			"color":"#455f52"
+		},
+		{
+			"id":"7b93b2c0fdf671c4",
+			"type":"text",
+			"text":"## UE关卡\n**核心定义**：构建沉浸式交互环境的系统性流程，通过空间布局、交互逻辑、视觉叙事实现玩家体验目标。 \n**核心价值**： 满足游戏玩法需求（如战斗、探索、解谜） - 平衡艺术表现与技术性能（帧率、加载效率）",
+			"styleAttributes":{},
+			"x":-1140,
+			"y":-1280,
+			"width":420,
+			"height":200
+		}
+	],
+	"edges":[
+		{
+			"id":"43c69d7e207e97ab",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"7b93b2c0fdf671c4",
+			"fromSide":"right",
+			"toNode":"49a7450b592c2c10",
+			"toSide":"left",
+			"label":"包含"
+		},
+		{
+			"id":"1e243bc8e3c7d615",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"7b93b2c0fdf671c4",
+			"fromSide":"right",
+			"toNode":"a8ee3385fd08c731",
+			"toSide":"left",
+			"label":"流程"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

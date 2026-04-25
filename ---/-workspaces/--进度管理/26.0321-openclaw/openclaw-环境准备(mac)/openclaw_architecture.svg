@@ -1,0 +1,211 @@
+<svg width="100%" viewBox="0 0 680 740" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <style>
+    svg { font-family: sans-serif; }
+    .th { font-size: 13px; font-weight: 600; }
+    .ts { font-size: 11px; font-weight: 400; }
+    .arr { stroke: #AAAAAA; stroke-width: 1.5; fill: none; }
+
+    /* 层标签 */
+    .layer-label { font-size: 11px; fill: #AAAAAA; }
+
+    /* 接入层 / 存储层 — 浅灰底 */
+    .bg-subtle { fill: #F6F5F0; stroke: #D3D1C7; }
+
+    /* c-blue — 接入渠道 */
+    .c-blue rect  { fill: #E6F1FB; stroke: #185FA5; }
+    .c-blue .th   { fill: #0C447C; }
+    .c-blue .ts   { fill: #185FA5; }
+
+    /* c-purple — 网关层 */
+    .c-purple rect  { fill: #EEEDFE; stroke: #534AB7; }
+    .c-purple .th   { fill: #3C3489; }
+    .c-purple .ts   { fill: #534AB7; }
+
+    /* c-teal — 执行层 */
+    .c-teal rect  { fill: #E1F5EE; stroke: #0F6E56; }
+    .c-teal .th   { fill: #085041; }
+    .c-teal .ts   { fill: #0F6E56; }
+
+    /* c-amber — 智能层 */
+    .c-amber rect  { fill: #FAEEDA; stroke: #854F0B; }
+    .c-amber .th   { fill: #633806; }
+    .c-amber .ts   { fill: #854F0B; }
+
+    /* c-gray — 存储子节点 */
+    .c-gray rect  { fill: #F1EFE8; stroke: #888780; }
+    .c-gray .th   { fill: #2C2C2A; }
+    .c-gray .ts   { fill: #5F5E5A; }
+  </style>
+</defs>
+
+<!-- 层标签（左侧竖排） -->
+<text class="layer-label" x="13" y="72"  text-anchor="middle" transform="rotate(-90,13,72)" >接入层</text>
+<text class="layer-label" x="13" y="198" text-anchor="middle" transform="rotate(-90,13,198)">网关层</text>
+<text class="layer-label" x="13" y="358" text-anchor="middle" transform="rotate(-90,13,358)">执行层</text>
+<text class="layer-label" x="13" y="534" text-anchor="middle" transform="rotate(-90,13,534)">智能层</text>
+<text class="layer-label" x="13" y="680" text-anchor="middle" transform="rotate(-90,13,680)">存储层</text>
+
+<!-- ══ 层 1：接入层 y 30–115 ══ -->
+<rect x="28" y="30" width="632" height="86" rx="10" class="bg-subtle" stroke-width="0.5"/>
+
+<g class="c-blue"><rect x="40"  y="50" width="90" height="28" rx="6" stroke-width="0.5"/>
+  <text class="ts" x="85"  y="68" text-anchor="middle">WhatsApp</text></g>
+<g class="c-blue"><rect x="140" y="50" width="90" height="28" rx="6" stroke-width="0.5"/>
+  <text class="ts" x="185" y="68" text-anchor="middle">Telegram</text></g>
+<g class="c-blue"><rect x="240" y="50" width="90" height="28" rx="6" stroke-width="0.5"/>
+  <text class="ts" x="285" y="68" text-anchor="middle">Discord</text></g>
+<g class="c-blue"><rect x="340" y="50" width="90" height="28" rx="6" stroke-width="0.5"/>
+  <text class="ts" x="385" y="68" text-anchor="middle">Slack</text></g>
+<g class="c-blue"><rect x="440" y="50" width="90" height="28" rx="6" stroke-width="0.5"/>
+  <text class="ts" x="485" y="68" text-anchor="middle">iMessage</text></g>
+<g class="c-blue"><rect x="540" y="50" width="106" height="28" rx="6" stroke-width="0.5"/>
+  <text class="ts" x="593" y="68" text-anchor="middle">CLI / Web UI</text></g>
+
+<text class="ts" x="344" y="104" text-anchor="middle" fill="#888780">Channel Adapters — 统一规范化为标准消息格式</text>
+
+<line x1="344" y1="116" x2="344" y2="136" class="arr" marker-end="url(#arrow)"/>
+
+<!-- ══ 层 2：网关层 y 138–260 ══ -->
+<g class="c-purple">
+  <rect x="28" y="138" width="632" height="122" rx="10" stroke-width="0.5"/>
+  <text class="th" x="344" y="162" text-anchor="middle">Gateway — 127.0.0.1:18789（WebSocket，系统唯一控制平面）</text>
+</g>
+
+<g class="c-purple">
+  <rect x="46"  y="174" width="186" height="72" rx="8" stroke-width="0.5"/>
+  <text class="th" x="139" y="196" text-anchor="middle">Session Router</text>
+  <text class="ts" x="139" y="212" text-anchor="middle">main / group / isolated</text>
+  <text class="ts" x="139" y="228" text-anchor="middle">多 Agent 绑定路由</text>
+</g>
+<g class="c-purple">
+  <rect x="248" y="174" width="186" height="72" rx="8" stroke-width="0.5"/>
+  <text class="th" x="341" y="196" text-anchor="middle">Lane Queue</text>
+  <text class="ts" x="341" y="212" text-anchor="middle">每 session 串行执行</text>
+  <text class="ts" x="341" y="228" text-anchor="middle">防止竞态条件</text>
+</g>
+<g class="c-purple">
+  <rect x="450" y="174" width="186" height="72" rx="8" stroke-width="0.5"/>
+  <text class="th" x="543" y="196" text-anchor="middle">Access Control</text>
+  <text class="ts" x="543" y="212" text-anchor="middle">Token / 设备配对</text>
+  <text class="ts" x="543" y="228" text-anchor="middle">Origin 验证</text>
+</g>
+
+<line x1="344" y1="260" x2="344" y2="280" class="arr" marker-end="url(#arrow)"/>
+
+<!-- ══ 层 3：执行层 y 282–440 ══ -->
+<g class="c-teal">
+  <rect x="28" y="282" width="632" height="158" rx="10" stroke-width="0.5"/>
+  <text class="th" x="344" y="306" text-anchor="middle">Agent Runtime — Agent Loop（每条消息的完整生命周期）</text>
+</g>
+
+<g class="c-teal">
+  <rect x="44"  y="318" width="108" height="56" rx="8" stroke-width="0.5"/>
+  <text class="th" x="98"  y="340" text-anchor="middle">Context</text>
+  <text class="ts" x="98"  y="356" text-anchor="middle">历史 + 记忆</text>
+  <text class="ts" x="98"  y="368" text-anchor="middle">+ Skills 注入</text>
+</g>
+<line x1="152" y1="346" x2="168" y2="346" class="arr" marker-end="url(#arrow)" stroke="#1D9E75"/>
+<g class="c-teal">
+  <rect x="170" y="318" width="108" height="56" rx="8" stroke-width="0.5"/>
+  <text class="th" x="224" y="340" text-anchor="middle">LLM Inference</text>
+  <text class="ts" x="224" y="356" text-anchor="middle">Claude / GPT</text>
+  <text class="ts" x="224" y="368" text-anchor="middle">Gemini / Local</text>
+</g>
+<line x1="278" y1="346" x2="294" y2="346" class="arr" marker-end="url(#arrow)" stroke="#1D9E75"/>
+<g class="c-teal">
+  <rect x="296" y="318" width="108" height="56" rx="8" stroke-width="0.5"/>
+  <text class="th" x="350" y="340" text-anchor="middle">Tool Execution</text>
+  <text class="ts" x="350" y="356" text-anchor="middle">file / shell</text>
+  <text class="ts" x="350" y="368" text-anchor="middle">browser / cron</text>
+</g>
+<line x1="404" y1="346" x2="420" y2="346" class="arr" marker-end="url(#arrow)" stroke="#1D9E75"/>
+<g class="c-teal">
+  <rect x="422" y="318" width="108" height="56" rx="8" stroke-width="0.5"/>
+  <text class="th" x="476" y="340" text-anchor="middle">Streaming</text>
+  <text class="ts" x="476" y="356" text-anchor="middle">分块回复</text>
+  <text class="ts" x="476" y="368" text-anchor="middle">typing 指示</text>
+</g>
+<line x1="530" y1="346" x2="546" y2="346" class="arr" marker-end="url(#arrow)" stroke="#1D9E75"/>
+<g class="c-teal">
+  <rect x="548" y="318" width="100" height="56" rx="8" stroke-width="0.5"/>
+  <text class="th" x="598" y="340" text-anchor="middle">Persist</text>
+  <text class="ts" x="598" y="356" text-anchor="middle">JSONL 写入</text>
+  <text class="ts" x="598" y="368" text-anchor="middle">Memory 更新</text>
+</g>
+
+<path d="M548 390 Q344 420 170 390" fill="none" stroke="#1D9E75" stroke-width="0.8" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<text class="ts" x="344" y="432" text-anchor="middle" fill="#0F6E56">ReAct Loop — 推理 → 工具调用 → 整合结果（循环直到完成）</text>
+
+<line x1="344" y1="440" x2="344" y2="460" class="arr" marker-end="url(#arrow)"/>
+
+<!-- ══ 层 4：智能层 y 462–600 ══ -->
+<g class="c-amber">
+  <rect x="28" y="462" width="632" height="138" rx="10" stroke-width="0.5"/>
+  <text class="th" x="344" y="486" text-anchor="middle">Intelligence Layer</text>
+</g>
+
+<g class="c-amber">
+  <rect x="46"  y="498" width="146" height="84" rx="8" stroke-width="0.5"/>
+  <text class="th" x="119" y="520" text-anchor="middle">Skills System</text>
+  <text class="ts" x="119" y="538" text-anchor="middle">SKILL.md 按需注入</text>
+  <text class="ts" x="119" y="554" text-anchor="middle">ClawHub 社区市场</text>
+  <text class="ts" x="119" y="570" text-anchor="middle">per-agent / shared</text>
+</g>
+<g class="c-amber">
+  <rect x="204" y="498" width="146" height="84" rx="8" stroke-width="0.5"/>
+  <text class="th" x="277" y="520" text-anchor="middle">Memory</text>
+  <text class="ts" x="277" y="538" text-anchor="middle">MEMORY.md 长期</text>
+  <text class="ts" x="277" y="554" text-anchor="middle">Context Window Guard</text>
+  <text class="ts" x="277" y="570" text-anchor="middle">自动摘要压缩</text>
+</g>
+<g class="c-amber">
+  <rect x="362" y="498" width="146" height="84" rx="8" stroke-width="0.5"/>
+  <text class="th" x="435" y="520" text-anchor="middle">Heartbeat</text>
+  <text class="ts" x="435" y="538" text-anchor="middle">Cron 触发主动行为</text>
+  <text class="ts" x="435" y="554" text-anchor="middle">任务清单定期检查</text>
+  <text class="ts" x="435" y="570" text-anchor="middle">主动推送通知</text>
+</g>
+<g class="c-amber">
+  <rect x="520" y="498" width="126" height="84" rx="8" stroke-width="0.5"/>
+  <text class="th" x="583" y="520" text-anchor="middle">Canvas</text>
+  <text class="ts" x="583" y="538" text-anchor="middle">:18793 独立进程</text>
+  <text class="ts" x="583" y="554" text-anchor="middle">WebSocket 推送</text>
+  <text class="ts" x="583" y="570" text-anchor="middle">Agent 可写 UI</text>
+</g>
+
+<line x1="344" y1="600" x2="344" y2="620" class="arr" marker-end="url(#arrow)"/>
+
+<!-- ══ 层 5：存储层 y 622–710 ══ -->
+<rect x="28" y="622" width="632" height="86" rx="10" class="bg-subtle" stroke-width="0.5"/>
+
+<g class="c-gray">
+  <rect x="44"  y="638" width="110" height="52" rx="8" stroke-width="0.5"/>
+  <text class="th" x="99"  y="658" text-anchor="middle">SOUL.md</text>
+  <text class="ts" x="99"  y="674" text-anchor="middle">Agent 人格定义</text>
+</g>
+<g class="c-gray">
+  <rect x="164" y="638" width="120" height="52" rx="8" stroke-width="0.5"/>
+  <text class="th" x="224" y="658" text-anchor="middle">MEMORY.md</text>
+  <text class="ts" x="224" y="674" text-anchor="middle">跨会话长期记忆</text>
+</g>
+<g class="c-gray">
+  <rect x="294" y="638" width="132" height="52" rx="8" stroke-width="0.5"/>
+  <text class="th" x="360" y="658" text-anchor="middle">JSONL Transcript</text>
+  <text class="ts" x="360" y="674" text-anchor="middle">逐行对话审计</text>
+</g>
+<g class="c-gray">
+  <rect x="436" y="638" width="96" height="52" rx="8" stroke-width="0.5"/>
+  <text class="th" x="484" y="658" text-anchor="middle">skills/</text>
+  <text class="ts" x="484" y="674" text-anchor="middle">SKILL.md 文件树</text>
+</g>
+<g class="c-gray">
+  <rect x="542" y="638" width="106" height="52" rx="8" stroke-width="0.5"/>
+  <text class="th" x="595" y="658" text-anchor="middle">AGENTS.md</text>
+  <text class="ts" x="595" y="674" text-anchor="middle">多 Agent 配置</text>
+</g>
+
+</svg>

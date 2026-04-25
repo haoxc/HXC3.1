@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.simulator
+
+class "ColumnLabelProviderEx" as C_com_evolsoft_ec_simulator_ColumnLabelProviderEx
+class "SimulationAction" as C_com_evolsoft_ec_simulator_SimulationAction
+class "SimulatorDataProvider" as C_com_evolsoft_ec_simulator_SimulatorDataProvider
+class "SimulatorViewer" as C_com_evolsoft_ec_simulator_SimulatorViewer
+class "SimulatorWindow" as C_com_evolsoft_ec_simulator_SimulatorWindow
+class "StyleItem" as C_com_evolsoft_ec_simulator_StyleItem
+class "TextStyleRender" as C_com_evolsoft_ec_simulator_TextStyleRender
+
+C_com_evolsoft_ec_simulator_ColumnLabelProviderEx --> C_com_evolsoft_ec_simulator_SimulatorDataProvider
+C_com_evolsoft_ec_simulator_ColumnLabelProviderEx --> C_com_evolsoft_ec_simulator_TextStyleRender
+C_com_evolsoft_ec_simulator_SimulatorViewer --> C_com_evolsoft_ec_simulator_SimulatorDataProvider
+C_com_evolsoft_ec_simulator_SimulatorViewer --> C_com_evolsoft_ec_simulator_TextStyleRender
+C_com_evolsoft_ec_simulator_SimulatorWindow --> C_com_evolsoft_ec_simulator_SimulatorViewer
+@enduml

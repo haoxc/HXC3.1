@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pbil.configuration
+
+interface "IPBILCFGFactory" as C_com_evolsoft_ec_pbil_configuration_IPBILCFGFactory
+interface "IPBILCFGPackage" as C_com_evolsoft_ec_pbil_configuration_IPBILCFGPackage
+interface "IPBILConfiguration" as C_com_evolsoft_ec_pbil_configuration_IPBILConfiguration
+interface "IPBILConfigurationLoader" as C_com_evolsoft_ec_pbil_configuration_IPBILConfigurationLoader
+interface "Literals" as C_com_evolsoft_ec_pbil_configuration_Literals
+
+@enduml

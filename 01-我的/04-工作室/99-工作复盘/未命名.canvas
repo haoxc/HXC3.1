@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"ca6db9820481775c","type":"file","file":"01-我的空间/04-工作室/99-工作复盘/z附件/Pasted image 20251215094829.png","x":-340,"y":-300,"width":407,"height":180},
+		{"id":"eceb900df6ec806f","type":"file","file":"01-我的空间/04-工作室/99-工作复盘/z附件/Pasted image 20251215094835.png","x":-340,"y":-100,"width":400,"height":217}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

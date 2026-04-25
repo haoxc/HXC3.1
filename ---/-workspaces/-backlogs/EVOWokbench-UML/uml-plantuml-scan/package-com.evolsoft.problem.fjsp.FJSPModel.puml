@@ -1,0 +1,51 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp.FJSPModel
+
+interface "AbstractResource" as C_com_evolsoft_problem_fjsp_FJSPModel_AbstractResource
+interface "AbstractResource (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_AbstractResource__dup2
+interface "ConstrainRelation" as C_com_evolsoft_problem_fjsp_FJSPModel_ConstrainRelation
+interface "ConstrainRelation (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_ConstrainRelation__dup2
+interface "FJSPModel" as C_com_evolsoft_problem_fjsp_FJSPModel_FJSPModel
+interface "FJSPModelFactory" as C_com_evolsoft_problem_fjsp_FJSPModel_FJSPModelFactory
+interface "FJSPModelFactory (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_FJSPModelFactory__dup2
+interface "FJSPModelPackage" as C_com_evolsoft_problem_fjsp_FJSPModel_FJSPModelPackage
+interface "FJSPModelPackage (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_FJSPModelPackage__dup2
+interface "FJSPModel (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_FJSPModel__dup2
+class "FJSPSolutionXMLConverter" as C_com_evolsoft_problem_fjsp_FJSPModel_FJSPSolutionXMLConverter
+interface "IFJSP2ModelProvider" as C_com_evolsoft_problem_fjsp_FJSPModel_IFJSP2ModelProvider
+interface "IFJSP2ModelProvider (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_IFJSP2ModelProvider__dup2
+interface "Identifying" as C_com_evolsoft_problem_fjsp_FJSPModel_Identifying
+interface "Identifying (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_Identifying__dup2
+interface "Literals" as C_com_evolsoft_problem_fjsp_FJSPModel_Literals
+interface "Machine" as C_com_evolsoft_problem_fjsp_FJSPModel_Machine
+interface "MachineItem" as C_com_evolsoft_problem_fjsp_FJSPModel_MachineItem
+interface "MachineItem (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_MachineItem__dup2
+interface "MachineManager" as C_com_evolsoft_problem_fjsp_FJSPModel_MachineManager
+interface "MachineManager (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_MachineManager__dup2
+interface "Machine (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_Machine__dup2
+interface "MachiningConfiguration" as C_com_evolsoft_problem_fjsp_FJSPModel_MachiningConfiguration
+interface "MachiningConfiguration (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_MachiningConfiguration__dup2
+interface "ManufactureFactory" as C_com_evolsoft_problem_fjsp_FJSPModel_ManufactureFactory
+interface "ManufactureFactory (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_ManufactureFactory__dup2
+interface "Operation" as C_com_evolsoft_problem_fjsp_FJSPModel_Operation
+interface "Operation (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_Operation__dup2
+interface "Product" as C_com_evolsoft_problem_fjsp_FJSPModel_Product
+interface "ProductCategory" as C_com_evolsoft_problem_fjsp_FJSPModel_ProductCategory
+interface "ProductCategory (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_ProductCategory__dup2
+interface "Product (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_Product__dup2
+enum "RelationType" as C_com_evolsoft_problem_fjsp_FJSPModel_RelationType
+enum "RelationType (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_RelationType__dup2
+interface "Resource" as C_com_evolsoft_problem_fjsp_FJSPModel_Resource
+interface "ResourceCategory" as C_com_evolsoft_problem_fjsp_FJSPModel_ResourceCategory
+interface "ResourceCategory (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_ResourceCategory__dup2
+interface "ResourceConstrain" as C_com_evolsoft_problem_fjsp_FJSPModel_ResourceConstrain
+interface "ResourceConstrain (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_ResourceConstrain__dup2
+interface "ResourceItem" as C_com_evolsoft_problem_fjsp_FJSPModel_ResourceItem
+interface "ResourceItem (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_ResourceItem__dup2
+interface "ResourceManager" as C_com_evolsoft_problem_fjsp_FJSPModel_ResourceManager
+interface "ResourceManager (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_ResourceManager__dup2
+interface "Resource (com.evolsoft.problem.fjsp2.model)" as C_com_evolsoft_problem_fjsp_FJSPModel_Resource__dup2
+
+@enduml

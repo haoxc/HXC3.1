@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.configuration.metadata
+
+interface "ConfigMetadataFactory" as C_com_evolsoft_core_configuration_metadata_ConfigMetadataFactory
+interface "ConfigMetadataPackage" as C_com_evolsoft_core_configuration_metadata_ConfigMetadataPackage
+interface "IServiceItemFactory" as C_com_evolsoft_core_configuration_metadata_IServiceItemFactory
+interface "Literals" as C_com_evolsoft_core_configuration_metadata_Literals
+interface "ServiceItem" as C_com_evolsoft_core_configuration_metadata_ServiceItem
+interface "ServiceItemAttribute" as C_com_evolsoft_core_configuration_metadata_ServiceItemAttribute
+interface "ServiceMetaData" as C_com_evolsoft_core_configuration_metadata_ServiceMetaData
+
+@enduml

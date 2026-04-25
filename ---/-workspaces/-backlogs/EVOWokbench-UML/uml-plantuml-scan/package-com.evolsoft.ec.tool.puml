@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.tool
+
+class "ECToolPlugin" as C_com_evolsoft_ec_tool_ECToolPlugin
+class "EmigrationAction" as C_com_evolsoft_ec_tool_EmigrationAction
+class "FlipMutation" as C_com_evolsoft_ec_tool_FlipMutation
+class "InsertMutation" as C_com_evolsoft_ec_tool_InsertMutation
+
+@enduml

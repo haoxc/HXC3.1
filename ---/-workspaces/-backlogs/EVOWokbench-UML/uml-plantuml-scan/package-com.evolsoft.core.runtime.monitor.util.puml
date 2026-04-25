@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.runtime.monitor.util
+
+class "CRTMonitorAdapterFactory" as C_com_evolsoft_core_runtime_monitor_util_CRTMonitorAdapterFactory
+class "CRTMonitorSwitch" as C_com_evolsoft_core_runtime_monitor_util_CRTMonitorSwitch
+class "CoreRTMonitorAdapterFactory" as C_com_evolsoft_core_runtime_monitor_util_CoreRTMonitorAdapterFactory
+class "CoreRTMonitorSwitch" as C_com_evolsoft_core_runtime_monitor_util_CoreRTMonitorSwitch
+
+@enduml

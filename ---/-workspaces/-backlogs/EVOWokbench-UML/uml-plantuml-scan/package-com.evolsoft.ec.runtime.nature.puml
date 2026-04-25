@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.nature
+
+class "AbstractECNature" as C_com_evolsoft_ec_runtime_nature_AbstractECNature
+class "DeltaPrinter" as C_com_evolsoft_ec_runtime_nature_DeltaPrinter
+class "ECBuilder" as C_com_evolsoft_ec_runtime_nature_ECBuilder
+class "ECNature" as C_com_evolsoft_ec_runtime_nature_ECNature
+class "ECProjectUtils" as C_com_evolsoft_ec_runtime_nature_ECProjectUtils
+class "EntryItem" as C_com_evolsoft_ec_runtime_nature_EntryItem
+interface "IECNature" as C_com_evolsoft_ec_runtime_nature_IECNature
+
+C_com_evolsoft_ec_runtime_nature_IECNature <|.. C_com_evolsoft_ec_runtime_nature_AbstractECNature
+@enduml

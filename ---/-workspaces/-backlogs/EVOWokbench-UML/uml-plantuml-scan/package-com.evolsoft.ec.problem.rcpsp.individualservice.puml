@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.problem.rcpsp.individualservice
+
+class "AbstractRCPSPEDAIndividualService" as C_com_evolsoft_ec_problem_rcpsp_individualservice_AbstractRCPSPEDAIndividualService
+class "EDA4MRCPSPService" as C_com_evolsoft_ec_problem_rcpsp_individualservice_EDA4MRCPSPService
+class "ItemInfo" as C_com_evolsoft_ec_problem_rcpsp_individualservice_ItemInfo
+class "RCPSPServicePlugIn" as C_com_evolsoft_ec_problem_rcpsp_individualservice_RCPSPServicePlugIn
+class "RCPSPSimBuilder" as C_com_evolsoft_ec_problem_rcpsp_individualservice_RCPSPSimBuilder
+
+C_com_evolsoft_ec_problem_rcpsp_individualservice_AbstractRCPSPEDAIndividualService <|-- C_com_evolsoft_ec_problem_rcpsp_individualservice_EDA4MRCPSPService
+@enduml

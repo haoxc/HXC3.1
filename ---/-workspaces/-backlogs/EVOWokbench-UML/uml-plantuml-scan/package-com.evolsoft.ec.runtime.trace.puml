@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.trace
+
+class "AbstractTraceData" as C_com_evolsoft_ec_runtime_trace_AbstractTraceData
+class "AbstractTraceItem" as C_com_evolsoft_ec_runtime_trace_AbstractTraceItem
+interface "ITracable" as C_com_evolsoft_ec_runtime_trace_ITracable
+interface "ITraceDataChangedListener" as C_com_evolsoft_ec_runtime_trace_ITraceDataChangedListener
+interface "ITraceItem" as C_com_evolsoft_ec_runtime_trace_ITraceItem
+interface "ITraceItemProvider" as C_com_evolsoft_ec_runtime_trace_ITraceItemProvider
+class "TraceDataChangedEvent" as C_com_evolsoft_ec_runtime_trace_TraceDataChangedEvent
+class "TraceItemProvider" as C_com_evolsoft_ec_runtime_trace_TraceItemProvider
+
+C_com_evolsoft_ec_runtime_trace_ITracable <|.. C_com_evolsoft_ec_runtime_trace_AbstractTraceData
+C_com_evolsoft_ec_runtime_trace_ITraceItem <|.. C_com_evolsoft_ec_runtime_trace_AbstractTraceItem
+C_com_evolsoft_ec_runtime_trace_ITraceItemProvider <|.. C_com_evolsoft_ec_runtime_trace_TraceItemProvider
+C_com_evolsoft_ec_runtime_trace_AbstractTraceItem --> C_com_evolsoft_ec_runtime_trace_ITracable
+C_com_evolsoft_ec_runtime_trace_AbstractTraceItem --> C_com_evolsoft_ec_runtime_trace_ITraceDataChangedListener
+@enduml

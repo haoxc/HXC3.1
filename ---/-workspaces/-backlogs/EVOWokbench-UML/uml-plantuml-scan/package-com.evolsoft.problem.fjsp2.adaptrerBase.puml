@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp2.adaptrerBase
+
+class "Activator" as C_com_evolsoft_problem_fjsp2_adaptrerBase_Activator
+class "Activator (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_Activator__dup2
+class "FJSP2ScheduleAdapter" as C_com_evolsoft_problem_fjsp2_adaptrerBase_FJSP2ScheduleAdapter
+class "FJSP2ScheduleAdapter (com.evolsoft.problem.fjsp2.adaptrerBase)" as C_com_evolsoft_problem_fjsp2_adaptrerBase_FJSP2ScheduleAdapter__dup2
+class "move_of_CPAnalysisWindow2" as C_com_evolsoft_problem_fjsp2_adaptrerBase_move_of_CPAnalysisWindow2
+
+@enduml

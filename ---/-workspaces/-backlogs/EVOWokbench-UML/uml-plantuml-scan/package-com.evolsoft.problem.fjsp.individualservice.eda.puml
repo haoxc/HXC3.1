@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp.individualservice.eda
+
+class "MachineAssignmentGeneAccessor" as C_com_evolsoft_problem_fjsp_individualservice_eda_MachineAssignmentGeneAccessor
+class "MachineAssignmentPMatrix" as C_com_evolsoft_problem_fjsp_individualservice_eda_MachineAssignmentPMatrix
+class "PromisingDataIterator" as C_com_evolsoft_problem_fjsp_individualservice_eda_PromisingDataIterator
+
+@enduml

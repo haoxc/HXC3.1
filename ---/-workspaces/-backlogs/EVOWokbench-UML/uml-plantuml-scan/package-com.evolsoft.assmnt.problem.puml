@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.assmnt.problem
+
+class "AsessingRuleSolution" as C_com_evolsoft_assmnt_problem_AsessingRuleSolution
+class "AssessingDataProvider" as C_com_evolsoft_assmnt_problem_AssessingDataProvider
+class "CoveringObjective" as C_com_evolsoft_assmnt_problem_CoveringObjective
+class "TrainingDataLoader" as C_com_evolsoft_assmnt_problem_TrainingDataLoader
+
+@enduml

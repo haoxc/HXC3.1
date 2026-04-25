@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp.individualservice.simuator
+
+class "FJSP2SimBuilder" as C_com_evolsoft_problem_fjsp_individualservice_simuator_FJSP2SimBuilder
+class "FJSPSimulatorWindow" as C_com_evolsoft_problem_fjsp_individualservice_simuator_FJSPSimulatorWindow
+interface "IFJSPSimProperty" as C_com_evolsoft_problem_fjsp_individualservice_simuator_IFJSPSimProperty
+
+@enduml

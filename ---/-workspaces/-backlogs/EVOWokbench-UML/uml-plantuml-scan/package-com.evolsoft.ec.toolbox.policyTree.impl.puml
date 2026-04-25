@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.policyTree.impl
+
+class "PTItemImpl" as C_com_evolsoft_ec_toolbox_policyTree_impl_PTItemImpl
+class "PTPolicyTreeImpl" as C_com_evolsoft_ec_toolbox_policyTree_impl_PTPolicyTreeImpl
+class "PTTreeEdgeImpl" as C_com_evolsoft_ec_toolbox_policyTree_impl_PTTreeEdgeImpl
+class "PTTreeNodeImpl" as C_com_evolsoft_ec_toolbox_policyTree_impl_PTTreeNodeImpl
+class "PolicyTreeFactoryImpl" as C_com_evolsoft_ec_toolbox_policyTree_impl_PolicyTreeFactoryImpl
+class "PolicyTreePackageImpl" as C_com_evolsoft_ec_toolbox_policyTree_impl_PolicyTreePackageImpl
+
+C_com_evolsoft_ec_toolbox_policyTree_impl_PTItemImpl <|-- C_com_evolsoft_ec_toolbox_policyTree_impl_PTTreeEdgeImpl
+C_com_evolsoft_ec_toolbox_policyTree_impl_PTItemImpl <|-- C_com_evolsoft_ec_toolbox_policyTree_impl_PTTreeNodeImpl
+@enduml

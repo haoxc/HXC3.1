@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.toolbox.mrf
+
+class "Activator" as C_com_evolsoft_ec_toolbox_mrf_Activator
+class "Entropy" as C_com_evolsoft_ec_toolbox_mrf_Entropy
+class "JointProbabilityState" as C_com_evolsoft_ec_toolbox_mrf_JointProbabilityState
+class "MutualInformation" as C_com_evolsoft_ec_toolbox_mrf_MutualInformation
+class "ProbabilityState" as C_com_evolsoft_ec_toolbox_mrf_ProbabilityState
+
+@enduml

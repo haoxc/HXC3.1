@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.simModel
+
+class "AbstractSimulationWindow" as C_com_evolsoft_ec_simModel_AbstractSimulationWindow
+interface "Literals" as C_com_evolsoft_ec_simModel_Literals
+class "ModelChangedEvent" as C_com_evolsoft_ec_simModel_ModelChangedEvent
+interface "ModelChangedListener" as C_com_evolsoft_ec_simModel_ModelChangedListener
+interface "SimDecision" as C_com_evolsoft_ec_simModel_SimDecision
+interface "SimInput" as C_com_evolsoft_ec_simModel_SimInput
+interface "SimInputItem" as C_com_evolsoft_ec_simModel_SimInputItem
+interface "SimManager" as C_com_evolsoft_ec_simModel_SimManager
+interface "SimModelFactory" as C_com_evolsoft_ec_simModel_SimModelFactory
+interface "SimModelPackage" as C_com_evolsoft_ec_simModel_SimModelPackage
+interface "SimOutput" as C_com_evolsoft_ec_simModel_SimOutput
+interface "SimOutputItem" as C_com_evolsoft_ec_simModel_SimOutputItem
+interface "SimStyleItem" as C_com_evolsoft_ec_simModel_SimStyleItem
+interface "SimTrace" as C_com_evolsoft_ec_simModel_SimTrace
+interface "SimTraceItem" as C_com_evolsoft_ec_simModel_SimTraceItem
+
+C_com_evolsoft_ec_simModel_SimStyleItem <|-- C_com_evolsoft_ec_simModel_SimDecision
+C_com_evolsoft_ec_simModel_SimStyleItem <|-- C_com_evolsoft_ec_simModel_SimInputItem
+C_com_evolsoft_ec_simModel_SimStyleItem <|-- C_com_evolsoft_ec_simModel_SimOutputItem
+@enduml

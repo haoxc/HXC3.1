@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.runtime.util
+
+class "CoreRuntimeAdapterFactory" as C_com_evolsoft_core_runtime_util_CoreRuntimeAdapterFactory
+class "CoreRuntimeSwitch" as C_com_evolsoft_core_runtime_util_CoreRuntimeSwitch
+
+@enduml

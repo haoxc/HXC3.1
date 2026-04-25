@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.chart
+
+class "AbstractFreeChartView" as C_com_evolsoft_ec_chart_AbstractFreeChartView
+class "Activator" as C_com_evolsoft_ec_chart_Activator
+class "ECMonitorPlugin" as C_com_evolsoft_ec_chart_ECMonitorPlugin
+class "FitnessMonitorView" as C_com_evolsoft_ec_chart_FitnessMonitorView
+interface "IChartView" as C_com_evolsoft_ec_chart_IChartView
+interface "IGenSeriesDataProvider" as C_com_evolsoft_ec_chart_IGenSeriesDataProvider
+class "ObjectiveMonitorView" as C_com_evolsoft_ec_chart_ObjectiveMonitorView
+class "ParetoView" as C_com_evolsoft_ec_chart_ParetoView
+class "TimeSeriesDataView" as C_com_evolsoft_ec_chart_TimeSeriesDataView
+
+C_com_evolsoft_ec_chart_TimeSeriesDataView <|-- C_com_evolsoft_ec_chart_FitnessMonitorView
+C_com_evolsoft_ec_chart_TimeSeriesDataView <|-- C_com_evolsoft_ec_chart_ObjectiveMonitorView
+C_com_evolsoft_ec_chart_TimeSeriesDataView <|-- C_com_evolsoft_ec_chart_ParetoView
+C_com_evolsoft_ec_chart_AbstractFreeChartView <|-- C_com_evolsoft_ec_chart_TimeSeriesDataView
+@enduml

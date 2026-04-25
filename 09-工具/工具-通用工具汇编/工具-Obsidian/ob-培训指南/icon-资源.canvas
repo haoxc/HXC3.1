@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{
+			"id":"f59e9de9d5646b8f",
+			"type":"text",
+			"text":"iconfinder.com/search?q=flat+icon+idea",
+			"styleAttributes":{},
+			"x":-340,
+			"y":-340,
+			"width":440,
+			"height":140
+		},
+		{"id":"75f6f287c5389cf5","type":"file","file":"09-工具/工具-通用工具汇编/工具-Obsidian/ob-培训指南/附件/Pasted image 20251108173715.png","x":-340,"y":-100,"width":400,"height":400},
+		{"id":"59f23f366fd4a599","type":"file","file":"09-工具/工具-通用工具汇编/工具-Obsidian/ob-培训指南/附件/Pasted image 20251108173718.png","x":100,"y":-100,"width":400,"height":400},
+		{
+			"id":"eb6282efaa7523ff",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-460,
+			"y":720,
+			"width":260,
+			"height":60
+		},
+		{"id":"72b407866e362e8f","type":"link","url":"https://jp.pinterest.com/pin/12877548931909302/","x":-750,"y":400,"width":1220,"height":820},
+		{"id":"3771ed45523ec417","type":"file","file":"09-工具/工具-通用工具汇编/工具-Obsidian/ob-培训指南/附件/Pasted image 20251111104259.jpg","x":-750,"y":1320,"width":380,"height":760}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

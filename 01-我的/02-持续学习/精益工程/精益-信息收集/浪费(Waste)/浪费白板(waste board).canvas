@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"f0e1a76f748b12ba","type":"file","file":"---/任务管理(Task home svy)/精益工厂视觉/精益-信息收集/浪费(Waste)/归纳分析/浪费本质.md","x":-500,"y":-1260,"width":540,"height":580},
+		{"id":"dad22081e80dce7a","type":"file","file":"---/任务管理(Task home svy)/精益工厂视觉/精益-信息收集/浪费(Waste)/浪费.excalidraw.md","x":-480,"y":-725,"width":560,"height":1010},
+		{
+			"id":"805ce866a7b78b50",
+			"type":"text",
+			"text":"## 浪费",
+			"styleAttributes":{},
+			"x":-2000,
+			"y":-250,
+			"width":260,
+			"height":60
+		},
+		{"id":"14f000a602e98b26","type":"file","file":"---/任务管理(Task home svy)/精益工厂视觉/精益-信息收集/浪费(Waste)/浪费-浪费课题(Waste topics).md","subpath":"#^3ea941","x":-500,"y":440,"width":720,"height":480}
+	],
+	"edges":[
+		{
+			"id":"d1a3c43523219a42",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"805ce866a7b78b50",
+			"fromSide":"right",
+			"toNode":"f0e1a76f748b12ba",
+			"toSide":"left",
+			"label":"定义"
+		},
+		{
+			"id":"1f08b568211357b8",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"805ce866a7b78b50",
+			"fromSide":"right",
+			"toNode":"14f000a602e98b26",
+			"toSide":"left",
+			"label":"课题"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.core.configuration.metadata.util
+
+class "ConfigMetadataAdapterFactory" as C_com_evolsoft_core_configuration_metadata_util_ConfigMetadataAdapterFactory
+class "ConfigMetadataSwitch" as C_com_evolsoft_core_configuration_metadata_util_ConfigMetadataSwitch
+class "ECConfigurationUtils" as C_com_evolsoft_core_configuration_metadata_util_ECConfigurationUtils
+
+@enduml

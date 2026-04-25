@@ -1,0 +1,23 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.simModel.impl
+
+class "CustomSimManager" as C_com_evolsoft_ec_simModel_impl_CustomSimManager
+class "SimDecisionImpl" as C_com_evolsoft_ec_simModel_impl_SimDecisionImpl
+class "SimInputImpl" as C_com_evolsoft_ec_simModel_impl_SimInputImpl
+class "SimInputItemImpl" as C_com_evolsoft_ec_simModel_impl_SimInputItemImpl
+class "SimManagerImpl" as C_com_evolsoft_ec_simModel_impl_SimManagerImpl
+class "SimModelFactoryImpl" as C_com_evolsoft_ec_simModel_impl_SimModelFactoryImpl
+class "SimModelPackageImpl" as C_com_evolsoft_ec_simModel_impl_SimModelPackageImpl
+class "SimOutputImpl" as C_com_evolsoft_ec_simModel_impl_SimOutputImpl
+class "SimOutputItemImpl" as C_com_evolsoft_ec_simModel_impl_SimOutputItemImpl
+class "SimStyleItemImpl" as C_com_evolsoft_ec_simModel_impl_SimStyleItemImpl
+class "SimTraceImpl" as C_com_evolsoft_ec_simModel_impl_SimTraceImpl
+class "SimTraceItemImpl" as C_com_evolsoft_ec_simModel_impl_SimTraceItemImpl
+
+C_com_evolsoft_ec_simModel_impl_SimManagerImpl <|-- C_com_evolsoft_ec_simModel_impl_CustomSimManager
+C_com_evolsoft_ec_simModel_impl_SimStyleItemImpl <|-- C_com_evolsoft_ec_simModel_impl_SimDecisionImpl
+C_com_evolsoft_ec_simModel_impl_SimStyleItemImpl <|-- C_com_evolsoft_ec_simModel_impl_SimInputItemImpl
+C_com_evolsoft_ec_simModel_impl_SimStyleItemImpl <|-- C_com_evolsoft_ec_simModel_impl_SimOutputItemImpl
+@enduml

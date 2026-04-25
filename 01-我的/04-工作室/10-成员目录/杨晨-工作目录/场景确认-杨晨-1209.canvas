@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"c850caeb91816831","type":"file","file":"01-我的空间/04-工作室/10-成员目录/杨晨-工作目录/z附件/d57444b0acd21c7eeeea50a7448bb394.png","x":-20,"y":-140,"width":400,"height":183},
+		{"id":"135ddbc7e31349b5","type":"file","file":"01-我的空间/04-工作室/10-成员目录/杨晨-工作目录/z附件/3653c88dd7dfde27a0ef9a117d62adb8.png","x":-20,"y":100,"width":400,"height":192}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

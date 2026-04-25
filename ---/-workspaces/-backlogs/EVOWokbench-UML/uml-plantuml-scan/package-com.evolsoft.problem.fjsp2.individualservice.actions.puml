@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp2.individualservice.actions
+
+class "MachineMutation" as C_com_evolsoft_problem_fjsp2_individualservice_actions_MachineMutation
+class "PrioritySwapMutation" as C_com_evolsoft_problem_fjsp2_individualservice_actions_PrioritySwapMutation
+
+@enduml

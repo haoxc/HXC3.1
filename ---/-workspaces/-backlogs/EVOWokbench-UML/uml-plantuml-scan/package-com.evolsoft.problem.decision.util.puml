@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.decision.util
+
+class "DecisionAdapterFactory" as C_com_evolsoft_problem_decision_util_DecisionAdapterFactory
+class "DecisionSwitch" as C_com_evolsoft_problem_decision_util_DecisionSwitch
+
+@enduml

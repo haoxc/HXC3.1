@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.pbil.chartView
+
+class "PBFigureVectorsDataProvider" as C_com_evolsoft_ec_pbil_chartView_PBFigureVectorsDataProvider
+class "PBMatrixFigureLabelProvider" as C_com_evolsoft_ec_pbil_chartView_PBMatrixFigureLabelProvider
+class "PBMatrixMonitorView" as C_com_evolsoft_ec_pbil_chartView_PBMatrixMonitorView
+
+C_com_evolsoft_ec_pbil_chartView_PBMatrixMonitorView --> C_com_evolsoft_ec_pbil_chartView_PBFigureVectorsDataProvider
+C_com_evolsoft_ec_pbil_chartView_PBMatrixMonitorView --> C_com_evolsoft_ec_pbil_chartView_PBMatrixFigureLabelProvider
+@enduml

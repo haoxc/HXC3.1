@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.exports
+
+class "ECExportUtils" as C_com_evolsoft_ec_runtime_exports_ECExportUtils
+class "ExportContext" as C_com_evolsoft_ec_runtime_exports_ExportContext
+interface "IExportContext" as C_com_evolsoft_ec_runtime_exports_IExportContext
+
+C_com_evolsoft_ec_runtime_exports_IExportContext <|.. C_com_evolsoft_ec_runtime_exports_ExportContext
+@enduml

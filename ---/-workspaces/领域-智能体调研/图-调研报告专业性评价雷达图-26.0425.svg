@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="640" viewBox="0 0 720 640">
+  <rect width="720" height="640" fill="#ffffff"/>
+  <text x="40" y="52" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="26" font-weight="700" fill="#0f766e">调研报告专业性评价雷达图</text>
+  <text x="40" y="82" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#64748b">对象：调研-agency-agents核心思想-26.0425.md｜满分 10 分</text>
+
+  <g transform="translate(40,20)" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <polygon points="300,262 332.9,281 332.9,319 300,338 267.1,319 267.1,281" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+    <polygon points="300,224 365.8,262 365.8,338 300,376 234.2,338 234.2,262" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+    <polygon points="300,186 398.7,243 398.7,357 300,414 201.3,357 201.3,243" fill="none" stroke="#d1d5db" stroke-width="1"/>
+    <polygon points="300,148 431.6,224 431.6,376 300,452 168.4,376 168.4,224" fill="none" stroke="#d1d5db" stroke-width="1"/>
+    <polygon points="300,110 464.5,205 464.5,395 300,490 135.5,395 135.5,205" fill="none" stroke="#94a3b8" stroke-width="1.2"/>
+
+    <line x1="300" y1="300" x2="300" y2="110" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="300" y1="300" x2="464.5" y2="205" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="300" y1="300" x2="464.5" y2="395" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="300" y1="300" x2="300" y2="490" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="300" y1="300" x2="135.5" y2="395" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="300" y1="300" x2="135.5" y2="205" stroke="#cbd5e1" stroke-width="1"/>
+
+    <polygon points="300,138.5 415.2,233.5 423.4,371.3 300,452 160.1,380.8 176.6,228.8" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="3"/>
+    <circle cx="300" cy="138.5" r="5" fill="#0f766e"/>
+    <circle cx="415.2" cy="233.5" r="5" fill="#0f766e"/>
+    <circle cx="423.4" cy="371.3" r="5" fill="#0f766e"/>
+    <circle cx="300" cy="452" r="5" fill="#0f766e"/>
+    <circle cx="160.1" cy="380.8" r="5" fill="#0f766e"/>
+    <circle cx="176.6" cy="228.8" r="5" fill="#0f766e"/>
+
+    <text x="300" y="82" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">问题界定 8.5</text>
+    <text x="485.1" y="190" text-anchor="start" font-size="16" font-weight="700" fill="#111827">证据支撑 7.0</text>
+    <text x="485.1" y="412" text-anchor="start" font-size="16" font-weight="700" fill="#111827">分析深度 7.5</text>
+    <text x="300" y="532" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">结构可读性 8.0</text>
+    <text x="114.9" y="412" text-anchor="end" font-size="16" font-weight="700" fill="#111827">决策价值 8.5</text>
+    <text x="114.9" y="190" text-anchor="end" font-size="16" font-weight="700" fill="#111827">边界风险 7.5</text>
+
+    <text x="300" y="116" text-anchor="middle" font-size="12" fill="#64748b">10</text>
+    <text x="300" y="154" text-anchor="middle" font-size="12" fill="#94a3b8">8</text>
+    <text x="300" y="192" text-anchor="middle" font-size="12" fill="#94a3b8">6</text>
+  </g>
+
+  <g font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="502" y="555" width="14" height="14" fill="#0f766e" fill-opacity="0.22" stroke="#0f766e" stroke-width="2"/>
+    <text x="524" y="568" font-size="14" fill="#334155">当前报告评分</text>
+  </g>
+</svg>

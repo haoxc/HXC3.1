@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.problem.fjsp.objective
+
+class "FJSPObjectiveBase" as C_com_evolsoft_problem_fjsp_objective_FJSPObjectiveBase
+
+@enduml

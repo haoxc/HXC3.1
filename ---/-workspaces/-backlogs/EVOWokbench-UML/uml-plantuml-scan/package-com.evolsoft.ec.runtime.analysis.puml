@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.runtime.analysis
+
+class "ExperimentResult" as C_com_evolsoft_ec_runtime_analysis_ExperimentResult
+class "ExperimentResultManager" as C_com_evolsoft_ec_runtime_analysis_ExperimentResultManager
+class "ExperimentStatisticItem" as C_com_evolsoft_ec_runtime_analysis_ExperimentStatisticItem
+interface "IExperimenResultManager" as C_com_evolsoft_ec_runtime_analysis_IExperimenResultManager
+
+C_com_evolsoft_ec_runtime_analysis_IExperimenResultManager <|.. C_com_evolsoft_ec_runtime_analysis_ExperimentResultManager
+C_com_evolsoft_ec_runtime_analysis_ExperimentResult --> C_com_evolsoft_ec_runtime_analysis_IExperimenResultManager
+@enduml

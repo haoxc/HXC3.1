@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.sa.runtime
+
+interface "ISAOptimizator" as C_com_evolsoft_ec_sa_runtime_ISAOptimizator
+interface "ISARTFactory" as C_com_evolsoft_ec_sa_runtime_ISARTFactory
+interface "ISARTPackage" as C_com_evolsoft_ec_sa_runtime_ISARTPackage
+interface "Literals" as C_com_evolsoft_ec_sa_runtime_Literals
+
+@enduml

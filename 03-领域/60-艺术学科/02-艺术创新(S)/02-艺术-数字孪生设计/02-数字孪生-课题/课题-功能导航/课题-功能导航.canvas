@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"8f8c39d0608a5492","type":"file","file":"03-领域/60-艺术学科/02-艺术创新(S)/02-艺术-数字孪生设计/02-数字孪生-课题/课题-功能导航/z附件/img-功能导航.png","x":60,"y":-451,"width":399,"height":223},
+		{
+			"id":"9d4ec08b311ae970",
+			"type":"text",
+			"text":"## 导航\n- 结构化导航\n\t- 功能密度高",
+			"styleAttributes":{},
+			"x":-560,
+			"y":-410,
+			"width":340,
+			"height":142
+		}
+	],
+	"edges":[
+		{
+			"id":"20a23c693ea6f9d2",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"9d4ec08b311ae970",
+			"fromSide":"right",
+			"toNode":"8f8c39d0608a5492",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

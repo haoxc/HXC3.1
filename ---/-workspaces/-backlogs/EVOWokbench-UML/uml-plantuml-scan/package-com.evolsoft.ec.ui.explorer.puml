@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.ui.explorer
+
+class "ECAppContentProviderBase" as C_com_evolsoft_ec_ui_explorer_ECAppContentProviderBase
+class "ECAppExploerContentProvider" as C_com_evolsoft_ec_ui_explorer_ECAppExploerContentProvider
+class "ECAppExplorer" as C_com_evolsoft_ec_ui_explorer_ECAppExplorer
+class "OpenMonitorViewHandler" as C_com_evolsoft_ec_ui_explorer_OpenMonitorViewHandler
+
+C_com_evolsoft_ec_ui_explorer_ECAppContentProviderBase <|-- C_com_evolsoft_ec_ui_explorer_ECAppExploerContentProvider
+C_com_evolsoft_ec_ui_explorer_ECAppExplorer --> C_com_evolsoft_ec_ui_explorer_ECAppExploerContentProvider
+@enduml

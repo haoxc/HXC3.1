@@ -1,0 +1,25 @@
+formulas:
+  未命名: ""
+views:
+  - type: table
+    name: 已整理-表格
+    filters:
+      and:
+        - file.folder == "98-工具汇编/工具-通用工具汇编/工具-Obsidian/ob-使用"
+    order:
+      - file.name
+      - file.basename
+      - file.ctime
+      - file.folder
+      - file.tags
+      - formula.未命名
+    sort:
+      - property: file.name
+        direction: DESC
+    rowHeight: medium
+  - type: cards
+    name: 已整理-卡片
+    filters:
+      and:
+        - file.folder == "ob-如何使用"
+    cardSize: 260

@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.queue
+
+class "DecoderManager" as C_com_evolsoft_ec_queue_DecoderManager
+class "DecodingQueue" as C_com_evolsoft_ec_queue_DecodingQueue
+class "ECDecoder" as C_com_evolsoft_ec_queue_ECDecoder
+
+C_com_evolsoft_ec_queue_ECDecoder --> C_com_evolsoft_ec_queue_DecodingQueue
+@enduml

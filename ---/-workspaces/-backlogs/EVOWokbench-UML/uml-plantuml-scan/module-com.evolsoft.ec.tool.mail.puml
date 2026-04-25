@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Module: com.evolsoft.ec.tool.mail
+
+class "Activator" as C_com_evolsoft_ec_tool_mail_Activator
+class "MailSender" as C_com_evolsoft_ec_tool_mail_MailSender
+class "SendMailSSL" as C_com_evolsoft_ec_tool_mail_SendMailSSL
+
+@enduml

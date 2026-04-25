@@ -1,0 +1,31 @@
+{
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	},
+	"nodes":[
+		{"id":"7d997bbb647fe920","type":"group","x":-660,"y":-480,"width":500,"height":540,"label":"功能清单"},
+		{
+			"id":"923f7c69aa8ff31a",
+			"type":"text",
+			"text":"https://ucnpddee4119.feishu.cn/wiki/ILSVw2KYXiMJxIkDIBjcafi9nLc",
+			"styleAttributes":{},
+			"x":-640,
+			"y":-460,
+			"width":460,
+			"height":60
+		},
+		{"id":"cd44c71aa2ec53c7","type":"file","file":"--项目管理(pjx svy)/Others/YJ-应急管理(0920)/PJX-YJ-需求设计/附件/Pasted image 20251025134604.png","x":-640,"y":-360,"width":270,"height":400},
+		{
+			"id":"dccf13029414b32b",
+			"type":"text",
+			"text":"### 问题\n- 基础数据管理\n\t- 用户\n\t- 角色\n\t- 权限\n\t- 设置（偏好）\n- 业务数据管理\n\t- 人员管理\n\t\t- #PJX-YJ/TODO/人员管理/筛选/条件设计",
+			"styleAttributes":{},
+			"x":-140,
+			"y":-480,
+			"width":500,
+			"height":280
+		}
+	],
+	"edges":[]
+}

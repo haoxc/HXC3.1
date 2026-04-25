@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+skinparam classAttributeIconSize 0
+title Package: com.evolsoft.ec.problem.rcpsp.individualServiceBase
+
+class "ActivityItem" as C_com_evolsoft_ec_problem_rcpsp_individualServiceBase_ActivityItem
+class "ModeSelectionPMatrix" as C_com_evolsoft_ec_problem_rcpsp_individualServiceBase_ModeSelectionPMatrix
+
+@enduml

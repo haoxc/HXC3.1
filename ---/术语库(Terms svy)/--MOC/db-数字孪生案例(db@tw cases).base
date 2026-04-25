@@ -1,0 +1,58 @@
+views:
+  - type: table
+    name: 所有案例
+    filters:
+      and:
+        - type.contains("案例(Case)")
+        - '!file.folder.containsAny("zTemplate-Archives", "zTemplates")'
+    order:
+      - file.name
+      - description
+      - tags
+      - file.tags
+      - aliases
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: file.tags
+        direction: DESC
+      - property: field
+        direction: DESC
+      - property: aliases
+        direction: ASC
+    columnSize:
+      file.name: 305
+      note.description: 133
+      note.tags: 262
+      file.tags: 386
+      note.aliases: 232
+  - type: table
+    name: 数字孪生
+    filters:
+      and:
+        - 'file.tags.contains("#案例-case #数字孪生-digitalTwins")'
+        - '!file.folder.containsAny("zTemplate-Archives", "zTemplates")'
+    order:
+      - file.name
+      - description
+      - tags
+      - file.tags
+      - abbr
+      - aliases
+      - field
+    sort:
+      - property: file.tags
+        direction: ASC
+      - property: field
+        direction: DESC
+      - property: description
+        direction: ASC
+      - property: aliases
+        direction: ASC
+    columnSize:
+      file.name: 319
+      note.description: 246
+      note.tags: 262
+      note.aliases: 232
+      note.abbr: 123
+      file.tags: 386
