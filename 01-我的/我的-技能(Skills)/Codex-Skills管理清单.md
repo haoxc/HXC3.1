@@ -22,7 +22,7 @@ create-date: 2026-04-25 15:30
 - **使用原则**：高频、产物稳定、质量标准可描述的工作，才值得沉淀为 skill。
 
 > [!IMPORTANT] 当前判断
-> 当前最核心的自建技能链是：`hxc-term-card` 负责术语卡片，`hxc-survey` 负责专业调研报告，`hxc-topic-svy` 保留为快速课题综述，`bx` / `concept-definer` 负责概念理解与辨析。
+> 当前最核心的自建技能链是：`hxc-term-card` 负责术语卡片，`hxc-survey` 负责专业调研报告，`hxc-topic-svy` 保留为快速课题综述，`bx` / `concept-definer` 负责概念理解与辨析，`hxc-svg-workflow-designer` 负责 Obsidian 友好的 SVG 工作流图。
 
 ## 项目源可追踪 Skills
 
@@ -30,6 +30,7 @@ create-date: 2026-04-25 15:30
 | --- | --- | --- | --- | --- | --- |
 | `hxc-term-card` | 已安装 | 创建术语库术语卡片，维护术语库 MOC | `create term`、术语卡片、写入术语库 | `99-设置/codex-skills/hxc-term-card` | `~/.codex/skills/hxc-term-card` |
 | `hxc-survey` | 已安装 | 生成、修订、审计结论先行的专业调研报告 | `hxc-survey`、调研报告、ref-url、结论先行 | `99-设置/codex-skills/hxc-survey` | `~/.codex/skills/hxc-survey` |
+| `hxc-svg-workflow-designer` | 已安装 | 创建和修复 Obsidian 友好的 SVG 工作流图、泳道图、Wiki 可视化索引 | SVG 工作流图、流程图、黑块、重叠、截断、Obsidian 渲染 | 待镜像 | `~/.codex/skills/hxc-svg-workflow-designer` |
 
 ## 全局 Skills 总表
 
@@ -40,6 +41,8 @@ create-date: 2026-04-25 15:30
 | 调研与知识建模 | `hxc-term-card` | 术语卡片创建与术语库入口维护 | 已有项目源 |
 | 调研与知识建模 | `concept-definer` | 单一概念快速定义卡 | 适合“什么是 X” |
 | 调研与知识建模 | `bx` | 多概念辨析、边界分析 | 实际目录名为 `concepts-clarifier` |
+| Wiki / MOC / 可视化 | `moc-wiki-designer` | MOC / Wiki 目录页设计与审计 | 索引页只放目录树和链接 |
+| Wiki / MOC / 可视化 | `hxc-svg-workflow-designer` | Obsidian 友好的 SVG 工作流图与可视化索引 | 内联 SVG 属性，检查黑块、截断、重叠 |
 | 审计治理 | `hxc-model-auditor` | 管理模型、课题生命周期、信息负载审计 | 顶层管理模型审计 |
 | 审计治理 | `pjx-common-auditor` | 通用项目结构、命名、MOC 审计 | Agent / Skill / Prompt 项目适用 |
 | 审计治理 | `pjx-kw-auditor` | 知识交付、课程、教学材料工作区审计 | 知识类项目适用 |
