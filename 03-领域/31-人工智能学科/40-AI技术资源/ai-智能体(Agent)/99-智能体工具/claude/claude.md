@@ -22,10 +22,14 @@ ref-url:
 	- 准备
 		- [[claude-安装]]
 	- 指南
-		- [[btw]]
+		- [[claude-code-上下文切换]]
+		- [[claude-code-checkpoint]]
+		- [[claude-code-会话与分支]]
 		- [[claude-code-使用备忘录]]
 	- 工具
 		- [[claude工具-切换模型-cc-switch]]
 		- [[claude-code-直连OhMyGPT配置]]
 - 工作流
 	- [[claude-app-claude-code-分层工作流]]
+- 其他
+	- [[btw]]

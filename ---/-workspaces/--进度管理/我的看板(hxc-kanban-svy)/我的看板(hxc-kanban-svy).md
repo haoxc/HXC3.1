@@ -23,6 +23,7 @@ aliases:
 - [ ] pjx-proposal-auditor
 - [ ] pjx-kw-auditor
 - [ ] pjx-strucuture-auditor
+- [ ] [[hxc-test]]
 
 
 

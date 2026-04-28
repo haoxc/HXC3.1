@@ -1,5 +1,6 @@
 ---
-aliases: [mac/tools/首页(mac-tool-svy)]
+aliases:
+  - mac/tools/首页(mac-svy)
 tags: []
 description:
 type:
@@ -11,6 +12,7 @@ ref-url:
 - 生产效率
 	- [[工具-文本扩充]]
 	- [[工具-alfred]]
+	- [[liteLLM]]
 - 科学上网
 	- [[mac-vpn]]
 - 同步工具
