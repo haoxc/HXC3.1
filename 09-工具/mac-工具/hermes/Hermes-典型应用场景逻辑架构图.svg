@@ -1,0 +1,220 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg" font-family="'PingFang SC', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#10b981"/>
+    </marker>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e2e8f0" stroke-width="0.5"/>
+    </pattern>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#00000018"/>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1000" height="700" fill="#f8fafc"/>
+  <rect width="1000" height="700" fill="url(#grid)"/>
+
+  <!-- 标题 -->
+  <text x="500" y="36" fill="#0f172a" font-size="18" font-weight="700" text-anchor="middle">Hermes Agent 典型应用场景逻辑架构</text>
+  <text x="500" y="54" fill="#64748b" font-size="11" text-anchor="middle">入口触发 → 核心编排 → 典型场景 → 底层执行 &amp; 模型服务</text>
+
+  <!-- ═══════════════════════════════════════════
+       LAYER 1: 入口与触发层
+  ═══════════════════════════════════════════ -->
+  <rect x="40" y="74" width="920" height="110" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="56" y="92" fill="#1d4ed8" font-size="10" font-weight="600">① 入口与触发层</text>
+
+  <!-- CLI/TUI -->
+  <rect x="68" y="100" width="130" height="70" rx="7" fill="white" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="133" y="122" fill="#1e40af" font-size="11" font-weight="600" text-anchor="middle">CLI / TUI</text>
+  <text x="133" y="138" fill="#64748b" font-size="9" text-anchor="middle">hermes chat</text>
+  <text x="133" y="153" fill="#64748b" font-size="9" text-anchor="middle">终端交互对话</text>
+
+  <!-- Telegram/Discord -->
+  <rect x="222" y="100" width="130" height="70" rx="7" fill="white" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="287" y="122" fill="#1e40af" font-size="11" font-weight="600" text-anchor="middle">Telegram / Discord</text>
+  <text x="287" y="138" fill="#64748b" font-size="9" text-anchor="middle">Gateway 接入</text>
+  <text x="287" y="153" fill="#64748b" font-size="9" text-anchor="middle">多端消息触发</text>
+
+  <!-- Cron Job -->
+  <rect x="376" y="100" width="130" height="70" rx="7" fill="white" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="441" y="122" fill="#1e40af" font-size="11" font-weight="600" text-anchor="middle">Cron Job</text>
+  <text x="441" y="138" fill="#64748b" font-size="9" text-anchor="middle">定时任务调度</text>
+  <text x="441" y="153" fill="#64748b" font-size="9" text-anchor="middle">每日 / 按频率</text>
+
+  <!-- Webhook -->
+  <rect x="530" y="100" width="130" height="70" rx="7" fill="white" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="595" y="122" fill="#1e40af" font-size="11" font-weight="600" text-anchor="middle">Webhook</text>
+  <text x="595" y="138" fill="#64748b" font-size="9" text-anchor="middle">事件驱动触发</text>
+  <text x="595" y="153" fill="#64748b" font-size="9" text-anchor="middle">GitHub / 外部系统</text>
+
+  <!-- delegate_task -->
+  <rect x="684" y="100" width="130" height="70" rx="7" fill="white" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="749" y="122" fill="#1e40af" font-size="11" font-weight="600" text-anchor="middle">Delegate Task</text>
+  <text x="749" y="138" fill="#64748b" font-size="9" text-anchor="middle">子智能体调用</text>
+  <text x="749" y="153" fill="#64748b" font-size="9" text-anchor="middle">父→子任务派发</text>
+
+  <!-- ═══════════════════════════════════════════
+       向下箭头 Layer1 → Layer2
+  ═══════════════════════════════════════════ -->
+  <line x1="500" y1="184" x2="500" y2="208" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+
+  <!-- ═══════════════════════════════════════════
+       LAYER 2: Hermes Agent 核心编排层
+  ═══════════════════════════════════════════ -->
+  <rect x="40" y="210" width="920" height="110" rx="10" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="56" y="228" fill="#15803d" font-size="10" font-weight="600">② Hermes Agent 核心编排层</text>
+
+  <!-- Context -->
+  <rect x="68" y="236" width="148" height="70" rx="7" fill="white" stroke="#86efac" stroke-width="1.5"/>
+  <text x="142" y="258" fill="#166534" font-size="11" font-weight="600" text-anchor="middle">Context</text>
+  <text x="142" y="274" fill="#64748b" font-size="9" text-anchor="middle">多轮对话上下文</text>
+  <text x="142" y="289" fill="#64748b" font-size="9" text-anchor="middle">跨会话记忆</text>
+
+  <!-- Skills -->
+  <rect x="232" y="236" width="148" height="70" rx="7" fill="white" stroke="#86efac" stroke-width="1.5"/>
+  <text x="306" y="258" fill="#166534" font-size="11" font-weight="600" text-anchor="middle">Skills</text>
+  <text x="306" y="274" fill="#64748b" font-size="9" text-anchor="middle">可复用工作流</text>
+  <text x="306" y="289" fill="#64748b" font-size="9" text-anchor="middle">程序性记忆</text>
+
+  <!-- Tools -->
+  <rect x="396" y="236" width="148" height="70" rx="7" fill="white" stroke="#86efac" stroke-width="1.5"/>
+  <text x="470" y="258" fill="#166534" font-size="11" font-weight="600" text-anchor="middle">Tools</text>
+  <text x="470" y="274" fill="#64748b" font-size="9" text-anchor="middle">terminal / browser</text>
+  <text x="470" y="289" fill="#64748b" font-size="9" text-anchor="middle">file / web / vision</text>
+
+  <!-- Memory -->
+  <rect x="560" y="236" width="148" height="70" rx="7" fill="white" stroke="#86efac" stroke-width="1.5"/>
+  <text x="634" y="258" fill="#166534" font-size="11" font-weight="600" text-anchor="middle">Memory</text>
+  <text x="634" y="274" fill="#64748b" font-size="9" text-anchor="middle">持久化用户偏好</text>
+  <text x="634" y="289" fill="#64748b" font-size="9" text-anchor="middle">环境事实存储</text>
+
+  <!-- Delegation -->
+  <rect x="724" y="236" width="148" height="70" rx="7" fill="white" stroke="#86efac" stroke-width="1.5"/>
+  <text x="798" y="258" fill="#166534" font-size="11" font-weight="600" text-anchor="middle">Delegation</text>
+  <text x="798" y="274" fill="#64748b" font-size="9" text-anchor="middle">并行子智能体</text>
+  <text x="798" y="289" fill="#64748b" font-size="9" text-anchor="middle">任务拆分编排</text>
+
+  <!-- ═══════════════════════════════════════════
+       向下箭头 Layer2 → Layer3
+  ═══════════════════════════════════════════ -->
+  <line x1="500" y1="320" x2="500" y2="344" stroke="#10b981" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+
+  <!-- ═══════════════════════════════════════════
+       LAYER 3: 典型应用场景层
+  ═══════════════════════════════════════════ -->
+  <rect x="40" y="346" width="920" height="120" rx="10" fill="#fefce8" stroke="#fde68a" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="56" y="364" fill="#a16207" font-size="10" font-weight="600">③ 典型应用场景层</text>
+
+  <!-- 知识库管家 -->
+  <rect x="60" y="372" width="160" height="80" rx="7" fill="white" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="140" y="394" fill="#92400e" font-size="11" font-weight="600" text-anchor="middle">📚 知识库管家</text>
+  <text x="140" y="410" fill="#64748b" font-size="9" text-anchor="middle">Obsidian 笔记巡检</text>
+  <text x="140" y="424" fill="#64748b" font-size="9" text-anchor="middle">创建 / 归档 / 链接</text>
+  <text x="140" y="439" fill="#a16207" font-size="8" text-anchor="middle">obsidian skill</text>
+
+  <!-- 代码协同调度 -->
+  <rect x="238" y="372" width="160" height="80" rx="7" fill="white" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="318" y="394" fill="#92400e" font-size="11" font-weight="600" text-anchor="middle">🤖 代码协同调度</text>
+  <text x="318" y="410" fill="#64748b" font-size="9" text-anchor="middle">Claude Code / Codex</text>
+  <text x="318" y="424" fill="#64748b" font-size="9" text-anchor="middle">Feature / PR 派发</text>
+  <text x="318" y="439" fill="#a16207" font-size="8" text-anchor="middle">claude-code skill</text>
+
+  <!-- 调研资料处理 -->
+  <rect x="416" y="372" width="160" height="80" rx="7" fill="white" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="496" y="394" fill="#92400e" font-size="11" font-weight="600" text-anchor="middle">🔍 调研资料处理</text>
+  <text x="496" y="410" fill="#64748b" font-size="9" text-anchor="middle">web / arxiv 搜索</text>
+  <text x="496" y="424" fill="#64748b" font-size="9" text-anchor="middle">摘要 → 笔记入库</text>
+  <text x="496" y="439" fill="#a16207" font-size="8" text-anchor="middle">arxiv / web skill</text>
+
+  <!-- 自动化巡检 -->
+  <rect x="594" y="372" width="160" height="80" rx="7" fill="white" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="674" y="394" fill="#92400e" font-size="11" font-weight="600" text-anchor="middle">⏱ 自动化巡检</text>
+  <text x="674" y="410" fill="#64748b" font-size="9" text-anchor="middle">Cron 定时执行</text>
+  <text x="674" y="424" fill="#64748b" font-size="9" text-anchor="middle">报告 → 消息推送</text>
+  <text x="674" y="439" fill="#a16207" font-size="8" text-anchor="middle">cronjob / webhook</text>
+
+  <!-- 多模型路由 -->
+  <rect x="772" y="372" width="160" height="80" rx="7" fill="white" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="852" y="394" fill="#92400e" font-size="11" font-weight="600" text-anchor="middle">🔀 多模型路由</text>
+  <text x="852" y="410" fill="#64748b" font-size="9" text-anchor="middle">LiteLLM 代理</text>
+  <text x="852" y="424" fill="#64748b" font-size="9" text-anchor="middle">按场景选模型</text>
+  <text x="852" y="439" fill="#a16207" font-size="8" text-anchor="middle">LiteLLM gateway</text>
+
+  <!-- ═══════════════════════════════════════════
+       向下箭头 Layer3 → Layer4
+  ═══════════════════════════════════════════ -->
+  <line x1="500" y1="466" x2="500" y2="490" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ═══════════════════════════════════════════
+       LAYER 4: 底层执行 & 模型服务
+  ═══════════════════════════════════════════ -->
+  <rect x="40" y="492" width="920" height="110" rx="10" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="56" y="510" fill="#7e22ce" font-size="10" font-weight="600">④ 底层执行资源 &amp; 模型服务层</text>
+
+  <!-- Obsidian Vault -->
+  <rect x="68" y="518" width="148" height="70" rx="7" fill="white" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="142" y="540" fill="#6b21a8" font-size="11" font-weight="600" text-anchor="middle">Obsidian Vault</text>
+  <text x="142" y="556" fill="#64748b" font-size="9" text-anchor="middle">本地知识库文件</text>
+  <text x="142" y="571" fill="#64748b" font-size="9" text-anchor="middle">Markdown / SVG</text>
+
+  <!-- Claude Code CLI -->
+  <rect x="232" y="518" width="148" height="70" rx="7" fill="white" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="306" y="540" fill="#6b21a8" font-size="11" font-weight="600" text-anchor="middle">Claude Code CLI</text>
+  <text x="306" y="556" fill="#64748b" font-size="9" text-anchor="middle">代码执行子进程</text>
+  <text x="306" y="571" fill="#64748b" font-size="9" text-anchor="middle">ACP 协议通信</text>
+
+  <!-- Shell / Browser / API -->
+  <rect x="396" y="518" width="148" height="70" rx="7" fill="white" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="470" y="540" fill="#6b21a8" font-size="11" font-weight="600" text-anchor="middle">Shell / Browser</text>
+  <text x="470" y="556" fill="#64748b" font-size="9" text-anchor="middle">terminal · web</text>
+  <text x="470" y="571" fill="#64748b" font-size="9" text-anchor="middle">外部 API 调用</text>
+
+  <!-- LiteLLM -->
+  <rect x="560" y="518" width="148" height="70" rx="7" fill="white" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="634" y="540" fill="#6b21a8" font-size="11" font-weight="600" text-anchor="middle">LiteLLM Gateway</text>
+  <text x="634" y="556" fill="#64748b" font-size="9" text-anchor="middle">模型代理 / 路由</text>
+  <text x="634" y="571" fill="#64748b" font-size="9" text-anchor="middle">Docker + Postgres</text>
+
+  <!-- 模型服务 -->
+  <rect x="724" y="518" width="148" height="70" rx="7" fill="white" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="798" y="540" fill="#6b21a8" font-size="11" font-weight="600" text-anchor="middle">模型服务</text>
+  <text x="798" y="556" fill="#64748b" font-size="9" text-anchor="middle">Claude / DeepSeek</text>
+  <text x="798" y="571" fill="#64748b" font-size="9" text-anchor="middle">OpenAI / 本地 GGUF</text>
+
+  <!-- ═══════════════════════════════════════════
+       图例
+  ═══════════════════════════════════════════ -->
+  <rect x="40" y="620" width="920" height="62" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="56" y="638" fill="#475569" font-size="9" font-weight="600">图例</text>
+
+  <rect x="56" y="646" width="14" height="10" rx="2" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="76" y="655" fill="#475569" font-size="9">入口触发</text>
+
+  <rect x="156" y="646" width="14" height="10" rx="2" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="176" y="655" fill="#475569" font-size="9">核心编排</text>
+
+  <rect x="256" y="646" width="14" height="10" rx="2" fill="#fefce8" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="276" y="655" fill="#475569" font-size="9">应用场景</text>
+
+  <rect x="356" y="646" width="14" height="10" rx="2" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5"/>
+  <text x="376" y="655" fill="#475569" font-size="9">底层执行 &amp; 模型</text>
+
+  <line x1="476" y1="651" x2="500" y2="651" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+  <text x="506" y="655" fill="#475569" font-size="9">触发流</text>
+
+  <line x1="576" y1="651" x2="600" y2="651" stroke="#10b981" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <text x="606" y="655" fill="#475569" font-size="9">编排流</text>
+
+  <line x1="676" y1="651" x2="700" y2="651" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="706" y="655" fill="#475569" font-size="9">执行流</text>
+
+  <text x="960" y="655" fill="#94a3b8" font-size="8" text-anchor="end">Hermes Agent · 2026-04</text>
+</svg>

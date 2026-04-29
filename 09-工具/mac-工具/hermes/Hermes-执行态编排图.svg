@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="1100" viewBox="0 0 1480 1100" style="max-width: 100%; height: auto;">
+  <title>Hermes 执行态编排图</title>
+  <desc>展示 Hermes 在运行时如何从入口事件进入 Gateway、Cron 或 CLI，会话如何加载上下文和 skill，如何调用工具、模型代理与外部执行器，并将结果回写到目标通道、文件和日志。</desc>
+
+  <defs>
+    <marker id="arrowRun" markerWidth="12" markerHeight="10" refX="11" refY="5" orient="auto">
+      <path d="M0,0 L12,5 L0,10 Z" fill="#596579" />
+    </marker>
+    <marker id="arrowData" markerWidth="12" markerHeight="10" refX="11" refY="5" orient="auto">
+      <path d="M0,0 L12,5 L0,10 Z" fill="#7a8798" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1480" height="1100" fill="#f7f8fb" />
+
+  <text x="740" y="54" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#1f2937">Hermes 执行态编排图</text>
+  <text x="740" y="84" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#627084">从事件触发到 Agent 会话、Skill 注入、工具执行、模型路由、结果交付与日志留痕的运行链路</text>
+
+  <!-- Stage 1: Inputs -->
+  <rect x="50" y="120" width="1380" height="126" rx="8" fill="#ffffff" stroke="#d9dee8" stroke-width="1.5" />
+  <text x="82" y="151" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#475569">1. 入口事件</text>
+
+  <rect x="95" y="170" width="210" height="48" rx="7" fill="#eef7f2" stroke="#9fd0b2" stroke-width="1.5" />
+  <text x="200" y="199" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#1f5132">CLI / TUI 输入</text>
+
+  <rect x="340" y="170" width="210" height="48" rx="7" fill="#eef4ff" stroke="#aac4ee" stroke-width="1.5" />
+  <text x="445" y="199" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#244c83">Gateway 消息</text>
+
+  <rect x="585" y="170" width="210" height="48" rx="7" fill="#fff6e8" stroke="#e8bd76" stroke-width="1.5" />
+  <text x="690" y="199" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#7a4c13">Cron 到期任务</text>
+
+  <rect x="830" y="170" width="210" height="48" rx="7" fill="#f8f0ff" stroke="#c7b4ef" stroke-width="1.5" />
+  <text x="935" y="199" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#57318b">Webhook 事件</text>
+
+  <rect x="1075" y="170" width="300" height="48" rx="7" fill="#f0fdfa" stroke="#91d5c6" stroke-width="1.5" />
+  <text x="1225" y="199" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#11645b">外部系统 / 人工触发</text>
+
+  <!-- Stage 2: Dispatch -->
+  <rect x="50" y="290" width="1380" height="166" rx="8" fill="#ffffff" stroke="#d9dee8" stroke-width="1.5" />
+  <text x="82" y="321" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#475569">2. 调度入口</text>
+
+  <path d="M200 218 V270 H278 V346" stroke="#596579" stroke-width="2.1" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M445 218 V270 H522 V346" stroke="#596579" stroke-width="2.1" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M690 218 V270 H766 V346" stroke="#596579" stroke-width="2.1" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M935 218 V270 H1010 V346" stroke="#596579" stroke-width="2.1" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M1225 218 V270 H1202 V346" stroke="#596579" stroke-width="2.1" fill="none" marker-end="url(#arrowRun)" />
+
+  <rect x="145" y="346" width="265" height="66" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.4" />
+  <text x="278" y="373" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#243142">Hermes CLI / TUI Runtime</text>
+  <text x="278" y="397" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#64748b">交互会话、slash command、人工确认</text>
+
+  <rect x="455" y="346" width="265" height="66" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.4" />
+  <text x="588" y="373" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#243142">Gateway Daemon</text>
+  <text x="588" y="397" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#64748b">消息平台、后台进程、交付目标</text>
+
+  <rect x="765" y="346" width="265" height="66" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.4" />
+  <text x="898" y="373" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#243142">Cron Scheduler</text>
+  <text x="898" y="397" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#64748b">读取 jobs.json、检测 due job</text>
+
+  <rect x="1075" y="346" width="265" height="66" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.4" />
+  <text x="1208" y="373" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#243142">External Adapter</text>
+  <text x="1208" y="397" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#64748b">Webhook、API、手工脚本桥接</text>
+
+  <!-- Stage 3: Session -->
+  <rect x="50" y="500" width="1380" height="218" rx="8" fill="#ffffff" stroke="#d9dee8" stroke-width="1.5" />
+  <text x="82" y="531" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#475569">3. Agent 会话生成与上下文装配</text>
+
+  <path d="M278 412 V480 H740 V535" stroke="#596579" stroke-width="2.1" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M588 412 V480 H740 V535" stroke="#596579" stroke-width="2.1" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M898 412 V480 H740 V535" stroke="#596579" stroke-width="2.1" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M1208 412 V480 H740 V535" stroke="#596579" stroke-width="2.1" fill="none" marker-end="url(#arrowRun)" />
+
+  <rect x="515" y="545" width="450" height="96" rx="8" fill="#effaf4" stroke="#90c9a7" stroke-width="1.8" />
+  <text x="740" y="576" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#1f5132">Fresh / Resumed AIAgent Session</text>
+  <text x="740" y="604" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#486654">任务 prompt、会话状态、模型配置、工具清单、权限边界</text>
+  <text x="740" y="626" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#486654">Cron 默认是 fresh session；CLI/TUI 可继续历史 session</text>
+
+  <rect x="110" y="565" width="270" height="60" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.4" />
+  <text x="245" y="591" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#243142">Context Files / Memory</text>
+  <text x="245" y="613" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#64748b">SOUL、配置、长期记忆、会话搜索</text>
+
+  <rect x="1100" y="565" width="270" height="60" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.4" />
+  <text x="1235" y="591" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#243142">Skill Injection</text>
+  <text x="1235" y="613" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#64748b">skills_list、skill_view、attached skills</text>
+
+  <path d="M380 595 H515" stroke="#7a8798" stroke-width="2" stroke-dasharray="7 6" fill="none" marker-end="url(#arrowData)" />
+  <path d="M1100 595 H965" stroke="#7a8798" stroke-width="2" stroke-dasharray="7 6" fill="none" marker-end="url(#arrowData)" />
+
+  <rect x="380" y="665" width="720" height="30" rx="6" fill="#fffdf5" stroke="#e7d48a" stroke-width="1.2" />
+  <text x="740" y="685" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#765c16">安全边界：任务 prompt 必须自包含；secrets 走 .env / required env；高风险动作进入确认或权限控制</text>
+
+  <!-- Stage 4: Planning -->
+  <rect x="50" y="760" width="1380" height="132" rx="8" fill="#ffffff" stroke="#d9dee8" stroke-width="1.5" />
+  <text x="82" y="791" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#475569">4. 规划、路由与执行决策</text>
+
+  <path d="M740 641 V746" stroke="#596579" stroke-width="2.1" fill="none" marker-end="url(#arrowRun)" />
+
+  <rect x="135" y="812" width="250" height="54" rx="7" fill="#eef7f2" stroke="#9fd0b2" stroke-width="1.5" />
+  <text x="260" y="835" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#1f5132">Intent / Plan</text>
+  <text x="260" y="855" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#456455">识别任务、拆解步骤</text>
+
+  <rect x="445" y="812" width="250" height="54" rx="7" fill="#f8f0ff" stroke="#c7b4ef" stroke-width="1.5" />
+  <text x="570" y="835" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#57318b">Skill / Tool Route</text>
+  <text x="570" y="855" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#68577d">选择 skill、工具集、子任务</text>
+
+  <rect x="755" y="812" width="250" height="54" rx="7" fill="#eef4ff" stroke="#aac4ee" stroke-width="1.5" />
+  <text x="880" y="835" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#244c83">Model Route</text>
+  <text x="880" y="855" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#516b91">DeepSeek、Sonnet、custom endpoint</text>
+
+  <rect x="1065" y="812" width="250" height="54" rx="7" fill="#fff6e8" stroke="#e8bd76" stroke-width="1.5" />
+  <text x="1190" y="835" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#7a4c13">Permission / Approval</text>
+  <text x="1190" y="855" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#7a633d">确认、沙箱、风险动作</text>
+
+  <path d="M385 839 H445" stroke="#596579" stroke-width="2" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M695 839 H755" stroke="#596579" stroke-width="2" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M1005 839 H1065" stroke="#596579" stroke-width="2" fill="none" marker-end="url(#arrowRun)" />
+
+  <!-- Stage 5: Execution resources -->
+  <rect x="50" y="930" width="1380" height="116" rx="8" fill="#ffffff" stroke="#d9dee8" stroke-width="1.5" />
+  <text x="82" y="961" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#475569">5. 执行资源与结果交付</text>
+
+  <path d="M260 866 V912 H230 V970" stroke="#596579" stroke-width="2" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M570 866 V912 H540 V970" stroke="#596579" stroke-width="2" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M880 866 V912 H850 V970" stroke="#596579" stroke-width="2" fill="none" marker-end="url(#arrowRun)" />
+  <path d="M1190 866 V912 H1160 V970" stroke="#596579" stroke-width="2" fill="none" marker-end="url(#arrowRun)" />
+
+  <rect x="95" y="976" width="270" height="44" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.4" />
+  <text x="230" y="1004" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#243142">Shell / Browser / MCP / APIs</text>
+
+  <rect x="405" y="976" width="270" height="44" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.4" />
+  <text x="540" y="1004" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#243142">Claude Code / Codex / Subagents</text>
+
+  <rect x="715" y="976" width="270" height="44" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.4" />
+  <text x="850" y="1004" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#243142">LiteLLM / Providers / Postgres</text>
+
+  <rect x="1025" y="976" width="270" height="44" rx="7" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.4" />
+  <text x="1160" y="1004" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#243142">Files / Chat Reply / Logs</text>
+
+  <path d="M365 998 H405" stroke="#7a8798" stroke-width="2" stroke-dasharray="7 6" fill="none" marker-end="url(#arrowData)" />
+  <path d="M675 998 H715" stroke="#7a8798" stroke-width="2" stroke-dasharray="7 6" fill="none" marker-end="url(#arrowData)" />
+  <path d="M985 998 H1025" stroke="#7a8798" stroke-width="2" stroke-dasharray="7 6" fill="none" marker-end="url(#arrowData)" />
+
+  <text x="740" y="1074" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#64748b">执行态重点：入口负责触发，Gateway/Cron 负责调度，AIAgent Session 负责装配上下文与 skill，Planner 负责路由，Tools/Models/External Agents 负责落地，结果回到消息、文件、状态库和日志</text>
+</svg>
