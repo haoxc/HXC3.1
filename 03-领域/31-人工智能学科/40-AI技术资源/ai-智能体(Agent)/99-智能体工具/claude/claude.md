@@ -1,6 +1,8 @@
 ---
-aliases: [ai/智能体/工具/claude svy]
-tags: [ai/智能体/工具/claude]
+aliases:
+  - ai/智能体/工具/claude svy
+tags:
+  - ai/智能体/工具/claude
 description:
 type:
 ref-url:
@@ -22,8 +24,11 @@ ref-url:
 	- 准备
 		- [[claude-安装]]
 	- 指南
+		- [[claude-code-常用命令]]
+		- [[claude-code-skill-生态综述]]
 		- [[claude-code-上下文切换]]
 		- [[claude-code-checkpoint]]
+		- [[claude-code-effort]]
 		- [[claude-code-会话与分支]]
 		- [[claude-code-使用备忘录]]
 	- 工具

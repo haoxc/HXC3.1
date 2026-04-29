@@ -1,0 +1,8 @@
+---
+description: 是 “执行迭代的工具”，它是一个包含__next__()方法的对象，负责从可迭代对象中 “依次取出下一个元素”，直到所有元素被取完后抛出StopIteration异常。
+aliases:
+tags:
+type:
+ref-url:
+create-date: 2025-12-24 22:05
+---
