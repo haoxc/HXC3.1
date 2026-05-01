@@ -6,6 +6,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 在心理学和修行（尤其是佛学）的语境下，Attachment 的负面含义通常译为“**执着**”或“**贪恋**”。

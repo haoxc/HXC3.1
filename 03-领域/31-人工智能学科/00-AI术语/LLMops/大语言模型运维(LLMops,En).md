@@ -1,8 +1,11 @@
 ---
 aliases:
   - abbr://大语言模型/大语言模型运维(LLMops,en), LLMops
+type: note
+tags: [工具]
+description: `LLMops` (Large Language Model Operations) is a specialized subset of MLOps focu
+create-date: 2025-12-17
 ---
-
 `LLMops` (Large Language Model Operations) is a specialized subset of MLOps focused on the lifecycle management, deployment, monitoring, and optimization of large language models (LLMs) in production environments. It addresses the unique challenges of LLMs, such as scalability, cost efficiency, and quality control, while ensuring reliability, safety, and compliance. Below is a structured overview:
 
 Key Components of LLMops

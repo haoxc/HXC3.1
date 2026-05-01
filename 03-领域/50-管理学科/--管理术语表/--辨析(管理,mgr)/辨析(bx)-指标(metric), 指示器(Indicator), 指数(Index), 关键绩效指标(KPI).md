@@ -6,8 +6,9 @@ tags:
   - 辨析
 created: 2025-12-21 10:49
 description:
+type: note
+create-date: 2025-12-29
 ---
-
 ## 内容
 ### 核心定义与差异
 

@@ -8,6 +8,10 @@ orderNo: 110
 subject: Python基础
 category:
   - python/基础知识/语句
+type: note
+tags: [工具]
+description: - **基础知识**
+create-date: 2026-04-29
 ---
 #必考
 

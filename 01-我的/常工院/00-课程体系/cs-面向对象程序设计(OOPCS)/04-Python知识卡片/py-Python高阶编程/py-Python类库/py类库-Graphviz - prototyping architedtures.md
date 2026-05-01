@@ -1,6 +1,10 @@
 ---
 aliases:
   - py类库-Graphiz( prototyping architedtures)
+type: note
+tags: [工具]
+description: *创建时间*：2022年3月30日 08:29:11
+create-date: 2026-04-29
 ---
 *创建时间*：2022年3月30日 08:29:11
 

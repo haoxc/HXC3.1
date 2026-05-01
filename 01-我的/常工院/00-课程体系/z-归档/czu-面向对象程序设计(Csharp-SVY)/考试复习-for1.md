@@ -1,3 +1,9 @@
+---
+tags: [工具]
+description: void Test(string element, int count)
+type: note
+create-date: 2026-04-29
+---
 
 ```csharp
 

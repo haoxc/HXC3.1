@@ -7,6 +7,7 @@ domain:
 domain_en:
 description:
 type:
+create-date: 2026-04-29
 ---
 ## 启示(教训)
  > [!warning] 警示

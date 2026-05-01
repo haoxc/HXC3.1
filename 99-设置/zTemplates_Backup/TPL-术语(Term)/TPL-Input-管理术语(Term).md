@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: //模板变量
+type: note
+create-date: 2025-12-21
+---
+
 <%*
 //模板变量
 const fileType = "术语"; //🚨修改当前主题
@@ -50,4 +57,4 @@ const content = `
 tR+= content;
 %>
 ## 概述
-- 
+-

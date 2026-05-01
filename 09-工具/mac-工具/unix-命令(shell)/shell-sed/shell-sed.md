@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-29
 ---
 ## 内容
 sed (Stream Editor) 是 Unix/Linux 环境下最强大的流编辑器之一，主要用于对文本进行过滤和转换。它逐行处理文本，将当前行读入`临时缓冲区`（称为“模式空间”），执行编辑脚本，然后输出结果。

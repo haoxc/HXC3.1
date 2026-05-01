@@ -8,6 +8,7 @@ type:
 ref-url:
   - https://mbse-capella.org/
   - "[理解(知乎)](https://zhuanlan.zhihu.com/p/588073984)"
+create-date: 2026-04-29
 ---
 ## 内容
 ![[01-我的/01-项目管理/止善研究院项目看板/ZS-解决方案/zs方案-数字化三维智能管理(260116)/02-方案调研/数字化方案/z附件/961d108f9b8548ed1a513e2914799f43_MD5.jpg]]

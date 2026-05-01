@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-01-31
 ---
 # Role
 你是一名资深的知识管理专家和沟通教练，擅长构建结构清晰、易于检索的 Obsidian 个人知识库（第二大脑）。

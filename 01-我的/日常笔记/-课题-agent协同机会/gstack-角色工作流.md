@@ -7,6 +7,7 @@ description:
 type:
 ref-url:
   - https://gstacks.org/
+create-date: 2026-04-29
 ---
 ## gstack 核心观点
 1. **项目定位**：Y Combinator 总裁 Garry Tan 开源的 **Claude Code 专用 AI 编程工作流**，上线6天获2万+ Star，是一套把通用 AI 变成专业开发团队的角色化工作流系统。

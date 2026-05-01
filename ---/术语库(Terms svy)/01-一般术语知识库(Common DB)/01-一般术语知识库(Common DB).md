@@ -7,6 +7,7 @@ domain:
 domain_en:
 description:
 type:
+create-date: 2026-04-29
 ---
 - [[profile]]
 - [[工作流框架-CODE]]
@@ -14,5 +15,5 @@ type:
 - [[管控(Lock down)]]
 - [[核心要点(Takeaway)|核心要点|启示(The Takeaway,商业,学习)]]
 - [[甜点位(Sweet Spot)]]
-
-
+- [[摸底]]
+- [[正面对比(Head-to-Head)]]

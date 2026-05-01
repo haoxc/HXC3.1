@@ -4,6 +4,7 @@ tags:
 description: “配方（Recipe）”是生产的核心灵魂，你可以把它理解为“工业版的厨师菜谱”。
 type:
 ref-url:
+create-date: 2026-02-13
 ---
 ## 内容
 

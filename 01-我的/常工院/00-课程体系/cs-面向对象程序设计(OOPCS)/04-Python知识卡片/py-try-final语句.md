@@ -10,6 +10,7 @@ tags:
   - "#机制"
 aliases:
 description:
+create-date: 2026-04-29
 ---
 ## 概述
 - `try-finally` 是一种跨语言的异常处理机制，确保无论代码块是否发生异常，`finally` 中的清理代码都会被执行，从而保障资源安全和程序健壮性;

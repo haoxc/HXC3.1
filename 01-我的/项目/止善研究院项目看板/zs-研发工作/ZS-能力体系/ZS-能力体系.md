@@ -1,5 +1,9 @@
 ---
 aliases:
+type: note
+tags: [工具]
+description: -  海上风电平台能力评估， 实施策略;
+create-date: 2026-04-29
 ---
 ## 计划
 -  海上风电平台能力评估， 实施策略;

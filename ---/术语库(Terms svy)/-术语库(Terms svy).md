@@ -7,6 +7,8 @@ tags:
 domain: -术语库(Terms)
 created: 2025-12-22 10:36
 description:
+type: note
+create-date: 2026-04-25
 ---
 ## 术语卡片入口
 
@@ -14,4 +16,6 @@ description:
 
 ## 术语卡片
 
+- [[01-一般术语知识库(Common DB)/代码静态检查(Lint)|代码静态检查 (Lint)]]
+- [[01-一般术语知识库(Common DB)/正面对比(Head-to-Head)|正面对比 (Head-to-Head)]]
 - [[意象]]

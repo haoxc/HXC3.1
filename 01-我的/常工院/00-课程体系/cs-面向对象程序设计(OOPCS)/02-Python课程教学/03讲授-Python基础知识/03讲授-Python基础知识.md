@@ -7,8 +7,10 @@ subject: Python基础
 category:
   - python/基础知识/入门
 orderNo: 1
+tags: [工具]
+description: > [!HINT] 教学资料
+create-date: 2026-04-29
 ---
-
 > [!HINT] 教学资料
     > [[讲授-进度安排]]
     > [[临时白板.canvas|临时Canvas]]

@@ -6,6 +6,7 @@ description:
 type:
 ref-url:
   - https://github.com/anthropics/skills
+create-date: 2026-02-23
 ---
 ## 内容
 

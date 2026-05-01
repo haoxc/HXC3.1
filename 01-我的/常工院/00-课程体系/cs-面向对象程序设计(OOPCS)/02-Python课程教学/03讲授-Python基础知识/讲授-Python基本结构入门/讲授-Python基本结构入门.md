@@ -1,5 +1,8 @@
 ---
 type: course
+tags: [工具]
+description: **示例代码**  (**festival.py**)
+create-date: 2026-04-29
 ---
 ### 程序引言
 

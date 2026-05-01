@@ -2,6 +2,10 @@
 aliases:
   - 内建函数速查表(Buildin Function Cheatsheet)
   - 内建函数(Build in Function)
+type: note
+tags: [工具]
+description: *创建时间*：2022年5月2日 16:04:44
+create-date: 2026-04-29
 ---
 *创建时间*：2022年5月2日 16:04:44
 

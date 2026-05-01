@@ -3,8 +3,10 @@ aliases:
   - 范围
 tags:
   - 范围
+type: note
+description: >  边界 (Boundary)：系统的“`身份`”与“`范围`”
+create-date: 2026-04-29
 ---
-
 >  边界 (Boundary)：系统的“`身份`”与“`范围`”
 
 ## 概述

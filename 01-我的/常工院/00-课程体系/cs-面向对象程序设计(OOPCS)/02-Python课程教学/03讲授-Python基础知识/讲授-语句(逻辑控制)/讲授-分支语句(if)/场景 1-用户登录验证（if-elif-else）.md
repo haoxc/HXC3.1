@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: username = input("请输入用户名：")
+type: note
+create-date: 2026-04-29
+---
+
 ## 🎯 场景 1：用户登录验证（if-elif-else）
 
 ```python

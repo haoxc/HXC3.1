@@ -3,6 +3,9 @@ aliases:
   - 基础类型(primitive type)
 property: Immutable
 type:
+tags: [工具]
+description: - [[py-字符串类型(str)|字符串类型(string)]]
+create-date: 2026-04-29
 ---
 ### 基础类型
 - [[py-字符串类型(str)|字符串类型(string)]]

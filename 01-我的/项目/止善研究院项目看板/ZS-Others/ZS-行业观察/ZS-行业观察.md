@@ -1,8 +1,11 @@
 ---
 aliases:
   - //zs/市场/行业观察(Marketing review)
+type: note
+tags: [工具]
+description: - 航空、航天、船舶、电子、轨道交通、兵器、核、军队
+create-date: 2026-04-29
 ---
-
 ### 行业
 - 航空、航天、船舶、电子、轨道交通、兵器、核、军队 
 - 医疗

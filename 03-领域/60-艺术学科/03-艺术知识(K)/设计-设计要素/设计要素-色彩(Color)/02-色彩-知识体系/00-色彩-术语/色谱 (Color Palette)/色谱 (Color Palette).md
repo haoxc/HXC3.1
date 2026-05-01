@@ -6,8 +6,9 @@ aliases:
 tags:
   - 颜色映射
   - 色彩
+description: > [!important] 核心原则
+create-date: 2026-01-02
 ---
-
 # 色谱理论与视觉编码 (Color Palette Theory)
 
 > [!important] 核心原则

@@ -8,6 +8,7 @@ tags:
 description: FME 是由加拿大 Safe Software 公司开发的一款功能强大的 空间数据 ETL（提取、转换、加载） 平台
 type:
 ref-url:
+create-date: 2026-03-05
 ---
 ## 内容
 FME 是由加拿大 [Safe Software](https://fme.safe.com/) 公司开发的一款功能强大的 **空间数据 ETL（提取、转换、加载）** 平台

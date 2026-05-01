@@ -1,3 +1,10 @@
+---
+tags: [obsidian, templater, 工具]
+description: - Template(内置）
+type: note
+create-date: 2025-11-17
+---
+
 ## 要点
 - Template(内置）
 	- 准备

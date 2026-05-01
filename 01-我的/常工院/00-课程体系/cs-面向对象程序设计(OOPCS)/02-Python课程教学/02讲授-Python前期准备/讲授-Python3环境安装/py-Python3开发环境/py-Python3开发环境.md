@@ -1,4 +1,9 @@
-
+---
+tags: [工具]
+description: - **掌握** Python环境安装和Python开发工具安装
+type: note
+create-date: 2026-04-29
+---
 
 ### 目标
 - **掌握** Python环境安装和Python开发工具安装

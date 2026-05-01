@@ -1,8 +1,11 @@
 ---
 aliases:
   - CDP协议
+type: note
+tags: [工具]
+description: `DevTools MCP` 本质是 **Chrome DevTools Protocol（CDP，Chrome 开发者工具协议）** 的模块化通信层表述，是 
+create-date: 2026-01-09
 ---
-
 ### 一、CDP 核心定义（DevTools MCP 的正式全称）
 `DevTools MCP` 本质是 **Chrome DevTools Protocol（CDP，Chrome 开发者工具协议）** 的模块化通信层表述，是 Chromium 内核（Chrome/Edge/Opera/新版 Brave 等）原生的调试/控制协议，基于 **JSON-RPC 2.0** 实现双向通信，是浏览器内核与外部工具（如 Chrome 开发者工具、Puppeteer、Playwright）交互的底层规范。
 

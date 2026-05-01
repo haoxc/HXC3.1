@@ -1,3 +1,9 @@
+---
+tags: [dataview, obsidian, 工具]
+description: - **脚本**
+type: note
+create-date: 2025-11-20
+---
 
 ## Table-任务清单(List 清单)
 

@@ -1,8 +1,11 @@
 ---
 aliases:
   - 常量(Constant)
+type: note
+tags: [工具]
+description: - 一个变量定义后，其值不能变化
+create-date: 2026-04-29
 ---
-
 ### 常量
 - 一个变量定义后，其值不能变化
 - 变量名采用**全大写 + 下划线**

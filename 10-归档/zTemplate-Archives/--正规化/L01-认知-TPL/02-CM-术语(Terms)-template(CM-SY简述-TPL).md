@@ -2,6 +2,10 @@
 aliases:  
 - cm: //术语(Terms)@{{title}},(term#abbr=)
 - 术语(Terms)#{{title}}
+type: note
+tags: [工具]
+description: - **领域**
+create-date: 2025-11-04
 ---
 #Term 
 ## 描述 

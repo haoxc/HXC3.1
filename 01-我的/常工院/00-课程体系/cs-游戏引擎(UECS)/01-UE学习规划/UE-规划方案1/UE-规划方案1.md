@@ -7,6 +7,7 @@ type:
 category:
 domain:
 domain_en:
+create-date: 2026-04-29
 ---
 - 前提
 	- [[UE规划-术语对照表]]

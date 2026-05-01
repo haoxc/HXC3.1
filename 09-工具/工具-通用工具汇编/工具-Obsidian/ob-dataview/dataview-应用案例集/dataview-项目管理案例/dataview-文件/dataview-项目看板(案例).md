@@ -1,3 +1,9 @@
+---
+tags: [dataview, obsidian, 工具]
+description: ```dataview
+type: note
+create-date: 2025-11-19
+---
 
 ### 进行中
 ```dataview
@@ -65,5 +71,3 @@ table file.lists, file.tasks
 where file = this.file
 limit 1
 ```
-
-

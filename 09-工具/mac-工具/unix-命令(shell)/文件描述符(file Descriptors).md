@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-21
 ---
 在计算机系统中，**文件描述符（File Descriptor，简称 FD）** ==是一个非负整数，它是内核为了高效管理已被打开的文件所创建的**索引**==。
 

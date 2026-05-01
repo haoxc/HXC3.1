@@ -1,6 +1,8 @@
 ---
 type: ob-plugin
 description: 白板工具
+tags: [excalidraw, obsidian, 工具]
+create-date: 2025-11-07
 ---
 #ob
 

@@ -1,8 +1,11 @@
 ---
 aliases:
   - xjj/todo/ppt-workflow
+type: note
+tags: [工具]
+description: - 摸索ppt制作的关键环节(关键节点, 成果物, 工具链)
+create-date: 2026-04-29
 ---
-
 ## 工作流
 - 目的
 	- 摸索ppt制作的关键环节(关键节点, 成果物, 工具链)

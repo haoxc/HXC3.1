@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: if __name__ == "__main__":
+type: note
+create-date: 2026-04-29
+---
+
 ``` python
 if __name__ == "__main__":
     # 思考4：实例化=创建具体的“颜色工具”，选数媒设计常用颜色

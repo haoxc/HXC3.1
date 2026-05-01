@@ -2,8 +2,9 @@
 type:
 aliases: 控制台(console)
 create_date: 2025-10-26
+tags: [工具]
+description: - Python 控制台（也叫 **交互式解释器** 或 **REPL**：Read-Eval-Print Loop）是学习和调试 Python 代码最直接的`
 ---
-
 ## 概述
 - Python 控制台（也叫 **交互式解释器** 或 **REPL**：Read-Eval-Print Loop）是学习和调试 Python 代码最直接的`工具`。它允许你一行一行地输入代码并立即看到结果，非常适合实验、快速测试和学习。
 

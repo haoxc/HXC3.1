@@ -7,6 +7,7 @@ ref-url:
   - https://cartopy.readthedocs.io/stable/
   - https://careers.thalesgroup.com/global/en/home
   - https://d2lang.com/tour/man/
+create-date: 2026-03-22
 ---
 ## 内容
 

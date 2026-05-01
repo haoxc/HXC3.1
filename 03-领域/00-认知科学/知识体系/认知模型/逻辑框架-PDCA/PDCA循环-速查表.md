@@ -3,6 +3,9 @@ aliases:
 tags:
   - 速查表
   - 解决问题/工具
+type: note
+description: 1. 定目标：明确“可量化结果”（例：3天掌握5个Excel核心函数/1周解决用户投诉率高问题）
+create-date: 2026-04-29
 ---
 # 学习与解决问题思维框架速查表
 

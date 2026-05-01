@@ -2,6 +2,10 @@
 aliases:  
 - mdr://元模型(Schema)@{{title}},(schema#abbr=-mx)
 - 元模型(Schema)#{{title}}
+type: note
+tags: [工具]
+description: - [[#描述]]
+create-date: 2024-04-05
 ---
 ## 模型
 - [[#描述]]

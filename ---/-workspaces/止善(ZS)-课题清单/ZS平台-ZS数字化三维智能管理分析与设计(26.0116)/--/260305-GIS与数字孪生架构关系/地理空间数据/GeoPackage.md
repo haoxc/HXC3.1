@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-05
 ---
 ## 内容
 **GeoPackage**（扩展名为 `.gpkg`）是一种开放的、基于标准的地理空间数据存储格式。它本质上是一个 **SQLite 数据库容器**，旨在通过单个文件统一存储和交换多种类型的地理信息。

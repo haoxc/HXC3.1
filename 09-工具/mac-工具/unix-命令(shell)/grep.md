@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-31
 ---
 ## 内容
 `grep` 是 Linux/Unix 系统中最强大的文本搜索工具，其名称源自 `ed` 编辑器命令 `g/re/p`（Global Regular Expression Print），意为“全局正则表达式版本并打印”。它通过匹配指定的模式（Pattern）来查找文件中的特定内容。

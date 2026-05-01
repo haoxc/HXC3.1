@@ -2,7 +2,9 @@
 
 excalidraw-plugin: parsed
 tags: [excalidraw]
-
+type: note
+description: [Next generation Digital Thread: The Model-Based Enterprise Part 2](https://www.
+create-date: 2026-03-03
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

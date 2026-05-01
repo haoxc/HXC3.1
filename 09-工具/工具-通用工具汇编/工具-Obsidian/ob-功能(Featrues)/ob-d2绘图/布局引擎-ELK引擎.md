@@ -7,6 +7,7 @@ tags:
   - 思想/基于层次
 description:
 type:
+create-date: 2026-01-26
 ---
 Eclipse Layout Kernel (ELK) 是一个为图表编辑器和查看器提供自动布局算法和支持基础设施的工具。
 

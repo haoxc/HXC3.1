@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: 1. **环境配置**
+type: note
+create-date: 2026-04-29
+---
+
 # Python 知识大纲
 
 ## 一、Python 基础

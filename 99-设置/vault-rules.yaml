@@ -1,0 +1,253 @@
+# Vault Rules — Machine-Readable Declaration Layer
+# Path: 99-设置/vault-rules.yaml
+# Purpose: 声明层规则，程序可直接校验。归属判断和内容质量留 skill。
+# Maintained by: 人工 + AI 协作，每次 skill 整改后同步更新
+# Last updated: 2026-05-01
+
+version: "1.0.0"
+
+# === 顶层目录 ===
+directories:
+  01-我的:
+    role: personal
+    description: 个人信息、目标、日记、思考
+    required: true
+    naming:
+      diary: "日记-YYYY-MM-DD.md"
+      weekly: "周报-YYYY-WXX.md"
+      monthly: "月报-YYYY-MM.md"
+
+  02-输入:
+    role: input
+    description: 阅读摘录、外部文章、信息摄入
+    required: true
+    rule: 摘录应含个人批注或 outgoing link
+
+  03-领域:
+    role: knowledge
+    description: 知识领域（AI、编程、设计、商业等）
+    required: true
+    moc: "03-领域/03-领域.md"
+    rule: 领域原理与方法论；不存具体工具操作
+
+  04-笔记:
+    role: inbox
+    description: 零散笔记、待整理碎片
+    required: true
+    hygiene:
+      max_pending: 50
+      warn_pending: 100
+
+  05-资源:
+    role: resources
+    description: 资源清单、工具清单、书单
+    required: true
+
+  06-商业:
+    role: business
+    description: 公司档案、产品对比、市场格局、SaaS评估
+    required: false
+    moc: "06-商业/06-商业.md"
+
+  07-治理:
+    role: governance
+    description: Vault自身治理：审计记录、MOC评估、skill规范
+    required: false
+    moc: "07-治理/07-治理.md"
+    naming:
+      file: "{yy.MMdd}-{主题}.md"
+      subdir: semantic  # 主题子目录用语义名，不加数字前缀
+
+  09-工具:
+    role: tools
+    description: 具体工具使用笔记（CLI用法、配置、故障排查）
+    required: true
+    moc: "09-工具/09-工具.md"
+
+  10-归档:
+    role: archive
+    description: 过时或不再维护的笔记
+    required: true
+
+  98-附件:
+    role: attachments_central
+    description: 集中附件存储，被 .gitignore 排除
+    required: true
+
+  99-设置:
+    role: system
+    description: 配置文件、模板、系统设置
+    required: true
+
+  "---":
+    role: workspace
+    description: 工作区/项目
+    required: false
+    naming:
+      project_dir: "YYYY-MM-DD-项目名/"
+
+  z附件:
+    role: attachments_local
+    description: 额外附件暂存
+    required: false
+    rule: 统一命名为 z附件，禁用变体（附件、zAttachments、assets）
+
+# === Frontmatter ===
+frontmatter:
+  required:
+    - tags
+    - description
+    - type
+    - create-date
+  type_enum:
+    - note
+    - moc
+    - log
+    - reference
+    - template
+  date_format: "YYYY-MM-DD"
+
+# === 命名规范 ===
+naming:
+  moc: "{directory}/{basename}.md"  # 文件夹笔记
+  moc_example: "03-领域/AI/AI.md"
+  project_dir: "YYYY-MM-DD-项目名/"
+  attachment_local: "z附件/"
+  forbidden_chars: [" ", "?", "<", ">", "|", "*", '"']
+
+# === MOC 约束 ===
+moc:
+  min_groups: 1                 # 至少一个 ## 分组
+  max_body_lines: 20            # 正文（不含链接列表）
+  max_links: 40                 # 链接数上限
+  forbidden_content:
+    - progress_log               # 进度日志
+    - decision_record            # 决策记录
+    - full_standards_copy        # 复制完整规范
+  grouping_strategies:
+    concept_hierarchy:
+      description: 按概念层级从基础到前沿
+      applies: 领域知识（AI/CS/认知科学）
+      example: "## 基础概念 → ## 核心算法 → ## 前沿扩展"
+      anti_example: "## 杂项 → ## 其他"  # 无区分度的兜底分组
+    workflow:
+      description: 按使用流程从安装到排障
+      applies: 工具操作笔记
+      example: "## 安装配置 → ## 日常操作 → ## 排障"
+    comparison:
+      description: 按方案/维度并列对比
+      applies: 技术选型、方案评估
+      example: "## 方案A路径 → ## 方案B路径 → ## 取舍"
+    timeline:
+      description: 按时间/阶段顺序排列
+      applies: 项目复盘、学习路径
+      example: "## Phase 1 验证 → ## Phase 2 扩展 → ## Phase 3 稳定"
+  design_principles:
+    - "wiki_hub: MOC = Wiki hub page — 每个 ## 分组是概念聚类，链接间通过分组隐含语义关系"
+    - "cognitive_frame: 分组反映认知模型（四种策略之一），不按文件系统平铺罗列"
+    - "navigation_only: MOC 仍是导航页，认知框架通过分组结构表达，不靠解释性段落"
+
+# === 链接规范 ===
+links:
+  format: wikilink              # [[笔记标题]]
+  first_occurrence_only: true   # 同篇不重复链接
+  alias_rule: disambiguation_only  # 别名仅用于消歧义
+
+# === 标签词表 ===
+tags:
+  domains:
+    - AI
+    - AI-LLM
+    - AI-Agent
+    - AI-RAG
+    - AI-训练
+    - AI-推理
+    - 编程
+    - 编程-Python
+    - 编程-JS
+    - 编程-C++
+    - 编程-Rust
+    - 游戏引擎
+    - 游戏引擎-蓝图
+    - 游戏引擎-材质
+    - 游戏引擎-动画
+    - 设计
+    - 设计-UI
+    - 设计-交互
+    - 设计-可视化
+    - 管理
+    - 管理-战略
+    - 管理-项目
+    - 管理-团队
+    - 学术
+    - 学术-论文
+    - 学术-审阅
+    - 学术-写作
+    - 数媒
+    - 数媒-动画
+    - 数媒-视频
+    - 数媒-交互
+    - 术语
+
+  types:
+    - 教程
+    - 参考
+    - 速查
+    - 对比
+    - 观点
+    - 实践
+    - 模板
+    - 清单
+    - 复盘
+
+  statuses:
+    - 草稿
+    - 已审阅
+    - 过时
+    - 待整理
+    - 归档
+
+  tools:
+    - hermes
+    - obsidian
+    - claude-code
+    - git
+    - docker
+    - UE
+    - blender
+
+  person_format: "人员/{name}"
+
+# === 附件管理 ===
+attachments:
+  large_file_threshold_mb: 10
+  large_file_target: "98-附件/"
+  git_policy: "98-附件/ excluded from git; index .md only"
+
+# === 交叉引用 ===
+cross_reference:
+  vault_index: "99-设置/vault-index.yaml"  # 预计算目录索引（声明层实例）
+  svg_requires_md: true         # SVG 必须有同名 .md
+  svg_md_type: note
+  discoverability:
+    paths:
+      - moc_reference
+      - backlink
+      - meaningful_tags
+    orphan_threshold: 0         # 零发现路径 = 不可发现
+
+# === 笔记质量 ===
+note_quality:
+  max_first_conclusion_line: 15  # 核心结论在前 15 行
+  max_lines_before_split: 80     # 超过 80 行建议拆分
+  forbidden_tone:
+    - colloquial                  # 口语化
+    - emotional_words             # 情绪化词语（惊人、完美、超级）
+    - exclamation_marks           # 感叹号
+    - summary_section             # 正文末尾"总结"段
+
+# === 规模敏感阈值 ===
+scale_thresholds:
+  small_vault: 200      # < 200: MOC 规则降级
+  medium_vault: 500     # 200-500: 默认规则
+  large_vault: 500      # > 500: 严格规则（孤立笔记 P1 等）

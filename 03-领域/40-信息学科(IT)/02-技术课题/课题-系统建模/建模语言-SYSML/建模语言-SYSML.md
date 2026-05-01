@@ -10,6 +10,7 @@ domain:
 domain_en:
 description: SysML支持各种系统和系统间系统的规范、分析，设计，验证和确认
 type:
+create-date: 2026-01-26
 ---
 SysML（系统建模语言，Systems Modeling Language）是一种用于系统工程的通用建模语言，基于[UML (统一建模语言)](https://zh.wikipedia.org/zh-tw/%E7%B3%BB%E7%B5%B1%E5%BB%BA%E6%A8%A1%E8%AA%9E%E8%A8%80)的子集进行扩展。它支持复杂系统的规格定义、分析、设计、验证和确认，通过图形化建模工具，有助于跨行业和领域进行系统设计。 
 

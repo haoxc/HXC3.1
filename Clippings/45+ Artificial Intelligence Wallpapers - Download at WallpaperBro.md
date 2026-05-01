@@ -8,6 +8,8 @@ created: 2025-11-14
 description:
 tags:
   - "clippings"
+type: note
+create-date: 2025-11-14
 ---
 ![[Clippings/z附件/17ef175fc9e7eb388eff449f9ac07d3e_MD5.jpg]]   #
 

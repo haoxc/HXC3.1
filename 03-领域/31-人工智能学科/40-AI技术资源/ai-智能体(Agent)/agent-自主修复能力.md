@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-21
 ---
 ## 内容
 在 Agent 自主修复能力（Self-Healing / Auto-Fixing） 维度，这反映了` AI 发现错误、分析日志并重新规划路径`的闭环能力。

@@ -1,3 +1,9 @@
+---
+tags: [工具]
+description: *创建时间*：2022年4月16日 19:07:05
+type: note
+create-date: 2026-04-29
+---
 
 *创建时间*：2022年4月16日 19:07:05
 
@@ -23,4 +29,3 @@
 	-   [安装说明博客](https://www.runoob.com/python3/python3-install.html)
 
 ---
-

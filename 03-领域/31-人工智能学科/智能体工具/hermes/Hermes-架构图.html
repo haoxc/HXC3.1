@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hermes Agent 架构图</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d1117; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+  #canvas { width: 100vw; height: 100vh; }
+  #detail {
+    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+    background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+    padding: 12px 20px; color: #c9d1d9; font-size: 13px; line-height: 1.6;
+    max-width: 620px; display: none; z-index: 10; box-shadow: 0 4px 24px rgba(0,0,0,.4);
+  }
+  #detail b { color: #58a6ff; }
+  #legend { position: fixed; top: 16px; right: 16px; color: #8b949e; font-size: 11px; pointer-events: none; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/leafer-ui@2.1.0/dist/web.min.js"></script>
+</head>
+<body>
+<div id="canvas"></div>
+<div id="detail"></div>
+<div id="legend">🖱 拖拽 · 滚轮缩放 · 悬停高亮 · 点击详情</div>
+
+<script>
+const { Leafer, Rect, Ellipse, Text, Line, Group, Box, Frame, PointerEvent, DragEvent, Path, Polygon } = LeaferUI;
+const W = window.innerWidth, H = window.innerHeight;
+
+const app = new Leafer({ view: window, fill: '#0d1117' });
+
+// ── 颜色 ──
+const C = {
+  bg:'#161b22', border:'#30363d', glow:'#58a6ff', text:'#c9d1d9', dim:'#8b949e',
+  layer1:'#1a2332', layer2:'#1a1c2a', layer3:'#1a201a', layer4:'#201a18',
+  accent1:'#58a6ff', accent2:'#bc8cff', accent3:'#3fb950', accent4:'#d29922',
+};
+
+// ── 缩放/平移 ──
+let scale = 1, tx = 0, ty = 0, dragging = false, sx = 0, sy = 0;
+const zl = app.zoomLayer;
+function applyT() { zl.scaleX = scale; zl.scaleY = scale; zl.x = tx; zl.y = ty; }
+
+app.on(PointerEvent.DOWN, (e) => {
+  if (e.target === app) { dragging = true; sx = e.x - tx; sy = e.y - ty; }
+});
+app.on(PointerEvent.MOVE, (e) => {
+  if (dragging) { tx = e.x - sx; ty = e.y - sy; applyT(); }
+});
+app.on(PointerEvent.UP, () => { dragging = false; });
+app.on('wheel', (e) => {
+  e.preventDefault();
+  const ds = e.deltaY > 0 ? 0.9 : 1.1;
+  const ns = Math.max(0.2, Math.min(3, scale * ds));
+  tx = e.x - (e.x - tx) * (ns / scale);
+  ty = e.y - (e.y - ty) * (ns / scale);
+  scale = ns; applyT();
+});
+
+const main = new Group();
+zl.add(main);
+
+// ── 节点 ──
+function node(x, y, w, h, label, color, detail) {
+  const g = new Group({ x, y, cursor: 'pointer', hitSelf: true });
+  const bg = new Rect({ x:0, y:0, width:w, height:h, fill:color, stroke:C.border, strokeWidth:1.5, cornerRadius:6 });
+  const txt = new Text({ x:10, y:(h-14)/2, text:label, fontSize:13, fill:C.text, width:w-20, textAlign:'center' });
+  g.add(bg); g.add(txt);
+
+  g.on(PointerEvent.ENTER, () => { bg.stroke = C.glow; bg.strokeWidth = 2; });
+  g.on(PointerEvent.LEAVE, () => { bg.stroke = C.border; bg.strokeWidth = 1.5; });
+  g.on(PointerEvent.TAP, () => {
+    const d = document.getElementById('detail');
+    if (detail) { d.innerHTML = detail; d.style.display = 'block'; }
+    else d.style.display = 'none';
+    setTimeout(() => d.style.display = 'none', 4000);
+  });
+  return g;
+}
+
+// ── 箭头（从 x1,y1 → x2,y2）──
+function arrow(x1, y1, x2, y2, color) {
+  const dx = x2-x1, dy = y2-y1, len = Math.sqrt(dx*dx+dy*dy), ux = dx/len, uy = dy/len;
+  const group = new Group();
+  group.add(new Line({ x:x1, y:y1, width:dx, height:dy, stroke:color||C.dim, strokeWidth:1 }));
+  const ah = 7, aw = 4;
+  // arrowhead as a small polygon
+  const pts = [
+    x2, y2,
+    x2 - ux*ah + uy*aw, y2 - uy*ah - ux*aw,
+    x2 - ux*ah - uy*aw, y2 - uy*ah + ux*aw,
+  ];
+  group.add(new Polygon({ points: pts, fill: color||C.dim }));
+  return group;
+}
+
+function layerBox(x, y, w, h, title, bgColor) {
+  const g = new Group({ x, y, hitSelf: false });
+  g.add(new Rect({ x:0,y:0,width:w,height:h,fill:bgColor,stroke:C.border,strokeWidth:1,cornerRadius:10,opacity:0.6 }));
+  g.add(new Text({ x:14,y:10,text:title,fontSize:11,fill:C.dim,fontWeight:'bold' }));
+  return g;
+}
+
+// ── 图例 ──
+function legendBox(x, y) {
+  const g = new Group({ x, y });
+  g.add(new Rect({ x:0,y:0,width:220,height:150,fill:C.bg,stroke:C.border,strokeWidth:1,cornerRadius:6,opacity:0.9 }));
+  g.add(new Text({ x:10,y:8,text:'Hermes Agent 架构',fontSize:12,fill:C.glow,fontWeight:'bold' }));
+  g.add(new Text({ x:10,y:28,text:'4 层 · 20+ 平台 · 20+ 模型',fontSize:10,fill:C.dim }));
+  g.add(new Text({ x:10,y:46,text:'━━━━━━━━━━━━━━━━━',fontSize:10,fill:C.border }));
+  g.add(new Text({ x:10,y:64,text:'■  接入层 — 多平台消息网关',fontSize:10,fill:C.accent1 }));
+  g.add(new Text({ x:10,y:82,text:'■  核心层 — 会话循环 & 上下文',fontSize:10,fill:C.accent2 }));
+  g.add(new Text({ x:10,y:100,text:'■  模型层 — 统一模型路由',fontSize:10,fill:C.accent3 }));
+  g.add(new Text({ x:10,y:118,text:'■  能力层 — 工具/技能/记忆',fontSize:10,fill:C.accent4 }));
+  g.add(new Text({ x:10,y:138,text:'GitHub: NousResearch/hermes-agent',fontSize:9,fill:C.dim }));
+  return g;
+}
+
+// ═══════════ LAYOUT ═══════════
+const NODE_W = 140, NODE_H = 36, LX = 40, LY1_Y = 40;
+const TOTAL_W = LX * 2 + 6 * (NODE_W + 30) + 30;
+
+// Layer 1 — Gateway
+main.add(layerBox(LX, LY1_Y, TOTAL_W, 120, '接入层 Gateway', C.layer1));
+const gw = [
+  ['CLI 终端', '<b>CLI</b> — 交互式命令行。支持单次/多轮、斜杠命令、模型切换。'],
+  ['Telegram', '<b>Telegram</b> — Bot 接入，群聊/私聊，语音消息转写。'],
+  ['Discord', '<b>Discord</b> — Bot 接入，需 Message Content Intent。'],
+  ['Slack', '<b>Slack</b> — 需订阅 message.channels 事件。'],
+  ['Webhook', '<b>Webhook</b> — HTTP 触发，自定义路由 + 签名验证。'],
+  ['API Server', '<b>API Server</b> — RESTful 接口，Open WebUI 适配。'],
+];
+gw.forEach(([name, d], i) => {
+  main.add(node(LX + 50 + i*(NODE_W+30), LY1_Y+60, NODE_W, NODE_H, name, '#1f2a3a', d));
+});
+
+// Layer 2 — Core
+const LY2_Y = 200;
+main.add(layerBox(LX, LY2_Y, TOTAL_W, 100, '智能体核心 Agent Core', C.layer2));
+const core = [
+  ['会话循环', '<b>Conversation Loop</b> — System Prompt → LLM → Tool Call → 结果追加。<br>最大迭代: max_turns（默认 90）。'],
+  ['上下文压缩', '<b>Context Compression</b> — 50% 阈值自动触发，历史→摘要。<br>目标比例 20%，保留关键信息。'],
+  ['模型路由', '<b>Provider Router</b> — 统一 OpenAI-format，20+ 提供商热切换。'],
+  ['凭证池', '<b>Credential Pool</b> — 多 API Key 轮询，自动切换耗尽凭证。'],
+  ['Profiles', '<b>Profiles</b> — 多实例独立配置、会话、技能、记忆。'],
+];
+core.forEach(([name, d], i) => {
+  main.add(node(LX + 50 + i*(NODE_W+30), LY2_Y+45, NODE_W, NODE_H, name, '#1c1b2e', d));
+});
+
+// Gateway → Core arrows
+gw.forEach((_, i) => {
+  const gx = LX + 50 + i*(NODE_W+30) + NODE_W/2;
+  const cx = LX + 50 + Math.min(i, 4)*(NODE_W+30) + NODE_W/2;
+  main.add(arrow(gx, LY1_Y+60+NODE_H, cx, LY2_Y+45, '#58a6ff40'));
+});
+
+// Layer 3 — Models
+const LY3_Y = 340;
+main.add(layerBox(LX, LY3_Y, TOTAL_W, 100, '模型层 Model Providers', C.layer3));
+const models = [
+  ['OpenRouter', '<b>OpenRouter</b> — 200+ 模型聚合。OPENROUTER_API_KEY。'],
+  ['Anthropic', '<b>Anthropic</b> — Claude 系列。ANTHROPIC_API_KEY。'],
+  ['OpenAI', '<b>OpenAI</b> — GPT + Codex。支持 OAuth。'],
+  ['DeepSeek', '<b>DeepSeek</b> — V3/R1。DEEPSEEK_API_KEY。'],
+  ['Google', '<b>Google Gemini</b> — GOOGLE_API_KEY。'],
+  ['本地模型', '<b>Local</b> — Ollama/vLLM/llama.cpp。自定义 base_url。'],
+];
+models.forEach(([name, d], i) => {
+  main.add(node(LX + 50 + i*(NODE_W+30), LY3_Y+45, NODE_W, NODE_H, name, '#1a2518', d));
+});
+
+// Core → Model arrows
+core.forEach((_, i) => {
+  const cx = LX + 50 + i*(NODE_W+30) + NODE_W/2;
+  const mx = LX + 50 + Math.min(i, 5)*(NODE_W+30) + NODE_W/2;
+  main.add(arrow(cx, LY2_Y+45+NODE_H, mx, LY3_Y+45, '#3fb95040'));
+});
+
+// Layer 4 — Capabilities
+const LY4_Y = 480;
+main.add(layerBox(LX, LY4_Y, TOTAL_W, 220, '能力层 Capabilities', C.layer4));
+const caps = [
+  ['Tools 工具', '<b>Tools</b> — 20+ 工具集: terminal, file, web, browser, code_exec, vision, tts 等。'],
+  ['Skills 技能', '<b>Skills</b> — 可复用过程性记忆。AI 自主创建，Hub 共享。'],
+  ['Memory 记忆', '<b>Memory</b> — 跨会话持久记忆。支持 Honcho/Mem0 后端。'],
+  ['Sessions 会话', '<b>Sessions</b> — SQLite 存储。列表/搜索/导出/恢复。'],
+  ['Cron 调度', '<b>Cron</b> — 定时任务。cron 表达式，Python 脚本前置。'],
+  ['MCP 集成', '<b>MCP</b> — Model Context Protocol。外部工具服务器。'],
+  ['Delegation', '<b>Subagents</b> — 并行/嵌套子代理。独立上下文+终端。'],
+  ['Checkpoints', '<b>Checkpoints</b> — 文件系统快照。支持 /rollback。'],
+];
+caps.forEach(([name, d], i) => {
+  const col = i % 4, row = Math.floor(i/4);
+  main.add(node(LX + 60 + col*(NODE_W+60), LY4_Y + 45 + row*(NODE_H+15), NODE_W+10, NODE_H, name, '#251c18', d));
+});
+
+// Model → Capability arrows
+models.forEach((_, i) => {
+  const mx = LX + 50 + i*(NODE_W+30) + NODE_W/2;
+  const cx = LX + (i % 4)*(NODE_W+60) + ((i % 4) < 4 ? 60 : 0) + NODE_W/2;
+  main.add(arrow(mx, LY3_Y+45+NODE_H, cx, LY4_Y+45, '#d2992240'));
+});
+
+// Legend
+main.add(legendBox(W - 260, 50));
+
+// Initial view
+scale = 0.72;
+tx = (W - TOTAL_W * scale) / 2 - LX * scale;
+ty = 20;
+applyT();
+</script>
+</body>
+</html>

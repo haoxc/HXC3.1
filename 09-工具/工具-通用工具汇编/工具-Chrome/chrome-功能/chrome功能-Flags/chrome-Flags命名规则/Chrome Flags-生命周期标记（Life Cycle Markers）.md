@@ -1,3 +1,10 @@
+---
+tags: [chrome, 工具]
+description: 在 Chrome Flags 中，一个功能的“生命周期”并不仅仅是它存在的时间，更是它**从实验室走向大众的过程**。生命周期标记（Life Cycle Mar
+type: note
+create-date: 2025-12-29
+---
+
 ## 定义和范畴
 
 在 Chrome Flags 中，一个功能的“生命周期”并不仅仅是它存在的时间，更是它**从实验室走向大众的过程**。生命周期标记（Life Cycle Markers）主要通过**命名前缀**、**UI 状态栏**以及**隐藏的元数据**这三个维度来体现

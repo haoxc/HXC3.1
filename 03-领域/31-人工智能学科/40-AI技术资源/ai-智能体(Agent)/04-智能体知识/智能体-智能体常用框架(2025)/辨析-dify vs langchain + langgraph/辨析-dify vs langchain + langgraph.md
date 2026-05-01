@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: Dify 和 LangChain + LangGraph 是两类不同定位的 LLM 应用开发工具，核心差异在于「平台化封装 vs 框架级灵活」——Dify 是低
+type: note
+create-date: 2025-12-17
+---
+
 Dify 和 LangChain + LangGraph 是两类不同定位的 LLM 应用开发工具，核心差异在于「平台化封装 vs 框架级灵活」——Dify 是低代码全流程平台，侧重“快速落地可交付的 AI 应用”；LangChain + LangGraph 是代码级开发框架，侧重“灵活定制复杂 LLM 工作流/Agent”。以下从核心维度展开全方位对比，帮你精准选型：
 
 ### 一、核心定位与设计理念

@@ -1,8 +1,11 @@
 ---
 aliases:
   - web服务器
+type: note
+tags: [工具]
+description: Uvicorn 是 Python 高性能**异步 ASGI 服务器**，专门用于运行 FastAPI、Starlette 等异步 Web 框架，是数媒生搭建素材
+create-date: 2026-04-29
 ---
-
 # Uvicorn 完全解析（FastAPI 配套服务器，数媒场景适配）
 Uvicorn 是 Python 高性能**异步 ASGI 服务器**，专门用于运行 FastAPI、Starlette 等异步 Web 框架，是数媒生搭建素材管理 API、设计工具后端的核心工具。核心优势：轻量、异步高并发、热重载（开发超方便）。
 

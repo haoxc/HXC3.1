@@ -3,6 +3,9 @@ aliases:
 tags:
   - 决策框架
   - 推理策略
+type: note
+description: - AI 与外部工具交互的「思维决策框架」
+create-date: 2026-01-03
 ---
 ## 概述
 - AI 与外部工具交互的「思维决策框架」

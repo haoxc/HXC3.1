@@ -6,6 +6,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 情境 (Situation) —— “此时此地”

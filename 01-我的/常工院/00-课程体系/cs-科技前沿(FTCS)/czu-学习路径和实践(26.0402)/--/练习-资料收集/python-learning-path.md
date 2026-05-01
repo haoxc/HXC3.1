@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: - 掌握 Python 基础语法和核心概念
+type: note
+create-date: 2026-04-29
+---
+
 # Python 学习路径
 
 ## 学习目标

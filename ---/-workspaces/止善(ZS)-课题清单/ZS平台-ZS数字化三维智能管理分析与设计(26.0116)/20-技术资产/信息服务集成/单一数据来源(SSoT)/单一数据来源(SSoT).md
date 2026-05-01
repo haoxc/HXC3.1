@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-15
 ---
 ## 内容
 **单一事实来源**（Single Source of Truth，简称 **SSoT**）是一种信息架构原则，核心逻辑是确保组织内的每一条数据都仅在一个地方生成、存储和更新.

@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: // 1. 字典式维护领域知识（在此处轻松扩展数据）
+type: note
+create-date: 2025-12-26
+---
+
 <%*
 // 1. 字典式维护领域知识（在此处轻松扩展数据）
 const domainDict = {

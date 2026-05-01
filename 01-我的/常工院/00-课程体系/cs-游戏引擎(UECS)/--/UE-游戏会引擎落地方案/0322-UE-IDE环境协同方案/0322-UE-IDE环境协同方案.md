@@ -1,5 +1,9 @@
 ---
 aliases:
+type: note
+tags: [工具]
+description: - [[01-我的/03-常工院/00-课程体系/cs-游戏引擎(UECS)/--/UE-游戏会引擎落地方案/0322-UE-IDE环境协同方案/UE-LLM在
+create-date: 2026-04-29
 ---
 ## LLM +UE
 - 课题

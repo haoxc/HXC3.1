@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: //模板变量
+type: note
+create-date: 2025-11-15
+---
+
 <%*
 //模板变量
 const fileType = "调研"; //🚨修改当前主题

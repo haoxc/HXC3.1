@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-29
 ---
 ## 内容
 在 **在此文档(Here Document)** 的文法中，首尾两个标识符承担着完全不同的“角色”，因此它们的写法也遵循不同的规则。

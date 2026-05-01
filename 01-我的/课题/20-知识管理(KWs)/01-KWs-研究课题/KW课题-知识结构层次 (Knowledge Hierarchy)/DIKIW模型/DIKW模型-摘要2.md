@@ -3,8 +3,10 @@ aliases:
   - abbr://认知/决策模型/DIKW(阶梯模型)
 tags:
   - 认知模型
+type: note
+description: > **DIKW 模型是一个揭示人类认知进阶的阶梯模型，它描述了从碎片化的“数据”经过处理、内化，最终进化为“洞察力”与“判断力”的完整过程。**
+create-date: 2026-04-29
 ---
-
 # DIKW 模型 (The DIKW Pyramid)
 
 ### 1. 🎯 一句话定义 (Definition)

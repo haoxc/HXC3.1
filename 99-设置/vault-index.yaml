@@ -1,0 +1,1249 @@
+version: 1.0.0
+generated: '2026-05-01T10:10:27Z'
+vault_root: /Users/haoxc/__Data/00_Knowledges/Vault_HXC3.1(Apple)
+total_directories: 15
+directories:
+  '---':
+    path: '---'
+    role: workspace
+    description: 工作区/项目
+    note_count: 1
+    moc: '---/---.md'
+    children:
+    - name: -workspaces
+      path: '---/-workspaces'
+      note_count: 2
+      moc: '---/-workspaces/-workspaces.md'
+      children:
+      - name: --进度管理
+        path: '---/-workspaces/--进度管理'
+        note_count: 0
+      - name: -backlogs
+        path: '---/-workspaces/-backlogs'
+        note_count: 0
+      - name: 教学课题-UE游戏引擎课程题设计及落地(26.0310)
+        path: '---/-workspaces/教学课题-UE游戏引擎课程题设计及落地(26.0310)'
+        note_count: 0
+      - name: 止善(ZS)-课题清单
+        path: '---/-workspaces/止善(ZS)-课题清单'
+        note_count: 0
+      - name: 领域-智能体调研
+        path: '---/-workspaces/领域-智能体调研'
+        note_count: 0
+    - name: 2026-04-30-Vault整改
+      path: '---/2026-04-30-Vault整改'
+      note_count: 1
+    - name: TEST
+      path: '---/TEST'
+      note_count: 3
+      children:
+      - name: TEST-看板卡片
+        path: '---/TEST/TEST-看板卡片'
+        note_count: 0
+      - name: TEST-知识提示词
+        path: '---/TEST/TEST-知识提示词'
+        note_count: 0
+      - name: z附件
+        path: '---/TEST/z附件'
+        note_count: 0
+      - name: 光学
+        path: '---/TEST/光学'
+        note_count: 0
+    - name: 主题-世界模型场景
+      path: '---/主题-世界模型场景'
+      note_count: 1
+      moc: '---/主题-世界模型场景/主题-世界模型场景.md'
+      children:
+      - name: 会议(Meeting)
+        path: '---/主题-世界模型场景/会议(Meeting)'
+        note_count: 0
+    - name: 术语库(Terms svy)
+      path: '---/术语库(Terms svy)'
+      note_count: 6
+      moc: '---/术语库(Terms svy)/术语库(Terms svy).md'
+      children:
+      - name: --MOC
+        path: '---/术语库(Terms svy)/--MOC'
+        note_count: 0
+      - name: 01-一般术语知识库(Common DB)
+        path: '---/术语库(Terms svy)/01-一般术语知识库(Common DB)'
+        note_count: 0
+      - name: z附件
+        path: '---/术语库(Terms svy)/z附件'
+        note_count: 0
+      - name: 沙盒(sandbox)
+        path: '---/术语库(Terms svy)/沙盒(sandbox)'
+        note_count: 0
+  .github:
+    path: .github
+    role: unknown
+    description: ''
+    note_count: 0
+    children:
+    - name: agents
+      path: .github/agents
+      note_count: 1
+  01-我的:
+    path: 01-我的
+    role: personal
+    description: 个人信息、目标、日记、思考
+    note_count: 1
+    moc: 01-我的/01-我的.md
+    children:
+    - name: --草稿
+      path: 01-我的/--草稿
+      note_count: 2
+      moc: 01-我的/--草稿/--草稿.md
+      children:
+      - name: z附件
+        path: 01-我的/--草稿/z附件
+        note_count: 0
+      - name: 我的-跟进
+        path: 01-我的/--草稿/我的-跟进
+        note_count: 0
+      - name: 我的-黑板
+        path: 01-我的/--草稿/我的-黑板
+        note_count: 0
+    - name: z附件
+      path: 01-我的/z附件
+      note_count: 0
+    - name: 个人
+      path: 01-我的/个人
+      note_count: 22
+      moc: 01-我的/个人/个人.md
+      children:
+      - name: z附件
+        path: 01-我的/个人/z附件
+        note_count: 0
+      - name: 为什么会生气
+        path: 01-我的/个人/为什么会生气
+        note_count: 0
+      - name: 嫉妒
+        path: 01-我的/个人/嫉妒
+        note_count: 0
+      - name: 音乐(Songs)
+        path: 01-我的/个人/音乐(Songs)
+        note_count: 0
+      - name: 餐饮-日料
+        path: 01-我的/个人/餐饮-日料
+        note_count: 0
+    - name: 决策
+      path: 01-我的/决策
+      note_count: 4
+      moc: 01-我的/决策/决策.md
+    - name: 创新
+      path: 01-我的/创新
+      note_count: 1
+      moc: 01-我的/创新/创新.md
+      children:
+      - name: 01-创新关注
+        path: 01-我的/创新/01-创新关注
+        note_count: 0
+      - name: 02-创新课题
+        path: 01-我的/创新/02-创新课题
+        note_count: 0
+      - name: z附件
+        path: 01-我的/创新/z附件
+        note_count: 0
+    - name: 备忘
+      path: 01-我的/备忘
+      note_count: 2
+      moc: 01-我的/备忘/备忘.md
+    - name: 学习
+      path: 01-我的/学习
+      note_count: 5
+      moc: 01-我的/学习/学习.md
+      children:
+      - name: 精益工程
+        path: 01-我的/学习/精益工程
+        note_count: 0
+      - name: 表达
+        path: 01-我的/学习/表达
+        note_count: 0
+      - name: 语言(Language)
+        path: 01-我的/学习/语言(Language)
+        note_count: 0
+      - name: 读书
+        path: 01-我的/学习/读书
+        note_count: 0
+    - name: 学术
+      path: 01-我的/学术
+      note_count: 5
+      moc: 01-我的/学术/学术.md
+      children:
+      - name: 26-Paper Review
+        path: 01-我的/学术/26-Paper Review
+        note_count: 0
+    - name: 工作室
+      path: 01-我的/工作室
+      note_count: 1
+      moc: 01-我的/工作室/工作室.md
+      children:
+      - name: --看板
+        path: 01-我的/工作室/--看板
+        note_count: 0
+      - name: 02-项目管理
+        path: 01-我的/工作室/02-项目管理
+        note_count: 0
+      - name: 03-研究课题
+        path: 01-我的/工作室/03-研究课题
+        note_count: 0
+      - name: 10-成员目录
+        path: 01-我的/工作室/10-成员目录
+        note_count: 0
+      - name: 99-工作复盘
+        path: 01-我的/工作室/99-工作复盘
+        note_count: 0
+      - name: 沟通记录
+        path: 01-我的/工作室/沟通记录
+        note_count: 0
+    - name: 常工院
+      path: 01-我的/常工院
+      note_count: 3
+      moc: 01-我的/常工院/常工院.md
+      children:
+      - name: 00-课程体系
+        path: 01-我的/常工院/00-课程体系
+        note_count: 0
+      - name: 01-毕业设计
+        path: 01-我的/常工院/01-毕业设计
+        note_count: 0
+      - name: 40-科研信息
+        path: 01-我的/常工院/40-科研信息
+        note_count: 0
+      - name: 80-管理事项
+        path: 01-我的/常工院/80-管理事项
+        note_count: 0
+      - name: 99-其他事项
+        path: 01-我的/常工院/99-其他事项
+        note_count: 0
+      - name: czu-产学研规则
+        path: 01-我的/常工院/czu-产学研规则
+        note_count: 0
+      - name: z其他
+        path: 01-我的/常工院/z其他
+        note_count: 0
+    - name: 提示词历史库
+      path: 01-我的/提示词历史库
+      note_count: 1
+      moc: 01-我的/提示词历史库/提示词历史库.md
+    - name: 日常笔记
+      path: 01-我的/日常笔记
+      note_count: 22
+      children:
+      - name: -课题-agent协同机会
+        path: 01-我的/日常笔记/-课题-agent协同机会
+        note_count: 0
+      - name: z附件
+        path: 01-我的/日常笔记/z附件
+        note_count: 0
+      - name: 中科-拜访(26.0331)
+        path: 01-我的/日常笔记/中科-拜访(26.0331)
+        note_count: 0
+      - name: 摆烂
+        path: 01-我的/日常笔记/摆烂
+        note_count: 0
+      - name: 日记-2025-11
+        path: 01-我的/日常笔记/日记-2025-11
+        note_count: 0
+      - name: 日记-2025-12
+        path: 01-我的/日常笔记/日记-2025-12
+        note_count: 0
+      - name: 日记-2026-01
+        path: 01-我的/日常笔记/日记-2026-01
+        note_count: 0
+      - name: 日记-2026-03-27
+        path: 01-我的/日常笔记/日记-2026-03-27
+        note_count: 0
+      - name: 日记-2026-04-05
+        path: 01-我的/日常笔记/日记-2026-04-05
+        note_count: 0
+      - name: 日记-2026-04-09
+        path: 01-我的/日常笔记/日记-2026-04-09
+        note_count: 0
+      - name: 日记-2026-04-10
+        path: 01-我的/日常笔记/日记-2026-04-10
+        note_count: 0
+      - name: 理工科-知名大学(26年)
+        path: 01-我的/日常笔记/理工科-知名大学(26年)
+        note_count: 0
+    - name: 课题
+      path: 01-我的/课题
+      note_count: 2
+      moc: 01-我的/课题/课题.md
+      children:
+      - name: 01-常见课题
+        path: 01-我的/课题/01-常见课题
+        note_count: 0
+      - name: 20-知识管理(KWs)
+        path: 01-我的/课题/20-知识管理(KWs)
+        note_count: 0
+      - name: 科学计算
+        path: 01-我的/课题/科学计算
+        note_count: 0
+    - name: 项目
+      path: 01-我的/项目
+      note_count: 1
+      moc: 01-我的/项目/项目.md
+      children:
+      - name: z其他项目
+        path: 01-我的/项目/z其他项目
+        note_count: 0
+      - name: 止善研究院项目看板
+        path: 01-我的/项目/止善研究院项目看板
+        note_count: 0
+      - name: 福利基金会项目看板
+        path: 01-我的/项目/福利基金会项目看板
+        note_count: 0
+  02-输入:
+    path: 02-输入
+    role: input
+    description: 阅读摘录、外部文章、信息摄入
+    note_count: 1
+    moc: 02-输入/02-输入.md
+    children:
+    - name: --草稿
+      path: 02-输入/--草稿
+      note_count: 10
+      children:
+      - name: z附件
+        path: 02-输入/--草稿/z附件
+        note_count: 0
+      - name: 学习-思想大讲堂资料
+        path: 02-输入/--草稿/学习-思想大讲堂资料
+        note_count: 0
+  03-领域:
+    path: 03-领域
+    role: knowledge
+    description: 知识领域（AI、编程、设计、商业等）
+    note_count: 1
+    moc: 03-领域/03-领域.md
+    children:
+    - name: --未归类
+      path: 03-领域/--未归类
+      note_count: 2
+      children:
+      - name: z附件
+        path: 03-领域/--未归类/z附件
+        note_count: 0
+    - name: 00-认知科学
+      path: 03-领域/00-认知科学
+      note_count: 4
+      moc: 03-领域/00-认知科学/00-认知科学.md
+      children:
+      - name: --
+        path: 03-领域/00-认知科学/--
+        note_count: 0
+      - name: 概念辨析
+        path: 03-领域/00-认知科学/概念辨析
+        note_count: 0
+      - name: 知识体系
+        path: 03-领域/00-认知科学/知识体系
+        note_count: 0
+      - name: 认知术语
+        path: 03-领域/00-认知科学/认知术语
+        note_count: 0
+      - name: 认知课题
+        path: 03-领域/00-认知科学/认知课题
+        note_count: 0
+    - name: 01-哲学体系
+      path: 03-领域/01-哲学体系
+      note_count: 1
+      moc: 03-领域/01-哲学体系/01-哲学体系.md
+      children:
+      - name: --
+        path: 03-领域/01-哲学体系/--
+        note_count: 0
+      - name: 04-哲学知识
+        path: 03-领域/01-哲学体系/04-哲学知识
+        note_count: 0
+      - name: 哲学-术语集
+        path: 03-领域/01-哲学体系/哲学-术语集
+        note_count: 0
+    - name: 02-数学学科
+      path: 03-领域/02-数学学科
+      note_count: 1
+      moc: 03-领域/02-数学学科/02-数学学科.md
+      children:
+      - name: 01-数学家
+        path: 03-领域/02-数学学科/01-数学家
+        note_count: 0
+    - name: 10-建筑学
+      path: 03-领域/10-建筑学
+      note_count: 1
+    - name: 30-计算机科学(CS)
+      path: 03-领域/30-计算机科学(CS)
+      note_count: 1
+      moc: 03-领域/30-计算机科学(CS)/30-计算机科学(CS).md
+    - name: 31-人工智能学科
+      path: 03-领域/31-人工智能学科
+      note_count: 1
+      moc: 03-领域/31-人工智能学科/31-人工智能学科.md
+      children:
+      - name: --
+        path: 03-领域/31-人工智能学科/--
+        note_count: 0
+      - name: 00-AI术语
+        path: 03-领域/31-人工智能学科/00-AI术语
+        note_count: 0
+      - name: 40-AI技术资源
+        path: 03-领域/31-人工智能学科/40-AI技术资源
+        note_count: 0
+      - name: 智能体工具
+        path: 03-领域/31-人工智能学科/智能体工具
+        note_count: 0
+    - name: 40-信息学科(IT)
+      path: 03-领域/40-信息学科(IT)
+      note_count: 1
+      moc: 03-领域/40-信息学科(IT)/40-信息学科(IT).md
+      children:
+      - name: 01-信息学科术语
+        path: 03-领域/40-信息学科(IT)/01-信息学科术语
+        note_count: 0
+      - name: 02-技术课题
+        path: 03-领域/40-信息学科(IT)/02-技术课题
+        note_count: 0
+      - name: it-知识体系
+        path: 03-领域/40-信息学科(IT)/it-知识体系
+        note_count: 0
+      - name: 数据结构
+        path: 03-领域/40-信息学科(IT)/数据结构
+        note_count: 0
+    - name: 50-管理学科
+      path: 03-领域/50-管理学科
+      note_count: 1
+      moc: 03-领域/50-管理学科/50-管理学科.md
+      children:
+      - name: --
+        path: 03-领域/50-管理学科/--
+        note_count: 0
+      - name: --管理术语表
+        path: 03-领域/50-管理学科/--管理术语表
+        note_count: 0
+      - name: 01-管理-摘要
+        path: 03-领域/50-管理学科/01-管理-摘要
+        note_count: 0
+      - name: 02-管理-课题
+        path: 03-领域/50-管理学科/02-管理-课题
+        note_count: 0
+      - name: 03-管理-工具
+        path: 03-领域/50-管理学科/03-管理-工具
+        note_count: 0
+      - name: 04-管理-知识
+        path: 03-领域/50-管理学科/04-管理-知识
+        note_count: 0
+    - name: 60-艺术学科
+      path: 03-领域/60-艺术学科
+      note_count: 1
+      moc: 03-领域/60-艺术学科/60-艺术学科.md
+      children:
+      - name: --
+        path: 03-领域/60-艺术学科/--
+        note_count: 0
+      - name: 00-艺术术语(G)
+        path: 03-领域/60-艺术学科/00-艺术术语(G)
+        note_count: 0
+      - name: 01-艺术科研(P)
+        path: 03-领域/60-艺术学科/01-艺术科研(P)
+        note_count: 0
+      - name: 02-艺术创新(S)
+        path: 03-领域/60-艺术学科/02-艺术创新(S)
+        note_count: 0
+      - name: 03-艺术知识(K)
+        path: 03-领域/60-艺术学科/03-艺术知识(K)
+        note_count: 0
+      - name: 99-艺术案例(C)
+        path: 03-领域/60-艺术学科/99-艺术案例(C)
+        note_count: 0
+      - name: z附件
+        path: 03-领域/60-艺术学科/z附件
+        note_count: 0
+      - name: 审美
+        path: 03-领域/60-艺术学科/审美
+        note_count: 0
+    - name: 70-历史
+      path: 03-领域/70-历史
+      note_count: 0
+      children:
+      - name: 主题
+        path: 03-领域/70-历史/主题
+        note_count: 0
+      - name: 宋朝
+        path: 03-领域/70-历史/宋朝
+        note_count: 0
+  04-笔记:
+    path: 04-笔记
+    role: inbox
+    description: 零散笔记、待整理碎片
+    note_count: 0
+    children:
+    - name: 日常笔记(Dialy)
+      path: 04-笔记/日常笔记(Dialy)
+      note_count: 0
+      children:
+      - name: 日记-2026-03-01
+        path: 04-笔记/日常笔记(Dialy)/日记-2026-03-01
+        note_count: 0
+  05-资源:
+    path: 05-资源
+    role: resources
+    description: 资源清单、工具清单、书单
+    note_count: 0
+    children:
+    - name: res-图表资产
+      path: 05-资源/res-图表资产
+      note_count: 0
+    - name: res-案例模板
+      path: 05-资源/res-案例模板
+      note_count: 2
+      moc: 05-资源/res-案例模板/res-案例模板.md
+    - name: res-资源源库
+      path: 05-资源/res-资源源库
+      note_count: 4
+    - name: res_背景图
+      path: 05-资源/res_背景图
+      note_count: 1
+      moc: 05-资源/res_背景图/res_背景图.md
+    - name: z附件
+      path: 05-资源/z附件
+      note_count: 0
+  06-商业:
+    path: 06-商业
+    role: business
+    description: 公司档案、产品对比、市场格局、SaaS评估
+    note_count: 0
+    children:
+    - name: 供应商-西门子(siemenz)
+      path: 06-商业/供应商-西门子(siemenz)
+      note_count: 1
+      moc: 06-商业/供应商-西门子(siemenz)/供应商-西门子(siemenz).md
+      children:
+      - name: 西门子-TIA-WinCC
+        path: 06-商业/供应商-西门子(siemenz)/西门子-TIA-WinCC
+        note_count: 0
+  07-治理:
+    path: 07-治理
+    role: governance
+    description: Vault自身治理：审计记录、MOC评估、skill规范
+    note_count: 2
+    moc: 07-治理/07-治理.md
+    children:
+    - name: Vault整改
+      path: 07-治理/Vault整改
+      note_count: 2
+    - name: skill规范
+      path: 07-治理/skill规范
+      note_count: 3
+      children:
+      - name: note-crafter规范
+        path: 07-治理/skill规范/note-crafter规范
+        note_count: 0
+  09-工具:
+    path: 09-工具
+    role: tools
+    description: 具体工具使用笔记（CLI用法、配置、故障排查）
+    note_count: 1
+    moc: 09-工具/09-工具.md
+    children:
+    - name: mac-工具
+      path: 09-工具/mac-工具
+      note_count: 5
+      moc: 09-工具/mac-工具/mac-工具.md
+      children:
+      - name: alfred
+        path: 09-工具/mac-工具/alfred
+        note_count: 0
+      - name: liteLLM
+        path: 09-工具/mac-工具/liteLLM
+        note_count: 0
+      - name: unix-命令(shell)
+        path: 09-工具/mac-工具/unix-命令(shell)
+        note_count: 0
+      - name: 文本扩充器(mac)
+        path: 09-工具/mac-工具/文本扩充器(mac)
+        note_count: 0
+    - name: windows
+      path: 09-工具/windows
+      note_count: 1
+      moc: 09-工具/windows/windows.md
+      children:
+      - name: z附件
+        path: 09-工具/windows/z附件
+        note_count: 0
+    - name: 工具-Win常用工具汇编
+      path: 09-工具/工具-Win常用工具汇编
+      note_count: 2
+      moc: 09-工具/工具-Win常用工具汇编/工具-Win常用工具汇编.md
+      children:
+      - name: win-常用工具
+        path: 09-工具/工具-Win常用工具汇编/win-常用工具
+        note_count: 0
+      - name: win-环境设置
+        path: 09-工具/工具-Win常用工具汇编/win-环境设置
+        note_count: 0
+    - name: 工具-电脑工作环境
+      path: 09-工具/工具-电脑工作环境
+      note_count: 2
+      moc: 09-工具/工具-电脑工作环境/工具-电脑工作环境.md
+    - name: 工具-通用工具汇编
+      path: 09-工具/工具-通用工具汇编
+      note_count: 2
+      moc: 09-工具/工具-通用工具汇编/工具-通用工具汇编.md
+      children:
+      - name: 工具-Chrome
+        path: 09-工具/工具-通用工具汇编/工具-Chrome
+        note_count: 0
+      - name: 工具-Git
+        path: 09-工具/工具-通用工具汇编/工具-Git
+        note_count: 0
+      - name: 工具-Obsidian
+        path: 09-工具/工具-通用工具汇编/工具-Obsidian
+        note_count: 0
+      - name: 工具-SourceTree(Git)
+        path: 09-工具/工具-通用工具汇编/工具-SourceTree(Git)
+        note_count: 0
+      - name: 工具-excel
+        path: 09-工具/工具-通用工具汇编/工具-excel
+        note_count: 0
+  10-归档:
+    path: 10-归档
+    role: archive
+    description: 过时或不再维护的笔记
+    note_count: 0
+    children:
+    - name: zTemplate-Archives
+      path: 10-归档/zTemplate-Archives
+      note_count: 1
+      moc: 10-归档/zTemplate-Archives/zTemplate-Archives.md
+      children:
+      - name: --正规化
+        path: 10-归档/zTemplate-Archives/--正规化
+        note_count: 0
+  98-附件:
+    path: 98-附件
+    role: attachments_central
+    description: 集中附件存储，被 .gitignore 排除
+    note_count: 1
+    moc: 98-附件/98-附件.md
+    children:
+    - name: 01-项目音视频记录
+      path: 98-附件/01-项目音视频记录
+      note_count: 0
+      children:
+      - name: 04-南瑞公寓-方案跟进
+        path: 98-附件/01-项目音视频记录/04-南瑞公寓-方案跟进
+        note_count: 0
+      - name: ZS-三维仿真-工艺仿真需求
+        path: 98-附件/01-项目音视频记录/ZS-三维仿真-工艺仿真需求
+        note_count: 0
+      - name: ZS-商业伙伴-云郎科技
+        path: 98-附件/01-项目音视频记录/ZS-商业伙伴-云郎科技
+        note_count: 0
+      - name: ZS-商业伙伴-通用记录
+        path: 98-附件/01-项目音视频记录/ZS-商业伙伴-通用记录
+        note_count: 0
+      - name: ZS-新奇环保-启动会
+        path: 98-附件/01-项目音视频记录/ZS-新奇环保-启动会
+        note_count: 0
+      - name: ZS-海上风能深能-会议记录
+        path: 98-附件/01-项目音视频记录/ZS-海上风能深能-会议记录
+        note_count: 0
+      - name: ZS-港华能源方案
+        path: 98-附件/01-项目音视频记录/ZS-港华能源方案
+        note_count: 0
+      - name: ZS-耀坤液压-归档录音
+        path: 98-附件/01-项目音视频记录/ZS-耀坤液压-归档录音
+        note_count: 0
+      - name: zs-会议纪要-金智-1022
+        path: 98-附件/01-项目音视频记录/zs-会议纪要-金智-1022
+        note_count: 0
+      - name: zs方案-机房方案(251025)
+        path: 98-附件/01-项目音视频记录/zs方案-机房方案(251025)
+        note_count: 0
+      - name: 周会纪要(1202)
+        path: 98-附件/01-项目音视频记录/周会纪要(1202)
+        note_count: 0
+      - name: 新奇环保
+        path: 98-附件/01-项目音视频记录/新奇环保
+        note_count: 0
+    - name: 02-项目方案与需求材料
+      path: 98-附件/02-项目方案与需求材料
+      note_count: 0
+      children:
+      - name: ZS平台规划-交互设计参考
+        path: 98-附件/02-项目方案与需求材料/ZS平台规划-交互设计参考
+        note_count: 0
+      - name: 乌兰察布储能园区
+        path: 98-附件/02-项目方案与需求材料/乌兰察布储能园区
+        note_count: 0
+      - name: 南瑞公寓数字孪生
+        path: 98-附件/02-项目方案与需求材料/南瑞公寓数字孪生
+        note_count: 0
+      - name: 工作室
+        path: 98-附件/02-项目方案与需求材料/工作室
+        note_count: 0
+      - name: 机房数字孪生方案
+        path: 98-附件/02-项目方案与需求材料/机房数字孪生方案
+        note_count: 0
+      - name: 江苏国信-东南大学工业互联网平台
+        path: 98-附件/02-项目方案与需求材料/江苏国信-东南大学工业互联网平台
+        note_count: 0
+      - name: 海上风能深能-客户资料
+        path: 98-附件/02-项目方案与需求材料/海上风能深能-客户资料
+        note_count: 0
+      - name: 资料-朱昊整理(26.0108)
+        path: 98-附件/02-项目方案与需求材料/资料-朱昊整理(26.0108)
+        note_count: 0
+    - name: 03-数字孪生案例库
+      path: 98-附件/03-数字孪生案例库
+      note_count: 0
+      children:
+      - name: 园区类规范
+        path: 98-附件/03-数字孪生案例库/园区类规范
+        note_count: 0
+      - name: 杭州亚运会
+        path: 98-附件/03-数字孪生案例库/杭州亚运会
+        note_count: 0
+      - name: 江苏移动
+        path: 98-附件/03-数字孪生案例库/江苏移动
+        note_count: 0
+      - name: 综合案例
+        path: 98-附件/03-数字孪生案例库/综合案例
+        note_count: 0
+      - name: 艺术奖材料
+        path: 98-附件/03-数字孪生案例库/艺术奖材料
+        note_count: 0
+    - name: 04-学习与课程材料
+      path: 98-附件/04-学习与课程材料
+      note_count: 0
+      children:
+      - name: OOPCS-Python教学白板
+        path: 98-附件/04-学习与课程材料/OOPCS-Python教学白板
+        note_count: 0
+      - name: 南瑞公寓
+        path: 98-附件/04-学习与课程材料/南瑞公寓
+        note_count: 0
+      - name: 数学-线性代数
+        path: 98-附件/04-学习与课程材料/数学-线性代数
+        note_count: 0
+      - name: 精益培训入门
+        path: 98-附件/04-学习与课程材料/精益培训入门
+        note_count: 0
+    - name: 05-待确认附件
+      path: 98-附件/05-待确认附件
+      note_count: 0
+      children:
+      - name: libs
+        path: 98-附件/05-待确认附件/libs
+        note_count: 0
+  99-设置:
+    path: 99-设置
+    role: system
+    description: 配置文件、模板、系统设置
+    note_count: 0
+    children:
+    - name: agent-skills
+      path: 99-设置/agent-skills
+      note_count: 0
+      children:
+      - name: note-crafter
+        path: 99-设置/agent-skills/note-crafter
+        note_count: 0
+    - name: codex-skills
+      path: 99-设置/codex-skills
+      note_count: 0
+      children:
+      - name: git-commit-push-checks
+        path: 99-设置/codex-skills/git-commit-push-checks
+        note_count: 0
+      - name: hxc-survey
+        path: 99-设置/codex-skills/hxc-survey
+        note_count: 0
+      - name: hxc-term-card
+        path: 99-设置/codex-skills/hxc-term-card
+        note_count: 0
+      - name: moc-wiki-designer
+        path: 99-设置/codex-skills/moc-wiki-designer
+        note_count: 0
+    - name: exclidraw-libs
+      path: 99-设置/exclidraw-libs
+      note_count: 0
+    - name: hermes-skill
+      path: 99-设置/hermes-skill
+      note_count: 1
+    - name: litellm-agent-gateway
+      path: 99-设置/litellm-agent-gateway
+      note_count: 1
+    - name: scripts
+      path: 99-设置/scripts
+      note_count: 0
+    - name: specification
+      path: 99-设置/specification
+      note_count: 3
+      moc: 99-设置/specification/specification.md
+      children:
+      - name: 公司目录规范
+        path: 99-设置/specification/公司目录规范
+        note_count: 0
+      - name: 知识管理目录规范
+        path: 99-设置/specification/知识管理目录规范
+        note_count: 0
+      - name: 项目审计规则
+        path: 99-设置/specification/项目审计规则
+        note_count: 0
+      - name: 项目目录规范
+        path: 99-设置/specification/项目目录规范
+        note_count: 0
+    - name: zTemplates
+      path: 99-设置/zTemplates
+      note_count: 2
+      children:
+      - name: --Normal
+        path: 99-设置/zTemplates/--Normal
+        note_count: 0
+      - name: --按主题
+        path: 99-设置/zTemplates/--按主题
+        note_count: 0
+      - name: QuickAdd
+        path: 99-设置/zTemplates/QuickAdd
+        note_count: 0
+      - name: aigc
+        path: 99-设置/zTemplates/aigc
+        note_count: 0
+      - name: 输入模板
+        path: 99-设置/zTemplates/输入模板
+        note_count: 0
+    - name: zTemplates_Backup
+      path: 99-设置/zTemplates_Backup
+      note_count: 0
+      children:
+      - name: TEST_测试
+        path: 99-设置/zTemplates_Backup/TEST_测试
+        note_count: 0
+      - name: TPL-术语(Term)
+        path: 99-设置/zTemplates_Backup/TPL-术语(Term)
+        note_count: 0
+  Clippings:
+    path: Clippings
+    role: clippings
+    description: 网页剪藏
+    note_count: 5
+    moc: Clippings/Clippings.md
+    children:
+    - name: z附件
+      path: Clippings/z附件
+      note_count: 0
+  z附件:
+    path: z附件
+    role: attachments_local
+    description: 额外附件暂存
+    note_count: 0
+search_routing:
+  个人信息:
+  - 01-我的/个人
+  - 01-我的/个人/z附件
+  - 01-我的/个人/为什么会生气
+  - 01-我的/个人/嫉妒
+  - 01-我的/个人/音乐(Songs)
+  - 01-我的/个人/餐饮-日料
+  目标:
+  - 01-我的/个人
+  - 01-我的/个人/z附件
+  - 01-我的/个人/为什么会生气
+  - 01-我的/个人/嫉妒
+  - 01-我的/个人/音乐(Songs)
+  - 01-我的/个人/餐饮-日料
+  复盘:
+  - 01-我的/个人
+  - 01-我的/个人/z附件
+  - 01-我的/个人/为什么会生气
+  - 01-我的/个人/嫉妒
+  - 01-我的/个人/音乐(Songs)
+  - 01-我的/个人/餐饮-日料
+  履历:
+  - 01-我的/个人
+  - 01-我的/个人/z附件
+  - 01-我的/个人/为什么会生气
+  - 01-我的/个人/嫉妒
+  - 01-我的/个人/音乐(Songs)
+  - 01-我的/个人/餐饮-日料
+  选择:
+  - 01-我的/决策
+  权衡:
+  - 01-我的/决策
+  决策:
+  - 01-我的/决策
+  笔记:
+  - 01-我的/学习
+  - 01-我的/学习/精益工程
+  - 01-我的/学习/表达
+  - 01-我的/学习/语言(Language)
+  - 01-我的/学习/读书
+  学习:
+  - 01-我的/学习
+  - 01-我的/学习/精益工程
+  - 01-我的/学习/表达
+  - 01-我的/学习/语言(Language)
+  - 01-我的/学习/读书
+  - 03-领域/00-认知科学
+  - 03-领域/00-认知科学/--
+  - 03-领域/00-认知科学/概念辨析
+  - 03-领域/00-认知科学/知识体系
+  - 03-领域/00-认知科学/认知术语
+  - 03-领域/00-认知科学/认知课题
+  课程:
+  - 01-我的/学习
+  - 01-我的/学习/精益工程
+  - 01-我的/学习/表达
+  - 01-我的/学习/语言(Language)
+  - 01-我的/学习/读书
+  学术:
+  - 01-我的/学术
+  - 01-我的/学术/26-Paper Review
+  写作:
+  - 01-我的/学术
+  - 01-我的/学术/26-Paper Review
+  论文:
+  - 01-我的/学术
+  - 01-我的/学术/26-Paper Review
+  日记:
+  - 01-我的/日常笔记
+  - 01-我的/日常笔记/-课题-agent协同机会
+  - 01-我的/日常笔记/z附件
+  - 01-我的/日常笔记/中科-拜访(26.0331)
+  - 01-我的/日常笔记/摆烂
+  - 01-我的/日常笔记/日记-2025-11
+  - 01-我的/日常笔记/日记-2025-12
+  - 01-我的/日常笔记/日记-2026-01
+  - 01-我的/日常笔记/日记-2026-03-27
+  - 01-我的/日常笔记/日记-2026-04-05
+  - 01-我的/日常笔记/日记-2026-04-09
+  - 01-我的/日常笔记/日记-2026-04-10
+  - 01-我的/日常笔记/理工科-知名大学(26年)
+  日常:
+  - 01-我的/日常笔记
+  - 01-我的/日常笔记/-课题-agent协同机会
+  - 01-我的/日常笔记/z附件
+  - 01-我的/日常笔记/中科-拜访(26.0331)
+  - 01-我的/日常笔记/摆烂
+  - 01-我的/日常笔记/日记-2025-11
+  - 01-我的/日常笔记/日记-2025-12
+  - 01-我的/日常笔记/日记-2026-01
+  - 01-我的/日常笔记/日记-2026-03-27
+  - 01-我的/日常笔记/日记-2026-04-05
+  - 01-我的/日常笔记/日记-2026-04-09
+  - 01-我的/日常笔记/日记-2026-04-10
+  - 01-我的/日常笔记/理工科-知名大学(26年)
+  记录:
+  - 01-我的/日常笔记
+  - 01-我的/日常笔记/-课题-agent协同机会
+  - 01-我的/日常笔记/z附件
+  - 01-我的/日常笔记/中科-拜访(26.0331)
+  - 01-我的/日常笔记/摆烂
+  - 01-我的/日常笔记/日记-2025-11
+  - 01-我的/日常笔记/日记-2025-12
+  - 01-我的/日常笔记/日记-2026-01
+  - 01-我的/日常笔记/日记-2026-03-27
+  - 01-我的/日常笔记/日记-2026-04-05
+  - 01-我的/日常笔记/日记-2026-04-09
+  - 01-我的/日常笔记/日记-2026-04-10
+  - 01-我的/日常笔记/理工科-知名大学(26年)
+  课题:
+  - 01-我的/课题
+  - 01-我的/课题/01-常见课题
+  - 01-我的/课题/20-知识管理(KWs)
+  - 01-我的/课题/科学计算
+  研究:
+  - 01-我的/课题
+  - 01-我的/课题/01-常见课题
+  - 01-我的/课题/20-知识管理(KWs)
+  - 01-我的/课题/科学计算
+  调研:
+  - 01-我的/课题
+  - 01-我的/课题/01-常见课题
+  - 01-我的/课题/20-知识管理(KWs)
+  - 01-我的/课题/科学计算
+  心理学:
+  - 03-领域/00-认知科学
+  - 03-领域/00-认知科学/--
+  - 03-领域/00-认知科学/概念辨析
+  - 03-领域/00-认知科学/知识体系
+  - 03-领域/00-认知科学/认知术语
+  - 03-领域/00-认知科学/认知课题
+  记忆:
+  - 03-领域/00-认知科学
+  - 03-领域/00-认知科学/--
+  - 03-领域/00-认知科学/概念辨析
+  - 03-领域/00-认知科学/知识体系
+  - 03-领域/00-认知科学/认知术语
+  - 03-领域/00-认知科学/认知课题
+  认知:
+  - 03-领域/00-认知科学
+  - 03-领域/00-认知科学/--
+  - 03-领域/00-认知科学/概念辨析
+  - 03-领域/00-认知科学/知识体系
+  - 03-领域/00-认知科学/认知术语
+  - 03-领域/00-认知科学/认知课题
+  哲学:
+  - 03-领域/01-哲学体系
+  - 03-领域/01-哲学体系/--
+  - 03-领域/01-哲学体系/04-哲学知识
+  - 03-领域/01-哲学体系/哲学-术语集
+  逻辑:
+  - 03-领域/01-哲学体系
+  - 03-领域/01-哲学体系/--
+  - 03-领域/01-哲学体系/04-哲学知识
+  - 03-领域/01-哲学体系/哲学-术语集
+  方法论:
+  - 03-领域/01-哲学体系
+  - 03-领域/01-哲学体系/--
+  - 03-领域/01-哲学体系/04-哲学知识
+  - 03-领域/01-哲学体系/哲学-术语集
+  伦理学:
+  - 03-领域/01-哲学体系
+  - 03-领域/01-哲学体系/--
+  - 03-领域/01-哲学体系/04-哲学知识
+  - 03-领域/01-哲学体系/哲学-术语集
+  数学:
+  - 03-领域/02-数学学科
+  - 03-领域/02-数学学科/01-数学家
+  统计:
+  - 03-领域/02-数学学科
+  - 03-领域/02-数学学科/01-数学家
+  线性代数:
+  - 03-领域/02-数学学科
+  - 03-领域/02-数学学科/01-数学家
+  概率:
+  - 03-领域/02-数学学科
+  - 03-领域/02-数学学科/01-数学家
+  空间:
+  - 03-领域/10-建筑学
+  建筑:
+  - 03-领域/10-建筑学
+  设计理论:
+  - 03-领域/10-建筑学
+  操作系统:
+  - 03-领域/30-计算机科学(CS)
+  算法:
+  - 03-领域/30-计算机科学(CS)
+  编程:
+  - 03-领域/30-计算机科学(CS)
+  数据结构:
+  - 03-领域/30-计算机科学(CS)
+  数据库:
+  - 03-领域/30-计算机科学(CS)
+  深度学习:
+  - 03-领域/31-人工智能学科
+  - 03-领域/31-人工智能学科/--
+  - 03-领域/31-人工智能学科/00-AI术语
+  - 03-领域/31-人工智能学科/40-AI技术资源
+  - 03-领域/31-人工智能学科/智能体工具
+  LLM:
+  - 03-领域/31-人工智能学科
+  - 03-领域/31-人工智能学科/--
+  - 03-领域/31-人工智能学科/00-AI术语
+  - 03-领域/31-人工智能学科/40-AI技术资源
+  - 03-领域/31-人工智能学科/智能体工具
+  机器学习:
+  - 03-领域/31-人工智能学科
+  - 03-领域/31-人工智能学科/--
+  - 03-领域/31-人工智能学科/00-AI术语
+  - 03-领域/31-人工智能学科/40-AI技术资源
+  - 03-领域/31-人工智能学科/智能体工具
+  智能体:
+  - 03-领域/31-人工智能学科
+  - 03-领域/31-人工智能学科/--
+  - 03-领域/31-人工智能学科/00-AI术语
+  - 03-领域/31-人工智能学科/40-AI技术资源
+  - 03-领域/31-人工智能学科/智能体工具
+  AI:
+  - 03-领域/31-人工智能学科
+  - 03-领域/31-人工智能学科/--
+  - 03-领域/31-人工智能学科/00-AI术语
+  - 03-领域/31-人工智能学科/40-AI技术资源
+  - 03-领域/31-人工智能学科/智能体工具
+  神经网络:
+  - 03-领域/31-人工智能学科
+  - 03-领域/31-人工智能学科/--
+  - 03-领域/31-人工智能学科/00-AI术语
+  - 03-领域/31-人工智能学科/40-AI技术资源
+  - 03-领域/31-人工智能学科/智能体工具
+  网络:
+  - 03-领域/40-信息学科(IT)
+  - 03-领域/40-信息学科(IT)/01-信息学科术语
+  - 03-领域/40-信息学科(IT)/02-技术课题
+  - 03-领域/40-信息学科(IT)/it-知识体系
+  - 03-领域/40-信息学科(IT)/数据结构
+  云计算:
+  - 03-领域/40-信息学科(IT)
+  - 03-领域/40-信息学科(IT)/01-信息学科术语
+  - 03-领域/40-信息学科(IT)/02-技术课题
+  - 03-领域/40-信息学科(IT)/it-知识体系
+  - 03-领域/40-信息学科(IT)/数据结构
+  系统架构:
+  - 03-领域/40-信息学科(IT)
+  - 03-领域/40-信息学科(IT)/01-信息学科术语
+  - 03-领域/40-信息学科(IT)/02-技术课题
+  - 03-领域/40-信息学科(IT)/it-知识体系
+  - 03-领域/40-信息学科(IT)/数据结构
+  安全:
+  - 03-领域/40-信息学科(IT)
+  - 03-领域/40-信息学科(IT)/01-信息学科术语
+  - 03-领域/40-信息学科(IT)/02-技术课题
+  - 03-领域/40-信息学科(IT)/it-知识体系
+  - 03-领域/40-信息学科(IT)/数据结构
+  战略:
+  - 03-领域/50-管理学科
+  - 03-领域/50-管理学科/--
+  - 03-领域/50-管理学科/--管理术语表
+  - 03-领域/50-管理学科/01-管理-摘要
+  - 03-领域/50-管理学科/02-管理-课题
+  - 03-领域/50-管理学科/03-管理-工具
+  - 03-领域/50-管理学科/04-管理-知识
+  团队:
+  - 03-领域/50-管理学科
+  - 03-领域/50-管理学科/--
+  - 03-领域/50-管理学科/--管理术语表
+  - 03-领域/50-管理学科/01-管理-摘要
+  - 03-领域/50-管理学科/02-管理-课题
+  - 03-领域/50-管理学科/03-管理-工具
+  - 03-领域/50-管理学科/04-管理-知识
+  敏捷:
+  - 03-领域/50-管理学科
+  - 03-领域/50-管理学科/--
+  - 03-领域/50-管理学科/--管理术语表
+  - 03-领域/50-管理学科/01-管理-摘要
+  - 03-领域/50-管理学科/02-管理-课题
+  - 03-领域/50-管理学科/03-管理-工具
+  - 03-领域/50-管理学科/04-管理-知识
+  项目管理:
+  - 03-领域/50-管理学科
+  - 03-领域/50-管理学科/--
+  - 03-领域/50-管理学科/--管理术语表
+  - 03-领域/50-管理学科/01-管理-摘要
+  - 03-领域/50-管理学科/02-管理-课题
+  - 03-领域/50-管理学科/03-管理-工具
+  - 03-领域/50-管理学科/04-管理-知识
+  色彩:
+  - 03-领域/60-艺术学科
+  - 03-领域/60-艺术学科/--
+  - 03-领域/60-艺术学科/00-艺术术语(G)
+  - 03-领域/60-艺术学科/01-艺术科研(P)
+  - 03-领域/60-艺术学科/02-艺术创新(S)
+  - 03-领域/60-艺术学科/03-艺术知识(K)
+  - 03-领域/60-艺术学科/99-艺术案例(C)
+  - 03-领域/60-艺术学科/z附件
+  - 03-领域/60-艺术学科/审美
+  视觉:
+  - 03-领域/60-艺术学科
+  - 03-领域/60-艺术学科/--
+  - 03-领域/60-艺术学科/00-艺术术语(G)
+  - 03-领域/60-艺术学科/01-艺术科研(P)
+  - 03-领域/60-艺术学科/02-艺术创新(S)
+  - 03-领域/60-艺术学科/03-艺术知识(K)
+  - 03-领域/60-艺术学科/99-艺术案例(C)
+  - 03-领域/60-艺术学科/z附件
+  - 03-领域/60-艺术学科/审美
+  构成:
+  - 03-领域/60-艺术学科
+  - 03-领域/60-艺术学科/--
+  - 03-领域/60-艺术学科/00-艺术术语(G)
+  - 03-领域/60-艺术学科/01-艺术科研(P)
+  - 03-领域/60-艺术学科/02-艺术创新(S)
+  - 03-领域/60-艺术学科/03-艺术知识(K)
+  - 03-领域/60-艺术学科/99-艺术案例(C)
+  - 03-领域/60-艺术学科/z附件
+  - 03-领域/60-艺术学科/审美
+  艺术:
+  - 03-领域/60-艺术学科
+  - 03-领域/60-艺术学科/--
+  - 03-领域/60-艺术学科/00-艺术术语(G)
+  - 03-领域/60-艺术学科/01-艺术科研(P)
+  - 03-领域/60-艺术学科/02-艺术创新(S)
+  - 03-领域/60-艺术学科/03-艺术知识(K)
+  - 03-领域/60-艺术学科/99-艺术案例(C)
+  - 03-领域/60-艺术学科/z附件
+  - 03-领域/60-艺术学科/审美
+  文明:
+  - 03-领域/70-历史
+  - 03-领域/70-历史/主题
+  - 03-领域/70-历史/宋朝
+  历史:
+  - 03-领域/70-历史
+  - 03-领域/70-历史/主题
+  - 03-领域/70-历史/宋朝
+  年代:
+  - 03-领域/70-历史
+  - 03-领域/70-历史/主题
+  - 03-领域/70-历史/宋朝
+  西门子:
+  - 06-商业/供应商-西门子(siemenz)
+  - 06-商业/供应商-西门子(siemenz)/西门子-TIA-WinCC
+  TIA:
+  - 06-商业/供应商-西门子(siemenz)
+  - 06-商业/供应商-西门子(siemenz)/西门子-TIA-WinCC
+  PLC:
+  - 06-商业/供应商-西门子(siemenz)
+  - 06-商业/供应商-西门子(siemenz)/西门子-TIA-WinCC
+  工控:
+  - 06-商业/供应商-西门子(siemenz)
+  - 06-商业/供应商-西门子(siemenz)/西门子-TIA-WinCC
+  brew:
+  - 09-工具/mac-工具
+  - 09-工具/mac-工具/alfred
+  - 09-工具/mac-工具/liteLLM
+  - 09-工具/mac-工具/unix-命令(shell)
+  - 09-工具/mac-工具/文本扩充器(mac)
+  CLI:
+  - 09-工具/mac-工具
+  - 09-工具/mac-工具/alfred
+  - 09-工具/mac-工具/liteLLM
+  - 09-工具/mac-工具/unix-命令(shell)
+  - 09-工具/mac-工具/文本扩充器(mac)
+  终端:
+  - 09-工具/mac-工具
+  - 09-工具/mac-工具/alfred
+  - 09-工具/mac-工具/liteLLM
+  - 09-工具/mac-工具/unix-命令(shell)
+  - 09-工具/mac-工具/文本扩充器(mac)
+  macOS:
+  - 09-工具/mac-工具
+  - 09-工具/mac-工具/alfred
+  - 09-工具/mac-工具/liteLLM
+  - 09-工具/mac-工具/unix-命令(shell)
+  - 09-工具/mac-工具/文本扩充器(mac)
+  Mac:
+  - 09-工具/mac-工具
+  - 09-工具/mac-工具/alfred
+  - 09-工具/mac-工具/liteLLM
+  - 09-工具/mac-工具/unix-命令(shell)
+  - 09-工具/mac-工具/文本扩充器(mac)
+  工作环境:
+  - 09-工具/工具-电脑工作环境
+  编辑器:
+  - 09-工具/工具-电脑工作环境
+  IDE:
+  - 09-工具/工具-电脑工作环境
+  终端配置:
+  - 09-工具/工具-电脑工作环境
+  效率:
+  - 09-工具/工具-通用工具汇编
+  - 09-工具/工具-通用工具汇编/工具-Chrome
+  - 09-工具/工具-通用工具汇编/工具-Git
+  - 09-工具/工具-通用工具汇编/工具-Obsidian
+  - 09-工具/工具-通用工具汇编/工具-SourceTree(Git)
+  - 09-工具/工具-通用工具汇编/工具-excel
+  软件:
+  - 09-工具/工具-通用工具汇编
+  - 09-工具/工具-通用工具汇编/工具-Chrome
+  - 09-工具/工具-通用工具汇编/工具-Git
+  - 09-工具/工具-通用工具汇编/工具-Obsidian
+  - 09-工具/工具-通用工具汇编/工具-SourceTree(Git)
+  - 09-工具/工具-通用工具汇编/工具-excel
+  工具:
+  - 09-工具/工具-通用工具汇编
+  - 09-工具/工具-通用工具汇编/工具-Chrome
+  - 09-工具/工具-通用工具汇编/工具-Git
+  - 09-工具/工具-通用工具汇编/工具-Obsidian
+  - 09-工具/工具-通用工具汇编/工具-SourceTree(Git)
+  - 09-工具/工具-通用工具汇编/工具-excel

@@ -3,8 +3,10 @@ tags:
   - 长表
   - 矩阵数据
   - 热力图
+type: note
+description: 我们使用最常用的 `Seaborn` 和 `Pandas` 库。[[热力图]]要求数据必须是一个**矩阵（二维数组）**。
+create-date: 2026-04-29
 ---
-
 # 热力图从数据到视觉的转化实战
 
 ## 1. 技术视角：Python 代码演示

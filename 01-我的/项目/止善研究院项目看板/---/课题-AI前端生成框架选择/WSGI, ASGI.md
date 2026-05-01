@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 这两个概念是 Python Web 开发的两大基石，决定了框架处理请求的底层逻辑和并发上限。

@@ -9,6 +9,8 @@ tags:
   - 术语
   - 系统工程
 created: 2026-01-08 14:10
+description: **FMU (Functional Mock-up Unit)** 是系统工程领域中，用于在不同仿真工具之间交换模型的一种**标准软件包格式**。
+create-date: 2026-04-29
 ---
 **FMU (Functional Mock-up Unit)** 是系统工程领域中，用于在不同仿真工具之间交换模型的一种**标准软件包格式**。
 它是 **FMI (Functional Mock-up Interface)** 标准的物理实现。你可以把它理解为仿真界的“通用视频格式（如 MP4）”，无论这个模型是用什么软件做的，只要导出为 FMU，就能在其他支持该标准的软件中运行。

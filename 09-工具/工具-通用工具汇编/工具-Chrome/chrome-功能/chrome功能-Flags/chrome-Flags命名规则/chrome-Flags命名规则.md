@@ -1,3 +1,10 @@
+---
+tags: [chrome, 工具]
+description: 大多数 Chrome Flag 的命名都遵循：`[功能模块]-[具体操作]-[技术细节]`。
+type: note
+create-date: 2025-12-29
+---
+
 # 📔 Obsidian 笔记：Chrome Flag 命名规范与逻辑
 
 ## 🧬 Flag 命名的三段式结构

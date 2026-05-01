@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: - 了解浪费
+type: note
+create-date: 2026-04-29
+---
+
 ## 浪费课题
 
 - 了解浪费 

@@ -1,8 +1,11 @@
 ---
 aliases:
-  - 
+  -
+type: note
+tags: [工具]
+description: - 性能调试
+create-date: 2026-04-29
 ---
-
 ## 数据科学
 
 - 性能调试

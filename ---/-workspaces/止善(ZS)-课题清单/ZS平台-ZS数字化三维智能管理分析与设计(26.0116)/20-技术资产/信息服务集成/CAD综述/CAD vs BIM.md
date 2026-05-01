@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 如果把 CAD 比作数字化的**纸笔**，BIM 就是一个**虚拟的施工现场**。

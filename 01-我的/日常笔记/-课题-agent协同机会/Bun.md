@@ -5,6 +5,7 @@ tags:
 description: Bun是以Zig语言编写的一套JavaScript运行时系统、包管理器、测试运行器及打包工具。Bun设计上是Node.js的直接替代品，但它使用JavaScriptCore作为引擎，不同于Node.js和Deno使用V8引擎。 Bun可以对JavaScript文件进行打包构建、代码压缩，也支持服务器端渲染 。
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 Bun 是一款极其快速、全能的 JavaScript 运行时（类似于 [[node.js]]和 Deno），其核心价值体现在 **性能** 和 **集成度**：

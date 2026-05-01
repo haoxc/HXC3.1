@@ -1,6 +1,10 @@
 ---
 aliases:
   - abbr://止善/看板/未完成任务(lab-kanban@gj-rw-svy)
+type: note
+tags: [工具]
+description: FROM "01-看板/04-工作室"
+create-date: 2026-04-29
 ---
 ## 未完成清单
 ```dataview

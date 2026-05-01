@@ -9,8 +9,9 @@ title: Browser-use API (动作接口)
 description:
 domain: Browser-use API (动作接口)
 created: 2026-01-09 18:10
+type: note
+create-date: 2026-02-06
 ---
-
 > [!ERROR]
 > 命名逻辑 : Browser(工具) + use(动作)
 ## 描述

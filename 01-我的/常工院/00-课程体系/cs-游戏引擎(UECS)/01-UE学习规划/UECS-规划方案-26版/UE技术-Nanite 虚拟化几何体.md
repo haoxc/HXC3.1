@@ -6,6 +6,7 @@ tags:
   - 视觉
 description: "**Nanite** 是 Unreal Engine 5 的核心技术之一，它彻底改变了传统 3D 渲染的管线，让开发者能够直接在引擎中使用影视级的高模"
 type:
+create-date: 2026-04-29
 ---
 # Unreal Engine 技术专题：Nanite 虚拟化几何体
 

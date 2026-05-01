@@ -10,6 +10,8 @@ tags:
   - 思维模型/MentalModel/Abstraction
 description: PyVista 是 VTK 的高级 Python 封装库，它将复杂的底层图形学指令简化为类似 NumPy 的直观操作，让科研人员能像处理表格一样轻松构建和展示 3D 物理网格模型。
 updated: 2026-01-31
+type: note
+create-date: 2026-04-29
 ---
 ## Pyvista
 - [[VTK]]的爆包装器

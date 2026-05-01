@@ -1,4 +1,9 @@
-
+---
+tags: [工具]
+description: - [[py-Python3环境安装|Python环境安装]]
+type: note
+create-date: 2026-04-29
+---
 
 ---
 ## 前期准备

@@ -1,3 +1,9 @@
+---
+tags: [工具]
+description: python 内置 [[json概述|json]] 模块
+type: note
+create-date: 2026-04-29
+---
 
 ###  内置模块-json核心方法
 python 内置 [[json概述|json]] 模块

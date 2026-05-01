@@ -7,6 +7,8 @@ domain: 视觉变量(Visual Variable)
 created: 2025-12-27 16:46
 tags:
   - 贝尔廷
+type: note
+create-date: 2026-04-29
 ---
 **视觉变量（Visual Variables）** 是信息可视化和地图学的基石.
 # 视觉变量理论 (The Theory of Visual Variables)

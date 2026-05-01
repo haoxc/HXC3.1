@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: aliases:
+type: note
+create-date: 2024-05-23
+---
+
 P---
 aliases:  
 - mgr://概念(Concepts)@{{title}},(glo-gn#abbr=)
@@ -22,4 +29,4 @@ aliases:
 ## 日志
 - *创建时间*
 	- {{date:YYYY-MM-DD}} {{time:HH:mm}}
-- 
+-

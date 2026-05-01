@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 在 **Mechanical Design (机械设计/MCAD)** 领域，==厂商的格局比建筑 BIM 更加等级森严==。它不仅关乎"画图"，更关乎**[[仿真分析 (CAE)]]**、**[[制造加工 (CAM)]]** 以及**[[产品生命周期管理 (PLM)|产品生命周期管理 (PLM)]]**。

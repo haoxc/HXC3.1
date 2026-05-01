@@ -8,8 +8,8 @@ description:
 type:
 ref-url:
 Positioning:
+create-date: 2026-02-08
 ---
-
 ## 1. 什么是 OpenClaw？
 
 **OpenClaw** 是一个开源的自动化框架，旨在将大语言模型（LLM）与浏览器环境（如 Chrome）深度连接。它通常作为 **MCP (Model Context Protocol) Server** 运行，允许像 Claude Desktop 或 Dify 这样的客户端通过标准化协议直接控制网页。

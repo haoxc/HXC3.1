@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: // 1. 字典维护
+type: note
+create-date: 2026-03-09
+---
+
 <%*
 // 1. 字典维护
 const domainDict = {

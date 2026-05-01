@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-13
 ---
 ## 内容
 # Aras Innovator vs 西门子Teamcenter / 达索Windchill 核心对比

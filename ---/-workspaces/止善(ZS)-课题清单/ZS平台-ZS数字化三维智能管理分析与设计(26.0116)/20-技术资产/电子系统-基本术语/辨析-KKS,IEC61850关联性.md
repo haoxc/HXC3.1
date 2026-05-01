@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-28
 ---
 根据您的要求，我将 KKS 编码与 IEC 61850 命名的核心逻辑及关注点对比整理如下：
 

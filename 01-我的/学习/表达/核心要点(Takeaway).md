@@ -1,6 +1,10 @@
 ---
 aliases:
   - 核心要点|启示(The Takeaway)
+type: note
+tags: [工具]
+description: - 核心要点 / 启示 (商业与学习)
+create-date: 2026-04-29
 ---
 ## 概述
 

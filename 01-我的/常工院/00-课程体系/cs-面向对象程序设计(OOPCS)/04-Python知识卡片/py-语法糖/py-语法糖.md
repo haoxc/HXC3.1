@@ -8,6 +8,8 @@ tags:
 aliases:
   - abbr:语法糖(yft)
 description:
+type: note
+create-date: 2026-04-29
 ---
 ## 语法糖
 - **定义**:  编程语言中不改变核心功能，仅简化代码的**语法扩展**

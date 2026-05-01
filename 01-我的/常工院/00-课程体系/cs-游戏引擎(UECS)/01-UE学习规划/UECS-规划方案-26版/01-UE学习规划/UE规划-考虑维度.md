@@ -1,5 +1,9 @@
 ---
 aliases:
+type: note
+tags: [工具]
+description: - ***考量维度***
+create-date: 2026-04-29
 ---
 - ***考量维度***
 	- **规划方向**

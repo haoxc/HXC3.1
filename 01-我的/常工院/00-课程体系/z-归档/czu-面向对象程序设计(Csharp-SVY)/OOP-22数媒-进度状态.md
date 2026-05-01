@@ -1,7 +1,10 @@
 ---
 aliases: oop@czu-22/Progressing(22-jd-进度)
+type: note
+tags: [工具]
+description: - if结束
+create-date: 2026-04-29
 ---
-
 ## 概要
 - 数媒1
 	- 进度

@@ -1,6 +1,10 @@
 ---
 aliases:
   - /claude/能力评估/初步评估-260324
+type: note
+tags: [工具]
+description: - claude-能力心得
+create-date: 2026-04-29
 ---
 - claude-能力心得
 	- 文档处理

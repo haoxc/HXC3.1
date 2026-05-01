@@ -2,7 +2,9 @@
 
 excalidraw-plugin: parsed
 tags: [excalidraw]
-
+type: note
+description: 9117404f84f86f7f6e25caa4d46c24b844b02505: [[Pasted Image 20260102182513_013.png]
+create-date: 2026-01-26
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

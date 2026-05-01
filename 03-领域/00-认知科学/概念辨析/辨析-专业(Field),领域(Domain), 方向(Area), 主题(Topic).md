@@ -7,8 +7,9 @@ tags:
   - 坐标系
 created: 2025-12-21 16:18
 description:
+type: note
+create-date: 2026-04-29
 ---
-
 # 空间术语辨析：Topic vs Area vs Domain vs Field
 
 ### 1. 🎯 一句话定义 (Definition)

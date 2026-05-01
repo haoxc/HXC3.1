@@ -2,8 +2,9 @@
 type: 辨析
 tags: []
 aliases: []
+description: // 1. 获取用户输入的主题（必填）
+create-date: 2025-11-15
 ---
-
 <%*
 // 1. 获取用户输入的主题（必填）
 const userTopic = await tp.system.prompt("请输入笔记主题（必填）:", "", true);

@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 **[Grafana](https://grafana.com/)** 是==一款开源的现代仪表盘、分析和监控平台==。它主要用于将来自各种数据源（如 Prometheus、InfluxDB、Elasticsearch 等）的原始指标、日志和链路追踪数据转化为实时、交互式的可视化图表

@@ -15,8 +15,8 @@ bx_terms:
   - Claude App
   - Claude Code CLI
 bx_status: adopted
+create-date: 2026-04-29
 ---
-
 ## 内容
 
 ### 1. 概念界定

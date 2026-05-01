@@ -1,8 +1,10 @@
 ---
 aliases: CryENGINE
+type: note
+tags: [工具]
+description: - *名称*: CryENGINE
+create-date: 2026-04-29
 ---
-
-
 ## 元数据
 ---
 - *名称*: CryENGINE

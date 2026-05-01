@@ -1,6 +1,10 @@
 ---
 aliases:
   - __name__
+type: note
+tags: [工具]
+description: `__name__`的取值只有两种两种情况 **，取决于[[模块]]的运行方式：
+create-date: 2026-04-29
 ---
 ### 一、`__name__`的核心作用
 

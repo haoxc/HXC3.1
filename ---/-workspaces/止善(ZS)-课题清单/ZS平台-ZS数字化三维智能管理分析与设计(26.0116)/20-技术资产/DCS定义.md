@@ -5,6 +5,7 @@ tags:
 description: DCS是过程工业或大型复杂系统的自动化监控系统
 type:
 ref-url:
+create-date: 2026-02-15
 ---
 ## 内容
 在**复杂产品**与**数字主线**的语境下，**DCS**（Distributed Control System，**分散控制系统**，或称**集散控制系统**）是物理实体实现“数字化协同”的关键抓手。

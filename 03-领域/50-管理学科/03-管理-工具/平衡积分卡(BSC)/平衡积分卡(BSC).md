@@ -3,6 +3,9 @@ aliases:
   - 平衡计分卡（Balanced Scorecard, BSC）
 tags:
   - 战略指标化
+type: note
+description: - 在运营管理中，平衡计分卡（Balanced Scorecard, BSC）不仅是一套[[绩效考核]]工具，更是一个将组织愿景转化为具体运营行动的`战略管理体
+create-date: 2025-12-20
 ---
 ## 概述
 - 在运营管理中，平衡计分卡（Balanced Scorecard, BSC）不仅是一套[[绩效考核]]工具，更是一个将组织愿景转化为具体运营行动的`战略管理体系`.

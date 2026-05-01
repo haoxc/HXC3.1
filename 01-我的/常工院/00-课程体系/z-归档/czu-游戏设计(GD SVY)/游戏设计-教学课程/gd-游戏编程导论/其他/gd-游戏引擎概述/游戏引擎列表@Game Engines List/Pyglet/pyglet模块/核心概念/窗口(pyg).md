@@ -1,5 +1,9 @@
 ---
 aliases: window
+type: note
+tags: [工具]
+description: *创建时间*：2022年5月8日 15:53:27
+create-date: 2026-04-29
 ---
 *创建时间*：2022年5月8日 15:53:27
 

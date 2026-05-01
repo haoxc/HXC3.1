@@ -1,10 +1,11 @@
 ---
 
 mindmap-plugin: markdown
-
+type: note
+tags: [工具]
+description: - 设备监控
+create-date: 2026-04-29
 ---
-
-
 ## 需求
 
 - 设备监控

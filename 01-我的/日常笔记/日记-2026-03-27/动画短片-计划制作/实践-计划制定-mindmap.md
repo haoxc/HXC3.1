@@ -1,10 +1,11 @@
 ---
 
 mindmap-plugin: markdown
-
+type: note
+tags: [工具]
+description: - 2-3分钟的动画短片
+create-date: 2026-04-29
 ---
-
-
 ## 计划
 - 目标
 	- 2-3分钟的动画短片

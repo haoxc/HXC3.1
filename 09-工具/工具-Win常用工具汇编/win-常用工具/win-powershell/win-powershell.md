@@ -5,8 +5,10 @@ description:
 title: win-powershell
 domain:
 created: 2026-01-03 13:07
+type: note
+tags: [shell, windows, 工具]
+create-date: 2026-01-03
 ---
-
 ## 内容
 
 ### 底层哲学的碰撞

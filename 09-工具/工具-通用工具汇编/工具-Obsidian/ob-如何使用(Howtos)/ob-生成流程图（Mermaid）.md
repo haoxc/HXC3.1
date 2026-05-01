@@ -1,3 +1,10 @@
+---
+tags: [mermaid, obsidian, 工具]
+description: ``` mermaid
+type: note
+create-date: 2025-10-30
+---
+
 ``` mermaid 
 flowchart TD
     A[开始] --> B[初始化循环变量]
@@ -7,4 +14,3 @@ flowchart TD
     E --> C
     C -- 否 --> F[结束循环]
 ```
-

@@ -1,3 +1,10 @@
+---
+tags: [windows, 工具]
+description: - [超实用！Dify快速接入本地MCP服务-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article
+type: note
+create-date: 2026-01-09
+---
+
 ### 配置本地MCP   #智能体/实践/MCP/配置LocalMCP
 - [超实用！Dify快速接入本地MCP服务-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2530658)
 > - 在Docker中安装 Nodejs   [[安装nodejs(docker)]]

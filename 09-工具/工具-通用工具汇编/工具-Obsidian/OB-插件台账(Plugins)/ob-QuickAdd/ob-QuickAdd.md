@@ -1,3 +1,9 @@
+---
+tags: [obsidian, 工具]
+description: - 核心功能
+type: note
+create-date: 2025-11-17
+---
 
 ## 使用指南
 
@@ -18,5 +24,3 @@
 ---
 ### 参数
 - [[quickadd-参数]]
-
-

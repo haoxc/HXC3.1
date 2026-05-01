@@ -2,6 +2,9 @@
 tags: ["AI", "LLM", "可视化", "开源工具", "大模型"]
 category: 计算机·AI机器学习
 aliases: ["开源大语言模型可视化工具", "LLM可视化框架大全"]
+type: note
+description: 专注展示Transformer模型中token间的关联权重，揭示模型"`关注重点`"
+create-date: 2025-12-19
 ---
 ### 开源LLM可视化工具&框架全解（按功能分类）
 ---

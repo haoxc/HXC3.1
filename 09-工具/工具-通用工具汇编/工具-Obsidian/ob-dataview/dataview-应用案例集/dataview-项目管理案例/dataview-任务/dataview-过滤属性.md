@@ -1,3 +1,9 @@
+---
+tags: [dataview, obsidian, 工具]
+description: **定义**
+type: note
+create-date: 2025-11-19
+---
 
 ## 基础(单属性)
 ### 包含截止日期(due)
@@ -55,4 +61,3 @@ FROM "Projects"
 WHERE  priority="low"
 GROUP BY file.link
 ```
-

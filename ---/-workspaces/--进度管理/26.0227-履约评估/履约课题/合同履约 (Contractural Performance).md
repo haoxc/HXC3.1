@@ -6,6 +6,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-27
 ---
 ## 内容
 合同履约与风险管理 (Contractual Performance) 这是法律与商业层面的 [[胜任力]]。

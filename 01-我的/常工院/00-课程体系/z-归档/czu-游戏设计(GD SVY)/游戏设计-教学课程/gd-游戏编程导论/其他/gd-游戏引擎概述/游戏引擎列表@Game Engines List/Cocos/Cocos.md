@@ -1,7 +1,10 @@
 ---
-aliases: 
+aliases:
+type: note
+tags: [工具]
+description: > [!tldr] 要点(KEY TAKEAWAYS)
+create-date: 2026-04-29
 ---
-
 ---
 
 

@@ -4,6 +4,7 @@ aliases:
 tags:
 description:
 type:
+create-date: 2026-01-26
 ---
 ## 内容
 > https://sysml.org/sysml-faq/what-are-sysml-diagram-types.html

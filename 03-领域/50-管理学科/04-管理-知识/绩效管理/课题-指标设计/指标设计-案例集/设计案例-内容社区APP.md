@@ -3,8 +3,10 @@ aliases:
 title: 设计案例
 description:
 created: 2025-12-25 10:51
+type: note
+tags: [工具]
+create-date: 2025-12-25
 ---
-
 ## 具体可执行案例：[[案例：内容社区APP]]
 
 假设课题为：**提升某知识分享社区的用户活跃度**。

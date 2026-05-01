@@ -7,6 +7,8 @@ tags:
   - 辨析
 created: 2026-01-02 19:37
 description:
+type: note
+create-date: 2026-01-02
 ---
 # 系统 (System) vs. 体系 (Architecture/Hierarchy)
 

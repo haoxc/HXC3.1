@@ -1,7 +1,10 @@
 ---
 aliases: 空值
+type: note
+tags: [工具]
+description: - **类型**：`NoneType`
+create-date: 2026-04-29
 ---
-
 ## 概要
 - **类型**：`NoneType`
     - `None` 是 `NoneType` 类型的唯一实例。

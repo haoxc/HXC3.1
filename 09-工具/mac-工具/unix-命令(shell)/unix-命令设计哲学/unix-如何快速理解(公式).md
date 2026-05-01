@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-20
 ---
 ## 内容
 它通常遵循：**[主角] + [动作] + [修饰词] + [目标]**。

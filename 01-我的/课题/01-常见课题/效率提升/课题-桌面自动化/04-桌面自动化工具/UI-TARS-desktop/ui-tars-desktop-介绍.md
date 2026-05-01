@@ -1,8 +1,11 @@
 ---
 aliases:
   - 桌面自动化/工具/UI-TARS-desktop/介绍
+type: note
+tags: [工具]
+description: GitHub 上的 UI-TARS-desktop 项目是一个开源的多模态人工智能代理栈，旨在连接前沿的 AI 模型和代理基础设施。
+create-date: 2026-04-29
 ---
-
 # 总结
 
 GitHub 上的 UI-TARS-desktop 项目是一个开源的多模态人工智能代理栈，旨在连接前沿的 AI 模型和代理基础设施。

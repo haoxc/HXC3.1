@@ -1,9 +1,11 @@
 ---
 aliases:
   - Game Design(GD)
+type: note
+tags: [工具]
+description: - [[游戏引擎课程Q&A]]
+create-date: 2026-04-29
 ---
-
-
 ## 课程安排
 - [[游戏引擎课程Q&A]]
 - [[gd-教学进度安排|课程进度及组织形式]]

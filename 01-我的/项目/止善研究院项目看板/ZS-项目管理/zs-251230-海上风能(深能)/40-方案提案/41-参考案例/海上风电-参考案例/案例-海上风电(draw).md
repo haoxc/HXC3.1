@@ -5,6 +5,9 @@ tags:
   - 案例-case
 aliases:
   - //数字孪生/案例/海上风电
+type: note
+description: ZxRH1vWx: http://www.youtube.com/watch?v=stHUKA0nLsY
+create-date: 2026-04-29
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

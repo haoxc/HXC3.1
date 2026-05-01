@@ -1,0 +1,349 @@
+name: note-crafter
+description: 创建符合 Vault 规范的知识笔记：命名、定位归档目录、挂 MOC、写 frontmatter。触发词：创建笔记...
+version: 2.7.0
+source_of_truth: hermes
+last_sync: '2026-05-01'
+runtimes:
+  hermes:
+    enabled: true
+    path: ~/.hermes/skills/note-taking/note-crafter/SKILL.md
+    frontmatter:
+      description: 创建符合 Vault 规范的知识笔记：命名、定位归档目录、挂 MOC、写 frontmatter。触发词：创建笔记、新建笔记、整理成笔记、生成笔记、create
+        note、new note、draft note。
+      triggers:
+      - 创建笔记
+      - 新建笔记
+      - 整理成笔记
+      - 生成笔记
+      - create note
+      - new note
+      - draft note
+      - write a note
+      - 帮我写一篇笔记
+      - obsidian vault
+      - vault 笔记
+      - hxc vault
+      - obsidian 笔记
+      related_skills:
+      - obsidian
+    prepend: '## 执行策略：最小化工具调用
+
+
+      目标：4 次工具调用完成一次笔记创建（原 12 次 → 4 次）。
+
+
+      **推荐使用 `vault-only` profile**：`hermes -p vault-only`。该 profile 只开 terminal /
+      file / skills / todo / memory / session_search / clarify 七个 toolset，大幅减少系统 prompt
+      中无关工具定义的 token 开销。
+
+
+      **并行窗口 1**（1 次）：`skill_view(note-crafter)` — 本技能（已合并原 note-crafter + hxc-obsidian-vault，一次加载即可）。若本会话已加载过，跳过此窗口。
+
+
+      **并行窗口 2**（1 次 execute_code）：
+
+      - 先用下方「路由速查」表定位目录。命中则直接确认，不读 vault-index.yaml。
+
+      - 未命中时才加载 `99-设置/vault-index.yaml` 查 search_routing。
+
+      - 同时合并去重检查 + MOC 读取 + 存量笔记内容读取。
+
+      - **若路由只定位到顶层目录、无现成子目录 → 触发 2f 分类确认流程**，用 `clarify` 让用户选择。
+
+
+      **串行窗口 2.5**（0~1 次 clarify）：分类不确定时向用户确认 3 候选目录。路由明确且子目录已存在时跳过。
+
+
+      **串行窗口 3**（1 次 write_file）：写入笔记正文。
+
+
+      **并行窗口 4**（1 次 execute_code）：合并 MOC 链接追加 + 日记追加。
+
+
+      **总计：4~5 次工具调用**（分类确定时 4 次，需确认时 5 次），预期耗时 25-45 秒。 此目标针对已知主题；若主题陌生需先调研，前置研究阶段另加
+      2-4 次终端调用（curl/GitHub API/搜索引擎），不计入 4 次窗口配额。研究技巧见 `references/researching-unknown-topics.md`。
+
+
+      > 注：不要加载与笔记主题无关的 skill（如创建 Hermes 踩坑笔记时不需 `skill_view(hermes-agent)`，config.yaml
+      已有足够信息）。interaction-protocol 是例外——用户 profile 要求执行前确认意图，该 skill 可在所有任务中加载。
+
+
+      ### 路由速查（命中则跳过 vault-index.yaml）
+
+
+      按笔记主题关键词直接定位，覆盖 80% 场景：
+
+
+      | 关键词含 | → 目录 |
+
+      |----------|-------|
+
+      | liteLLM / alfred / shell / brew / macOS / mac | `09-工具/mac-工具/{工具名}/` |
+
+      | hermes / codex | `03-领域/31-人工智能学科/智能体工具/{工具名}/` |
+
+      | obsidian / chrome / git / excel / mermaid / sourcetree | `09-工具/工具-通用工具汇编/工具-{工具名}/`
+      |
+
+      | LLM / Agent / RAG / 神经网络 / 深度学习 / 机器学习 / transformer / 注意力 / 向量 | `03-领域/31-人工智能学科/`
+      |
+
+      | 算法 / 数据结构 / 操作系统 / 数据库 / 编程 / Rust / Python | `03-领域/30-计算机科学(CS)/` |
+
+      | 认知 / 学习 / 记忆 / 心理学 | `03-领域/00-认知科学/` |
+
+      | 履历 / 目标 / 个人信息 / 复盘 / 日记 | `01-我的/` |
+
+      | 公司 / 产品 / 市场 / SaaS | `06-商业/` |
+
+      | 审计 / MOC / skill规范 / 整改 / vault治理 | `07-治理/` |
+
+      | 工具 / 配置 / 安装 | `09-工具/` |
+
+      | 书单 / 资源清单 | `05-资源/` |
+
+
+      未命中 → 窗口 2 加载 vault-index.yaml 完整路由。
+
+      '
+    append: '## 运维操作
+
+
+      ### 存量笔记 Frontmatter 修复
+
+
+      ```bash
+
+      python3 ~/.hermes/skills/note-taking/hxc-obsidian-vault/scripts/fix_frontmatter.py
+      [子目录] [--dry]
+
+      ```
+
+
+      - `--dry`：预览模式，不写入
+
+      - 自动推断 tags/description/create-date/type，仅补缺失字段，不覆盖已有内容
+
+      - 禁用手写 bash while-read 循环（per-file 子进程→超时）
+
+
+      ### 规则合规审计
+
+
+      ```bash
+
+      python3 ~/.hermes/skills/note-taking/hxc-obsidian-vault/scripts/audit.py [--verbose]
+
+      ```
+
+
+      检查 7 维度：结构完整性、Frontmatter 质量、MOC 规范、日记规范、SVG 配套、文件名规范、标签审计。
+
+
+      ### vault-index.yaml 重建
+
+
+      ```bash
+
+      python3 ~/.hermes/skills/note-taking/hxc-obsidian-vault/scripts/generate_vault_index.py
+
+      ```
+
+
+      vault 目录结构变更后执行。✓ 先查索引再精确搜索；✗ 不做全 vault 的 `find`/`grep -r`。
+
+
+      ### 与 sync-agent-skills.py 协作
+
+
+      本技能通过 `99-设置/agent-skills/sync-agent-skills.py` 同步到三端（Hermes / Codex / Claude
+      Code）。
+
+      修改核心规范后，运行 `python3 99-设置/agent-skills/sync-agent-skills.py --skill note-crafter`
+      同步。
+
+
+      ## References
+
+
+      - `99-设置/vault-rules.yaml` — 声明层规则库（single source of truth）
+
+      - `99-设置/vault-index.yaml` — 预计算目录索引 + 关键词路由
+
+      - `[[MOC-Wiki目录页规范]]` — MOC 页面设计规则
+
+      - `[[知识管理目录规范]]` — 03-领域 目录结构规则
+
+      - `concept-definer` — 单概念定义卡片技能
+
+      '
+  codex:
+    enabled: true
+    path: ~/.codex/skills/note-crafter/SKILL.md
+    frontmatter:
+      description: Create well-named, well-structured Obsidian knowledge notes with
+        proper MOC integration. Use when the user asks in Chinese or English to 创建笔记,
+        新建笔记, 整理成笔记, 生成笔记, create note, new note, draft note, write a note, or normalize
+        notes for knowledge management including concept definitions, tool references,
+        how-to guides, domain summaries, and daily-note 新建 capture items.
+    prepend: '> Merged with hxc-obsidian-vault skill. Former dual-skill loading no
+      longer needed.
+
+      > Vault path: `/Users/haoxc/__Data/00_Knowledges/Vault_HXC3.1(Apple)`
+
+      > Declarative rule base: `99-设置/vault-rules.yaml`
+
+
+      ## Core Principles
+
+
+      Every note must satisfy three top-level principles, in order:
+
+
+      1. **见名知意** — The filename alone tells the reader what this note is and is not.
+      No clicking required to decide relevance.
+
+      2. **辅助理解** — Content is structured for rapid comprehension: what it is, how
+      to recognize it, how to use it.
+
+      3. **指导落地** — When the knowledge has an operational dimension, include actionable
+      guidance. Pure reference concepts omit this.
+
+
+      ## Execution Strategy
+
+
+      Target: 4 tool calls per note creation. Load only this skill — hxc-obsidian-vault
+      is now merged in.
+
+
+      **Window 1** (1 call): `skill_view(note-crafter)` — this skill. Skip if already
+      loaded in current session.
+
+
+      **Window 2** (1 execute_code): Use 「Route Cache」 table first (below). If keyword
+      matches, skip vault-index.yaml. Fallback to `99-设置/vault-index.yaml` search_routing
+      only on miss. Merge dedup + MOC read + existing note content read.
+
+
+      **Window 3** (1 write_file): write the note.
+
+
+      **Window 4** (1 execute_code): MOC backlink append + daily diary append, merged.
+
+
+      **Total: 4 calls (3 if route cache hits), 25-35s.**
+
+
+      Do NOT load unrelated skills (e.g. `hermes-agent` when creating a Hermes pitfall
+      note — config.yaml has enough context).
+
+
+      ### Route Cache (hit = skip vault-index.yaml read)
+
+
+      | Keyword contains | → Directory |
+
+      |----------|-------|
+
+      | liteLLM / alfred / shell / brew / macOS / mac | `09-工具/mac-工具/{tool}/` |
+
+      | hermes / codex | `03-领域/31-人工智能学科/智能体工具/{tool}/` |
+
+      | obsidian / chrome / git / excel / mermaid | `09-工具/工具-通用工具汇编/工具-{tool}/` |
+
+      | LLM / Agent / RAG / neural / transformer / attention / embedding | `03-领域/31-人工智能学科/`
+      |
+
+      | algorithm / data structure / OS / database / programming / Rust / Python |
+      `03-领域/30-计算机科学(CS)/` |
+
+      | cognition / learning / memory / psychology | `03-领域/00-认知科学/` |
+
+      | resume / goal / personal / reflection / diary | `01-我的/` |
+
+      | company / product / market / SaaS | `06-商业/` |
+
+      | audit / MOC / skill-spec / governance | `07-治理/` |
+
+      | tool / config / install / CLI | `09-工具/` |
+
+      | booklist / resource | `05-资源/` |
+
+
+      Miss → load vault-index.yaml full routing in Window 2.
+
+
+      ## When To Use
+
+
+      - Creating a new knowledge note from scratch
+
+      - Renaming or restructuring an existing note to meet naming standards
+
+      - The user says "帮我写一篇笔记", "创建笔记", "整理成笔记", "新建一个", "create note", "new note",
+      "draft note", "write a note"
+
+      - After the `concept-definer` skill produces a concept card and the user wants
+      it saved as a proper note
+
+      - Processing pending items from a daily note''s `## 新建` section (daily review
+      → note creation)
+
+
+      Route to the Codex `concept-definer` skill when the primary task is defining
+      a single concept. Use this skill when the scope is broader: guides, references,
+      summaries, or any note that needs naming and MOC placement.
+
+      '
+    append: '## Maintenance Scripts
+
+
+      ```bash
+
+      # Rebuild vault index after directory structure changes
+
+      python3 ~/.hermes/skills/note-taking/hxc-obsidian-vault/scripts/generate_vault_index.py
+
+
+      # Fix missing frontmatter on existing notes
+
+      python3 ~/.hermes/skills/note-taking/hxc-obsidian-vault/scripts/fix_frontmatter.py
+      [subdir] [--dry]
+
+
+      # Full vault compliance audit (7 dimensions)
+
+      python3 ~/.hermes/skills/note-taking/hxc-obsidian-vault/scripts/audit.py [--verbose]
+
+      ```
+
+
+      ## References
+
+
+      - `99-设置/vault-rules.yaml` — declarative rule base (single source of truth)
+
+      - `99-设置/vault-index.yaml` — precomputed directory index + keyword routing
+
+      - `[[MOC-Wiki目录页规范]]` — MOC page design rules
+
+      - `[[知识管理目录规范]]` — 03-领域 structure rules
+
+      - `concept-definer` — single-concept definition card skill
+
+      '
+  claude-code:
+    enabled: false
+    path: ~/.claude/skills/note-crafter/SKILL.md
+    frontmatter:
+      description: Create well-named, well-structured Obsidian knowledge notes. Run
+        `python3 $VAULT/99-设置/agent-skills/sync-agent-skills.py --skill note-crafter
+        --runtime claude-code` to generate when ready.
+    prepend: '## Claude Code Execution Strategy
+
+
+      Placeholder — enable this runtime in manifest.yaml when ready to use note-crafter
+      in Claude Code.
+
+      '

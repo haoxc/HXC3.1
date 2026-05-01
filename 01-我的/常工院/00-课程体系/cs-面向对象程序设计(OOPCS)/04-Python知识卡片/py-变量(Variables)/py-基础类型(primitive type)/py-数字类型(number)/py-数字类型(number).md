@@ -1,5 +1,9 @@
 ---
 aliases: 数字类型(number)
+type: note
+tags: [工具]
+description: *创建时间*：2022年5月3日 17:44:08
+create-date: 2026-04-29
 ---
 *创建时间*：2022年5月3日 17:44:08
 

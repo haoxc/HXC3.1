@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: -   **存档**: 把游戏场景中所有的对象转换为 json 格式, 用于数据存档, 数据交换; ( #能力/数据处理/序列化  )
+type: note
+create-date: 2026-04-29
+---
+
 ### Python 对象 → JSON 字符串（`dumps`）
 -   **存档**: 把游戏场景中所有的对象转换为 json 格式, 用于数据存档, 数据交换; ( #能力/数据处理/序列化  )
  -  **目标**: Python 对象 → JSON 字符串（`dumps`）
@@ -65,4 +72,3 @@ print(type(data))  # 输出：<class 'dict'>
 print(data["audio_name"])  # 输出：背景音乐
 print(data["metadata"])    # 输出：None（对应 JSON 的 null）
 ```
-

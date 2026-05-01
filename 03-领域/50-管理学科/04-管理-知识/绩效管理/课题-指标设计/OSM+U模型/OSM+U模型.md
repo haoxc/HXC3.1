@@ -4,6 +4,9 @@ aliases:
 title: OSM+U模型
 description:
 created: 2025-12-25 09:56
+type: note
+tags: [工具]
+create-date: 2025-12-27
 ---
 > 你需要展示的是**“从战略到执行”的翻译过程**。
 💥最忌讳直接罗列Excel表格

@@ -3,8 +3,11 @@ aliases:
   - purple
   - HSL (h, s, l)： (300°, 100%, 25%)
   - 色彩/色相/紫色(color:purple;zs)
+type: note
+tags: [工具]
+description: - **属性**: 高雅、时尚
+create-date: 2026-01-25
 ---
-
 ## 情感
 - **属性**: 高雅、时尚
 - **情绪**: 高雅、时尚

@@ -1,6 +1,10 @@
 ---
 aliases:
   - abbr://常工院/科研/横向科研(czu-hx-svy)
+type: note
+tags: [工具]
+description: - [本地台账](file:///C:/Users/haoxc/HXC_DATA/00_%E5%AD%A6%E6%A0%A1%E7%9B%B8%E5%85%B3
+create-date: 2026-04-29
 ---
 ## 导览
 - [本地台账](file:///C:/Users/haoxc/HXC_DATA/00_%E5%AD%A6%E6%A0%A1%E7%9B%B8%E5%85%B3/_%E5%B8%B8%E5%B7%9E%E5%B7%A5%E5%AD%A6%E9%99%A2/30-%E7%A7%91%E7%A0%94-%E6%A8%AA%E5%90%91%E8%AF%BE%E9%A2%98)

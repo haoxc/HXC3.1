@@ -2,6 +2,10 @@
 aliases:  
 - cm://概念(Concepts)@{{title}}, (glo-gn#abbr=)
 - 概念(Concepts)#{{title}}
+type: note
+tags: [工具]
+description: - **领域**
+create-date: 2024-04-14
 ---
 #Concept
 

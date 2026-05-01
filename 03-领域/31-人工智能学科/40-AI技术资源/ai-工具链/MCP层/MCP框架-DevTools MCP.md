@@ -6,8 +6,10 @@ aliases:
 tags:
   - mcp
   - 工具链
+type: note
+description: MCP 全称是 **Module Communication Protocol（模块通信协议）**，是软件模块间标准化通信的底层规范。在浏览器调试/自动化领域，
+create-date: 2026-03-08
 ---
-
 ### 一、核心概念厘清
 MCP 全称是 **Module Communication Protocol（模块通信协议）**，是软件模块间标准化通信的底层规范。在浏览器调试/自动化领域，`DevTools MCP` 和 `Playwright MCP` 是针对不同层级、不同场景的协议实现：
 - `DevTools MCP`：Chrome [[浏览器调试协议（CDP）]]的核心模块化通信层，聚焦 Chromium 系浏览器的底层操控；

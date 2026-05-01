@@ -3,6 +3,9 @@ aliases:
   - abbr:组织法/ACCESS
 tags:
   - "#方法框架"
+type: note
+description: - **网页类型**：普通网站
+create-date: 2025-11-13
 ---
 # ACCESS 笔记组织法 
 ## 一、元信息

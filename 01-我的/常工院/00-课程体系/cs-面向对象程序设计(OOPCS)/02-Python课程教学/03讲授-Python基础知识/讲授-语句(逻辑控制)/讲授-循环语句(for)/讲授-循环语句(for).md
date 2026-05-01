@@ -6,6 +6,9 @@ subject: Python基础
 category:
   - python/基础知识/语句
 orderNo: 120
+tags: [工具]
+description: - 自动化重复操作的核心工具
+create-date: 2026-04-29
 ---
 #  Python `for` 循环
 

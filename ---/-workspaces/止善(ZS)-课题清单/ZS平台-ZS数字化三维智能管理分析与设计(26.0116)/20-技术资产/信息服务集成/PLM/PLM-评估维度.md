@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-14
 ---
 ## 内容
 用 **CIMdata 报告做 PLM 选型**，核心是：**先抓市场格局→再按行业/规模/功能/实施/成本做精准筛选→最后用报告数据做决策背书**。

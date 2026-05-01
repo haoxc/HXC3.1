@@ -1,8 +1,10 @@
 ---
 name: git-commit-push-checks
 description: Use for Git commit and push workflows, especially when the user says c&p, commit and push, 提交并推送, 提交到 GitHub, 推送到 GitHub, or asks to prepare an Obsidian/Vault repository for GitHub. Enforces large-file checks over the commit/push file set, archives >15MB non-Markdown Obsidian attachments into 98-附件 by referenced topic, updates Obsidian links, and verifies repo state before pushing.
+type: note
+tags: [git, 工具]
+create-date: 2026-04-25
 ---
-
 # Git Commit Push Checks
 
 ## Purpose

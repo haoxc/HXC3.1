@@ -4,6 +4,7 @@ tags:
 description: 解释页面/元素间的因果关系、提供操作反馈。
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 在数字设计和游戏开发领域，==动效（Motion Design）与特效（Special Effects/VFX）相辅相成，但它们的核心目的和表现形式有所不同==。

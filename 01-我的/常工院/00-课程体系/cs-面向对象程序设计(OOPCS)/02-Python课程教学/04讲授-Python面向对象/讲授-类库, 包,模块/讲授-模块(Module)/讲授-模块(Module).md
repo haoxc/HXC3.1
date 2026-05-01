@@ -1,6 +1,10 @@
 ---
 aliases:
 - 模块(Module)
+type: note
+tags: [工具]
+description: - [模块](https://www.w3cschool.cn/python/python-modules.html)是一个包含所有你定义的函数和变量的`文件`
+create-date: 2026-04-29
 ---
 ## 概述
 - [模块](https://www.w3cschool.cn/python/python-modules.html)是一个包含所有你定义的函数和变量的`文件`，其后缀名是`.py`。

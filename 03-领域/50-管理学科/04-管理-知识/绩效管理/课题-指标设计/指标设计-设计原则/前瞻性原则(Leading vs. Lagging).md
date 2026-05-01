@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: 1. **前瞻性原则（Leading vs. Lagging）：**
+type: note
+create-date: 2025-12-20
+---
+
 1. **前瞻性原则（Leading vs. Lagging）：**
     - **[[滞后指标(Lagging)]]：** 反映过去的结果（如 2025 年 Q3 的利润）。
     - **[[领先指标(Leading)]]：** 预测未来的趋势（如 2025 年新订单增长率、研发投入比），用于提前预警。

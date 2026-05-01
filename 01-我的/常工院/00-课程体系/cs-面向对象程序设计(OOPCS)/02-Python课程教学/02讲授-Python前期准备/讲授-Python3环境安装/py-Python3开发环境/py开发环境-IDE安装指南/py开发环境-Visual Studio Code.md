@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: https://code.visualstudio.com/
+type: note
+create-date: 2026-04-29
+---
+
 ## 地址
 https://code.visualstudio.com/
 ![[Pasted image 20251001175320.png]]

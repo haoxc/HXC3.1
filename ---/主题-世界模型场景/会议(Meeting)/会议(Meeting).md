@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-04
 ---
 ## 内容
 ### 1. 基础信息属性 (Basic Information)

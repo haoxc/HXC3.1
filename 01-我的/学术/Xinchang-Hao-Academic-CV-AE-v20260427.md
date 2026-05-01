@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: **Assistant Professor**
+type: note
+create-date: 2026-04-29
+---
+
 # Xinchang Hao
 
 **Assistant Professor**  

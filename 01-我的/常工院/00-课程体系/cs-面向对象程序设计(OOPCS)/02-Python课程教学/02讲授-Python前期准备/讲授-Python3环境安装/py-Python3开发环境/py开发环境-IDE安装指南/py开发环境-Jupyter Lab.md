@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: - 创建个人代码文件夹
+type: note
+create-date: 2026-04-29
+---
+
 - 创建个人代码文件夹
 	- 示例 : python3-*Haoxc*
 	- 第一单元的编程

@@ -6,6 +6,9 @@ tags:
 category:
 domain:
 domain_en:
+type: note
+description: 【NotebookLM 3分钟搞定高质量PPT实操版教程 Noteboo...】
+create-date: 2026-04-29
 ---
 ## 参考
 【NotebookLM 3分钟搞定高质量PPT实操版教程 Noteboo...】

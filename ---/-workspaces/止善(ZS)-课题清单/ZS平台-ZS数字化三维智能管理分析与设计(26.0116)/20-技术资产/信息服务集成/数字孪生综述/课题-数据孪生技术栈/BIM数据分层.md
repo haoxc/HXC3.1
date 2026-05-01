@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 将 Revit/Tekla 导出的原始 BIM 数据拆解为三个独立的逻辑层：

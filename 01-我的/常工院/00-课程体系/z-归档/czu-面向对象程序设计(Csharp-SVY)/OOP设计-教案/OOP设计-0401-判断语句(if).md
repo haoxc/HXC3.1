@@ -1,5 +1,9 @@
 ---
 aliases: oop-C#@Statement/if, 判断语句
+type: note
+tags: [工具]
+description: 当需要基于单个变量或表达式的*多个不同值*来执行不同操作时.
+create-date: 2026-04-29
 ---
 ## 语法
 当需要基于单个变量或表达式的*多个不同值*来执行不同操作时.

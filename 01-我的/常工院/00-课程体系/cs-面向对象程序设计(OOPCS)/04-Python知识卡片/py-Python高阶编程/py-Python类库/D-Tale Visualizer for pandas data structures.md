@@ -1,6 +1,10 @@
 ---
 aliases:
   - py类库-D-Table( Visualizer for pandas data structures)
+type: note
+tags: [工具]
+description: **要点(KEY TAKEAWAYS):**
+create-date: 2026-04-29
 ---
 #table #visualization  #xarray #data-analysis   #react 
 

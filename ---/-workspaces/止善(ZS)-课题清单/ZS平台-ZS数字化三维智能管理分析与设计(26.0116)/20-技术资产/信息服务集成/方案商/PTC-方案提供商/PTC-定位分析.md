@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-13
 ---
 ## 内容
 PTC（Parametric Technology Corporation）的定位是：**全球领先的工业软件公司，以智能产品生命周期（Intelligent Product Lifecycle）为核心，聚焦CAD+PLM+ALM+SLM，为离散制造业提供工程驱动、AI赋能、云原生的全链路数字化解决方案**。

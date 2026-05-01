@@ -1,4 +1,9 @@
-
+---
+tags: [obsidian, 工具]
+description: - 在系统中设置默认打开app
+type: note
+create-date: 2025-12-06
+---
 
 ## 核心
 - 在系统中设置默认打开app

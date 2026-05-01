@@ -7,6 +7,8 @@ created: 2026-02-06
 description:
 tags:
   - clippings
+type: note
+create-date: 2026-02-06
 ---
 2\. [[内涵]]
 

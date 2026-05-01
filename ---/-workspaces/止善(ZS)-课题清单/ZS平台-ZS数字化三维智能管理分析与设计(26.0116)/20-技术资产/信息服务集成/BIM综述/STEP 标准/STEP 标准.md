@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 **STEP (Standard for the Exchange of Product Model Data)**，正式名称为 **ISO 10303**，是全球制造业中最重要的计算机可读数据交换标准。

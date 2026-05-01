@@ -5,8 +5,9 @@ tags:
   - 
 created: 2025-11-17 19:16
 description:
+type: note
+create-date: 2025-11-17
 ---
-
 ## 内容
 Obsidian 的 Templater 插件主要使用**变量（Variables）** 和**函数（Functions）** 来实现动态内容，而非传统编程语言中的“参数传递”概念（除非是用户自定义的 JavaScript 函数）。这些变量和函数通过特定的语法插入到模板中，并在应用模板时被 Templater 引擎解析和替换。 
 

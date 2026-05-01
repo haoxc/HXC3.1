@@ -2,6 +2,10 @@
 aliases:
   - 
   - 概念域(ConceptualDomain,CD)#{{title}}
+type: note
+tags: [工具]
+description: - **术语**
+create-date: 2024-06-30
 ---
 ## 纲要
 - **术语**

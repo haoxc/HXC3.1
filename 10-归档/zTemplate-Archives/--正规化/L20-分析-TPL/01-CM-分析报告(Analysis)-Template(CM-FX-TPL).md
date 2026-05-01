@@ -2,6 +2,10 @@
 aliases: 
 - 分析(Analysis,FX)#{{title}} 
 - lb://分析(Analysis,FX)@{{title}}, fx#abbr=-rpt
+type: note
+tags: [工具]
+description: - [[TW-模版-指南大纲]]
+create-date: 2024-03-08
 ---
 #Analysis/Report
 - [[TW-模版-指南大纲]]

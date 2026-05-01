@@ -10,8 +10,8 @@ domain:
 domain_en:
 description:
 type:
+create-date: 2026-04-29
 ---
-
 ## 定义
 有目的、有计划地感知和记录客观事物的`状态`、`特征`及变化规律的认知活动.
 

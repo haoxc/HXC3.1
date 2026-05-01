@@ -8,6 +8,9 @@ tags:
 category:
 domain:
 domain_en:
+type: note
+description: ![[SCEN-01-监控场景(draw)]]
+create-date: 2026-04-29
 ---
 ## 场景分析
 

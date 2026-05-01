@@ -3,6 +3,9 @@ aliases:
   - 集合(Set)
 tags:
   - 序列
+type: note
+description: -  [集合](https://www.w3cschool.cn/python3/python3-set.html)（set）一种无序、可变的容器，用于存储唯一
+create-date: 2026-04-29
 ---
 ### 概述
  -  [集合](https://www.w3cschool.cn/python3/python3-set.html)（set）一种无序、可变的容器，用于存储唯一的[[py-不可变|不可变 ]] 元素（元素不可重复）

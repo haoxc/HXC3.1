@@ -7,8 +7,9 @@ tags:
 created: 2025-12-22 10:21
 description:
 Positioning:
+type: note
+create-date: 2026-04-29
 ---
-
 ## 内容
 在学术写作、技术文档或项目方案中，**Approach**、**Method**、**Methodology** 和 **Technique** 是最容易混淆的四个词。它们遵循从“抽象到具体”的层级关系。
 

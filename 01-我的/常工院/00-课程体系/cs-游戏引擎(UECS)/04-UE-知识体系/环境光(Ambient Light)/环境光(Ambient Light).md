@@ -5,6 +5,7 @@ tags:
 description: 模拟现实世界中天光、大气散射以及物体间二次反弹的光线
 type:
 Positioning: 模拟现实世界中天光、大气散射以及物体间二次反弹的光线
+create-date: 2026-04-29
 ---
 # Unreal Engine 技术专题：环境光 (Ambient Light) 与环境系统
 

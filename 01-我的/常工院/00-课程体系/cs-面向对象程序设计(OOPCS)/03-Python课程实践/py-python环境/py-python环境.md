@@ -6,6 +6,9 @@ tags:
 category:
 domain:
 domain_en:
+type: note
+description: C:\HXC_TOOLS\Anaconda3\Scripts\pip.exe
+create-date: 2026-04-29
 ---
 ## 环境
 ```

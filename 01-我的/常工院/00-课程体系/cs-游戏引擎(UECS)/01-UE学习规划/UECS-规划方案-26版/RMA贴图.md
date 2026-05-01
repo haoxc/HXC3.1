@@ -5,6 +5,7 @@ tags:
   - RMA贴图
 description: RMA 是一种极其常见的贴图打包（Map Packing）技术
 type:
+create-date: 2026-04-29
 ---
 ## 内容
 在 2026 年的 PBR（基于物理的渲染）工作流中，RMA是一种极其常见的**贴图打包（Map Packing）** 技术。为了节省显存和减少采样次数，美术师会将三张灰度图分别塞进一张彩色图片（RGB）的三个通道里。

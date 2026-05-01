@@ -7,6 +7,9 @@ subject: Python基础
 orderNo: 10
 category:
   - python/基础知识/变量
+tags: [工具]
+description: - **变量**
+create-date: 2026-04-29
 ---
 ### 讲授内容
 - **变量**

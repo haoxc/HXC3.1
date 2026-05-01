@@ -8,6 +8,7 @@ tags:
   - 思维框架/规划层面/精准定位
 description: 就是快、准、狠地抓到重点。
 type: term
+create-date: 2026-04-29
 ---
 “Pinpointing” 的意思就是**精准定位、准确找出**或**确定**某事。
 

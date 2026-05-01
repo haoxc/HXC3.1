@@ -6,6 +6,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 Revit文件是Autodesk Revit（建筑信息建模BIM软件）的原生文件格式，用于`建筑`、`结构`及`机电工程`设计，核心格式为RVT（项目）、RFA（族）、RTE（项目样板）和RFT（族样板）。这些文件存储三维几何模型、参数数据、图纸和工程明细表，广泛用于提高建筑项目的协作和设计效率。

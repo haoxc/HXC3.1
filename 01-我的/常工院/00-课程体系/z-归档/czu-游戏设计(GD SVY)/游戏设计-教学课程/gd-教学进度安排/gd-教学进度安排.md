@@ -1,7 +1,10 @@
 ---
 aliases:
+type: note
+tags: [工具]
+description: - `课程设置`
+create-date: 2026-04-29
 ---
-
 ## 进度安排, 目的,考评
 - `课程设置`
 	- `动机(Motivation)`

@@ -6,4 +6,5 @@ category:
 description: 指该概念所适用的所有对象
 tags:
 aliases:
+create-date: 2025-11-22
 ---

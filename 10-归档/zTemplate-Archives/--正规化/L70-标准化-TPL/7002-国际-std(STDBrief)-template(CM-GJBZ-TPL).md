@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: aliases:
+type: note
+create-date: 2024-04-21
+---
+
 P---
 aliases:  
 - std://GJs@{{title}},(std#abbr=)

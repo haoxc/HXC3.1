@@ -7,6 +7,9 @@ tags:
   - 标识/工艺标识
   - 标识/安装点标识
   - 标识/位置标识
+type: note
+description: KKS编码（[Kraftwerk-Kennzeichen System](https://www.google.com/search?q=Kraftwerk-K
+create-date: 2026-04-29
 ---
 KKS编码（[Kraftwerk-Kennzeichen System](https://www.google.com/search?q=Kraftwerk-Kennzeichen+System&num=10&newwindow=1&c2coff=1&sca_esv=7389a8dcd685bcae&sxsrf=AE3TifPv57As3_5yHsrz_mGdPFhKdvCg2g%3A1767784409408&ei=2T9eacHPGKzk2roPn5714Q8&ved=2ahUKEwjq3rW_lfuRAxUYZfUHHaD4MiQQgK4QegQIARAB&uact=5&oq=KKS+%E7%BC%96%E7%A0%81&gs_lp=Egxnd3Mtd2l6LXNlcnAiCktLUyDnvJbnoIEyBxAAGIAEGAwyBBAAGB4yBRAAGO8FMggQABiABBiiBEikCVCJBViJBXABeAGQAQCYAXOgAXOqAQMwLjG4AQPIAQD4AQL4AQGYAgKgAnrCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcDMS4xoAewAbIHAzAuMbgHdcIHAzAuMsgHBIAIAA&sclient=gws-wiz-serp&mstk=AUtExfA7lzLVzGrCaBvaEmlPMf918v6qyUusihJ0kkSk5QdGf2KoceCWDVpvcW8XJ13WNPGgYRlrx9M3ocAZKHINiDRlplUxAxaPhm1Jicpijw4-pkHXO7m-76uoLWACzObidzcdoG8rgmVhtz_rmKcUtHnRz60SSFA0rHn2tBqaz0bYorc&csui=3)）是==德国开发的**发电厂标识系统**，用字母数字组合唯一标识电厂的**系统、设备和建筑**，贯穿电厂全生命周期管理（规划、设计、施工、运行），包括**工艺标识、安装点标识、位置标识**三类，是实现电厂设备信息化和精细化管理的重要基础，并已在中国等国广泛应用并本土化（如DL/T 950-2005==, GB/T 50549-2020标准）。
 

@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-13
 ---
 ## 内容
 [[PTC-方案提供商]]与达索系统（Dassault Systèmes）是**全球工业软件领域最直接、最全面的竞争对手**，同时在**多CAD兼容、客户混合部署场景**存在有限的技术互操作关系，无股权、资本层面关联。

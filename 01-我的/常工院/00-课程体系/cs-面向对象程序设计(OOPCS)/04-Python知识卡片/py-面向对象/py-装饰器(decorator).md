@@ -1,5 +1,9 @@
 ---
-aliases: 
+aliases:
+type: note
+tags: [工具]
+description: >[!important] 资料
+create-date: 2026-04-29
 ---
 >[!important] 资料
 [参考资料](https://www.runoob.com/w3cnote/python-func-decorators.html)

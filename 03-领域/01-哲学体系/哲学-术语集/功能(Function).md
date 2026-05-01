@@ -6,6 +6,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-15
 ---
 ## 内容
 - **性质**：**内在的、客观的、静态的属性。**

@@ -1,3 +1,9 @@
+---
+tags: [dataview, obsidian, 工具]
+description: dataview
+type: note
+create-date: 2025-11-19
+---
 
 ## 文法
 
@@ -22,6 +28,3 @@ task
 from ""
 where priority="low" 
 ```
-
-
-

@@ -7,5 +7,7 @@ tags:
 domain: -术语库(Terms)
 created: 2025-12-22 10:36
 description:
+type: note
+create-date: 2026-02-04
 ---
 - [[意象]]

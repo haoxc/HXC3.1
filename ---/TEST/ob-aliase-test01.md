@@ -24,4 +24,6 @@ tags:
   - #效率工具/Productivity/Environment
 description: "Docker 是一个开源的应用容器引擎，让开发者可以将应用及其依赖包打包到一个可移植的镜像中，实现“一次构建，到处运行”，彻底解决环境一致性问题。"
 ref-url: "https://www.docker.com/"
+type: note
+create-date: 2026-01-31
 ---

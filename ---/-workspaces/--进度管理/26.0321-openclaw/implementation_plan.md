@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: 根据您的要求推进后端的项目搭建，我已经完成了对 `twin-platform` 代码结构的梳理。目前后端基座（Spring Boot 3 + MyBatis P
+type: note
+create-date: 2026-03-30
+---
+
 # 推进后端项目搭建 - 实施计划
 
 根据您的要求推进后端的项目搭建，我已经完成了对 `twin-platform` 代码结构的梳理。目前后端基座（Spring Boot 3 + MyBatis Plus）的代码骨架已初步形成，但项目中的配置仍是默认值，并且缺失部分基础设施，无法直接成功启动连接到我们刚刚部署好的数据库。

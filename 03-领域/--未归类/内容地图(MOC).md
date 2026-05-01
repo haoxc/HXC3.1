@@ -6,4 +6,5 @@ tags:
 aliases:
   - Map Of Content
 field:
+create-date: 2025-11-13
 ---

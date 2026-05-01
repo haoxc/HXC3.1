@@ -1,3 +1,9 @@
+---
+tags: [工具]
+description: TSDoc 是一项为 TypeScript 代码中文档注释（doc comments）制定标准的提案，核心目标是让不同工具提取注释内容时，不会因彼此的标记（ma
+type: note
+create-date: 2026-04-29
+---
 
 ## 一、TSDoc 核心定义
 

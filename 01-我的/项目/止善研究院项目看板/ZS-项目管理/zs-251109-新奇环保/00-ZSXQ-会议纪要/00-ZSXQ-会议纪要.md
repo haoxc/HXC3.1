@@ -5,6 +5,9 @@ tags:
 category:
 domain:
 domain_en:
+type: note
+description: - [[新奇-会议纪要-0115]]
+create-date: 2026-04-29
 ---
 ## 内容
 - [[新奇-会议纪要-0115]]

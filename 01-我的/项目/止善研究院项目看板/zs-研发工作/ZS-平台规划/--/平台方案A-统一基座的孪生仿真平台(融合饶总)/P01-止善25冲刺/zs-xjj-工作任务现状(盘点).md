@@ -1,8 +1,11 @@
 ---
 aliases:
   - abbr://zs/方案/盘点/现状分析(jj, hxc)
+type: note
+tags: [工具]
+description: - 资料管理
+create-date: 2026-04-29
 ---
-
 - 资料管理
 	- [x] 项目文档  [completion:: 2026-01-05]
 		- 用飞书表格作为管理入口

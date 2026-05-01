@@ -7,8 +7,10 @@ created: 2026-01-03 12:24
 tags:
   - 智能体/实践/构建本地智能体_dify
 ref-url: https://zhuanlan.zhihu.com/p/25771359587
+type: note
+description: > **Agent = LLM (大脑) + Planning (规划) + Memory (记忆) + Tool Use (工具使用)**
+create-date: 2026-01-09
 ---
-
 ## 内容
 ## 架构决策
 

@@ -5,6 +5,9 @@ tags:
   - 商务
   - 色彩库
   - 蓝色
+type: note
+description: - **颜色名称:** Cornflower Blue (矢车菊蓝) / Cyan Cornflower Blue
+create-date: 2026-01-02
 ---
 - **颜色名称:** Cornflower Blue (矢车菊蓝) / Cyan Cornflower Blue
 - **十六进制:** `#2980B9`

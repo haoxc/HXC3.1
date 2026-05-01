@@ -1,6 +1,10 @@
 ---
 aliases:
   - 不可变(Immutable)
+type: note
+tags: [工具]
+description: 在 Python 中，**不可变类型（Immutable Types）** 指的是一旦创建，其内部数据（值或结构）就无法被修改的类型。
+create-date: 2026-04-29
 ---
 ## 概述
 

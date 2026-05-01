@@ -6,8 +6,9 @@ tags:
   - 底层视觉画布
   - 明度阶梯
 description: 舞台的地面与背景
+type: note
+create-date: 2026-01-02
 ---
-
 # 基准色 (Base Color)
 
 ### 📌 核心定义

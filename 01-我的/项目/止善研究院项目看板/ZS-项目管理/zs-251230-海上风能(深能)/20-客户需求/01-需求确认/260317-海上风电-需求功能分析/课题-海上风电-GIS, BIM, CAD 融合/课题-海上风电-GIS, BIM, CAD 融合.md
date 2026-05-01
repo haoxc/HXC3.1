@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 - 将 GIS（宏观地理信息） 与 BIM（微观建筑信息） 融合，是构建数字孪生底座的必经之路。简单来说，GIS 提供了“骨架和环境”，BIM 提供了“肌肉和器官”。

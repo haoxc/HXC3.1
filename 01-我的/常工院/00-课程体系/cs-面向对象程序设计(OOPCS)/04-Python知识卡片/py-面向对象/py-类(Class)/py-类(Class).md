@@ -1,5 +1,9 @@
 ---
-aliases: 
+aliases:
+type: note
+tags: [工具]
+description: >[!note] 资料
+create-date: 2026-04-29
 ---
 >[!note] 资料
 > [Python3 面向对象 | 菜鸟教程](https://www.runoob.com/python3/python3-class.html)

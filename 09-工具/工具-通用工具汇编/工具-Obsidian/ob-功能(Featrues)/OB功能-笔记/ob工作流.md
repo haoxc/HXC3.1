@@ -1,3 +1,9 @@
+---
+tags: [obsidian, 工具]
+description: | 工作流类型    | 知识库参考 | 描述                          |
+type: note
+create-date: 2025-10-26
+---
 
 ## 核心工作流
 

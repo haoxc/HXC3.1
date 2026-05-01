@@ -9,6 +9,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 概述
 **Bokeh** 是一个为现代浏览器设计的 **Python 交互式可视化库**。它能让用户通过 Python 编写代码，生成具有高性能、高交互性的 JavaScript 图表，而无需用户掌握复杂的 JavaScript。

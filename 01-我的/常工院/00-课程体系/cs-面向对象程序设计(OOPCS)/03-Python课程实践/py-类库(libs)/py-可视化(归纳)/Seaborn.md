@@ -8,6 +8,7 @@ description:
 type:
 ref-url:
   - https://seaborn.pydata.org/
+create-date: 2026-04-29
 ---
 ## 概述
 - Seaborn 是一个专注于统计数据可视化的 Python 库，它建立在 Matplotlib 之上，提供了一个用于绘制高质量图形的高级接口。

@@ -1,7 +1,10 @@
 ---
-aliases: 
+aliases:
+type: note
+tags: [工具]
+description: - [Unity](https://unity.com/cn)是一款广泛使用的跨平台游戏引擎和开发环境，由Unity Technologies开发。它被用于创建
+create-date: 2026-04-29
 ---
-
 ## 概要
 - [Unity](https://unity.com/cn)是一款广泛使用的跨平台游戏引擎和开发环境，由Unity Technologies开发。它被用于创建2D、3D、[[虚拟现实(VR)]]和增强现实（AR）的游戏和应用程序。
 - Unity以其强大的功能、灵活性和易用性而受到开发者的青睐，适用于从独立开发者到大型游戏工作室的各种规模的项目。

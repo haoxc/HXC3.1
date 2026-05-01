@@ -1,9 +1,11 @@
 ---
 
 kanban-plugin: board
-
+type: note
+tags: [工具]
+description: - [ ] UE-材质-动态材质
+create-date: 2026-04-29
 ---
-
 ## Backlogs
 
 

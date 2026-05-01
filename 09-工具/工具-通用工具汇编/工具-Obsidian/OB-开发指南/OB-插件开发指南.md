@@ -1,3 +1,9 @@
+---
+tags: [obsidian, 工具]
+description: - 💡**核心要点** #易错点
+type: note
+create-date: 2025-11-15
+---
 
 ## OB开发避坑
 - 💡**核心要点** #易错点 

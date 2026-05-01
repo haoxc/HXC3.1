@@ -1,7 +1,10 @@
 ---
 aliases:
+type: note
+tags: [工具]
+description: 在函数定义时，可以使用 `None` 作为默认参数值，以表示该参数是可选的。
+create-date: 2026-04-29
 ---
-
 ## 概要
 在函数定义时，可以使用 `None` 作为默认参数值，以表示该参数是可选的。
 ```python

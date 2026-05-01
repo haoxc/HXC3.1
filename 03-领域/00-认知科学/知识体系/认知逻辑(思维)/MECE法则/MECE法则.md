@@ -8,6 +8,8 @@ tags:
 type: term
 aliases:
   - 思维/核心法则/MECE
+description: **核心定义**: MECE 是麦肯锡思维的核心法则，意为 **“相互独立，完全穷尽”**。它是构建逻辑树、分析问题和沟通表达时的黄金标准。
+create-date: 2026-04-29
 ---
 ---
 

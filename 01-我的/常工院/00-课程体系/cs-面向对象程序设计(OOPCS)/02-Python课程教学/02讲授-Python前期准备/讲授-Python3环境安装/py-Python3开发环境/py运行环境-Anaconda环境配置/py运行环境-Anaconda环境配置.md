@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: - **Anaconda环境配置**
+type: note
+create-date: 2026-04-29
+---
+
 - **Anaconda环境配置**
 	- [ Anaconda安装教程](https://www.jianshu.com/p/3084e62f51b1)
 		- conda install nbconvert

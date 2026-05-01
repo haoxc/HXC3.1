@@ -1,3 +1,10 @@
+---
+tags: [litellm, 工具]
+description: 本目录用于记录本机 agent 编程工具的 LiteLLM 网关配置方案。
+type: note
+create-date: 2026-04-26
+---
+
 # LiteLLM Agent Gateway
 
 本目录用于记录本机 agent 编程工具的 LiteLLM 网关配置方案。

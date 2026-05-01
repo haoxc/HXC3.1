@@ -11,6 +11,8 @@ tags:
   - 术语
   - 艺术
 created: 2026-01-02 14:26
+description: 明度是指色彩的明暗程度，在 **HSB/HSV 模型** 中由 **B (Brightness)** 或 **V (Value)** 表示。它模拟了向*纯色中添
+create-date: 2026-01-02
 ---
 # 明度 (Brightness/Value)
 

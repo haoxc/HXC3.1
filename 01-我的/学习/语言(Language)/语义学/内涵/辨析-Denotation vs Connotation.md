@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 简单来说，这是语言表达的**" 表层含义 "**与**" 深层联想 "**的区别：

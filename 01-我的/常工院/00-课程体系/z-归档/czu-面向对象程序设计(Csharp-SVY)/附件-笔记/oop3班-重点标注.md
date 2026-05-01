@@ -1,7 +1,10 @@
 ---
-aliases: 
+aliases:
+type: note
+tags: [工具]
+description: - ![[Pasted image 20231102103914.png]]
+create-date: 2026-04-29
 ---
-
 ## 概要
 - 关注
 	- ![[Pasted image 20231102103914.png]]

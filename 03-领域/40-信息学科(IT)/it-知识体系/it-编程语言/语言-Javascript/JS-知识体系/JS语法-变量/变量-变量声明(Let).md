@@ -7,6 +7,8 @@ aliases:
 tags:
 created: 2025-12-21 12:06
 description:
+type: note
+create-date: 2025-12-21
 ---
 ## 要点
 - **作用**

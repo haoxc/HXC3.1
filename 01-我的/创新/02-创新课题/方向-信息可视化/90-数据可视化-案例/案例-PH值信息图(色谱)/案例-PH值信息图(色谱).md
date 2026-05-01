@@ -2,7 +2,9 @@
 
 excalidraw-plugin: parsed
 tags: [excalidraw]
-
+type: note
+description: 参考你之前上传的 pH 值图。如果文本标注“碱性”但色相使用了“暖红色”，用户的大脑会发生延迟（类似于斯特鲁普效应），这种延迟在关键检索场景下是致命的 ^yx1
+create-date: 2026-04-29
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

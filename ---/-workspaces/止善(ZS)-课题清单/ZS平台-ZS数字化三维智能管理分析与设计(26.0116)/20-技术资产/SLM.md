@@ -6,6 +6,7 @@ tags:
 description: SLM 挖掘全生命周期价值，实现服务化转型
 type:
 ref-url:
+create-date: 2026-02-14
 ---
 ## 内容
 **SLM (Service Lifecycle Management)**：

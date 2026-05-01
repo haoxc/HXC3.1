@@ -6,8 +6,9 @@ tags:
   - 辨析
 created: 2025-12-27 10:39
 description:
+type: note
+create-date: 2026-04-29
 ---
-
 # 概念辨析：Feature vs. Topic
 
 ### 1. 🎯 一句话定义 (Definition)

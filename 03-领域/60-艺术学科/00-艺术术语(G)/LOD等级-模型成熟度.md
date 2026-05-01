@@ -5,8 +5,10 @@ aliases:
 essence: 模型中包含的信息的可靠程度和精细程度
 tags:
   - 评价/维度/水平
+type: note
+description: 在 BIM 体系中，**LOD (Level of Development)** 指的是"模型演进水平"或"模型深度"。它定义的不是模型画得有多美，而是模型中包
+create-date: 2026-02-23
 ---
-
 ### LOD 分级
 在 BIM 体系中，**LOD (Level of Development)** 指的是"模型演进水平"或"模型深度"。它定义的不是模型画得有多美，而是模型中包含的**信息的可靠程度和精细程度**。
 

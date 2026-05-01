@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 苏黎世联邦理工学院（ETH Zurich）是全球顶尖的理工科学府，在**2026年**四大主流世界大学排名中表现如下：

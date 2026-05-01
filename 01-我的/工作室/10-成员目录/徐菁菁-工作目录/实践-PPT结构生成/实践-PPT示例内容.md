@@ -2,8 +2,11 @@
 layout: feature-comparison-cards
 theme: coral | blue | green
 highlight: 2
+type: note
+tags: [工具]
+description: **定位**：清晰拆解目标，追踪每一项工作进度，让团队协作有序推进。
+create-date: 2026-04-29
 ---
-
 ## 任务管理
 **定位**：清晰拆解目标，追踪每一项工作进度，让团队协作有序推进。
 

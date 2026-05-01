@@ -1,5 +1,9 @@
 ---
 aliases:
+type: note
+tags: [excalidraw, obsidian, 工具]
+description: -  toolbar
+create-date: 2025-11-08
 ---
 ## 功能
 -  toolbar

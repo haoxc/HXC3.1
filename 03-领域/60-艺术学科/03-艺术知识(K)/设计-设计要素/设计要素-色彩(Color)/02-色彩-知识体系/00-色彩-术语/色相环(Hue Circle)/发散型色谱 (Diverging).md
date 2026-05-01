@@ -1,4 +1,9 @@
-
+---
+tags: [工具]
+description: > [!abstract] 核心定义
+type: note
+create-date: 2026-01-02
+---
 
 # 发散型色谱 (Diverging Color Palette)
 
@@ -50,4 +55,3 @@
 * `PRGn` (Purple - Green)
 * `Spectral` (多彩发散，适合区分度极高的场景)
 ---
-

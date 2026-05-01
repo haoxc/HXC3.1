@@ -6,6 +6,7 @@ tags:
 description: HDRI (High Dynamic Range Imaging) 不仅仅是一张背景图，它是场景中 高动态范围 辐射度的来源。进阶应用要求我们从“贴图看风景”转向“数据驱动光照”
 type:
 Positioning: 提供全局一致性的照明和反射
+create-date: 2026-04-29
 ---
 # Unreal Engine 技术专题：HDRI 进阶与基于图像的光照 (IBL)
 

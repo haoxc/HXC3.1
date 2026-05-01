@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 以下是按「自动化潜力」分级的完整梳理，点击卡片可深入了解：---

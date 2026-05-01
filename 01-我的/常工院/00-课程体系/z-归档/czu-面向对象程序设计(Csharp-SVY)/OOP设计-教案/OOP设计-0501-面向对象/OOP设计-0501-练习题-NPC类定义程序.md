@@ -1,7 +1,10 @@
 ---
-aliases: 
+aliases:
+type: note
+tags: [工具]
+description: using System;
+create-date: 2026-04-29
 ---
-
 ## 程序
 
 ```csharp

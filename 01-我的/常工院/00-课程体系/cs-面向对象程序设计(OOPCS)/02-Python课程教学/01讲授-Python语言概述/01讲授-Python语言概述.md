@@ -1,8 +1,11 @@
 ---
 aliases:
-color: 
+color:
+type: note
+tags: [工具]
+description: - `编程语言`（programming language）可以简单的理解为一种*计算机和人*都能识别的语言。一种计算机语言让程序员能够准确地定义计算机所需要使
+create-date: 2026-04-29
 ---
-
 ### 什么是面向对象语言
 
 ### 编程语言

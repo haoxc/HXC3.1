@@ -5,6 +5,7 @@ description:
 type:
 ref-url:
 essence: 科学可视化的“全能载体”
+create-date: 2026-04-29
 ---
 ## 内容
 ### VTK (Visualization Toolkit)

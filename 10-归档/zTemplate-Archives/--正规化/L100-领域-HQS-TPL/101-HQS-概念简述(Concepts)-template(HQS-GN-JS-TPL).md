@@ -2,6 +2,10 @@
 aliases:  
 - hqs://概念(Concepts)@{{title}}, (glo-gn#abbr=)
 - 概念(Concepts)#{{title}}
+type: note
+tags: [工具]
+description: - **领域**
+create-date: 2025-11-08
 ---
 #Glossary
 

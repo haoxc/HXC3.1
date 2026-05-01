@@ -11,6 +11,8 @@ created: 2026-02-06
 description:
 tags:
   - clippings
+type: note
+create-date: 2026-04-29
 ---
 ## Meaning (词义 / 本义) 
 这是词典里最基础的定义，也叫 **Denotation**。它是不随感情色彩或环境改变的“核心”。 

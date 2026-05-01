@@ -7,6 +7,7 @@ description: 提供**CAD/PLM+数字主线+AR+IoT**的工业数字化全栈方案
 type:
 ref-url:
 Positioning: 全球领先的工业软件公司，以智能产品生命周期（Intelligent Product Lifecycle）为核心，聚焦 CAD+PLM+ALM+SLM，为离散制造业提供工程驱动、AI 赋能、云原生的全链路数字化解决方案。
+create-date: 2026-02-24
 ---
 ## 内容
 **PTC.com** 是美国参数技术公司（Parametric Technology Corporation，PTC）的全球官网，核心是提供**CAD/PLM+数字主线+AR+IoT**的工业数字化全栈方案，服务离散制造业的设计、制造、服务全链路。

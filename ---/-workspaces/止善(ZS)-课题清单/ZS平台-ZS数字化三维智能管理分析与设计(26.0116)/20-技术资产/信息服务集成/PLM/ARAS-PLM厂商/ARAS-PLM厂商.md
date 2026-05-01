@@ -5,6 +5,7 @@ tags:
 description: 开放低代码 PLM 平台，以数字主线为核心，强调可扩展、可定制、可持续升级。
 type:
 ref-url:
+create-date: 2026-02-13
 ---
 **aras.com** 是 **Aras Corporation**（阿拉斯公司）的官方网站，核心是提供**开放、低代码的PLM（产品生命周期管理）与数字主线（Digital Thread）解决方案**。
 

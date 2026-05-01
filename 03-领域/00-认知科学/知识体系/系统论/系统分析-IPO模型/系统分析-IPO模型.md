@@ -1,6 +1,10 @@
 ---
 aliases:
   - //认知/主题/系统分析/IPO模型
+type: note
+tags: [工具]
+description: 目前的[[系统(System)]]分析常采用 **IPO 模型** 来拆解这三者的运作：
+create-date: 2026-04-29
 ---
 ## 概述
 目前的[[系统(System)]]分析常采用 **IPO 模型** 来拆解这三者的运作： 

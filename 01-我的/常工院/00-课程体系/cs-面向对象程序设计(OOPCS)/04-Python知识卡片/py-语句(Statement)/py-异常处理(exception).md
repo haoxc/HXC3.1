@@ -1,7 +1,10 @@
 ---
 color: var(--mk-color-teal)
+type: note
+tags: [工具]
+description: - **错误及异常**
+create-date: 2026-04-29
 ---
-
 ## 概述
 - **错误及异常**
 	- 资料

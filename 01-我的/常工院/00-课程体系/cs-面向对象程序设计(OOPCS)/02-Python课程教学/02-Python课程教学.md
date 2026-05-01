@@ -1,10 +1,11 @@
 ---
 aliases:
   - 课程/面向对象(Python)/课程教学(py-cs-svy)
+type: note
+tags: [工具]
+description: - [[01讲授-Python语言概述|01讲授-Python语言概述]]
+create-date: 2026-04-29
 ---
-
-
-
 ## 内容
 - [[01讲授-Python语言概述|01讲授-Python语言概述]]
 - [[02讲授-Python前期准备|Python前期准备]]

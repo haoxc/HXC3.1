@@ -6,6 +6,7 @@ description:
 type:
 ref-url:
   - https://careers.thalesgroup.com/global/en/home
+create-date: 2026-02-23
 ---
 ## 内容
 - 泰雷兹集团，是法国的一家专注于航空航天、国防、地面交通运输、安全和制造电气系统的电子集团。

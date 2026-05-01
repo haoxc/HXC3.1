@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-14
 ---
 ## 内容
 - CIMdata 会对每个厂商的 PLM 核心能力做**量化评分**CIMdata：

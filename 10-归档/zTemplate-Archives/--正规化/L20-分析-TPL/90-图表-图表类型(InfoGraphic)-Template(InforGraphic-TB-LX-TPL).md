@@ -2,6 +2,10 @@
 aliases: 
 - 图表类型(infoGraphic)#{{title}} 
 - infoGraphic://Types@{{title}},(tb-type#)
+type: note
+tags: [工具]
+description: - **场景**
+create-date: 2024-03-03
 ---
 #infoGraphic
 ## {{title}} 

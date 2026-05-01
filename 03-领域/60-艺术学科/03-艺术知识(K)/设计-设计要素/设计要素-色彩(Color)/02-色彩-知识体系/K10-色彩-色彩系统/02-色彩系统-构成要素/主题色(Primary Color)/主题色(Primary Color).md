@@ -6,6 +6,8 @@ tags:
   - 品牌核心色
   - 传达身份
 description: 主题色是色彩系统的核心灵魂，是品牌识别与视觉导航的第一要素
+type: note
+create-date: 2026-01-02
 ---
 # 主题色 / 主色 (Primary Color / Theme Color)
 

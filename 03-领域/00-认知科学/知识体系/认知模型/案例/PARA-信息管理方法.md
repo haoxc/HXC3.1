@@ -9,8 +9,8 @@ description: 提升管理效率
 domain:
   - 信息
   - 项目
+create-date: 2026-04-29
 ---
-
 PARA 方法是一种以行动为导向，将**信息和任务**按 “当下项目（Projects）、长期领域（Areas）、未来资源（Resources）、归档内容（Archives）” 四个维度分层分类的高效组织框架。
 ### 1. 分类逻辑：PARA 四象限
 

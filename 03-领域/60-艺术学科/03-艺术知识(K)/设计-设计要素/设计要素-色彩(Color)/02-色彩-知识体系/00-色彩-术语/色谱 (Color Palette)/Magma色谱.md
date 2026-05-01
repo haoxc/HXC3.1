@@ -2,8 +2,10 @@
 tags:
   - 颜色映射
   - 色彩
+type: note
+description: > [!abstract] 定义
+create-date: 2026-01-02
 ---
-
 # Magma 色谱 (The Magma Colormap)
 
 > [!abstract] 定义

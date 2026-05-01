@@ -7,6 +7,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 它是法国达索系统（Dassault Systèmes）的旗舰产品，最初是为了造战斗机（幻影系列）而开发的。 

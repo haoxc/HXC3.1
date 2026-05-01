@@ -9,6 +9,9 @@ tags:
   - 上下文管理器
   - 资源
 aliases:
+type: note
+description: - 一种[[py-语法糖]]：[[py-try-final语句]]**资源**管理使用和释放的便捷方式。
+create-date: 2026-04-29
 ---
 ## 概述
 - 一种[[py-语法糖]]：[[py-try-final语句]]**资源**管理使用和释放的便捷方式。

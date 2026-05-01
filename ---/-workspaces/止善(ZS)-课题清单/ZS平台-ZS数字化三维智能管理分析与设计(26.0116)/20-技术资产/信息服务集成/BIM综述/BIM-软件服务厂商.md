@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 在 BIM 软件市场中，Autodesk Revit 虽是事实上的行业标准，但针对不同的专业领域（如基础设施、钢结构、景观设计等），全球存在多家强力竞争厂商。

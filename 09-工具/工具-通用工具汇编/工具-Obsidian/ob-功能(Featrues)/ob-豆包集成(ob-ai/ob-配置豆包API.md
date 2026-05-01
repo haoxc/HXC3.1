@@ -1,3 +1,10 @@
+---
+tags: [AI, obsidian, 工具]
+description: 1. 新建一条笔记，输入以下代码块（替换 `API_KEY` 和 `SECRET_KEY` 为你的实际密钥）：
+type: note
+create-date: 2025-12-03
+---
+
 #### 步骤 3：配置 API 调用（以 “Advanced URI” 为例）
 
 1. 新建一条笔记，输入以下代码块（替换 `API_KEY` 和 `SECRET_KEY` 为你的实际密钥）：

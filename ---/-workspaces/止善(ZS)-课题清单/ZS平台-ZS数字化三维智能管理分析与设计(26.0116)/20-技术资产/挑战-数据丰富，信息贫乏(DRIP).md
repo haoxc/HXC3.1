@@ -7,6 +7,7 @@ description:
 type:
 ref-url:
 node-prefix: true
+create-date: 2026-02-23
 ---
 ## 内容
 “数据丰富，信息贫乏”（Data Rich, Information Poor，简称 **DRIP**）==是一个经典的逻辑悖论，揭示了**原始材料**与**有效认知**之间的断层==。

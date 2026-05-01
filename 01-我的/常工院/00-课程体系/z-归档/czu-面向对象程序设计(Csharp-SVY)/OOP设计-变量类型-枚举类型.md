@@ -1,7 +1,10 @@
 ---
 aliases: oop-C#Variable/Types/enum, 枚举类型(enum)
+type: note
+tags: [工具]
+description: - 枚举是一组命名整型常量。枚举类型是使用 **enum** 关键字声明的。
+create-date: 2026-04-29
 ---
-
 ## 概要
 - 枚举是一组命名整型常量。枚举类型是使用 **enum** 关键字声明的。
 - C# 枚举是`值类型`。换句话说，枚举包含自己的值，且不能继承或传递继承。

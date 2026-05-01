@@ -12,6 +12,7 @@ aliases:
   - abbr:序列(xl)
 description:
 property: Iterable
+create-date: 2026-04-29
 ---
 ## 概述
 

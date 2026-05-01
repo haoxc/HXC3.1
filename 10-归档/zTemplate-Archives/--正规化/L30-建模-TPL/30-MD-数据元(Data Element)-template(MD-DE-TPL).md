@@ -2,6 +2,10 @@
 aliases:  
 - mdr://数据元(DE)@{{title}},(DE#abbr=-lx)
 - 数据元(DE)#{{title}}
+type: note
+tags: [工具]
+description: - [[#描述]]
+create-date: 2024-04-05
 ---
 ## 模型
 - [[#描述]]

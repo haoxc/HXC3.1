@@ -6,8 +6,9 @@ tags:
   - 辨析
 created: 2025-12-22 10:52
 description:
+type: note
+create-date: 2026-04-29
 ---
-
 ## 内容
 
 ### 主题 vs  课题(Subject)

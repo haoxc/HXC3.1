@@ -8,6 +8,8 @@ created: 2025-11-14
 description:
 tags:
   - "clippings"
+type: note
+create-date: 2025-11-14
 ---
 [
 

@@ -7,6 +7,7 @@ description:
 type:
 ref-url:
   - http://www.cimdata.com
+create-date: 2026-02-14
 ---
 ## 内容
 **CIMdata** 是全球**PLM（产品生命周期管理）领域最权威的独立研究与咨询机构**，1983年成立，总部美国。

@@ -6,6 +6,7 @@ tags:
   - 思想/基于层次
 description:
 type:
+create-date: 2026-01-26
 ---
 Sugiyama 分层算法（Sugiyama Framework）是自动绘图领域最经典的算法之一，主要用于有向图的层次化布局。它将布局过程标准地分为以下**四个核心阶段**（有时会拆分为五个阶段，即增加最后的边路由处理）： 
 

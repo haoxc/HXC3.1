@@ -1,8 +1,11 @@
 ---
 kanban-plugin: board
 aliases:
+type: note
+tags: [工具]
+description: - [ ] [[课题-AI前端生成框架选择]]
+create-date: 2026-04-29
 ---
-
 ## BackLogs
 
 - [ ] [[课题-AI前端生成框架选择]]

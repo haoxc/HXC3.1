@@ -7,6 +7,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-05
 ---
 ## 内容
 - glTF（GL Transmission Format）是一种用于 3D 场景和模型的 。它由 Khronos Group 开发，旨在提供一种轻量级、高效的方式来传输和加载 3D 内容，特别是在 Web 和移动应用中。glTF 定义了一种 JSON 格式，用于描述 3D 场景的图形和动画，并且支持高动态范围（HDR）纹理和物理基础渲染（PBR）材料。

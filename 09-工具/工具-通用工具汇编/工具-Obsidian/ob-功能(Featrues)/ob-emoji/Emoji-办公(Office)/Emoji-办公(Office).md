@@ -1,8 +1,11 @@
 ---
 aliases:
   - //资源/emoji-svy
+type: note
+tags: [emoji, obsidian, 工具]
+description: - **资源**
+create-date: 2026-02-15
 ---
-
 - **资源**
 	- [[emojipedia.org]]
 - **分类**

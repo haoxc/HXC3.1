@@ -5,6 +5,8 @@ tags:
   - 信息/表达/案例/命令表达
 description:
 status: verified
+type: note
+create-date: 2026-02-06
 ---
 ## 万能公式
 **“万能公式”**。只要套入这个模板，你会发现各种复杂的工具（Docker, Git, AWS CLI, ls）逻辑都是通行的。 

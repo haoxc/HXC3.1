@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: Static Mesh Actor 是虚幻引擎（Unreal Engine）中用于显示静态三维网格体的基础组件，主要用于构建游戏世界中的`环境`、`道具`或`非
+type: note
+create-date: 2026-04-29
+---
+
 Static Mesh Actor 是虚幻引擎（Unreal Engine）中用于显示静态三维网格体的基础组件，主要用于构建游戏世界中的`环境`、`道具`或`非动画对象`。以下是其核心特性和使用方法的详细解析：
 
 ### 1. **基础定义与特性**

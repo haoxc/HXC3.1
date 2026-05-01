@@ -4,6 +4,9 @@ aliases:
   - 中性色
 tags:
   - 颜色
+type: note
+description: 中性色是指在视觉感官上不带明显色相倾向的颜色。在 **HSL 模型** 中，当 **S（饱和度）** 接近或等于 $0\%$ 时，该颜色即转化为中性色。
+create-date: 2026-01-02
 ---
 # 中性色 (Neutral Colors)
 

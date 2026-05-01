@@ -1,3 +1,9 @@
+---
+tags: [obsidian, templater, 工具]
+description: 在 Templater 的语境中，`<%- ... -%>` 这种语法经常被用作一个**占位符（Placeholder）** 或在用户自定义函数中作为输出标记，
+type: note
+create-date: 2025-11-17
+---
 
 ## 概述
 在 Templater 的语境中，`<%- ... -%>` 这种语法经常被用作一个**占位符（Placeholder）** 或在用户自定义函数中作为输出标记，它本身并不是一个固定的*内置参数* `{{value}}`。

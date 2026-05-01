@@ -5,8 +5,11 @@ category:
   - 艺术陈列馆(Gallery)
   - 艺术长廊
   - 图片图库(photo gallery)
+type: note
+tags: [工具]
+description: - ![[平面案例-黑板]]
+create-date: 2025-12-28
 ---
-
 ### 案例
 
 - ![[平面案例-黑板]]

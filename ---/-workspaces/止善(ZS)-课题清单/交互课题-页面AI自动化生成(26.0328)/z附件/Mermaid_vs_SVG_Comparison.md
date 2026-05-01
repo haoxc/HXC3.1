@@ -1,3 +1,10 @@
+---
+tags: [mermaid, 工具]
+description: > 用于评估 Mermaid 在 Obsidian 中能否替代内联 SVG
+type: note
+create-date: 2026-03-28
+---
+
 # 渐进式信息披露 — Mermaid 版 vs SVG 版对比
 
 > 用于评估 Mermaid 在 Obsidian 中能否替代内联 SVG

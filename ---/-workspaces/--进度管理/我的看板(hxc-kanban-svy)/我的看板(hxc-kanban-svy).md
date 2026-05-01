@@ -3,9 +3,11 @@
 kanban-plugin: board
 aliases:
   - hxc/看板/黑板(hb-svy)
-
+type: note
+tags: [工具]
+description: - [ ] 课题-学习工作流(调研,总结,笔记)
+create-date: 2026-04-29
 ---
-
 ## Backlogs
 
 - [ ] 课题-学习工作流(调研,总结,笔记)

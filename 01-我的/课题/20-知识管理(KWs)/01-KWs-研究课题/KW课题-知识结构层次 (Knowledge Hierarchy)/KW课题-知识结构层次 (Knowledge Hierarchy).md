@@ -5,6 +5,9 @@ description:
 title: 知识结构层次 (Knowledge Hierarchy)
 domain:
 created: 2025-12-27 10:37
+type: note
+tags: [工具]
+create-date: 2026-04-29
 ---
 # 知识结构层次 (Knowledge Hierarchy)
 

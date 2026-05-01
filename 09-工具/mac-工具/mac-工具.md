@@ -5,16 +5,17 @@ tags: []
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 - 工具下载
 	- [[mac-tools-repo]]
 - 生产效率
-	- [[工具-文本扩充]]
-	- [[工具-alfred]]
+	- [[文本扩充器(mac)]]
+	- [[alfred]]
 	- [[liteLLM]]
 - AI 编程工具
-	- [[hermes/hermes|hermes]]
+	- [[hermes|hermes]]
 	- [[09-工具/mac-工具/Hermes-Claude-Code-CLI协同方案]]
 - 科学上网
 	- [[mac-vpn]]
@@ -36,3 +37,20 @@ ref-url:
 
 ### Local Service
 -  ollama base url: http://localhost:11434
+
+## 迁移自 _MOC_mac
+- [[03-领域/31-人工智能学科/40-AI技术资源/ai-智能体(Agent)/99-智能体工具/hermes/Hermes-Claude-Code-CLI协同方案]]
+- [[Hermes-Claude-Code-Codex-Skill维护课题]]
+- [[Hermes-LiteLLM-DeepSeek-Docker-Postgres配置笔记]]
+- [[Hermes-典型应用场景逻辑架构图]]
+- [[Hermes-执行态编排图]]
+- [[Hermes-架构图]]
+- [[hermes-mac安装笔记]]
+- [[hermes-模型配置]]
+- [[hermes应用-obsidian协同]]
+- [[hermes应用-obsidian协同-hermes什么时候必要]]
+- [[hermes应用-obsidian协同-落地操作笔记]]
+- [[liteLLM/endpoint]]
+- [[liteLLM/liteLLM]]
+- [[liteLLM/liteLLM-mac配置]]
+

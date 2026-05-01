@@ -1,6 +1,10 @@
 ---
 aliases:
   - 作用域（Scope）
+type: note
+tags: [工具]
+description: - 变量的“可见范围”，决定了在某处能访问哪些命名空间
+create-date: 2026-04-29
 ---
 ## 作用域（Scope）
 - 变量的“可见范围”，决定了在某处能访问哪些命名空间

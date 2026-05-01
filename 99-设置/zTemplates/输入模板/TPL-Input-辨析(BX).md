@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: //模板变量
+type: note
+create-date: 2026-03-01
+---
+
 <%*
 //模板变量
 const fileType = " 辨析 "; //🚨修改当前主题

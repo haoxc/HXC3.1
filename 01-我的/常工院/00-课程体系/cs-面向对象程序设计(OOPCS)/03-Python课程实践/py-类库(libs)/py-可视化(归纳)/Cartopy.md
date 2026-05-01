@@ -8,6 +8,7 @@ description:
 type:
 ref-url:
   - https://cartopy.readthedocs.io/stable/
+create-date: 2026-04-29
 ---
 ## 概述
 - **Cartopy 是一个强大的 Python 库，用于绘制地图和进行地理数据分析**

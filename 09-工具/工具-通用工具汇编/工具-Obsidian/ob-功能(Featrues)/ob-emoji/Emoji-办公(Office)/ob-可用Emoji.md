@@ -1,3 +1,10 @@
+---
+tags: [emoji, obsidian, 工具]
+description: - **风险 / 警示类**：
+type: note
+create-date: 2025-10-25
+---
+
 ### 应用
 - **风险 / 警示类**：
 	- ⚠️（警告, Warning）、

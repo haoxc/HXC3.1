@@ -12,6 +12,7 @@ tags:
 field:
 title: 涌现
 created: 2025-12-23 13:43
+create-date: 2026-04-09
 ---
 # 涌现 (Emergence)
 

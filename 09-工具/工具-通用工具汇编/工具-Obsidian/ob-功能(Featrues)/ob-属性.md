@@ -1,8 +1,12 @@
 ---
 aliases:
   - /ob/功能-features/属性
+type: note
+tags: [obsidian, 工具]
+description: - `---` 在头部的属性中定义
+create-date: 2026-03-29
 ---
- s
+s
 ## 如何定义
 - `---` 在头部的属性中定义
 - 在内容中任意区域 "height::"  `::` 是标识符 

@@ -1,3 +1,9 @@
+---
+tags: [obsidian, 工具]
+description: - Note
+type: note
+create-date: 2026-03-30
+---
 
 ### 类型
 - Note
@@ -56,16 +62,3 @@
 > Please review the chosen technical stack and the MVP scope. Since you requested development on your local Mac, I plan to:
 >
 > 1. Initialize a Spring Boot project (Java 17+, Gradle/Maven).
-
-
-
-
-
-
-
-
-
-
-
-
-

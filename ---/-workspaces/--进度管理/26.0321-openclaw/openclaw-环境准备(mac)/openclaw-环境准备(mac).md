@@ -6,6 +6,7 @@ description:
 type:
 ref-url:
   - "[/Users/haoxc/.openclaw/openclaw.json](file:///Users/haoxc/.openclaw/openclaw.json)"
+create-date: 2026-03-21
 ---
 ## 安装
 - [[--openclaw安装(mac).canvas]]

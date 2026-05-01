@@ -10,8 +10,8 @@ create_date: 2025-12-01
 update_date: 2025-12-01
 aliases: abbr://术语概念/指数(Index)(Mgt-Index,GL-Z)
 type: term
+description: 指数是管理学科中，将多个相关经营指标经**标准化、加权整合**后形成的**综合量化工具**。其核心用途是客观反映企业某一**经营维度**的现状、变化趋势或行业对
 ---
-
 # 概念术语卡片：指数(Index)
 
 ## 一、核心定义

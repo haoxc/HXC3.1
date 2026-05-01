@@ -9,6 +9,8 @@ author:
 source: https://www.google.com/search?sourceid=chrome&aep=42&q=%E8%BE%A8%E6%9E%90%EF%BC%9A+%E8%AF%AD%E4%B9%89%EF%BC%8C+%E4%BF%AE%E8%BE%9E%EF%BC%8C+%E6%96%87%E6%B3%95&mstk=AUtExfAQquicScOyNdyYPzXWE8ZdSQQZlGdZtN21hih7zExf9_ptgMrV9zgt9bvlUlRvYvUjmkwt92NA8jh3dHvYgqG3B6lmecF3efEBJtmUdt0Pcve2c_Z9aEPcrzne0umHqjCh23fcTU9IdrfKzphKCywvuLFGuEvC1YOJ6D6L5xzbV85hN6kgExdDkE3Lc70qpT78ttFaH4OXHgCJU7prD39mX73nvT03Eiiv65azP0yOu-4Jc5V_5G9O0G76DGZs0GejW3mh_54-gQ7dBFyTPrpOodDvGw8dvI4Zj--9MzCaMrseR6oQfqhPiQdKZuEYAHr1pfd5kmIADLOcb3NWK1FAskJJFEFknQ&csuir=1&mtid=TXieaeC-I9XB0PEPxIzY-AI&udm=50
 published:
 created: 2026-02-25
+type: note
+create-date: 2026-04-29
 ---
 在英语句法中，
 

@@ -4,6 +4,8 @@ aliases:
 description:
 tags:
 domain: JS
+type: note
+create-date: 2026-01-25
 ---
 ## 内容
 

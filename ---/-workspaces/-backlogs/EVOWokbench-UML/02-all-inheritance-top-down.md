@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: @startuml
+type: note
+create-date: 2026-04-23
+---
+
 @startuml
 top to bottom direction
 skinparam classAttributeIconSize 0

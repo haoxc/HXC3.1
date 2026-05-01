@@ -3,8 +3,10 @@ aliases:
   - hxc/研究/课题/UIAI自动生成/子课题(ui-auto-gen-issues)
 tags:
   - hxc/todo/UI_AI/自动生成
+type: note
+description: - [ ] 识别图层
+create-date: 2026-04-29
 ---
-
 - 参考图
 	- [ ] 识别图层
 - 图层生成

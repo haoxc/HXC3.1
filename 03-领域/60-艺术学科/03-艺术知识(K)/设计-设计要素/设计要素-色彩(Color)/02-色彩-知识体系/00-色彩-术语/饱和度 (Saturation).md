@@ -12,8 +12,9 @@ tags:
   - 艺术
   - 情感强度
 created: 2025-12-28 11:55
+description: - **中文全称**：饱和度 (Saturation)
+create-date: 2026-01-02
 ---
-
 # 🎨 饱和度 (Saturation)
 
 ## 📋 基本信息

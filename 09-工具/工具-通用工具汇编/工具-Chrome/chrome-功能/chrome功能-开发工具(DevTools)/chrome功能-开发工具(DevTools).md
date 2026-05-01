@@ -4,8 +4,10 @@ description:
 title: 开发工具(DevTools)
 domain:
 created: 2025-12-30 12:37
+type: note
+tags: [chrome, 工具]
+create-date: 2025-12-30
 ---
-
 ## 内容
 
 ### 快捷方式

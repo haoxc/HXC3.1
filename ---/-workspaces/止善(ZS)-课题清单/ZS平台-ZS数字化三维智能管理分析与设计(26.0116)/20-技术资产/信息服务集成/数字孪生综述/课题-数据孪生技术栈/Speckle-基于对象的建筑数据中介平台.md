@@ -6,6 +6,7 @@ description:
 type:
 ref-url:
   - https://github.com/specklesystems
+create-date: 2026-02-23
 ---
 ## 内容
 在 BIM 与数字孪生的技术栈中，**Speckle** 被誉为"**建筑业的 GitHub**"。它是一个开源的数据中台，彻底解决了不同软件（Revit, Rhino, UE, Unity）之间"数据孤岛"的问题。

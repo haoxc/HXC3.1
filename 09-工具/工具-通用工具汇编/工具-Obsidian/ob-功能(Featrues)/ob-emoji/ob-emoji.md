@@ -2,6 +2,10 @@
 aliases:
   - 表情（Emoji survey）
   - abbr:emoji svy
+type: note
+tags: [emoji, obsidian, 工具]
+description: - **输入方式**
+create-date: 2025-10-28
 ---
 ### 要点
 - **输入方式**

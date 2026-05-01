@@ -5,8 +5,8 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
-
 ## 内容
 - `openrouter key`
 	-  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

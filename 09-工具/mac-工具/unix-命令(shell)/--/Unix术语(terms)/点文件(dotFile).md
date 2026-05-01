@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-20
 ---
 ## 内容
 在 macOS（以及所有类 Unix 系统）中，以 `.` 开头的目录或文件被称为 “隐藏文件” (Hidden Files) 或 “点文件” (Dotfiles)。

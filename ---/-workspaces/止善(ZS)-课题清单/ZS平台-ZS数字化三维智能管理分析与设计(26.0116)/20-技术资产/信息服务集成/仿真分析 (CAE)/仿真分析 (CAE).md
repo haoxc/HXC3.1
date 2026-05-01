@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 在机械设计与制造领域，**仿真分析 (CAE, Computer-Aided Engineering)** 是通过数字化手段在产品实际制造前`模拟`其受力、传热、流体流动等物理行为的过程.

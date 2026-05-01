@@ -4,8 +4,10 @@ description:
 title: chrome功能-Flags
 domain:
 created: 2025-12-29 17:30
+type: note
+tags: [chrome, 工具]
+create-date: 2025-12-29
 ---
-
 ## 内容
 - Flags 就是控制工厂里各种“`隐藏开关`”的面板
 - **Flags**（旗标/标志位）是 Chrome 浏览器中用于开启或关闭**实验性功能**的隐藏设置。

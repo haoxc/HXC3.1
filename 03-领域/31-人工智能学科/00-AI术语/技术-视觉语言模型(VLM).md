@@ -6,6 +6,7 @@ tags:
   - 课题/本地化操作
 description:
 type:
+create-date: 2026-01-17
 ---
 在 2026 年的 AI 领域，**VLM (Vision Language Model，视觉语言模型)** 是推动“桌面自动化”和“多模态交互”的核心引擎。
 

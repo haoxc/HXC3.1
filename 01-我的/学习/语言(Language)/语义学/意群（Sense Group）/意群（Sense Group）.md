@@ -9,6 +9,8 @@ author:
 source: https://www.google.com/search?sourceid=chrome&aep=42&q=%E8%BE%A8%E6%9E%90%EF%BC%9A+%E8%AF%AD%E4%B9%89%EF%BC%8C+%E4%BF%AE%E8%BE%9E%EF%BC%8C+%E6%96%87%E6%B3%95&mstk=AUtExfBejBJWzvM0bldBsNrOj5Vjm2PyHKSpGXz2APihUno-8MGu__MhY9fBggeVy40ZFViG7j2J0Bh_YnsvdoctE1_KxjFktZ7vhr-iMiWnjfks16I3gX7imHJrZV8LsWqbdv790TKm44e5pRqkTClZVrpTk8A8jk2rSLMGk-p_1P38vR9NY2IyMonP_-p_GMpCmzk9sP1uZMjM4kt2RF37Cdym5qSirNhc3IjuMZ1pPu3XwibgiELoF8G2ijGCbqduOMsPA70joFkfNYINQTkOS8WCyYMRxDj82azM6AhqfMCGHTgnqHDF8AQDjlrSrbLFFIFyBZCf5XY9wsPob-f0h4vUkLH1ivLaWQ&csuir=1&mtid=TXieaeC-I9XB0PEPxIzY-AI&udm=50
 published:
 created: 2026-02-25
+type: note
+create-date: 2026-04-29
 ---
 在语言学中，
 

@@ -1,7 +1,10 @@
 ---
 aliases: oop-C#@Statement/OOP/access modifier(fwxsf访问修饰符), 访问修饰符
+type: note
+tags: [工具]
+description: ![](https://www.runoob.com/wp-content/uploads/2014/04/csharp-public.png)
+create-date: 2026-04-29
 ---
-
 ## 访问修饰符
 ![](https://www.runoob.com/wp-content/uploads/2014/04/csharp-public.png)
 - 在类、方法、属性、字段或其他成员之前使用 `public` 修饰符时，它意味着该成员是公共的，可以从任何其他类或成员方法访问。

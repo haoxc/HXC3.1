@@ -6,6 +6,8 @@ description:
 ref-url:
   - https://www.latextemplates.com/
   - https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
+type: note
+create-date: 2026-04-29
 ---
 ## 数学符号
  - **积分符号:**  $\int$

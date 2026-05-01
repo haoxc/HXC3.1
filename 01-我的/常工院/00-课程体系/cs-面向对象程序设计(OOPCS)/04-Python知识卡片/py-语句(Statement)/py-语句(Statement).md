@@ -2,8 +2,11 @@
 color: var(--mk-color-teal)
 aliases:
   - 语句(Statement)
+type: note
+tags: [工具]
+description: - **描述**：语句构成程序的最基本单元, 告诉Python如何执行的`指令(Instruction)`的描述.
+create-date: 2026-04-29
 ---
-
 ### 概述
 - **描述**：语句构成程序的最基本单元, 告诉Python如何执行的`指令(Instruction)`的描述. 
 - **格式**： 行与缩进(Lines and Indentation)

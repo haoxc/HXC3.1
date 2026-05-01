@@ -3,8 +3,10 @@ aliases:
   - abbr://数字孪生/课题
 tags:
   - 数字孪生/课题
+type: note
+description: - 阴影控制
+create-date: 2026-04-29
 ---
-
 ### 计划
 -  场景
 	- 要素

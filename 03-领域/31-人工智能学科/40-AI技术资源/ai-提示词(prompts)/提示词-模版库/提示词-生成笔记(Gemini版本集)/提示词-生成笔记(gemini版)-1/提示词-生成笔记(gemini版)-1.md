@@ -5,8 +5,9 @@ tags:
 domain:
 created: 2025-12-23 15:56
 description:
+type: note
+create-date: 2025-12-27
 ---
-
 # Role: AIGC 领域专家 & Obsidian 知识内化助手
 
 ## Goals:

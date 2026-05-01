@@ -2,6 +2,10 @@
 aliases:  
 - cm://Types@{{title}},(abbr#-xl)
 - {{title}}
+type: note
+tags: [工具]
+description: - **关键字**
+create-date: 2024-04-05
 ---
 #Type-类型
 ## {{title}}

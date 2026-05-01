@@ -6,8 +6,9 @@ tags:
   - 摘要
 created: 2025-11-15 21:49
 description: 白板工具
+type: note
+create-date: 2026-04-29
 ---
-
 ## 内容
 ### IT 设备（核心业务承载层）
 数据处理与存储的核心载体：

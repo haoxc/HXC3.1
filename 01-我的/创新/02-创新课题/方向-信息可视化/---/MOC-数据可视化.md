@@ -1,3 +1,9 @@
+---
+tags: [工具]
+description: - **思想**
+type: note
+create-date: 2026-04-29
+---
 
 ## 内容
 
@@ -30,4 +36,3 @@
     - **ECharts / AntV：** 适合快速构建复杂的交互式商业图表。
 - **工具端（分析驱动）：**
     - **Tableau / Power BI：** 侧重于商业智能分析与多维数据探索。
-

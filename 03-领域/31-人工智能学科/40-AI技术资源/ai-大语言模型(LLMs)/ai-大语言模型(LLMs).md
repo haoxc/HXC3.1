@@ -3,8 +3,10 @@ aliases:
   - AI/深度学习模型/大语言模型(LLMs)
 tags:
   - AI/深度学习模型/大语言模型_LLM
+type: note
+description: - 功能(能力体系)
+create-date: 2026-01-17
 ---
-
 ## 内容
 - 定义
 	- 

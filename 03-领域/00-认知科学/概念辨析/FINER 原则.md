@@ -7,8 +7,9 @@ tags:
   - 执行价值
 created: 2025-12-22 10:56
 description: （Feasible 可行, Interesting 有趣, Novel 新颖, Ethical 伦理, Relevant 相关）
+type: note
+create-date: 2026-04-29
 ---
-
 ## 内容
 **FINER 原则**是学术研究和项目立项中用于评价“研究问题”或“课题”质量的经典标准。
 **FINER 原则**是学术研究和项目立项中用于评价“[[研究问题]]”或“[[主题(Subject)]]”质量的经典标准.它能帮助你判断一个**课题（Subject/Project）**是否具有执行价值。

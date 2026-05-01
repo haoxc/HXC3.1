@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: import json
+type: note
+create-date: 2026-04-29
+---
+
 ### Python 对象 → JSON 文件（`dump`）
 
 ```python

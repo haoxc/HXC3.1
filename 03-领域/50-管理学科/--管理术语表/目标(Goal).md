@@ -11,8 +11,8 @@ aliases:
 category:
 title: 目标(Goal)
 created: 2025-12-29 18:12
+create-date: 2025-12-29
 ---
-
 ---
 
 # 目标 (Goal)

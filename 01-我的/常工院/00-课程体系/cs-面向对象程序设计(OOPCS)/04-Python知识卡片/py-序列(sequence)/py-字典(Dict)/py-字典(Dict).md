@@ -3,6 +3,9 @@ aliases:
   - 字典(Dict)
 tags:
   - 序列
+type: note
+description: - [字典](https://www.w3cschool.cn/python3/python3-dictionary.html)（dictionary）是Pyt
+create-date: 2026-04-29
 ---
 ### 概述
  

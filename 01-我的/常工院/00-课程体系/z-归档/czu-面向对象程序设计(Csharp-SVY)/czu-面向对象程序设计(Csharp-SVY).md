@@ -1,9 +1,11 @@
 ---
 aliases:
   - czu@course/oop programming(czu-oop-svy)
+type: note
+tags: [工具]
+description: - `必须项`
+create-date: 2026-04-29
 ---
-
-
 - `必须项`
 	- 先声明(定义)后使用
 	- 常量

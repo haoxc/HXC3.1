@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: > 这是一张单一类图，包含全量扫描到的类型声明，并只绘制 `extends` 与 `implements` 关系；布局方向为从顶向下。
+type: note
+create-date: 2026-04-23
+---
+
 # UML 全量继承关系（Top-Down / PlantUML）
 
 > 这是一张单一类图，包含全量扫描到的类型声明，并只绘制 `extends` 与 `implements` 关系；布局方向为从顶向下。
@@ -3439,4 +3446,3 @@ C_com_evolsoft_ec_pso_IParticleDimension <|.. C_com_evolsoft_problem_fjsp2_psoin
 C_com_evolsoft_core_configuration_metadata_IServiceItemFactory <|.. C_com_evolsoft_problem_runtime_ProblemNatureDescriptorFactory
 @enduml
 ```
-

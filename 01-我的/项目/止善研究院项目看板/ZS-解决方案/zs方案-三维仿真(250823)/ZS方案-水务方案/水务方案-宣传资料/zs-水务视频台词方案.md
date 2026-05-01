@@ -1,9 +1,11 @@
 ---
 type: 台词(script)
 状态(Status): 
-importance: 
+importance:
+tags: [工具]
+description: - **痛点**
+create-date: 2026-04-29
 ---
-
 #台词 #视频制作
 ### 脚本设计
 - **痛点**

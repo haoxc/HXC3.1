@@ -5,4 +5,6 @@ aliases:
 tags:
   - flowchart
   - tools
+type: note
+create-date: 2026-01-25
 ---

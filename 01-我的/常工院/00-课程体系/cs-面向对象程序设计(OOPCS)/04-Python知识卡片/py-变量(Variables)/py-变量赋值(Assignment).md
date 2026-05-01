@@ -9,6 +9,7 @@ aliases:
   - 变量赋值(Assignment)
 description:
 type: 知识点(knlowledge point)
+create-date: 2026-04-29
 ---
 ## 概述
 在python中,定义变量, 同时给变量一个初始值.

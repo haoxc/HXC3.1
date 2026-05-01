@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 - [[信息素养 (Information Literacy)]] 指一个人在持续关注行业时，检索、筛选、评估和利用信息的能力。

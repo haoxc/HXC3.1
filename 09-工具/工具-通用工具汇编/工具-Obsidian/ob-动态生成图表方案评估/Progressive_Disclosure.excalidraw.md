@@ -2,8 +2,10 @@
 excalidraw-plugin: parsed
 tags:
   - excalidraw
+type: note
+description: 渐进式信息披露 — 5 层模型 ^title
+create-date: 2026-03-28
 ---
-
 # Drawing
 
 ## Text Elements

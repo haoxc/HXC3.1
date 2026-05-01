@@ -2,6 +2,10 @@
 aliases:
   - hqs://元数据(meta)/管理项(Administrated Item)/对象模型(Object Schema)@{{title}}, (meta-dx#abbr=)
   - 对象模型(Object Schema)#{{title}}
+type: note
+tags: [工具]
+description: - **名称**
+create-date: 2024-04-12
 ---
 ## 纲要
 - **名称**

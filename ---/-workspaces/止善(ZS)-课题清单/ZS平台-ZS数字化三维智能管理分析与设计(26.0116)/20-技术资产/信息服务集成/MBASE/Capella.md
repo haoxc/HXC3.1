@@ -6,6 +6,7 @@ description: Eclipse Capella is a comprehensive, extensible and field-proven MBS
 type:
 ref-url:
   - https://mbse-capella.org/
+create-date: 2026-02-15
 ---
 ## 内容
 - 介绍 : https://www.youtube.com/watch?v=WSzlN4YT3gM

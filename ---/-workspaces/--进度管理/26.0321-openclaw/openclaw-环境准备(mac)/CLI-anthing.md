@@ -6,6 +6,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-12
 ---
 ## 内容
 **CLI-Anything** 是由香港大学数据科学团队（HKUDS）开发的一个开源项目，旨在将**任何软件**转变为 AI 智能体（Agent）可直接控制的**命令行工具**。

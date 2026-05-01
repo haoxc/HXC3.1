@@ -5,6 +5,9 @@ title: HSB模型
 description: 模拟将白色颜料混合到纯色中
 domain: HSB模型
 created: 2025-12-28 13:52
+type: note
+tags: [工具]
+create-date: 2026-01-09
 ---
 ### **HSB：艺术家的调色板逻辑**
 - **原理**：模拟将**白色颜料**混合到纯色中。

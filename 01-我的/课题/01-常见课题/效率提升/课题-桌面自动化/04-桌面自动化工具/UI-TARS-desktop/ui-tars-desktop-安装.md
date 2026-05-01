@@ -4,6 +4,7 @@ aliases:
 tags:
 description:
 type:
+create-date: 2026-04-29
 ---
 ## 安装
 > [Quick Start - Agent TARS](https://agent-tars.com/guide/get-started/quick-start.html)

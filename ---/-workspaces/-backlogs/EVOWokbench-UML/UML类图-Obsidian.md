@@ -1,3 +1,10 @@
+---
+tags: [obsidian, 工具]
+description: > 用法：在 Obsidian 中启用 PlantUML 插件后，直接打开本文件，或复制任一 `plantuml` 代码块到笔记中即可渲染。
+type: note
+create-date: 2026-04-23
+---
+
 # UML 类图（Obsidian / PlantUML）
 
 > 用法：在 Obsidian 中启用 PlantUML 插件后，直接打开本文件，或复制任一 `plantuml` 代码块到笔记中即可渲染。

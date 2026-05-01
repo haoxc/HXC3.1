@@ -6,6 +6,7 @@ tags:
   - //资源/emoji/场景/场景分析中常用
 description:
 type:
+create-date: 2026-01-14
 ---
 在进行“场景分析”（Scenario Analysis）时，以下是 2026 年最常用的代表性场景及其对应的英文和 Emoji：
 

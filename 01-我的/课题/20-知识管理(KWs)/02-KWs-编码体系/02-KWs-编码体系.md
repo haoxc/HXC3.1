@@ -8,6 +8,8 @@ tags:
   - hxc/TODO/知识管理/编码规则
 domain:
 created: 2026-01-02 14:45
+type: note
+create-date: 2026-04-29
 ---
 > [!WARNING]
 > 创新驱动 (战略)

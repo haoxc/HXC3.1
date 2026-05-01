@@ -1,3 +1,9 @@
+---
+tags: [dataview, obsidian, 工具]
+description: ```dataview
+type: note
+create-date: 2025-11-20
+---
 
 ### 过滤due的任务
 
@@ -9,8 +15,3 @@ WHERE
 GROUP BY file.link
 LIMIT  50
 ```
-
-
-
-
-

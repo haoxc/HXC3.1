@@ -1,7 +1,10 @@
 ---
 aliases: []
+type: note
+tags: [工具]
+description: `Spyder` 是另一种免费的 Python 集成开发。它专为科学用途而设计，并集成了 `Matplotlib`、`NumPy` 和 `SymPy` 等库。
+create-date: 2026-04-29
 ---
-
 **
 ## macOS 中 Python 的 `Spyder` IDE (**推荐**)
 `Spyder` 是另一种免费的 Python 集成开发。它专为科学用途而设计，并集成了 `Matplotlib`、`NumPy` 和 `SymPy` 等库。

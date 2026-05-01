@@ -1,3 +1,9 @@
+---
+tags: [工具]
+description: - [window](https://www.jetbrains.com/pycharm/download/#section=windows)
+type: note
+create-date: 2026-04-29
+---
 
 - 安装
 	- [window](https://www.jetbrains.com/pycharm/download/#section=windows)

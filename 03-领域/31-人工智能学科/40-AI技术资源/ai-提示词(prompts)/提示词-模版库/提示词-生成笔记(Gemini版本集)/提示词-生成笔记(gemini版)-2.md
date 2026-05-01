@@ -3,6 +3,9 @@ aliases:
 title: 提示词-生成笔记(gemini版)
 description:
 created: 2025-12-23 16:03
+type: note
+tags: [工具]
+create-date: 2025-12-23
 ---
 # Role: AIGC 领域专家 & Obsidian 知识内化助手
 

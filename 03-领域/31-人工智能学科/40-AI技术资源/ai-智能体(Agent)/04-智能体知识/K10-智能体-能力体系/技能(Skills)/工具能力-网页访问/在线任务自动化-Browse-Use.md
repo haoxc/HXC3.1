@@ -5,6 +5,9 @@ tags:
   - 任务自动化
   - ai-tools
   - python
+type: note
+description: `browser-use` 是一个专门为 LLM 设计的 Python 库，旨在让 AI 能够像人类一样操作浏览器。
+create-date: 2025-12-30
 ---
 ## 概述
 `browser-use` 是一个专门为 LLM 设计的 Python 库，旨在让 AI 能够像人类一样操作浏览器。

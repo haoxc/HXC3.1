@@ -3,8 +3,10 @@ aliases:
   - //ZS/项目/新奇/计划/交付要求(xq-jf-cl;xq-poloicy)
 tags:
   - zs/项目/新奇/
+type: note
+description: [[共识01-最高原则]]
+create-date: 2026-04-29
 ---
-
 [[共识01-最高原则]]
 ## 课题定位
 - **定位**

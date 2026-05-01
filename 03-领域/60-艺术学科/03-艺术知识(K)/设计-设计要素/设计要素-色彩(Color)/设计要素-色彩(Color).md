@@ -2,6 +2,10 @@
 aliases:
   - moc://设计/要素/色彩(Color-svy)
 domain: 色彩
+type: note
+tags: [工具]
+description: - **术语**
+create-date: 2026-01-25
 ---
 ## 颜色
 - **术语**

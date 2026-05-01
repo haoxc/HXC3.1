@@ -1,8 +1,11 @@
 ---
 aliases:
   - win/cmds(win-cmd-svy)
+type: note
+tags: [windows, 工具]
+description: - `where` : 命令的所在的目录
+create-date: 2026-01-24
 ---
-
 ## 命令
 ### 文件命令
 - `where` : 命令的所在的目录

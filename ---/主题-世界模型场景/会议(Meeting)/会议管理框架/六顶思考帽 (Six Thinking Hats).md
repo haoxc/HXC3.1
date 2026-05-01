@@ -8,6 +8,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-04
 ---
 ## 内容
 六顶思考帽 (Six Thinking Hats) —— 解决“`意见冲突`”

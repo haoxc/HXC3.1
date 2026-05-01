@@ -1,7 +1,10 @@
 ---
 aliases: oop-c#@howtos/How to set the main entry,MainEntry-StartupObject
+type: note
+tags: [工具]
+description: > [C# 编译器选项 - 高级方案 - C# | Microsoft Learn](https://learn.microsoft.com/zh-cn/dot
+create-date: 2026-04-29
 ---
-
 ## 概要
 > [C# 编译器选项 - 高级方案 - C# | Microsoft Learn](https://learn.microsoft.com/zh-cn/dotnet/csharp/language-reference/compiler-options/advanced#mainentrypoint-or-startupobject)
 

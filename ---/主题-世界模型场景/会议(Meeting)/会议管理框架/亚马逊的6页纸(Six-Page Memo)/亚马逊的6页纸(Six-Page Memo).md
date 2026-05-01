@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: 亚马逊的“6页纸” (Six-Page Memo) —— 解决“效率与深度”
+type: note
+create-date: 2026-03-04
+---
+
 亚马逊的“6页纸” (Six-Page Memo) —— 解决“效率与深度”
 亚马逊（Amazon）内部著名的会议传统：
 - **禁止使用 PPT**：因为 PPT 容易隐藏逻辑漏洞。

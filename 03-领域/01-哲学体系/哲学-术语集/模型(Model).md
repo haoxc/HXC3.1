@@ -10,8 +10,8 @@ tags:
 created: 2025-12-26 11:03
 Positioning: 它是什么？它是如何运作的？
 essence: “抽象表达”与“逻辑模拟”
+create-date: 2026-01-14
 ---
-
 # 模型 (Model)
 
 ### 1. 🎯 一句话定义 (Definition)

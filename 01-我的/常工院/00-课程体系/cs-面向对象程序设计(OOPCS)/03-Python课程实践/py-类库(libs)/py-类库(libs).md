@@ -1,8 +1,11 @@
 ---
 aliases:
   - python/类库(py-libs-svy)
+type: note
+tags: [工具]
+description: - **人工智能**
+create-date: 2026-04-29
 ---
-
 ### 类库
 - **人工智能**
 	- [[python类库-opencv-python]]

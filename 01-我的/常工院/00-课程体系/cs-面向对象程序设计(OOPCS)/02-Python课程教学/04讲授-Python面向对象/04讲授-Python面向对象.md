@@ -1,5 +1,9 @@
 ---
-banner:  
+banner:
+type: note
+tags: [工具]
+description: - **面向对象核心**
+create-date: 2026-04-29
 ---
 ## 讲授内容
 - **面向对象核心**

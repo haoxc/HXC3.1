@@ -7,6 +7,7 @@ description:
 type:
 ref-url:
 Positioning: 是工业自动化领域的 通用语言标准
+create-date: 2026-02-15
 ---
 ## 内容
 简单来说， **OPC UA** （Open Platform Communications Unified Architecture）是==工业自动化领域的 **通用语言标准**== 。

@@ -6,6 +6,9 @@ tags:
   - 配色工具
   - 科学杂志
   - 配色方案
+type: note
+description: 是一套专为[[地图制图]]与[[课题-数据可视化|数据可视化(Data Visualization)]]设计的配色标准，由宾夕法尼亚州立大学教授 Cynthia
+create-date: 2026-01-08
 ---
 ## 概述
  是一套专为[[地图制图]]与[[课题-数据可视化|数据可视化(Data Visualization)]]设计的配色标准，由宾夕法尼亚州立大学教授 Cynthia Brewer 及其团队于 2002 年开发。该设计旨在通过科学的颜色组合提高地图的可读性，并被广泛集成在 R（RColorBrewer 包）、[[02-Python课程教学|课程/面向对象(Python)/Python]]、ArcGIS 和 ggplot2 等主流数据工具中。 

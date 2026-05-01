@@ -8,6 +8,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-05
 ---
 ## 内容
 OSGB ([Open Scene Graph Binary](https://www.google.com/search?q=Open+Scene+Graph+Binary&num=10&newwindow=1&sca_esv=1257350bb2ab236f&sxsrf=ANbL-n4zqF-M73a8PnkUuBMdwTEA5b9sRQ%3A1772718832652&ei=8IqpaeK-J8Le2roP5ujc8Q4&biw=1209&bih=585&ved=2ahUKEwjGtfbb9YiTAxXxsVYBHTwVDFgQgK4QegYIAQgAEAM&uact=5&oq=OSGB&gs_lp=Egxnd3Mtd2l6LXNlcnAiBE9TR0IyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESI4HUKIEWKIEcAF4AZABAJgBf6ABf6oBAzAuMbgBA8gBAPgBAvgBAZgCAqAChwHCAgoQABiwAxjWBBhHmAMAiAYBkAYKkgcDMS4xoAeXArIHAzAuMbgHgwHCBwMwLjLIBwWACAA&sclient=gws-wiz-serp)) 是一种用于存储和传输大规模三维地理信息数据的二进制文件格式，常用于`倾斜摄影模型`、城市规划和`GIS应用`。其优势在于高效的数据压缩、支持细分层次细节（PagedLOD）机制，适用于在Web端流畅展示海量三维模型。

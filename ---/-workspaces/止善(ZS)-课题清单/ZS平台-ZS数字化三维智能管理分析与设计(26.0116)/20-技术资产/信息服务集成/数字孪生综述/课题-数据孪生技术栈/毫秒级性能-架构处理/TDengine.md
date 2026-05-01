@@ -5,6 +5,7 @@ description:
 type:
 ref-url:
   - https://github.com/taosdata/TDengine
+create-date: 2026-02-23
 ---
 ## 内容
 

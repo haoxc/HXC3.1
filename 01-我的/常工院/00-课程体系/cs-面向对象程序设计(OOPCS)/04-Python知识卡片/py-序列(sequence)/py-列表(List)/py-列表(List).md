@@ -5,8 +5,10 @@ category:
   - 序列
 tags:
   - 序列
+type: note
+description: - [列表](https://www.w3cschool.cn/python3/python3-list.html)可以完成大多数集合类的数据结构实现。
+create-date: 2026-04-29
 ---
-
 ### 列表(List)
 - [列表](https://www.w3cschool.cn/python3/python3-list.html)可以完成大多数集合类的数据结构实现。
 - 列表中元素的类型可以不相同，它支持数字，字符串甚至可以包含列表（所谓*嵌套*）。

@@ -1,7 +1,9 @@
 ---
 type: ob-plugin
+tags: [obsidian, 工具]
+description: - **必装插件**
+create-date: 2025-11-05
 ---
-
 ### 插件笔记
 - **必装插件**
 	- [[ob插件-Excalidraw]]:  组织你的文档和

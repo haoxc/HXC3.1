@@ -5,6 +5,7 @@ tags:
 description: 通常是指由 Trimble 公司开发的 Tekla Structures。它是目前全球公认的最顶尖、最专业的结构详图设计与施工管理软件，尤其在钢结构领域拥有统治地位。
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 ### 核心定位：为"可建造性"而生

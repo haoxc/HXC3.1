@@ -2,8 +2,10 @@
 tags:
   - 能力/接口
   - web框架
+type: note
+description: FastAPI 是 Python 高性能 Web 框架，核心优势：**极速开发、自动生成接口文档、强类型校验**，特别适合数媒生快速搭建「素材管理API」「设计
+create-date: 2026-04-29
 ---
-
 # FastAPI 数媒场景入门教程（结合解包/类实例化）
 FastAPI 是 Python 高性能 Web 框架，核心优势：**极速开发、自动生成接口文档、强类型校验**，特别适合数媒生快速搭建「素材管理API」「设计工具后端」等轻量服务。
 

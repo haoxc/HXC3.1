@@ -5,6 +5,7 @@ description: 是依附于Actor的模块化功能单元，本质是为Actor提供
 tags:
   - 功能模块
 aliases:
+create-date: 2026-04-29
 ---
 ## 概述
 - **定义**：**UE中依附于Actor的最小功能单元**，通过模块化封装为场景对象提供专属能力（如灯光、碰撞、移动）。

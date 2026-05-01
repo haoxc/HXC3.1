@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-12
 ---
 ## 内容
 CLI 是 ==Command Line Interface（命令行界面）的缩写==。

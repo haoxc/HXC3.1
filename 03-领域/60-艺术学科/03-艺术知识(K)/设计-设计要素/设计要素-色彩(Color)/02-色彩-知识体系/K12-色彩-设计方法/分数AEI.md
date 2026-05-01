@@ -3,6 +3,9 @@ aliases:
   - 色彩/审计/分数AEI
 tags:
   - 审计框架
+type: note
+description: 分数AEI 是视觉传达与信息设计中用于评估作品质量的专业审计框架，由三个核心维度组成：**A (Aesthetics, 审美)**、**E (Efficienc
+create-date: 2026-01-02
 ---
 # 分数AEI (AEI Score/Framework)
 

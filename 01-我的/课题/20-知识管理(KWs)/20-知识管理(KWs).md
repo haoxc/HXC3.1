@@ -8,8 +8,10 @@ title:
 domain: KWs
 created: 2025-12-26 12:28
 abbr: KWS
+type: note
+tags: [工具]
+create-date: 2026-04-29
 ---
-
 ## 课题
 - 知识体系(构成)
 - 课题

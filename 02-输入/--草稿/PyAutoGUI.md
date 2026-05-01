@@ -8,8 +8,8 @@ tags:
   - 兼容性/跨平台
 description:
 type:
+create-date: 2026-04-29
 ---
-
 # 总结
 
 PyAutoGUI 是一个跨平台 Python 库，用于自动化控制鼠标和键盘。

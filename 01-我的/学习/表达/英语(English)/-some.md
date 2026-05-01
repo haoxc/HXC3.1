@@ -6,6 +6,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 **后缀**：**-some**（adj. 后缀，表 “充满… 的、有… 性质的”），如：handsome, troublesome, [[Awesome]]

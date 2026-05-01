@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: `break` 和 `continue` 是循环中的控制语句，用于改变循环的执行流程，常用于 `for` 或 `while` 循环中。
+type: note
+create-date: 2026-04-29
+---
+
 ## 概述
 `break` 和 `continue` 是循环中的控制语句，用于改变循环的执行流程，常用于 `for` 或 `while` 循环中。
 

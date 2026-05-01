@@ -1,8 +1,11 @@
 ---
 aliases:
   - zs/机制/工作流
+type: note
+tags: [工具]
+description: - *执行时机*
+create-date: 2026-04-29
 ---
-
 ### 项目评估
 - *执行时机*
 	- 售前初步评估

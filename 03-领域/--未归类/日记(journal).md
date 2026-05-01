@@ -8,4 +8,5 @@ aliases:
   - 日记
 tags:
 abbr: 日志
+create-date: 2025-11-08
 ---

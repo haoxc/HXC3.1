@@ -3,8 +3,10 @@ aliases:
   - Claude/能力体系/Skill/仓库
 tags:
   - Claude/能力体系/Skill/仓库
+type: note
+description: - anthropics/skills   https://github.com/anthropics/skills
+create-date: 2026-02-08
 ---
-
 - anthropics/skills   https://github.com/anthropics/skills
 	里面有文档创建Skills,支持PDF、Word、Excel、PPT。
 - ### **travisvn/awesome-claude-skills - 1400星的精选清单  

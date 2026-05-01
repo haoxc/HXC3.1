@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-15
 ---
 ## 内容
 简单来说， **OSLC** （Open Services for Lifecycle Collaboration，生命周期协作开放服务）是==工业软件界的 **万维网协议** （HTTP/HTML）==。

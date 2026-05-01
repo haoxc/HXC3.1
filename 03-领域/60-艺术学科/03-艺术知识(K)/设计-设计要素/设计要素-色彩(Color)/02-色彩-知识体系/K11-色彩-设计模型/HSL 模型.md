@@ -4,8 +4,10 @@ title: HSL模型
 description: 模拟光线的强弱
 domain: 色彩
 created: 2025-12-28 13:29
+type: note
+tags: [工具]
+create-date: 2026-01-03
 ---
-
 # 🎨HSL 模型深度概述
 
 > [!abstract] 核心定义

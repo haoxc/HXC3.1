@@ -6,6 +6,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 在 BIM 体系中，**IFC (Industry Foundation Classes)** 是建筑行业的"通用语言"。它是一个**中立且开放**的数据标准，旨在让不同厂商的软件（如 Revit、Tekla、ArchiCAD 等）能够无障碍地交换建筑模型信息，而不必担心文件格式不兼容的问题

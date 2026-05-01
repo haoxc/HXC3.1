@@ -7,8 +7,8 @@ type:
 category:
 domain:
 domain_en:
+create-date: 2026-04-29
 ---
-
 ## conda常用命令
 - **环境管理**
 	- **确认当前**环境:  conda info

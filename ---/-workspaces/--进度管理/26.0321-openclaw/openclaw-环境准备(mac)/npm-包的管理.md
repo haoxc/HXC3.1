@@ -8,6 +8,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-08
 ---
 ## 内容
 在 Node.js 中，“全局”（Global）==主要指包的安装位置和使用范围==。

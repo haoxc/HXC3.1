@@ -2,6 +2,10 @@
 aliases:  
 - mdr://术语(Terms)@{{title}},(term#abbr=)
 - 术语(Terms)#{{title}}
+type: note
+tags: [工具]
+description: - **定义**
+create-date: 2024-04-06
 ---
 #Term 
 ## 描述 

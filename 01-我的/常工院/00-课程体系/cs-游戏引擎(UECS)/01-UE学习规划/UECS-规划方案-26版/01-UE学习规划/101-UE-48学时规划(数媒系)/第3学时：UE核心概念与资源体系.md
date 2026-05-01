@@ -13,8 +13,8 @@ create_date: 2025-01-01
 update_date: 2025-01-01
 aliases:
   - abbr://游戏引擎UE/UE核心概念与资源体系(UE-Core Concepts & Resource System,SYQ-UE-HXGN&ZYXT)
+type: note
 ---
-
 # 第3学时：UE核心概念与资源体系
 
 ## 课堂引入

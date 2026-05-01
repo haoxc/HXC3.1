@@ -4,6 +4,9 @@ tags:
 category:
 domain:
 domain_en:
+type: note
+description: docker pull node:24-alpine
+create-date: 2026-01-09
 ---
 ## 安装要点
 

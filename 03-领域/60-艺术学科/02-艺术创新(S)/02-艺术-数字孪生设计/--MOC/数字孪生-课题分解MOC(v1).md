@@ -4,8 +4,10 @@ aliases:
 tags:
   - Isometric
   - 数字孪生/课题
+type: note
+description: - [ ] 地图编辑
+create-date: 2025-12-18
 ---
-
 ## 数字孪生-应用课题
 - [ ] 地图编辑
 	- 元素

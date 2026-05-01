@@ -1,5 +1,9 @@
 ---
 aliases: Software and Documentation Localisation, SDL library
+type: note
+tags: [工具]
+description: Simple DirectMedia Layer is a #cross-platform development library designed to pr
+create-date: 2026-04-29
 ---
 #Library  
 

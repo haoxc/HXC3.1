@@ -3,9 +3,11 @@
 kanban-plugin: board
 aliases:
   - hxc/看板/黑板(hxc-kb-svy)
-
+type: note
+tags: [工具]
+description: - [ ] 系统
+create-date: 2026-04-29
 ---
-
 ## BackLogs
 
 - [ ] 系统

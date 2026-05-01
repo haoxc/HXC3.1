@@ -5,6 +5,7 @@ tags:
 description: MBSE（Model-Based Systems Engineering，基于模型的系统工程） 是复杂产品研发的核心方法论，用结构化模型替代传统文档，贯穿需求、设计、验证、生产、运维全生命周期，是 PLM 向数字主线 / 数字孪生升级的关键能力
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 

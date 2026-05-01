@@ -7,8 +7,9 @@ domain_en: SystemEngine
 abbr: 
 tags: [术语, 系统工程]
 created: 2026-01-08 14:26
+description: - **中文全称**：FMI
+create-date: 2026-04-29
 ---
-
 # 📊 FMI
 
 ## 📋 基本信息

@@ -10,6 +10,7 @@ domain:
 domain_en:
 description:
 type:
+create-date: 2026-01-17
 ---
 ## 内容
  引入了“先思考再行动”机制，AI 会在操作前生成中间推理步骤，能够处理更长程、更复杂的任务逻辑

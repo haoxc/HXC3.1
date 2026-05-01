@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: [Pygame](https://www.pygame.org/news) is an #open-source   Python library for ma
+type: note
+create-date: 2026-04-29
+---
+
 ## About
 [Pygame](https://www.pygame.org/news) is an #open-source   Python library for making multimedia applications like games built on top of the excellent [[SDL]] library. This library is a combination of [[C]], [[Python]], [[Native]] and  [[OpenGL]].  Pygame enables users to build fully featured games as well as multimedia programs with [[Python programming]]. It is highly portable and runs on nearly every platform and operating system
 

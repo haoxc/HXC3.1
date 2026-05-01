@@ -5,6 +5,7 @@ tags:
 description: 工厂级的信息管理平台,通过 RDI（Real-time Data Interface，实时数据接口） 从底层的 DCS 或 PLC 系统中采集数据
 type:
 ref-url:
+create-date: 2026-02-13
 ---
 ## 内容
 PHD 通常作为工厂级的信息管理平台，通过 **RDI（Real-time Data Interface，实时数据接口）** 从底层的 DCS 或 PLC 系统中采集数据：

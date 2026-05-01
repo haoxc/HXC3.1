@@ -5,6 +5,7 @@ tags:
   - 理念/意图驱动
 description:
 type:
+create-date: 2026-04-29
 ---
 # AI 时代下的桌面自动化价值：从“脚本驱动”到“意图驱动”
 

@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: const fileType = "辨析"; //TODO：修改当前主题
+type: note
+create-date: 2025-11-15
+---
+
 <%*
 const fileType = "辨析"; //TODO：修改当前主题
 

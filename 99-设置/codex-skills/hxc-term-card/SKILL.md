@@ -1,8 +1,10 @@
 ---
 name: hxc-term-card
 description: Create or update Obsidian terminology cards for the user's Vault term library. Use when the user asks to create term, create a 术语卡片, 知识术语笔记, concept/term card, 快速理解术语, 写入术语库, or wants a Knowledge Modeling note under ---/术语库(Terms svy). Enforces bilingual Chinese-English term labels, minimal frontmatter with aliases, Claude-style concise expert prose, four-section structure, callouts, and maintenance of the term-library MOC entry.
+type: note
+tags: [工具]
+create-date: 2026-04-25
 ---
-
 # HXC Term Card
 
 ## Purpose

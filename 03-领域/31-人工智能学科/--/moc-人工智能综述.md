@@ -1,6 +1,10 @@
 ---
 aliases:
   - moc://ai/agent
+type: note
+tags: [工具]
+description: - **技术**
+create-date: 2025-12-19
 ---
 ``
 ## 内容

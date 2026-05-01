@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: Anaconda 是目前全球最流行的**数据科学与机器学习开发环境**之一，由 Anaconda, Inc.（前身为 Continuum Analytics）开
+type: note
+create-date: 2026-04-29
+---
+
 # Anaconda 数据科学的 “瑞士军刀”
 
 Anaconda 是目前全球最流行的**数据科学与机器学习开发环境**之一，由 Anaconda, Inc.（前身为 Continuum Analytics）开发维护。它并非单一工具，而是一套集成了 Python/R 解释器、包管理工具、环境管理工具及数百个常用数据科学库的 “**一站式解决方案**”，

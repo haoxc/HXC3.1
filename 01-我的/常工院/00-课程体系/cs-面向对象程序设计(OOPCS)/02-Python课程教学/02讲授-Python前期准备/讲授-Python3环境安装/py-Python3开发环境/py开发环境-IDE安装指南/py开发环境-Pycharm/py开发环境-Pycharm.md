@@ -1,6 +1,10 @@
 ---
 aliases:
-  - Pycharm快捷键（shortcut) 
+  - Pycharm快捷键（shortcut)
+type: note
+tags: [工具]
+description: - [[pycharm安装]]
+create-date: 2026-04-29
 ---
 ### 安装
 - [[pycharm安装]]

@@ -5,6 +5,7 @@ aliases:
 tags:
 description: 境光遮蔽 (AO) 是一种渲染技术，用来模拟光线到达物体褶皱、孔洞或深处时的衰减。它不考虑直接光源，而是处理“环境光”在角落里的缺失
 type:
+create-date: 2026-04-29
 ---
 # Unreal Engine 技术专题：环境光遮蔽 (Ambient Occlusion, AO)
 

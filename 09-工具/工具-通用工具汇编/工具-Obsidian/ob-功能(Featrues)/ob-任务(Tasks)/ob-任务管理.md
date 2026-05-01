@@ -1,3 +1,10 @@
+---
+tags: [obsidian, 工具]
+description: **基础任务语法**：
+type: note
+create-date: 2025-11-18
+---
+
 # Obsidian任务管理
 
 ## 一、核心方法：原生Markdown任务+插件增强

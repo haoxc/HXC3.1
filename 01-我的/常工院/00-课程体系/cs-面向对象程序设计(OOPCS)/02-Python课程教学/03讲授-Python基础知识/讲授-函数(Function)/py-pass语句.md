@@ -6,6 +6,9 @@ category:
 orderNo: 101
 aliases:
   - pass语句
+tags: [工具]
+description: - **定义**: pass 是一个 `空语句`, 为了保持程序结构完整性
+create-date: 2026-04-29
 ---
 ## 概述
 - **定义**: pass 是一个 `空语句`, 为了保持程序结构完整性

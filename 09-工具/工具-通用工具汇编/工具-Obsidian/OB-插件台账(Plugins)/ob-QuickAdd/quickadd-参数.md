@@ -1,5 +1,10 @@
+---
+tags: [obsidian, 工具]
+description: - `{{DATE}}`：获取当前日期（注意：QuickAdd中的DATE是大写的）
+type: note
+create-date: 2025-11-17
+---
 
- 
 ## 1. 基本日期时间占位符
 
 - `{{DATE}}`：获取当前日期（注意：QuickAdd中的DATE是大写的）
@@ -13,4 +18,3 @@
  ## 2. 内容捕获设置
 - `{{VALUE}}`：用户输入的内容
 - `Capture format`：指定内容格式，如 `{{DATE:HH:mm}} {{VALUE}}` → "19:30 我今天想做点什么"
- 

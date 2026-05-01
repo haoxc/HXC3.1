@@ -3,8 +3,10 @@ aliases:
   - hxc/合作伙伴/润道(RD)
 tags:
   - hxc/合作伙伴/润道
+type: note
+description: - 黄浩 15250998314
+create-date: 2026-04-29
 ---
-
 ## 地址
 ## 南京润道地址
 #hxc/客户/润道

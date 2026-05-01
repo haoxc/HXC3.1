@@ -1,3 +1,9 @@
+---
+tags: [dataview, obsidian, 工具]
+description: ```dataview
+type: note
+create-date: 2025-11-20
+---
 
 ````
 ```dataview
@@ -16,5 +22,3 @@ FROM "01-看板"
 WHERE !completed
 GROUP BY file.link
 ```
-
-

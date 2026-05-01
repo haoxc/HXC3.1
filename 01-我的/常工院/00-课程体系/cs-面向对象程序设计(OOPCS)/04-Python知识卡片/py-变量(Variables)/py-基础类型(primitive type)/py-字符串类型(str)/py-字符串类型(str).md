@@ -4,8 +4,10 @@ category:
   - 永久笔记 (perNote)
 aliases:
   - 字符串(str)
+tags: [工具]
+description: > [!hint] **本课目标**
+create-date: 2026-04-29
 ---
-
 > [!hint] **本课目标**
 > - 定义形式 
 > - 值类型

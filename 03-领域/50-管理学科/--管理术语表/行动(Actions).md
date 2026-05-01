@@ -11,8 +11,8 @@ aliases:
 category:
 title: 行动(Actions)
 created: 2025-12-29 18:18
+create-date: 2025-12-29
 ---
-
 > [!WARNING]
 > 在完成“意图 (Intent)”的洞察和“目标 (Goal)”的对齐后，所有的认知最终必须收敛于 **“行动” (Action)** 。**没有 Action，DIKW 模型就只是空中楼阁**。
 

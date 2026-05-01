@@ -4,8 +4,8 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
-
 - 核心思想
 	- 结构化知识管理()
 	- 渐进式搜索(Progressive Search)

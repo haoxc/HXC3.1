@@ -4,8 +4,9 @@ aliases:
 type: 任务(task)
 tags:
   - haolab/人员/徐菁菁-xjj
+description: - 生成一页ppt
+create-date: 2026-04-29
 ---
-
 ## 目标
 - 生成一页ppt
 	- 布局(确定)

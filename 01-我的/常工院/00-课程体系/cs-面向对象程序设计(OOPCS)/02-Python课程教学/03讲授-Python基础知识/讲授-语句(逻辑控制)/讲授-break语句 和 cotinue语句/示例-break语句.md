@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: numbers = [5, 8, 12, 3, 15]
+type: note
+create-date: 2026-04-29
+---
+
 ### 示例
 ```python
 # 示例：查找列表中第一个大于10的数字，找到后停止循环 

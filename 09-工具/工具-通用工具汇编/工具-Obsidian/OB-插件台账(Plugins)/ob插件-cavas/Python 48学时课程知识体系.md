@@ -1,3 +1,10 @@
+---
+tags: [obsidian, 工具]
+description: - **第一阶段：Python基础入门（12学时）**
+type: note
+create-date: 2025-10-30
+---
+
 # Python 48学时课程知识体系
 
 - **第一阶段：Python基础入门（12学时）**

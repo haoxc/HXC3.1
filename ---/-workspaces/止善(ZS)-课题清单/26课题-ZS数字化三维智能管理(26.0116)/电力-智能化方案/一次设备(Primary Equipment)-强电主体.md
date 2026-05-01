@@ -4,6 +4,7 @@ tags:
 description: 直接用于生产、变换、输送、分配和消耗电能的设备。它们处理的是高电压、大电流
 type:
 ref-url:
+create-date: 2026-04-07
 ---
 ## 内容
 一次设备 (Primary Equipment) —— "强电主体"

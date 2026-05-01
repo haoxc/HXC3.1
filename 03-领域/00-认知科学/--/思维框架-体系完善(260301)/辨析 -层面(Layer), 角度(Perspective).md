@@ -6,8 +6,9 @@ tags:
   -  辨析 
 created: 2026-03-01 13:04
 description:
+type: note
+create-date: 2026-03-01
 ---
-
 ## 内容
 它们决定了你的逻辑是**“纵向”**的还是**“横向”**的：
 

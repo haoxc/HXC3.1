@@ -6,8 +6,9 @@ tags:
   - 摘要
 created: 2025-11-15 21:24
 description:
+type: note
+create-date: 2026-04-29
 ---
-
 ## 摘要
 数据处理与存储的核心载体：
 - **服务器**：

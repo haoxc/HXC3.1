@@ -1,6 +1,10 @@
 ---
 aliases:
 theme: serif
+type: note
+tags: [工具]
+description: - [[#游戏概述]]
+create-date: 2026-04-29
 ---
 ## 纲要
 - [[#游戏概述]]

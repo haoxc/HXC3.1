@@ -7,8 +7,10 @@ tags:
 category:
 domain:
 domain_en:
+type: note
+description: - DSP-采样
+create-date: 2026-01-10
 ---
-
 ## 知识背景
 - DSP-采样
 - DSP-混叠

@@ -10,6 +10,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-07
 ---
 ## 内容
 在地理信息系统（GIS）和测绘领域，**DEM** 是紧随 OSGB 和 FME 之后的一个核心概念，通常指代 **数字高程模型**。

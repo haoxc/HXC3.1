@@ -1,3 +1,10 @@
+---
+tags: [dataview, obsidian, 工具]
+description: 显示 #hxc 的笔记
+type: note
+create-date: 2025-11-19
+---
+
 ## 文件基本属性
 显示 #hxc 的笔记
 ```dataview
@@ -79,7 +86,3 @@ FROM #hxc
 SORT rating DESC 
 LIMIT 10
 ```
-
-
-
-

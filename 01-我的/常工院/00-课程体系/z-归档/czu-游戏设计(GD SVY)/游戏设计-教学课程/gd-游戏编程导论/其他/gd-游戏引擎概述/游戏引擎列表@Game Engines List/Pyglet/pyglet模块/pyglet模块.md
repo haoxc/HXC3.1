@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: ****---
+type: note
+create-date: 2026-04-29
+---
+
 ****---
 aliases: 
 ---
@@ -70,4 +77,3 @@ aliases:
 				- 游戏画面处理
 				- 游戏键盘响应
 			- 程序控制
-

@@ -1,8 +1,10 @@
 ---
 name: moc-wiki-designer
 description: Design, refactor, or audit Obsidian MOC/Wiki index pages as lightweight directory-tree navigation pages. Use when the user asks to create or adjust MOC, Wiki, index, navigation, folder note, directory map, content map, or knowledge-base overview pages, especially when they say "wiki形式", "MOC", "目录树", "索引页", "不要塞具体内容", "只放链接", or "拆成独立笔记".
+type: note
+tags: [工具]
+create-date: 2026-04-26
 ---
-
 # MOC / Wiki Designer
 
 ## Purpose

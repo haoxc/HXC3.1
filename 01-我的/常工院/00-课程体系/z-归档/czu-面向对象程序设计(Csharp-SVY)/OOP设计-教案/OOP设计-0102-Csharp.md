@@ -1,8 +1,11 @@
 ---
 aliases:
   - oop-C#@Introduction/Csharp Overview
+type: note
+tags: [工具]
+description: - C#（读作"C Sharp"）是一种由*微软*开发的`多范式编程语言`。它最初于`2000`年发布，作为`Microsoft .NET`平台的一部分，旨在为
+create-date: 2026-04-29
 ---
-
 ---
 ## Csharp发展历程
 - C#（读作"C Sharp"）是一种由*微软*开发的`多范式编程语言`。它最初于`2000`年发布，作为`Microsoft .NET`平台的一部分，旨在为Windows操作系统开发应用程序提供更现代、强大和安全的方式。

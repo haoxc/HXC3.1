@@ -2,6 +2,9 @@
 aliases: [ai/智能体/综述(ai-Agent svy)]
 tags: [Agentic-Automation]
 domain: Agent
+type: note
+description: - [[02-智能体方案]]
+create-date: 2026-04-25
 ---
 ## 总览
 - [[02-智能体方案]]
@@ -29,5 +32,5 @@ domain: Agent
 - [[工具-智能体浏览器访问]]
 - [[claude]]
 - [[aider]]
-- [[trae-开发框架]]
-- [[智能体-codex架构]]
+- [[trae]]
+- [[codex架构]]

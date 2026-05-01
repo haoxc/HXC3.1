@@ -5,6 +5,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-27
 ---
 ## 内容
 - "Fulfill" (US) or "fulfil" (UK) means ==to carry out, complete, or satisfy a duty, promise, requirement, or desire==.

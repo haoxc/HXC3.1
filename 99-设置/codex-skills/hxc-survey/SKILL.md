@@ -1,8 +1,10 @@
 ---
 name: hxc-survey
 description: Create, revise, or audit concise professional research reports in the user's Vault. Use when the user asks for hxc-survey, 调研报告, 快速调研, 课题调研, survey, research report, based on ref-url, 基于链接/资料建立调研, 结论先行, 快速理解, or wants to upgrade a memo into a professional but non-bloated report. Produces conclusion-first Claude-style Chinese reports with evidence chains, comparison, boundaries/risks, project recommendations, one chart suggestion, and a final Obsidian callout summary.
+type: note
+tags: [工具]
+create-date: 2026-04-25
 ---
-
 # HXC Survey
 
 ## Purpose

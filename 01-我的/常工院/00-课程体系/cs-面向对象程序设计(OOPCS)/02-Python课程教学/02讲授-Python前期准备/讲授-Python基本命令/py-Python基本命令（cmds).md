@@ -3,8 +3,10 @@ aliases:
   - python/命令指南(cmd-svy)
 tags:
   - python/cmd
+type: note
+description: > Python有版本信息: 我们用的`版本3`
+create-date: 2026-04-29
 ---
-
 ## Python命令 概述
 > Python有版本信息: 我们用的`版本3`
 -  **安装模块**

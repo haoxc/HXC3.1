@@ -6,6 +6,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-03-08
 ---
 ## 笔记：AI Skill (技能包)
 

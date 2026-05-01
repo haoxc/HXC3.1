@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-02-23
 ---
 ## 内容
 **Autodesk Revit** 是==由 [Autodesk 欧特克](https://www.autodesk.com.cn/products/revit/overview) 开发的一款专门为**建筑信息模型 (BIM)** 构建的软件==。它是目前全球及中国建筑工程行业（AEC）中使用最广泛的 BIM 核心工具

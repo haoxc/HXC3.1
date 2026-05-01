@@ -4,8 +4,10 @@ aliases:
 tags:
   - "#实践框架"
   - "#haolab"
+type: note
+description: - **原则**
+create-date: 2026-04-29
 ---
-
 ## 课题
 - **原则**
 	- 目标导向

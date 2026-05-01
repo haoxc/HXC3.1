@@ -3,9 +3,11 @@
 kanban-plugin: board
 aliases:
   - hxc/看板/黑板(hxc-kb-svy)
-
+type: note
+tags: [git, windows, 工具]
+description: %% kanban:settings
+create-date: 2026-03-05
 ---
-
 ## 课题(Issue)
 
 

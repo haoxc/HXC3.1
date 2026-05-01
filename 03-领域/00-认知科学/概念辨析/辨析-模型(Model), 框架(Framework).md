@@ -5,8 +5,9 @@ tags:
   - 辨析
 created: 2025-12-26 11:25
 description:
+type: note
+create-date: 2026-04-29
 ---
-
 ## 核心比较
 
 | 维度       | [[模型(Model)]] | [[框架 (Framework)]] |

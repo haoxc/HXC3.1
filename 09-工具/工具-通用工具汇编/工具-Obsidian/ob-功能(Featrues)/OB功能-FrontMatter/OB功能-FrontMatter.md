@@ -1,3 +1,10 @@
+---
+tags: [obsidian, 工具]
+description: - frontmatter 是文件开头的元数据块，通常位于文件最顶部，用分隔符（如 `---`）包裹，用于存储文件的额外信息。
+type: note
+create-date: 2026-01-26
+---
+
 - frontmatter 是文件开头的元数据块，通常位于文件最顶部，用分隔符（如 `---`）包裹，用于存储文件的额外信息。
 - 在 Obsidian 等工具中，frontmatter 常用来定义文件的属性，比如别名（alias）、标签（tags）、分类（categories）等。以示例中的内容为例：
 

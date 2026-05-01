@@ -4,6 +4,9 @@ tags:
   - excalidraw
 aliases:
   - //ZS/项目/新奇/需求/场景/场控监控(#典型场景;ks:xq-ck-jk-draw)
+type: note
+description: 监控场景(典型场景) ^Ka3qBWz6
+create-date: 2026-04-29
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

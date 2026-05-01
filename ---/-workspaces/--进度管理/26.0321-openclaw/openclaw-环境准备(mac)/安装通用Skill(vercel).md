@@ -8,6 +8,7 @@ description:
 type:
 ref-url:
   - https://github.com/vercel-labs/skills
+create-date: 2026-03-08
 ---
 ## 内容
 - 通过skill github地址

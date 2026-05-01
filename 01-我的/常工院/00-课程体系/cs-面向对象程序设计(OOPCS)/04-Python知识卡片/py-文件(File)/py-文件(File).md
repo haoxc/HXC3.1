@@ -1,14 +1,10 @@
 ---
 color: var(--mk-color-teal)
+type: note
+tags: [工具]
+description: > [!note]
+create-date: 2026-04-29
 ---
-
-
-
-
-
- 
-
-
 > [!note]
 >[Python3 文件 | 菜鸟教程](https://www.runoob.com/python3/python3-file-methods.html)
 ## 文件(file) 概述

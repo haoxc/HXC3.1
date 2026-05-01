@@ -1,6 +1,10 @@
 ---
 aliases:
-  - 
+  -
+type: note
+tags: [工具]
+description: - 创作的规范
+create-date: 2026-04-29
 ---
 ### 命名规则：创作的规范
 - 创作的规范

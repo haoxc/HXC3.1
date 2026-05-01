@@ -9,6 +9,7 @@ tags:
   - multimodal
 description:
 type:
+create-date: 2026-04-29
 ---
 - [[ui-tars-desktop-介绍]]
 - [[ui-tars-desktop-安装]]

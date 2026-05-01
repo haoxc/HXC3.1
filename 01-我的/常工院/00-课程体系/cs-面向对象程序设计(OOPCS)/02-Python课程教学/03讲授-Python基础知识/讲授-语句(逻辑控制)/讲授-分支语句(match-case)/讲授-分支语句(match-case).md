@@ -7,6 +7,9 @@ subject: Python基础
 category:
   - python/基础知识/语句
 orderNo: 110
+tags: [工具]
+description: - 在 Python 3.10 及以上版本中，引入了 **match-case** 语句 （模式匹配），它是一种更强大、更灵活的`分支控制`结构，类似于其他语言
+create-date: 2026-04-29
 ---
 ### 概述
 - 在 Python 3.10 及以上版本中，引入了 **match-case** 语句 （模式匹配），它是一种更强大、更灵活的`分支控制`结构，类似于其他语言中的`switch-case`，但支持对数据结构（如列表、元组、字典、类实例等）进行 “模式匹配”，而非仅匹配值。

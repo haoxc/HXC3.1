@@ -6,6 +6,7 @@ description:
 type:
 ref-url:
   - "[招聘条件](https://careers.thalesgroup.com/global/en/job/R0302305/Governance-Risk-and-Compliance-GRC-Specialist)"
+create-date: 2026-04-29
 ---
 ## 内容
 Location: Fredericton - Knowledge Park, Canada

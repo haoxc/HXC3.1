@@ -3,6 +3,10 @@ aliases:
 - {{title}}
 - cm://UI/场景(Scenario)@{{title}},(ui-cj#abbr=)
 - 概念(Concepts)#{{title}}
+type: note
+tags: [工具]
+description: - **描述**
+create-date: 2024-05-05
 ---
 #ui/Scenario
 

@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: > **DIKW 模型是一个描述数据如何一步步转化为智慧的分层模型，它揭示了人类认知从“碎片符号”进化为“深刻洞察”的完整路径。**
+type: note
+create-date: 2026-04-29
+---
+
 # DIKW 模型 (DIKW Pyramid)
 
 ### 1. 🎯 一句话定义 (Definition)

@@ -1,3 +1,10 @@
+---
+tags: [工具]
+description: - 2-3分钟的动画短片
+type: note
+create-date: 2026-04-29
+---
+
 #haolab/成员/闫鸿霏-YHF  #haolab/人员/李想-LX  
 
 ## 计划

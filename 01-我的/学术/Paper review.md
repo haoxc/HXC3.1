@@ -5,9 +5,8 @@ description:
 type:
 ref-url:
   - https://indersciencesubmissions.com/reviewerpeer/index.php?action=paperevalform&intSubmissionId=298740&intReveiwerAssignId=653915&intRevisionNumber=1&logStatus=0
+create-date: 2026-04-29
 ---
-
-
 1. Paper Summary
 This paper proposes a comprehensive framework for financial risk prediction by integrating machine learning (ML) classifiers with novel metaheuristic optimization algorithms. The study treats risk assessment as a three-class supervised classification task (No Risk, Low Risk, and High Risk). It employs Extra Trees (ETC)and CatBoost (CATC) as base models, optimized via the Catch Fish Optimization Algorithm (CFOA) and the Dollmaker Optimization Algorithm (DOA). Through an analysis of 11 financial and device-level features, the study identifies the CACF (CatBoost + CFOA) hybrid model as the top performer, achieving an Accuracy of 0.9676 and an AUC of 0.9757. Additionally, a Copula-based sensitivity analysis identifies credit_score as the primary risk driver.
 

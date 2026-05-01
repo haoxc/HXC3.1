@@ -4,6 +4,7 @@ tags:
 description:
 type:
 ref-url:
+create-date: 2026-04-29
 ---
 ## 内容
 - [40知识模型](https://www.bilibili.com/read/cv15266719/?opus_fallback=1)

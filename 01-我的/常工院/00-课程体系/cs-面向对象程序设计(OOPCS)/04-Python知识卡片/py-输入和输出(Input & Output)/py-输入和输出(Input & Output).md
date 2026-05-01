@@ -1,8 +1,11 @@
 ---
 aliases:
 color: var(--mk-color-teal)
+type: note
+tags: [工具]
+description: - **输出方式**
+create-date: 2026-04-29
 ---
-
 ## Python输入和输出
 - **输出方式**
 	- 表达式语句和 `print()` 函数

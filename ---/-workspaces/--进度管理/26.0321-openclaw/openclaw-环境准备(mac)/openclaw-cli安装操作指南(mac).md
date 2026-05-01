@@ -1,7 +1,10 @@
 ---
 aliases:
+type: note
+tags: [macOS, 工具]
+description: >[!Warning] 确认
+create-date: 2026-03-07
 ---
-
 ## 一键安装(mac)
 
 >[!Warning] 确认

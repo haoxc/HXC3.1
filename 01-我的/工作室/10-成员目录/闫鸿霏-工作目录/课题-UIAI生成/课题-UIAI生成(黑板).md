@@ -5,6 +5,9 @@ tags:
   - hxc/todo/UI_AI/自动生成
 aliases:
   - hxc/研究/课题/UIAI自动生成/首页(ui-ai-svy)
+type: note
+description: - 树形结构生成(浏览器) ^fgS3uBqD
+create-date: 2026-04-29
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

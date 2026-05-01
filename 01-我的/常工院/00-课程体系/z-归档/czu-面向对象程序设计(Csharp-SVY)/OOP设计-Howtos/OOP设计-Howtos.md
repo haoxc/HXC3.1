@@ -1,5 +1,9 @@
 ---
 aliases: oop-c#@howtos
+type: note
+tags: [工具]
+description: - [[OOP设计-Howto-如何设置Main函数入口]]
+create-date: 2026-04-29
 ---
 ## 清单
 - 配置

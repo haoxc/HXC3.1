@@ -3,6 +3,9 @@ aliases:
 tags:
   - 侧重/结果检查
 Positioning: 侧重/结果检查
+type: note
+description: 在软件工程中，**质量控制 (Quality Control, QC)** 的核心目标是：**通过一系列技术和活动，识别并纠正最终交付物（文档、代码、系统）中的
+create-date: 2026-01-08
 ---
 在软件工程中，**质量控制 (Quality Control, QC)** 的核心目标是：**通过一系列技术和活动，识别并纠正最终交付物（文档、代码、系统）中的缺陷。**
 

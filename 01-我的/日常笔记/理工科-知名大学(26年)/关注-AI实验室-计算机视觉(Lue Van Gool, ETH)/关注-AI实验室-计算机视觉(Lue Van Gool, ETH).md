@@ -7,6 +7,7 @@ description:
 type:
 ref-url:
   - https://insait.ai/prof-luc-van-gool/#:~:text=He%20is%20head%20of%20the%20Computer%20Vision,Vision%20Research%20Group%20at%20KU%20Leuven%2C%20Belgium.
+create-date: 2026-04-29
 ---
 ## Prof. Luc Van Gool 个人简介（基于 insait.ai 官网）
 **姓名**：Luc Van Gool
