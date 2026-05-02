@@ -19,7 +19,7 @@ vault_rules:
     - note_quality      # 音调、行数阈值、核心结论位置
     - scale_thresholds  # vault 规模敏感规则触发
   ignores:
-    - ---/workspaces    # 项目工作区不纳入 vault 审计（由 pjx project rules 独立审计）
+    - ---/-workspaces   # 临时工作区不纳入 vault 审计（由 pjx project rules 独立审计）
     - .claude/worktrees # Claude Code 临时 worktree
 runtimes:
   hermes:

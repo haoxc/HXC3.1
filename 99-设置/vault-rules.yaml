@@ -2,7 +2,7 @@
 # Path: 99-设置/vault-rules.yaml
 # Purpose: 声明层规则，程序可直接校验。归属判断和内容质量留 skill。
 # Maintained by: 人工 + AI 协作，每次 skill 整改后同步更新
-# Last updated: 2026-05-01
+# Last updated: 2026-05-02
 
 version: "1.0.0"
 
@@ -81,7 +81,7 @@ directories:
 
   "---":
     role: workspace
-    description: 活跃工作区（Active WIP），承载临时与长期课题的执行过程；完成后稳定知识迁移至 03-领域/ 或 07-治理/
+    description: 临时工作区、实验区、短期 workspace
     required: false
     naming:
       project_dir: "YYYY-MM-DD-项目名/"
@@ -106,12 +106,31 @@ frontmatter:
     - reference
     - template
   date_format: "YYYY-MM-DD"
+  moc_extra_fields:                # MOC 类型强制额外字段
+    status:
+      required: true
+      enum:
+        - 待启动
+        - 进行中
+        - 阻塞
+        - 已完成
+        - 已归档
+      description: 课题完成状态追踪
+    category:
+      required: true
+      description: 主分类，入知识图谱用，枚举见 category_enum
+  category_enum:
+    - 知识管理(knowledge-mgmt)
+    - AI智能体(ai-agent)
+    - 教学设计(teaching-design)
+    - 工具链与基础设施(toolchain-infra)
+    - 外部项目(external-project)
 
 # === 命名规范 ===
 naming:
   moc: "{directory}/{basename}.md"  # 文件夹笔记
   moc_example: "03-领域/AI/AI.md"
-  project_dir: "YYYY-MM-DD-项目名/"
+  project_dir: "课题-{主题}({日期})/"
   attachment_local: "z附件/"
   attachment_local_rule: 统一命名为 z附件，禁用变体（附件、zAttachments、assets）
   forbidden_chars: [" ", "?", "<", ">", "|", "*", '"']
@@ -153,6 +172,19 @@ links:
   format: wikilink              # [[笔记标题]]
   first_occurrence_only: true   # 同篇不重复链接
   alias_rule: disambiguation_only  # 别名仅用于消歧义
+
+# === 术语治理 ===
+terminology:
+  stable_layer: "03-领域"
+  general_root: "03-领域/00-概念术语"
+  general_default: "03-领域/00-概念术语/01-一般术语知识库(Common DB)"
+  discipline_rule: 使用对应领域下的现有术语目录；不得在同一学科下重复创建并行术语库
+  examples:
+    ai_existing: "03-领域/31-人工智能学科/00-AI术语"
+  workspace_policy: 课题中的临时术语表可暂存在 workspace；课题完成后必须回流到 03-领域
+  frontmatter_type: note
+  aliases_rule: aliases 只保留检索用途，包括中文名、英文名、缩写、必要速查路径
+  wikilink_alias_rule: Wikilink alias 仅用于消歧义或语法需要，不用于美化显示
 
 # === 标签词表 ===
 tags:
@@ -242,7 +274,7 @@ cross_reference:
       - "09-工具"
       - "10-归档"
     exclude:                    # 明确豁免
-      - "---/workspaces"        # 项目工作区，SVG 为项目资产
+      - "---/-workspaces"       # 临时工作区，SVG 为项目资产
       - ".claude/worktrees"     # Claude Code 临时 worktree
       - "Clippings"             # 插件自动写入，非人工管理内容
   discoverability:

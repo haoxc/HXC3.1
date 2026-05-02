@@ -20,6 +20,7 @@ import yaml
 import os
 import sys
 import argparse
+import shutil
 from datetime import date
 
 VAULT = os.path.expanduser("~/__Data/00_Knowledges/Vault_HXC3.1(Apple)")
@@ -87,6 +88,35 @@ def build_skill(skill_name, runtime):
 def sync_skill(skill_name, runtimes=None, dry=False):
     """Sync one skill to specified runtimes (default: all enabled)."""
     manifest = load_manifest(skill_name)
+    source_skill_dir = os.path.join(CORE_DIR, skill_name)
+    resource_dirs = ["agents", "references", "scripts", "assets"]
+
+    def copy_resources(destination_dir, label, dry_run=False):
+        copied = []
+        for resource_dir in resource_dirs:
+            src = os.path.join(source_skill_dir, resource_dir)
+            dst = os.path.join(destination_dir, resource_dir)
+            if not os.path.isdir(src):
+                if os.path.isdir(dst):
+                    if dry_run:
+                        print(f"       [{label}] Would prune stale {resource_dir}/ → {dst}")
+                    else:
+                        shutil.rmtree(dst)
+                        print(f"       [{label}] Pruned stale {resource_dir}/ → {dst}")
+                continue
+            copied.append(resource_dir)
+            if dry_run:
+                file_count = sum(len(files) for _, _, files in os.walk(src))
+                print(f"       [{label}] Would sync {resource_dir}/ ({file_count} files) → {dst}")
+                continue
+            os.makedirs(dst, exist_ok=True)
+            for root, _, files in os.walk(src):
+                rel = os.path.relpath(root, src)
+                target_root = dst if rel == "." else os.path.join(dst, rel)
+                os.makedirs(target_root, exist_ok=True)
+                for file_name in files:
+                    shutil.copy2(os.path.join(root, file_name), os.path.join(target_root, file_name))
+        return copied
 
     if runtimes is None:
         runtimes = [k for k, v in manifest.get("runtimes", {}).items() if v.get("enabled", True)]
@@ -106,17 +136,24 @@ def sync_skill(skill_name, runtimes=None, dry=False):
             print(f"\n  [{rt}] Would write {len(content):,} bytes → {target_path}")
             preview = content.split("\n")[:3]
             print(f"       Preview: {' | '.join(preview)[:120]}")
+            copy_resources(os.path.dirname(target_path), rt, dry_run=True)
         else:
             os.makedirs(os.path.dirname(target_path), exist_ok=True)
             with open(target_path, "w") as f:
                 f.write(content)
             print(f"  [{rt}] Wrote {len(content):,} bytes → {target_path}")
+            copied_runtime = copy_resources(os.path.dirname(target_path), rt)
+            if copied_runtime:
+                print(f"       Synced resources: {', '.join(copied_runtime)}")
 
             # Also save generated copy locally for diff tracking
             local_path = os.path.join(CORE_DIR, skill_name, rt, "SKILL.md")
             os.makedirs(os.path.dirname(local_path), exist_ok=True)
             with open(local_path, "w") as f:
                 f.write(content)
+            copied_local = copy_resources(os.path.dirname(local_path), f"{rt}-generated")
+            if copied_local:
+                print(f"       Synced generated resources: {', '.join(copied_local)}")
 
         results[rt] = target_path
 

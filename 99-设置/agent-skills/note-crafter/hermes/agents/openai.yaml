@@ -1,0 +1,4 @@
+interface:
+  display_name: "Note Crafter"
+  short_description: "Create Obsidian notes and topics with MOC quality checks."
+  default_prompt: "Create or normalize an Obsidian knowledge note or topic using the note-crafter workflow."

@@ -1,6 +1,6 @@
 name: note-crafter
-description: 创建符合 Vault 规范的知识笔记：命名、定位归档目录、挂 MOC、写 frontmatter。触发词：创建笔记...
-version: 2.7.0
+description: 创建符合 Vault 规范的知识笔记 & 课题：命名、定位归档目录、挂 MOC、写 frontmatter。触发词：创建笔记/课题、整理成笔记。
+version: 3.0.0
 source_of_truth: hermes
 last_sync: '2026-05-02'
 vault_rules:
@@ -21,7 +21,7 @@ runtimes:
     enabled: true
     path: ~/.hermes/skills/note-taking/note-crafter/SKILL.md
     frontmatter:
-      description: 创建符合 Vault 规范的知识笔记：命名、定位归档目录、挂 MOC、写 frontmatter。触发词：创建笔记、新建笔记、整理成笔记、生成笔记、create
+      description: 创建符合 Vault 规范的知识笔记 & 课题：命名、定位归档目录、挂 MOC、写 frontmatter。触发词：创建笔记/课题、整理成笔记。
         note、new note、draft note。
       triggers:
       - 创建笔记
@@ -37,6 +37,11 @@ runtimes:
       - vault 笔记
       - hxc vault
       - obsidian 笔记
+      - 创建课题
+      - 新建课题
+      - 建立课题
+      - create topic
+      - new topic
       related_skills:
       - obsidian
     prepend: '## 执行策略：最小化工具调用
@@ -53,13 +58,13 @@ runtimes:
       **并行窗口 1**（1 次）：`skill_view(note-crafter)` — 本技能（已合并原 note-crafter + hxc-obsidian-vault，一次加载即可）。若本会话已加载过，跳过此窗口。
 
 
-      **并行窗口 2**（1 次 execute_code）：
+      **并行窗口 2**（1 次 file/terminal 精确读取）：
 
       - 先用下方「路由速查」表定位目录。命中则直接确认，不读 vault-index.yaml。
 
       - 未命中时才加载 `99-设置/vault-index.yaml` 查 search_routing。
 
-      - 同时合并去重检查 + MOC 读取 + 存量笔记内容读取。
+      - 同时合并去重检查 + MOC 读取 + 存量笔记内容读取；Hermes 窄屏时避免启动大型代码执行工具。
 
       - **若路由只定位到顶层目录、无现成子目录 → 触发 2f 分类确认流程**，用 `clarify` 让用户选择。
 
@@ -70,7 +75,7 @@ runtimes:
       **串行窗口 3**（1 次 write_file）：写入笔记正文。
 
 
-      **并行窗口 4**（1 次 execute_code）：MOC 链接追加。
+      **并行窗口 4**（1 次 write_file 或 terminal 小范围写入）：MOC 链接追加。
 
 
       **总计：3~4 次工具调用**（分类确定时 3 次，需确认时 4 次），预期耗时 20-40 秒。此目标针对已知主题；若主题陌生需先调研，前置研究阶段另加
@@ -114,6 +119,12 @@ runtimes:
       | 工具 / 配置 / 安装 | `09-工具/` |
 
       | 书单 / 资源清单 | `05-资源/` |
+
+      | 通用术语 / 概念术语 | `03-领域/00-概念术语/` |
+
+      | 学科术语 / AI术语 / 管理术语 | 对应 `03-领域/{学科}/` 下的现有术语目录 |
+
+      | 课题 / 研究问题 / 创建课题 | 先确认课题承载目录，不默认新建一级目录 |
 
 
       未命中 → 窗口 2 加载 vault-index.yaml 完整路由。
@@ -234,15 +245,16 @@ runtimes:
       loaded in current session.
 
 
-      **Window 2** (1 execute_code): Use 「Route Cache」 table first (below). If keyword
-      matches, skip vault-index.yaml. Fallback to `99-设置/vault-index.yaml` search_routing
-      only on miss. Merge dedup + MOC read + existing note content read.
+      **Window 2** (1 precise file/terminal read batch): Use 「Route Cache」 table first
+      (below). If keyword matches, skip vault-index.yaml. Fallback to `99-设置/vault-index.yaml`
+      search_routing only on miss. Merge dedup + MOC read + existing note content
+      read.
 
 
       **Window 3** (1 write_file): write the note.
 
 
-      **Window 4** (1 execute_code): MOC backlink append.
+      **Window 4** (1 edit/write operation): MOC backlink append.
 
 
       **Total: 3~4 calls (3 if route cache hits), 20-40s.**
@@ -282,6 +294,14 @@ runtimes:
       | tool / config / install / CLI | `09-工具/` |
 
       | booklist / resource | `05-资源/` |
+
+      | general term / concept term | `03-领域/00-概念术语/` |
+
+      | discipline term / AI term / management term | Existing terminology directory
+      under the matching `03-领域/{field}/` path |
+
+      | topic / research question / create topic | Confirm the topic carrier directory
+      first; do not create a new top-level directory by default |
 
 
       Miss → load vault-index.yaml full routing in Window 2.

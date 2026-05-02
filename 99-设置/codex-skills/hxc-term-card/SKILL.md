@@ -1,6 +1,6 @@
 ---
 name: hxc-term-card
-description: Create or update Obsidian terminology cards for the user's Vault term library. Use when the user asks to create term, create a 术语卡片, 知识术语笔记, concept/term card, 快速理解术语, 写入术语库, or wants a Knowledge Modeling note under ---/术语库(Terms svy). Enforces bilingual Chinese-English term labels, minimal frontmatter with aliases, Claude-style concise expert prose, four-section structure, callouts, and maintenance of the term-library MOC entry.
+description: Create or update Obsidian terminology cards in the Vault knowledge layer. Use when the user asks to create term, create a 术语卡片, 知识术语笔记, concept/term card, 快速理解术语, 写入术语库, or normalize terminology notes. Routes general terms to 03-领域/00-概念术语, discipline terms to the matching field terminology directory, keeps temporary topic terms in workspace only until they flow back to 03-领域, and enforces type: note plus retrieval-oriented aliases.
 type: note
 tags: [工具]
 create-date: 2026-04-25
@@ -9,9 +9,7 @@ create-date: 2026-04-25
 
 ## Purpose
 
-Create fast-understanding terminology cards for this Vault's term library:
-
-`---/术语库(Terms svy)/-术语库(Terms svy).md`
+Create fast-understanding terminology cards for the Vault knowledge layer. Stable terminology belongs under `03-领域/`, not under the temporary workspace.
 
 This skill is for stable knowledge cards, not broad topic surveys. If the user asks for a multi-source technical landscape or decision-oriented research report, use `hxc-topic-svy`. If the user asks only to compare multiple terms without creating a term card, use `bx`.
 
@@ -29,26 +27,26 @@ Workflow authority:
 - This section defines where the term card lives, how it should be named, and how the MOC must be maintained.
 - If there is any ambiguity about folder choice, naming, or whether the MOC must be updated, this section takes precedence.
 
-Default term-library root:
+Terminology routing:
 
-`---/术语库(Terms svy)`
+| Term type | Target |
+| --- | --- |
+| 通用术语 | `03-领域/00-概念术语/` |
+| 通用术语卡片默认目录 | `03-领域/00-概念术语/01-一般术语知识库(Common DB)/` |
+| 学科术语 | 对应领域下的现有术语目录，如 `03-领域/31-人工智能学科/00-AI术语/` |
+| 课题中的临时术语表 | 可暂存在 workspace；课题完成后必须回流到 `03-领域/` |
 
-Default general term-card folder:
-
-`---/术语库(Terms svy)/01-一般术语知识库(Common DB)`
-
-Default MOC entry:
-
-`---/术语库(Terms svy)/-术语库(Terms svy).md`
+When a user gives a preferred discipline terminology directory, use that directory if it exists. If the requested directory would create a duplicate terminology library beside an existing one, report the conflict and ask before creating it.
 
 When creating a card:
 
-1. Put the note under the most relevant existing folder inside the term-library root. If no better folder is clear, use the general term-card folder.
+1. Put the note under the most relevant existing terminology folder in `03-领域/`. If no better folder is clear, use the general term-card folder.
 2. Name the file as `中文术语(English Term).md` when the English term is stable. For ambiguous English, use the confirmed Chinese title and include alternatives in the body.
 3. Always include minimal YAML frontmatter in the generated term card. `aliases` is required.
-4. Do not put an alias that is identical to the full displayed title, such as `术语解析：中文术语 (English Term)`. Aliases should serve search and alternate lookup.
-5. Add or update one Obsidian wiki link in the MOC entry, such as `- [[01-一般术语知识库(Common DB)/术语(English Term)|术语 (English Term)]]`.
-6. Preserve existing MOC content and avoid duplicate links.
+4. Use `type: note`. Do not use `type: 术语卡片` because Vault type is an enum.
+5. Do not put an alias that is identical to the full displayed title, such as `术语解析：中文术语 (English Term)`. Aliases should serve search and alternate lookup.
+6. Add or update one Obsidian wiki link in the target folder's MOC. Wikilink aliases are allowed only for disambiguation or grammar, not display beautification.
+7. Preserve existing MOC content and avoid duplicate links.
 
 ## Output Structure
 
@@ -66,7 +64,7 @@ aliases:
 tags:
   - 术语
 description:
-type: 术语卡片
+type: note
 ---
 
 # 术语解析：中文术语 (English Term)
@@ -96,7 +94,9 @@ Do not omit frontmatter. Keep it minimal, especially `aliases`. Avoid bloated me
 Alias rule:
 
 - prefer short retrieval aliases such as Chinese term, English term, common abbreviation, or an alternate accepted translation;
+- include a necessary retrieval path alias only when it improves search, such as `AI/模型/扩散模型(DM, Diffusion Model)`;
 - do not repeat the full note title as an alias.
+- do not use Wikilink aliases for beautification; `[[目标标题|显示文本]]` is only for disambiguation or grammar.
 
 ## Section Requirements
 
@@ -168,10 +168,12 @@ Execution authority:
 When the user asks to write the card into the Vault:
 
 1. Inspect the term-library root and MOC entry before editing.
-2. Check whether the term or close aliases already exist.
-3. Create or update the card with the required structure.
-4. Update the MOC entry with a relative wiki link.
-5. Verify with `rg` that the card exists and the MOC links to it.
+2. Classify the term as general, discipline-specific, or temporary topic terminology.
+3. Inspect the target terminology folder and MOC entry before editing.
+4. Check whether the term or close aliases already exist.
+5. Create or update the card with the required structure.
+6. Update the MOC entry with a relative wiki link.
+7. Verify with `rg` that the card exists and the MOC links to it.
 
 ## Completion Rule
 
@@ -195,6 +197,6 @@ Verification authority:
 
 Default verification intent:
 
-- confirm the new or updated card file exists under `---/术语库(Terms svy)`;
+- confirm the new or updated card file exists under `03-领域/`;
 - confirm the MOC contains a wiki link to the card;
 - confirm no duplicate entry was introduced.
