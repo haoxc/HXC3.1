@@ -95,7 +95,7 @@ Hermes 越适合长期运行，越需要明确权限边界。
 - 高风险操作交给 Codex 或 Claude Code 精细执行。
 
 ## 相关链接
-- [[hermes]]
+- [[03-领域/31-人工智能学科/智能体工具/hermes/hermes]]
 - [[Hermes-核心能力]]
 - [[hermes-后台任务与后续任务]]
 - [[hermes-mac安装笔记]]

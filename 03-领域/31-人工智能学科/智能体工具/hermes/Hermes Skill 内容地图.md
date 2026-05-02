@@ -9,7 +9,7 @@ type: moc
 create-date: 2026-05-01
 ---
 
-[[hermes|Hermes 工具入口]] | [[Hermes 技能清单|按影响力分级版]]
+[[03-领域/31-人工智能学科/智能体工具/hermes/hermes|Hermes 工具入口]] | [[Hermes 技能清单|按影响力分级版]]
 
 > 共 85 个技能，20 个类别。由 `~/.hermes/skills/` 自动生成。
 

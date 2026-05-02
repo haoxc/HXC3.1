@@ -1,0 +1,107 @@
+name: pjx-common-auditor
+description: Audit knowledge management vaults and software R&D projects — structure,
+  naming, MOC load, frontmatter, link hygiene, governance boundaries, lifecycle references,
+  and concept-scope alignment.
+version: 2.7.0
+source_of_truth: hermes
+last_sync: '2026-05-02'
+vault_rules:
+  rules_file: 99-设置/vault-rules.yaml
+  validates:
+    - directories       # 目录结构完整性 + role 匹配
+    - naming            # 文件/目录命名合规（forbidden_chars、格式）
+    - frontmatter       # required / type_enum / date_format 校验
+    - moc               # MOC 信息负载、分组策略、链接数
+    - links             # wikilink 格式、first_occurrence_only、alias 规则
+    - tags              # 标签词表一致性（domains/types/statuses/tools）
+    - attachments       # 附件位置、large_file、统一命名（z附件）
+    - cross_reference   # SVG 配对、discoverability（孤立笔记检测）
+    - note_quality      # 音调、行数阈值、核心结论位置
+    - scale_thresholds  # vault 规模敏感规则触发
+  ignores:
+    - ---/workspaces    # 项目工作区不纳入 vault 审计（由 pjx project rules 独立审计）
+    - .claude/worktrees # Claude Code 临时 worktree
+runtimes:
+  hermes:
+    enabled: true
+    path: ~/.hermes/skills/software-development/pjx-common-auditor/SKILL.md
+    frontmatter:
+      description: Audit knowledge management vaults and software R&D projects — structure,
+        naming, MOC load, frontmatter, link hygiene, governance boundaries, lifecycle
+        references, and concept-scope alignment.
+      triggers:
+      - pjx-common-auditor
+      - pjx common
+      - 通用项目审计
+      - 结构审计
+      - 目录审计
+      - 命名规范审计
+      - vault 审计
+      - 知识库审计
+      - 笔记审计
+      - MOC 审计
+      - link 审计
+      - frontmatter 审计
+      - 任务命名规则
+      - 问题台账
+      - 课题台账
+      - 生命周期引用方向
+      - MOC信息负载
+      - 产物角色分离
+      - 概念范畴
+      - 认知对齐
+      - audit project structure
+      - structure auditor
+      - naming audit
+      - Obsidian structure audit
+      related_skills:
+      - note-crafter
+      - writing-plans
+      - requesting-code-review
+    prepend: ''
+    append: '## References
+
+
+      - `99-设置/vault-rules.yaml` — 声明层规则库（single source of truth）
+
+      - `07-治理/skill规范/` — 整改台账目录
+
+      - `references/naming-rules.md` — 软件研发项目命名详细规则
+
+      '
+  codex:
+    enabled: true
+    path: ~/.codex/skills/pjx-common-auditor/SKILL.md
+    frontmatter:
+      description: Audit project structures and naming for Agent / Skill / Prompt
+        repositories, Obsidian vaults, and documentation-heavy projects. Use for 结构审计,
+        命名规范审计, 通用项目审计, MOC审计, 知识库审计, pjx-common-auditor, vault audit, structure audit,
+        naming audit, or Obsidian structure audit.
+    prepend: '> Source of truth: `99-设置/agent-skills/pjx-common-auditor/core.md`
+
+      > Sync: `python3 99-设置/agent-skills/sync-agent-skills.py --skill pjx-common-auditor`
+
+      > Vault path: `/Users/haoxc/__Data/00_Knowledges/Vault_HXC3.1(Apple)`
+
+      '
+    append: '## References
+
+
+      - `99-设置/vault-rules.yaml` — declarative rule base
+
+      - `references/naming-rules.md` — detailed software R&D naming rules
+
+      '
+  claude-code:
+    enabled: false
+    path: ~/.claude/skills/pjx-common-auditor/SKILL.md
+    frontmatter:
+      description: Placeholder — enable in manifest.yaml to generate.
+    prepend: '## Claude Code — Placeholder
+
+
+      Enable this runtime in manifest.yaml when ready to use pjx-common-auditor in
+      Claude Code.
+
+      '
+    append: ''

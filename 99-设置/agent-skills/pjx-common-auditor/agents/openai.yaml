@@ -1,0 +1,4 @@
+interface:
+  display_name: "PJX Common Auditor"
+  short_description: "Audit project structure, naming, issue ledgers, and concept scope"
+  default_prompt: "Use $pjx-common-auditor to align unclear concept scope first, then audit this project structure, naming, issue/topic ledger placement, and report violations, risks, and fixes."

@@ -15,7 +15,7 @@ create-date: 2026-04-29
 	- [[alfred]]
 	- [[liteLLM]]
 - AI 编程工具
-	- [[hermes|hermes]]
+	- [[03-领域/31-人工智能学科/智能体工具/hermes/hermes|hermes]]
 	- [[09-工具/mac-工具/Hermes-Claude-Code-CLI协同方案]]
 - 科学上网
 	- [[mac-vpn]]

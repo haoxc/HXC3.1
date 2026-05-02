@@ -2,7 +2,20 @@ name: note-crafter
 description: 创建符合 Vault 规范的知识笔记：命名、定位归档目录、挂 MOC、写 frontmatter。触发词：创建笔记...
 version: 2.7.0
 source_of_truth: hermes
-last_sync: '2026-05-01'
+last_sync: '2026-05-02'
+vault_rules:
+  rules_file: 99-设置/vault-rules.yaml
+  depends_on:
+  - directories
+  - naming
+  - frontmatter
+  - moc
+  - attachments
+  - cross_reference
+  produces_compliance:
+  - frontmatter
+  - naming
+  - moc
 runtimes:
   hermes:
     enabled: true
@@ -29,7 +42,7 @@ runtimes:
     prepend: '## 执行策略：最小化工具调用
 
 
-      目标：4 次工具调用完成一次笔记创建（原 12 次 → 4 次）。
+      目标：3~4 次工具调用完成一次笔记创建（原 12 次 → 3~4 次）。
 
 
       **推荐使用 `vault-only` profile**：`hermes -p vault-only`。该 profile 只开 terminal /
@@ -57,11 +70,11 @@ runtimes:
       **串行窗口 3**（1 次 write_file）：写入笔记正文。
 
 
-      **并行窗口 4**（1 次 execute_code）：合并 MOC 链接追加 + 日记追加。
+      **并行窗口 4**（1 次 execute_code）：MOC 链接追加。
 
 
-      **总计：4~5 次工具调用**（分类确定时 4 次，需确认时 5 次），预期耗时 25-45 秒。 此目标针对已知主题；若主题陌生需先调研，前置研究阶段另加
-      2-4 次终端调用（curl/GitHub API/搜索引擎），不计入 4 次窗口配额。研究技巧见 `references/researching-unknown-topics.md`。
+      **总计：3~4 次工具调用**（分类确定时 3 次，需确认时 4 次），预期耗时 20-40 秒。此目标针对已知主题；若主题陌生需先调研，前置研究阶段另加
+      2-4 次终端调用（curl/GitHub API/搜索引擎），不计入配额。
 
 
       > 注：不要加载与笔记主题无关的 skill（如创建 Hermes 踩坑笔记时不需 `skill_view(hermes-agent)`，config.yaml
@@ -213,7 +226,7 @@ runtimes:
       ## Execution Strategy
 
 
-      Target: 4 tool calls per note creation. Load only this skill — hxc-obsidian-vault
+      Target: 3~4 tool calls per note creation. Load only this skill — hxc-obsidian-vault
       is now merged in.
 
 
@@ -229,10 +242,10 @@ runtimes:
       **Window 3** (1 write_file): write the note.
 
 
-      **Window 4** (1 execute_code): MOC backlink append + daily diary append, merged.
+      **Window 4** (1 execute_code): MOC backlink append.
 
 
-      **Total: 4 calls (3 if route cache hits), 25-35s.**
+      **Total: 3~4 calls (3 if route cache hits), 20-40s.**
 
 
       Do NOT load unrelated skills (e.g. `hermes-agent` when creating a Hermes pitfall
@@ -286,9 +299,6 @@ runtimes:
 
       - After the `concept-definer` skill produces a concept card and the user wants
       it saved as a proper note
-
-      - Processing pending items from a daily note''s `## 新建` section (daily review
-      → note creation)
 
 
       Route to the Codex `concept-definer` skill when the primary task is defining

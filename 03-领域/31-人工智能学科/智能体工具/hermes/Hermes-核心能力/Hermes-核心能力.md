@@ -116,7 +116,7 @@ Obsidian = 知识库承载层
 
 ## 相关链接
 
-- [[hermes]]
+- [[03-领域/31-人工智能学科/智能体工具/hermes/hermes]]
 - [[hermes应用-obsidian协同]]
 - [[hermes应用-obsidian协同-hermes什么时候必要]]
 - [[Hermes-Claude-Code-Codex-Skill维护课题]]

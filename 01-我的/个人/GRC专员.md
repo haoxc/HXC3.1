@@ -11,7 +11,7 @@ create-date: 2026-04-29
 ## 内容
 Location: Fredericton - Knowledge Park, Canada
 
-In fast changing markets, customers worldwide rely on [[---/-workspaces/止善(ZS)-课题清单/ZS平台-ZS数字化三维智能管理分析与设计(26.0116)/20-技术资产/信息服务集成/方案商/泰雷兹(Thales)/泰雷兹(Thales)|Thales]]. Thales is a business where brilliant people from all over the world come together to share ideas and inspire each other. In aerospace, transportation, defence, security and space, our architects design innovative solutions that make our tomorrow's possible.
+In fast changing markets, customers worldwide rely on [[-workspaces/止善(ZS)-课题清单/ZS平台-ZS数字化三维智能管理分析与设计(26.0116)/20-技术资产/信息服务集成/方案商/泰雷兹(Thales)/泰雷兹(Thales)|Thales]]. Thales is a business where brilliant people from all over the world come together to share ideas and inspire each other. In aerospace, transportation, defence, security and space, our architects design innovative solutions that make our tomorrow's possible.
 
 **Fredericton, N.B., (CAN.), Hybrid**
 

@@ -320,7 +320,7 @@ deepseek-v4-pro-openai 是 OpenAI-compatible 别名，给 Hermes 工具调用使
 - [[hermes应用-obsidian协同-hermes什么时候必要]]
 - [[Hermes-执行态编排图]]
 - [[Hermes-Claude-Code-Codex-Skill维护课题]]
-- [[hermes]]
+- [[03-领域/31-人工智能学科/智能体工具/hermes/hermes]]
 
 > [!summary]
 > Hermes 窗口里的 Obsidian 协同落地顺序是：先用 `deepseek-v4-pro-openai` 启动，再验证当前 Vault 读写，再创建项目专用 `hxc-obsidian-vault` skill，随后手动跑只读巡检，最后再创建 cron 定时任务。先让 Hermes 稳定发现问题，再逐步开放低风险自动修复。

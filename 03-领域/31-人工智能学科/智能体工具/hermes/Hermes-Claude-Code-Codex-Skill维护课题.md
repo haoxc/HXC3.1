@@ -410,7 +410,7 @@ deprecated-date: YYYY-MM-DD
 
 ## 相关链接
 
-- [[hermes]]
+- [[03-领域/31-人工智能学科/智能体工具/hermes/hermes]]
 - [[hermes-mac安装笔记]]
 - [[Hermes-LiteLLM-DeepSeek-Docker-Postgres配置笔记]]
 - [[Hermes-典型应用场景逻辑架构图]]

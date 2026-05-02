@@ -21,6 +21,7 @@ create-date: 2026-05-01
 - [[hermes-模型配置]]
 - [[hermes-auxiliary模型配置踩坑]]
 - [[Hermes-LiteLLM-DeepSeek-Docker-Postgres配置笔记]]
+- [[Hermes-LiteLLM-macOS开机编排启动配置笔记]]
 - [[hermes-profile使用指南]]
 
 ## 使用指南
@@ -28,6 +29,9 @@ create-date: 2026-05-01
 - [[Hermes-Claude-Code-CLI协同方案]]
 - [[hermes-CLI文件模糊引用]]
 - [[hermes-后台任务与后续任务]]
+- [[Hermes-后台进程管理]]
+- [[Hermes-定时任务]]
+- [[Hermes-常用指令速查]]
 - [[Hermes-速度调优分析]]
 - [[hermes应用-obsidian协同]]
 
@@ -41,3 +45,5 @@ create-date: 2026-05-01
 - [[Hermes 技能清单]]
 - [[Hermes-Claude-Code-Codex-Skill维护课题]]
 - [[agent-skill同步工具]]
+- [[hermes-跨会话配置记忆复盘-gbrain案例]]
+- [[hermes-skill固化设计哲学]]

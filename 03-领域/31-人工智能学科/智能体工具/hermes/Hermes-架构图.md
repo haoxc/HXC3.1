@@ -7,7 +7,7 @@ description: Hermes Agent 4 层可交互架构图：接入层 → 核心层 → 
 type: note
 create-date: 2026-04-30
 ---
-[[hermes|Hermes 工具入口]]
+[[03-领域/31-人工智能学科/智能体工具/hermes/hermes|Hermes 工具入口]]
 
 ## 架构概览
 

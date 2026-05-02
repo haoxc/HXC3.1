@@ -305,38 +305,6 @@ with open(moc_path) as f:
 
 ---
 
-## Step 6: 写入每日笔记新建入口
-
-每篇笔记创建后，在当天日记的 `## 新建` 节下追加 Wikilink。
-
-```python
-# 合并到窗口 4 的 execute_code 中
-from datetime import date
-
-today = date.today().isoformat()
-diary_path = f"{VAULT}/01-我的/日常笔记/日记-{today}.md"
-note_link = "[[笔记标题]]"
-desc = "一句话描述"
-
-if not os.path.exists(diary_path):
-    os.makedirs(os.path.dirname(diary_path), exist_ok=True)
-    with open(diary_path, 'w') as f:
-        f.write(f"---\ntags: [日记]\ndescription: {today} 日常记录\ntype: log\ncreate-date: {today}\n---\n\n## 新建\n\n")
-
-with open(diary_path) as f:
-    content = f.read()
-
-if note_link not in content:
-    if "## 新建" not in content:
-        content += "\n## 新建\n"
-    content += f"- {note_link} — {desc}\n"
-    with open(diary_path, 'w') as f:
-        f.write(content)
-    print(f"日记已追加: {diary_path}")
-```
-
-验证：日记 `type: log`，`## 新建` 节下出现新链接，同一天不重复。
-
 ---
 
 ## Vault 顶层目录设计
@@ -400,9 +368,26 @@ if note_link not in content:
 ## 特殊规则
 
 ### MOC 页面规范
-- MOC 只做**导航**：列出子笔记链接、简短描述
-- 禁止在 MOC 中写长篇正文
+
+设计原则（声明层见 `vault-rules.yaml` `moc.design_principles`）：
+
+- **Wiki hub**: MOC 以 Wiki hub page 形式组织——每个 `##` 分组代表一个概念聚类，链接之间通过分组隐含语义关系，而非平铺罗列。
+- **认知框架**: 分组反映认知模型，不从文件系统 dump。选一种策略驱动 `##` 命名。
+
+分组策略枚举（`vault-rules.yaml` `moc.grouping_strategies`）：
+
+| 策略 | 适用场景 | ## 命名示例 | ✗ 反例 |
+|------|---------|-----------|--------|
+| `concept_hierarchy` | 领域知识 | `## 基础` → `## 核心算法` → `## 前沿` | `## 杂项` / `## 其他` |
+| `workflow` | 工具操作 | `## 安装配置` → `## 日常操作` → `## 排障` | `## 入门` / `## 高级`（无操作线索） |
+| `comparison` | 方案评估 | `## 方案A路径` → `## 方案B路径` → `## 取舍` | `## 方案1` / `## 方案2`（无判断线索） |
+| `timeline` | 项目/学习 | `## Phase 1 验证` → `## Phase 2 扩展` → `## Phase 3` | `## 早期` / `## 后期`（模糊） |
+
+机械约束：
+- MOC 只做**导航**：列出子笔记链接、简短描述（≤20 行正文）
+- 禁止在 MOC 中写长篇正文、进度日志、决策记录
 - `type` 必须为 `moc`
+- 至少一个 `##` 分组，最多 40 个链接
 
 ### SVG 图表配套规则
 - 每个 SVG 文件必须有同名 Markdown 说明页
@@ -472,7 +457,6 @@ find "$VAULT" -type f -size +10M ! -path "*/.git/*" ! -path "*/.obsidian/*" ! -p
 - [ ] 去重检查通过（同目录无同主题笔记）
 - [ ] Frontmatter 含 aliases（英文 + 中文简称 + 速查码）/ tags / description / type / create-date
 - [ ] 笔记已挂载到对应 MOC（MOC 仍是导航页，`type: moc`）
-- [ ] 当天日记 `## 新建` 节下已追加 Wikilink
 - [ ] 内容通过 6 维度审查
 - [ ] 无裸通用文件名
 - [ ] 稳定笔记无日期后缀；一次性记录有
@@ -488,7 +472,7 @@ find "$VAULT" -type f -size +10M ! -path "*/.git/*" ! -path "*/.obsidian/*" ! -p
 5. **03-领域 深度超标** —— 超过 5 层时向上合并或重新规划层级。
 6. **frontmatter 缺少 create-date** —— 四字段缺一不可。
 7. **日记用旧格式 type: 日记(Diary)** —— 已改为 `type: log`。
-8. **串行调用过多导致慢** —— 4 次工具调用目标 25-35s。skill_view 只加载一次（本技能），索引/去重/MOC 合并到一次 execute_code。
+8. **串行调用过多导致慢** —— 3~4 次工具调用目标 20-40s。skill_view 只加载一次（本技能），索引/去重/MOC 合并到一次 execute_code。
 9. **加载不相关的 skill** —— 创建笔记时只加载本技能。不需加载 `hermes-agent` 等主题无关 skill，除非笔记主题本身就是该 skill 的使用方法。
 10. **同主题笔记散落不分组** —— ≥2 篇同主题笔记时创建主题子目录（如 `07-治理/skill规范/note-crafter规范/`）；用户明确预判某主题会有多篇笔记时，首篇即建目录，遵循 `subdir: semantic` 规则。
 11. **忽略研究阶段直接写内容** —— 对陌生主题（如 gstack / OpenClaw / 新工具）跳过调研直接编造内容。先通过 GitHub API / curl 获取权威源信息（README、文档），再进入写作阶段。研究阶段额外 2-4 次终端调用，不计入 4 次窗口配额。GitHub API 是可靠的 fallback（`curl -s https://api.github.com/repos/{owner}/{repo}`），当 Google/DuckDuckGo 反爬时仍可用。

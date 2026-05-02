@@ -3,7 +3,7 @@ aliases: [Hermes后台任务, Hermes后续任务, Hermes不打断当前任务]
 tags: [mac-工具, AI工具, Agent, Hermes]
 description: Hermes 中不打扰当前任务时添加后续任务、旁路问题、后台任务和定时任务的使用方法。
 type: note
-ref-url:
+ref-url: https://github.com/nesquena/hermes-webui
 create-date: 2026-05-01
 ---
 

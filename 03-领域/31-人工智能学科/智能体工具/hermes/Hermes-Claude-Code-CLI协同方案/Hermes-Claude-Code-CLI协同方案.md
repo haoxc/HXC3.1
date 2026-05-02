@@ -28,14 +28,14 @@ ref-url:
 
 ## 1. 定位辨析
 
-| 维度 | Hermes Agent | Claude Code CLI |
-| --- | --- | --- |
-| 核心定位 | 常驻型 agent 工作台 | 项目级 coding agent |
-| 主要价值 | 跨会话记忆、skills、gateway、cron、工具编排、模型提供商切换 | 读写代码库、跑命令、修 bug、写测试、Git 操作 |
-| 最佳入口 | `hermes` / `hermes --tui` / gateway 消息平台 | `claude` / `claude -p` |
-| 运行姿势 | 长期使用、可跨项目积累上下文 | 进入某个 repo，围绕一次工程任务推进 |
+| 维度    | Hermes Agent                                    | Claude Code CLI                         |
+| ----- | ----------------------------------------------- | --------------------------------------- |
+| 核心定位  | 常驻型 agent 工作台                                   | 项目级 coding agent                        |
+| 主要价值  | 跨会话记忆、skills、gateway、cron、工具编排、模型提供商切换          | 读写代码库、跑命令、修 bug、写测试、Git 操作              |
+| 最佳入口  | `hermes` / `hermes --tui` / gateway 消息平台        | `claude` / `claude -p`                  |
+| 运行姿势  | 长期使用、可跨项目积累上下文                                  | 进入某个 repo，围绕一次工程任务推进                    |
 | 上下文来源 | Hermes memory、skills、profiles、sessions、MCP、消息平台 | 当前项目文件、`CLAUDE.md`、`.claude/rules`、命令输出 |
-| 协同关系 | 编排者 / 调度者 / 记忆层 | 被委派的代码执行器 |
+| 协同关系  | 编排者 / 调度者 / 记忆层                                 | 被委派的代码执行器                               |
 
 一句话边界：
 

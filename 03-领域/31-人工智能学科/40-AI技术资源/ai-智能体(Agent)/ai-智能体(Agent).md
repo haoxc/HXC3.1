@@ -3,7 +3,7 @@ aliases: [ai/智能体/综述(ai-Agent svy)]
 tags: [Agentic-Automation]
 domain: Agent
 type: note
-description: - [[02-智能体方案]]
+description:  [[02-智能体方案]]
 create-date: 2026-04-25
 ---
 ## 总览

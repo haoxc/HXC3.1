@@ -4,6 +4,7 @@ aliases:
   - Hermes 通过 LiteLLM 访问 DeepSeek V4 Pro
   - Hermes DeepSeek V4 Pro 配置
   - LiteLLM Docker Postgres 自启动
+  - Hermes LiteLLM macOS 编排启动
 tags:
   - mac-工具
   - AI工具
@@ -43,7 +44,8 @@ ref-url:
 | LiteLLM OpenAI endpoint | `http://localhost:4000/v1` | Hermes custom provider 使用 |
 | LiteLLM 配置 | `~/.litellm/config.yaml` | 模型别名与上游 provider |
 | LiteLLM env | `~/.litellm/.env` | DeepSeek key、LiteLLM master key、数据库 URL |
-| LiteLLM 启动脚本 | `~/.litellm/start_proxy.sh` | launchd 实际执行入口 |
+| LiteLLM 编排启动脚本 | `~/.litellm/start_litellm_stack.sh` | launchd 实际执行入口，负责等待 Docker/Postgres |
+| LiteLLM 启动脚本 | `~/.litellm/start_proxy.sh` | LiteLLM 本体启动入口，由编排脚本调用 |
 | LaunchAgent | `~/Library/LaunchAgents/com.haoxc.litellm.plist` | macOS 登录后自动拉起 LiteLLM |
 | Postgres | Docker 容器 `litellm-postgres` | LiteLLM 数据库 |
 
@@ -190,13 +192,16 @@ LiteLLM LaunchAgent：
 关键项：
 
 ```text
-ProgramArguments = /Users/haoxc/.litellm/start_proxy.sh
+ProgramArguments = /Users/haoxc/.litellm/start_litellm_stack.sh
 RunAtLoad = true
-KeepAlive = true
+KeepAlive.SuccessfulExit = false
+ThrottleInterval = 60
 WorkingDirectory = /Users/haoxc
 stdout = /Users/haoxc/.litellm/logs/litellm.launchd.out.log
 stderr = /Users/haoxc/.litellm/logs/litellm.launchd.err.log
 ```
+
+当前不再由 `launchd` 直接执行 `start_proxy.sh`。`start_litellm_stack.sh` 会先启动 Docker Desktop，等待 Docker daemon、`litellm-postgres` 和 `127.0.0.1:5432` 就绪，再启动 LiteLLM。详细配置见 [[Hermes-LiteLLM-macOS开机编排启动配置笔记]]。
 
 手动重启 LiteLLM：
 
@@ -369,7 +374,7 @@ Docker Desktop -> litellm-postgres -> LiteLLM LaunchAgent -> Hermes
 
 ## 相关链接
 
-- [[hermes]]
+- [[03-领域/31-人工智能学科/智能体工具/hermes/hermes]]
 - [[hermes-模型配置]]
 - [[hermes-mac安装笔记]]
 - [[09-工具/mac-工具/Hermes-Claude-Code-CLI协同方案]]

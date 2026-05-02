@@ -81,16 +81,16 @@ directories:
 
   "---":
     role: workspace
-    description: 工作区/项目
+    description: 活跃工作区（Active WIP），承载临时与长期课题的执行过程；完成后稳定知识迁移至 03-领域/ 或 07-治理/
     required: false
     naming:
       project_dir: "YYYY-MM-DD-项目名/"
 
-  z附件:
-    role: attachments_local
-    description: 额外附件暂存
-    required: false
-    rule: 统一命名为 z附件，禁用变体（附件、zAttachments、assets）
+  Clippings:
+    role: input_channel
+    description: Obsidian Clipper 插件自动写入，路径不可改，由插件全权管理
+    required: true
+    managed: false
 
 # === Frontmatter ===
 frontmatter:
@@ -113,6 +113,7 @@ naming:
   moc_example: "03-领域/AI/AI.md"
   project_dir: "YYYY-MM-DD-项目名/"
   attachment_local: "z附件/"
+  attachment_local_rule: 统一命名为 z附件，禁用变体（附件、zAttachments、assets）
   forbidden_chars: [" ", "?", "<", ">", "|", "*", '"']
 
 # === MOC 约束 ===
@@ -229,6 +230,21 @@ cross_reference:
   vault_index: "99-设置/vault-index.yaml"  # 预计算目录索引（声明层实例）
   svg_requires_md: true         # SVG 必须有同名 .md
   svg_md_type: note
+  svg_scope:                    # 规则适用范围
+    apply:
+      - "01-我的"
+      - "02-输入"
+      - "03-领域"
+      - "04-笔记"
+      - "05-资源"
+      - "06-商业"
+      - "07-治理"
+      - "09-工具"
+      - "10-归档"
+    exclude:                    # 明确豁免
+      - "---/workspaces"        # 项目工作区，SVG 为项目资产
+      - ".claude/worktrees"     # Claude Code 临时 worktree
+      - "Clippings"             # 插件自动写入，非人工管理内容
   discoverability:
     paths:
       - moc_reference

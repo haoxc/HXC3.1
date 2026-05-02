@@ -1,0 +1,64 @@
+{
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	},
+	"nodes":[
+		{"id":"0af4850c7ae89a65","type":"file","file":"-workspaces/--进度管理/26.0321-openclaw/openclaw-环境准备(mac)/Skill入门/Skill入门.md","x":-920,"y":-2720,"width":640,"height":280},
+		{
+			"id":"d30cff9c02f9ce7e",
+			"type":"text",
+			"text":"## 环境安装\n- 安装\n\t- [[openclaw-cli安装操作指南(mac)]]\n- 其他\n\t- node版本变更:  [[nvm-node版本管理]]",
+			"styleAttributes":{},
+			"x":-920,
+			"y":-3140,
+			"width":640,
+			"height":300
+		},
+		{
+			"id":"de67f1daaba5adc2",
+			"type":"text",
+			"text":"## 内容",
+			"styleAttributes":{},
+			"x":-1720,
+			"y":-2880,
+			"width":320,
+			"height":80
+		},
+		{
+			"id":"482a45a428b97e65",
+			"type":"text",
+			"text":"- 使用教程\n\t- [使用集锦](https://github.com/hesamsheikh/awesome-openclaw-usecases)\n\t- ",
+			"styleAttributes":{},
+			"x":-920,
+			"y":-2400,
+			"width":640,
+			"height":440
+		}
+	],
+	"edges":[
+		{
+			"id":"4bbf4cc4906ba117",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"de67f1daaba5adc2",
+			"fromSide":"right",
+			"toNode":"d30cff9c02f9ce7e",
+			"toSide":"left",
+			"color":"1",
+			"label":"安装"
+		},
+		{
+			"id":"f5b919dee9ef9795",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"de67f1daaba5adc2",
+			"fromSide":"right",
+			"toNode":"0af4850c7ae89a65",
+			"toSide":"left",
+			"label":"技能"
+		}
+	]
+}
