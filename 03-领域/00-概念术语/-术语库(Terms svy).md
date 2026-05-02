@@ -12,10 +12,13 @@ create-date: 2026-04-25
 ---
 ## 术语卡片入口
 
-本页作为 Vault 中知识笔记术语卡片的统一入口。新建术语卡片默认使用 Codex skill `hxc-term-card`，并优先落入 `01-一般术语知识库(Common DB)`；每张卡片应采用“概念界定 (Concept Definition) -> 替代范式 (Alternative Paradigms) -> 边界辨析 (Boundary Analysis) -> 实践指南 (Practice Guide)”结构。
+本页作为 Vault 中知识笔记术语卡片的统一入口。新建通用术语卡片默认使用 Codex skill `hxc-term-card`，并优先落入 `03-领域/00-概念术语`；每张卡片应采用“概念界定 (Concept Definition) -> 替代范式 (Alternative Paradigms) -> 边界辨析 (Boundary Analysis) -> 实践指南 (Practice Guide)”结构。
+
+总索引见 [[00-概念术语]]。
 
 ## 术语卡片
 
-- [[01-一般术语知识库(Common DB)/代码静态检查(Lint)|代码静态检查 (Lint)]]
-- [[01-一般术语知识库(Common DB)/正面对比(Head-to-Head)|正面对比 (Head-to-Head)]]
+- [[预演执行(Dry Run)|预演执行 (Dry Run)]]
+- [[代码静态检查(Lint)|代码静态检查 (Lint)]]
+- [[正面对比(Head-to-Head)|正面对比 (Head-to-Head)]]
 - [[意象]]

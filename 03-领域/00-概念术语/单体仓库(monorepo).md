@@ -2,7 +2,7 @@
 aliases:
 tags:
 description: 实时数据库 + 跨平台转换引擎 + 建筑版本管理系统
-type:
+type: note
 ref-url:
 create-date: 2026-02-23
 ---

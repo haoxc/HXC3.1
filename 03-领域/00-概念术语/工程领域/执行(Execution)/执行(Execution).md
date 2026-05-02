@@ -1,0 +1,15 @@
+---
+aliases:
+  - Execution (执行/施工)
+  - 施工
+  - 实施
+  - 工程/管理框架/实施阶段/执行(Execution)
+  - 
+tags:
+  - 工程/管理框架/实施阶段/
+  - 
+description:
+type: note
+create-date: 2026-05-02 21:29
+ref-url:
+---

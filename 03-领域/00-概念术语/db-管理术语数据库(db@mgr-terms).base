@@ -1,0 +1,35 @@
+views:
+  - type: table
+    name: 管理(mgr)
+    filters:
+      and:
+        - type == "note"
+        - file.folder == "03-领域/50-管理学科/--管理术语表"
+    order:
+      - file.name
+      - description
+      - tags
+      - aliases
+      - file.tags
+      - category
+    sort:
+      - property: file.ctime
+        direction: DESC
+      - property: category
+        direction: ASC
+      - property: tags
+        direction: ASC
+      - property: file.name
+        direction: ASC
+      - property: aliases
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 127
+      note.description: 283
+      note.tags: 225
+      note.abbr: 150
+      note.aliases: 164
+    rowHeight: medium

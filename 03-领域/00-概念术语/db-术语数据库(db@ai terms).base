@@ -1,0 +1,248 @@
+views:
+  - type: table
+    name: 管理(mgr)
+    filters:
+      and:
+        - type == "note"
+        - file.folder.containsAny("03-领域/00-概念术语", "03-领域/01-哲学体系/哲学-术语集", "03-领域/31-人工智能学科/00-AI术语", "03-领域/50-管理学科/--管理术语表", "03-领域/00-认知科学/认知术语", "03-领域/40-信息学科(IT)/01-信息学科术语", "03-领域/60-艺术学科/00-艺术术语(G)")
+        - file.folder == "03-领域/50-管理学科/--管理术语表"
+    order:
+      - file.name
+      - category
+      - description
+      - tags
+      - abbr
+      - aliases
+      - file.tags
+      - field
+    sort:
+      - property: tags
+        direction: ASC
+      - property: file.name
+        direction: ASC
+      - property: category
+        direction: ASC
+      - property: aliases
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 127
+      note.description: 283
+      note.tags: 225
+      note.abbr: 150
+      note.aliases: 164
+    rowHeight: medium
+	  - type: table
+	    name: 全部(All)
+	    filters:
+	      and:
+	        - type == "note"
+	        - file.folder.containsAny("03-领域/00-概念术语", "03-领域/01-哲学体系/哲学-术语集", "03-领域/31-人工智能学科/00-AI术语", "03-领域/50-管理学科/--管理术语表", "03-领域/00-认知科学/认知术语", "03-领域/40-信息学科(IT)/01-信息学科术语", "03-领域/60-艺术学科/00-艺术术语(G)")
+    order:
+      - file.name
+      - category
+      - description
+      - tags
+      - abbr
+      - aliases
+      - file.tags
+      - field
+    sort:
+      - property: tags
+        direction: ASC
+      - property: description
+        direction: ASC
+      - property: category
+        direction: ASC
+      - property: aliases
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 127
+      note.description: 283
+      note.tags: 225
+      note.abbr: 150
+      note.aliases: 164
+    rowHeight: medium
+  - type: table
+    name: 通用(Common)
+    filters:
+      and:
+        - file.folder == "03-领域/00-概念术语"
+        - type == "note"
+    order:
+      - file.name
+      - category
+      - description
+      - tags
+      - aliases
+      - file.tags
+      - field
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: field
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: description
+        direction: ASC
+      - property: category
+        direction: ASC
+      - property: aliases
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 127
+      note.description: 168
+      note.tags: 225
+      note.aliases: 147
+    rowHeight: medium
+  - type: table
+    name: 哲学(Phi)
+    filters:
+      and:
+        - type == "note"
+        - file.folder == "03-领域/01-哲学体系/哲学-术语集"
+    order:
+      - file.name
+      - category
+      - description
+      - tags
+      - aliases
+      - file.tags
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: description
+        direction: ASC
+      - property: category
+        direction: ASC
+      - property: aliases
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 127
+      note.description: 283
+      note.tags: 95
+      note.aliases: 214
+    rowHeight: medium
+  - type: table
+    name: 艺术(art)
+    filters:
+      and:
+        - type == "note"
+        - area.containsAny("艺术(art)")
+        - file.folder == "03-领域/60-艺术学科/00-艺术术语(G)"
+    order:
+      - file.name
+      - category
+      - description
+      - tags
+      - aliases
+      - file.tags
+      - field
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: field
+        direction: DESC
+      - property: category
+        direction: DESC
+      - property: file.tags
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: description
+        direction: ASC
+      - property: aliases
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 127
+      note.description: 283
+      note.tags: 225
+      note.abbr: 150
+      note.aliases: 164
+    rowHeight: tall
+  - type: table
+    name: 数字孪生(dt)
+    filters:
+      and:
+        - type == "note"
+        - subject.containsAny("数字孪生")
+        - file.folder == "03-领域/40-信息学科(IT)/01-信息学科术语"
+    order:
+      - file.name
+      - category
+      - description
+      - tags
+      - aliases
+      - file.tags
+      - field
+    sort:
+      - property: field
+        direction: DESC
+      - property: category
+        direction: DESC
+      - property: file.tags
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: description
+        direction: ASC
+      - property: aliases
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 127
+      note.description: 283
+      note.tags: 225
+      note.abbr: 150
+      note.aliases: 164
+    rowHeight: tall
+  - type: table
+    name: 技术(Tech)
+    filters:
+      and:
+        - type == "note"
+        - and:
+            - file.folder == "03-领域/40-信息学科(IT)/01-信息学科术语"
+    order:
+      - file.name
+      - category
+      - description
+      - tags
+      - aliases
+      - file.tags
+      - field
+    sort:
+      - property: field
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: description
+        direction: ASC
+      - property: category
+        direction: ASC
+      - property: aliases
+        direction: ASC
+      - property: file.tags
+        direction: ASC
+    columnSize:
+      file.name: 260
+      note.category: 127
+      note.description: 168
+      note.tags: 225
+      note.aliases: 147
+    rowHeight: medium

@@ -4,7 +4,7 @@ aliases:
 tags:
   - 脚本/方式/one-liner
 description:
-type:
+type: note
 ref-url:
 create-date: 2026-02-06
 ---

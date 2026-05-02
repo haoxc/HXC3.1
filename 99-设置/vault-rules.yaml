@@ -177,7 +177,7 @@ links:
 terminology:
   stable_layer: "03-领域"
   general_root: "03-领域/00-概念术语"
-  general_default: "03-领域/00-概念术语/01-一般术语知识库(Common DB)"
+  general_default: "03-领域/00-概念术语"
   discipline_rule: 使用对应领域下的现有术语目录；不得在同一学科下重复创建并行术语库
   examples:
     ai_existing: "03-领域/31-人工智能学科/00-AI术语"

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="920" viewBox="0 0 1280 920" style="max-width: 100%; height: auto;" role="img" aria-labelledby="title desc">
+  <title id="title">pjx-common-auditor 工作流程</title>
+  <desc id="desc">展示 pjx-common-auditor 从输入、类型识别、规则加载、结构映射、分流审计、分级输出到修复验证的完整流程。</desc>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#596579" />
+    </marker>
+    <marker id="arrowheadAmber" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#b7791f" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="920" fill="#f7f8fb" />
+  <text x="48" y="56" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700">pjx-common-auditor 工作流程</text>
+  <text x="48" y="88" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15">先识别对象与规则源，再分流到 KV / PJX / llm-wiki 审计路径，最后输出分级发现、整改建议与验证命令。</text>
+
+  <rect x="40" y="118" width="270" height="650" rx="8" fill="#ffffff" stroke="#cfd8e3" stroke-width="1.5" />
+  <rect x="335" y="118" width="270" height="650" rx="8" fill="#ffffff" stroke="#cfd8e3" stroke-width="1.5" />
+  <rect x="630" y="118" width="270" height="650" rx="8" fill="#ffffff" stroke="#cfd8e3" stroke-width="1.5" />
+  <rect x="925" y="118" width="315" height="650" rx="8" fill="#ffffff" stroke="#cfd8e3" stroke-width="1.5" />
+
+  <rect x="40" y="118" width="270" height="44" rx="8" fill="#e8f5ef" stroke="#cfd8e3" stroke-width="1.5" />
+  <rect x="335" y="118" width="270" height="44" rx="8" fill="#fff4dc" stroke="#cfd8e3" stroke-width="1.5" />
+  <rect x="630" y="118" width="270" height="44" rx="8" fill="#eef0ff" stroke="#cfd8e3" stroke-width="1.5" />
+  <rect x="925" y="118" width="315" height="44" rx="8" fill="#f1f5f9" stroke="#cfd8e3" stroke-width="1.5" />
+
+  <text x="64" y="146" fill="#1f4f3a" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">输入与范围</text>
+  <text x="359" y="146" fill="#754c0b" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">规则与声明层</text>
+  <text x="654" y="146" fill="#3730a3" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">审计分流</text>
+  <text x="949" y="146" fill="#334155" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">输出与闭环</text>
+
+  <rect x="70" y="192" width="210" height="86" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.4" />
+  <text x="92" y="222" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">1. 接收审计请求</text>
+  <text x="92" y="247" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">路径 / 主题 / 审计意图</text>
+
+  <rect x="70" y="322" width="210" height="104" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.4" />
+  <text x="92" y="351" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">2. 类型识别</text>
+  <text x="92" y="376" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">知识 Vault / 软件项目</text>
+  <text x="92" y="398" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">llm-wiki / 混合结构</text>
+
+  <rect x="70" y="470" width="210" height="110" rx="8" fill="#fff7ed" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="92" y="500" fill="#7c2d12" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">认知对齐门</text>
+  <text x="92" y="525" fill="#7c2d12" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">治理对象 / 模块中心</text>
+  <text x="92" y="547" fill="#7c2d12" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">生命周期边界不清时</text>
+  <text x="92" y="569" fill="#7c2d12" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">先暂停并澄清</text>
+
+  <rect x="365" y="192" width="210" height="104" rx="8" fill="#fffaf0" stroke="#d69e2e" stroke-width="1.4" />
+  <text x="387" y="222" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">3. 加载规则源</text>
+  <text x="387" y="247" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">vault-rules.yaml</text>
+  <text x="387" y="269" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">specification / SCHEMA</text>
+
+  <rect x="365" y="340" width="210" height="116" rx="8" fill="#fffaf0" stroke="#d69e2e" stroke-width="1.4" />
+  <text x="387" y="370" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">4. 规则裁决</text>
+  <text x="387" y="395" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">skill 显式规则</text>
+  <text x="387" y="417" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">本地规约细化判定</text>
+  <text x="387" y="439" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">未定义规则不强判</text>
+
+  <rect x="365" y="500" width="210" height="104" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.4" />
+  <text x="387" y="530" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">5. 构建结构映射</text>
+  <text x="387" y="555" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">目录 / MOC / Frontmatter</text>
+  <text x="387" y="577" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">跨层引用与入口关系</text>
+
+  <rect x="660" y="192" width="210" height="116" rx="8" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.4" />
+  <text x="682" y="222" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">KV 审计路径</text>
+  <text x="682" y="247" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">知识 Vault</text>
+  <text x="682" y="269" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">KV-1 到 KV-11</text>
+  <text x="682" y="291" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">结构 / 内容 / 导航</text>
+
+  <rect x="660" y="354" width="210" height="116" rx="8" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.4" />
+  <text x="682" y="384" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">PJX 审计路径</text>
+  <text x="682" y="409" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">软件研发项目</text>
+  <text x="682" y="431" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">PJX-1 到 PJX-13</text>
+  <text x="682" y="453" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">需求 / 模块 / 治理</text>
+
+  <rect x="660" y="516" width="210" height="116" rx="8" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.4" />
+  <text x="682" y="546" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">llm-wiki 路径</text>
+  <text x="682" y="571" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">SCHEMA + raw + entities</text>
+  <text x="682" y="593" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">委托 lint，不套 KV</text>
+  <text x="682" y="615" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">避免类别错误</text>
+
+  <rect x="955" y="198" width="250" height="104" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.4" />
+  <text x="980" y="228" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">6. 分级 findings</text>
+  <text x="980" y="253" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">P1 导航/规则边界失效</text>
+  <text x="980" y="275" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">P2 检索/迁移质量受损</text>
+
+  <rect x="955" y="360" width="250" height="104" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.4" />
+  <text x="980" y="390" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">7. 输出整改建议</text>
+  <text x="980" y="415" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">源路径 -> 目标路径</text>
+  <text x="980" y="437" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">立即修复 / 可选清理</text>
+
+  <rect x="955" y="522" width="250" height="104" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.4" />
+  <text x="980" y="552" fill="#172033" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">8. 验证命令</text>
+  <text x="980" y="577" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">重跑结构 / 链接 / Frontmatter</text>
+  <text x="980" y="599" fill="#526173" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">确认 P1 清零</text>
+
+  <rect x="955" y="674" width="250" height="82" rx="8" fill="#ecfdf5" stroke="#10b981" stroke-width="1.4" />
+  <text x="980" y="704" fill="#065f46" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">9. 治理闭环</text>
+  <text x="980" y="729" fill="#047857" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">规则缺口先声明</text>
+  <text x="980" y="751" fill="#047857" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">skill 变更写入台账</text>
+
+  <path d="M175 278 V322" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M175 426 V470" stroke="#b7791f" stroke-width="2.2" fill="none" marker-end="url(#arrowheadAmber)" />
+  <path d="M280 235 H365" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M470 296 V340" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M470 456 V500" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M575 552 H620" stroke="#596579" stroke-width="2.2" fill="none" />
+  <path d="M620 250 V574" stroke="#596579" stroke-width="2.2" fill="none" />
+  <path d="M620 250 H660" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M620 412 H660" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M620 574 H660" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M870 250 H955" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M870 412 H955" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M870 574 H955" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M1080 302 V360" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M1080 464 V522" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M1080 626 V674" stroke="#596579" stroke-width="2.2" fill="none" marker-end="url(#arrowhead)" />
+
+  <rect x="40" y="790" width="1200" height="48" rx="8" fill="#eefaf4" stroke="#65a30d" stroke-width="1.3" />
+  <text x="64" y="819" fill="#365314" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">关键原则：</text>
+  <text x="154" y="819" fill="#365314" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14">规则未定义不强判；概念边界不清先对齐；MOC 只做导航，不承载正文、进度或决策记录。</text>
+
+  <rect x="40" y="858" width="1200" height="44" rx="8" fill="#172033" stroke="#172033" stroke-width="1" />
+  <text x="64" y="886" fill="#ffffff" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">压缩记忆：</text>
+  <text x="154" y="886" fill="#e5edf5" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15">识别类型 -> 加载规则 -> 构建结构图 -> 分流审计 -> P级发现 -> 路径化整改 -> 重跑验证。</text>
+</svg>
